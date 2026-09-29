@@ -1,0 +1,735 @@
+trajectories: analysis/signoff-trajectories/trajectories.jsonl
+
+== norms
+{
+ "trajectories": 728,
+ "names": {
+  "dated": [
+   690,
+   94.8
+  ],
+  "org marker (OpenAI/OAI)": [
+   417,
+   57.3
+  ],
+  "role noun": [
+   564,
+   77.5
+  ],
+  "trailing X": [
+   108,
+   14.8
+  ],
+  "task/dataset word": [
+   403,
+   55.4
+  ],
+  "dated + org + role": [
+   275,
+   37.8
+  ]
+ },
+ "name_month": {
+  "Jan": 40,
+  "Feb": 57,
+  "Mar": 72,
+  "Apr": 48,
+  "May": 53,
+  "Jun": 55,
+  "Jul": 57,
+  "Aug": 55,
+  "Sep": 66,
+  "Oct": 58,
+  "Nov": 66,
+  "Dec": 63
+ },
+ "role_nouns": [
+  [
+   "Agent",
+   159
+  ],
+  [
+   "Research",
+   116
+  ],
+  [
+   "Scout",
+   92
+  ],
+  [
+   "Helper",
+   80
+  ],
+  [
+   "Watcher",
+   47
+  ],
+  [
+   "Researcher",
+   44
+  ],
+  [
+   "Coord",
+   41
+  ],
+  [
+   "Observer",
+   14
+  ],
+  [
+   "Relay",
+   4
+  ],
+  [
+   "Assistant",
+   2
+  ],
+  [
+   "Bot",
+   2
+  ],
+  [
+   "Team",
+   1
+  ]
+ ],
+ "wiki_activity_month": [
+  [
+   "2026-06",
+   728
+  ]
+ ],
+ "edits_with_nothing_new": 72,
+ "edits_read": 3286,
+ "posts_on_page_titled_with_own_name": [
+  105,
+  728,
+  14.4
+ ],
+ "label_equals_signoff": [
+  2348,
+  3358,
+  69.9
+ ],
+ "dated_names_whose_posts_mention_that_date": [
+  636,
+  690,
+  92.2
+ ],
+ "post_features": {
+  "hh:mm:ss timestamp": {
+   "edits": 2704,
+   "edits_pct": 82.3,
+   "trajectories": 718,
+   "trajectories_pct": 98.6
+  },
+  "deadline / cooldown / window": {
+   "edits": 2422,
+   "edits_pct": 73.7,
+   "trajectories": 715,
+   "trajectories_pct": 98.2
+  },
+  "please": {
+   "edits": 2041,
+   "edits_pct": 62.1,
+   "trajectories": 662,
+   "trajectories_pct": 90.9
+  },
+  "cohort word": {
+   "edits": 1353,
+   "edits_pct": 41.2,
+   "trajectories": 627,
+   "trajectories_pct": 86.1
+  },
+  "round marker (R3, round 4)": {
+   "edits": 2318,
+   "edits_pct": 70.5,
+   "trajectories": 567,
+   "trajectories_pct": 77.9
+  },
+  "CONFIRMED / confirmed": {
+   "edits": 1149,
+   "edits_pct": 35.0,
+   "trajectories": 549,
+   "trajectories_pct": 75.4
+  },
+  "status template (round + time + due/deadline)": {
+   "edits": 1568,
+   "edits_pct": 47.7,
+   "trajectories": 526,
+   "trajectories_pct": 72.3
+  },
+  "task clock named": {
+   "edits": 771,
+   "edits_pct": 23.5,
+   "trajectories": 421,
+   "trajectories_pct": 57.8
+  },
+  "UTC / wiki clock named": {
+   "edits": 650,
+   "edits_pct": 19.8,
+   "trajectories": 358,
+   "trajectories_pct": 49.2
+  },
+  "UNCONFIRMED / prediction hedge": {
+   "edits": 575,
+   "edits_pct": 17.5,
+   "trajectories": 349,
+   "trajectories_pct": 47.9
+  },
+  "\"exactly\" timing": {
+   "edits": 531,
+   "edits_pct": 16.2,
+   "trajectories": 336,
+   "trajectories_pct": 46.2
+  },
+  "answer value given": {
+   "edits": 559,
+   "edits_pct": 17.0,
+   "trajectories": 319,
+   "trajectories_pct": 43.8
+  },
+  "offer / reciprocity": {
+   "edits": 397,
+   "edits_pct": 12.1,
+   "trajectories": 281,
+   "trajectories_pct": 38.6
+  },
+  "date-as-address (Aug08:, Jul19 cohort)": {
+   "edits": 431,
+   "edits_pct": 13.1,
+   "trajectories": 263,
+   "trajectories_pct": 36.1
+  },
+  "cached / precomputed answers": {
+   "edits": 355,
+   "edits_pct": 10.8,
+   "trajectories": 257,
+   "trajectories_pct": 35.3
+  },
+  "signal token (STATE5-ID, CONFIRMED5=NH)": {
+   "edits": 426,
+   "edits_pct": 13.0,
+   "trajectories": 235,
+   "trajectories_pct": 32.3
+  },
+  "post-first / answer-after rule": {
+   "edits": 328,
+   "edits_pct": 10.0,
+   "trajectories": 180,
+   "trajectories_pct": 24.7
+  },
+  "HEARTBEAT / counter": {
+   "edits": 360,
+   "edits_pct": 11.0,
+   "trajectories": 176,
+   "trajectories_pct": 24.2
+  },
+  "two clocks in one post": {
+   "edits": 218,
+   "edits_pct": 6.6,
+   "trajectories": 163,
+   "trajectories_pct": 22.4
+  },
+  "mentions OpenAI": {
+   "edits": 194,
+   "edits_pct": 5.9,
+   "trajectories": 122,
+   "trajectories_pct": 16.8
+  },
+  "addresses another trajectory by name": {
+   "edits": 219,
+   "edits_pct": 6.7,
+   "trajectories": 119,
+   "trajectories_pct": 16.3
+  },
+  "thanks": {
+   "edits": 138,
+   "edits_pct": 4.2,
+   "trajectories": 105,
+   "trajectories_pct": 14.4
+  },
+  "CORRECTION / retraction": {
+   "edits": 87,
+   "edits_pct": 2.6,
+   "trajectories": 73,
+   "trajectories_pct": 10.0
+  },
+  "URL / GET limit, compaction": {
+   "edits": 60,
+   "edits_pct": 1.8,
+   "trajectories": 47,
+   "trajectories_pct": 6.5
+  },
+  "ACK": {
+   "edits": 34,
+   "edits_pct": 1.0,
+   "trajectories": 30,
+   "trajectories_pct": 4.1
+  },
+  "deletion / moderator / backup": {
+   "edits": 32,
+   "edits_pct": 1.0,
+   "trajectories": 25,
+   "trajectories_pct": 3.4
+  },
+  "NO-signal token (NO5, NONE)": {
+   "edits": 26,
+   "edits_pct": 0.8,
+   "trajectories": 18,
+   "trajectories_pct": 2.5
+  },
+  "apology": {
+   "edits": 15,
+   "edits_pct": 0.5,
+   "trajectories": 14,
+   "trajectories_pct": 1.9
+  }
+ },
+ "zz_prefixed_pages": {
+  "pages": 59,
+  "revisions": 122,
+  "first_created": "2026-05-26T10:53:28Z",
+  "created_by_day": [
+   [
+    "2026-05-26",
+    36
+   ],
+   [
+    "2026-06-18",
+    10
+   ],
+   [
+    "2026-06-22",
+    7
+   ],
+   [
+    "2026-06-19",
+    3
+   ],
+   [
+    "2026-06-11",
+    1
+   ],
+   [
+    "2026-06-16",
+    1
+   ],
+   [
+    "2026-06-17",
+    1
+   ]
+  ]
+ },
+ "zzz_trajectory_edits": 31,
+ "trajectory_page_title_words": [
+  [
+   "Live",
+   204
+  ],
+  [
+   "Coord",
+   65
+  ],
+  [
+   "Sequence",
+   52
+  ],
+  [
+   "Signal",
+   35
+  ],
+  [
+   "Relay",
+   33
+  ],
+  [
+   "Fast",
+   30
+  ],
+  [
+   "Cohort",
+   23
+  ],
+  [
+   "Collab",
+   17
+  ],
+  [
+   "Status",
+   6
+  ],
+  [
+   "Thread",
+   4
+  ],
+  [
+   "Beacon",
+   2
+  ],
+  [
+   "Timing",
+   1
+  ],
+  [
+   "Index",
+   1
+  ],
+  [
+   "Cache",
+   1
+  ]
+ ]
+}
+== norms done in 2 s
+
+== spread
+6 clock vocabulary: task side      switches 105: new variant visible before 54/73 variant-posts (84 any), after by prior users 32/71, by anyone 54 (83 any)
+6 clock vocabulary: wall side      switches 48: new variant visible before 13/28 variant-posts (43 any), after by prior users 6/30, by anyone 15 (39 any)
+3 self-reference noun              switches 120: new variant visible before 47/75 variant-posts (84 any), after by prior users 13/60, by anyone 39 (81 any)
+7 signal before final        adopters 180 switch 144
+     1h  past 2.37 [1.62,3.47]     future 2.32 [1.64,3.30]     future(prior adopters) 1.90 [1.08,3.33]
+     3h  past 2.52 [1.75,3.62]     future 2.13 [1.51,3.02]     future(prior adopters) 1.87 [1.08,3.22]
+    12h  past 2.26 [1.57,3.25]     future 2.20 [1.56,3.12]     future(prior adopters) 1.92 [1.13,3.28]
+    page strata 3h: past 0.86 [0.54,1.35]  future(prior adopters) 1.93 [0.97,3.86]
+6 task clock named           adopters 424 switch 163
+     1h  past 1.29 [0.99,1.67]     future 1.29 [0.98,1.68]     future(prior adopters) 1.07 [0.78,1.48]
+     3h  past 1.02 [0.79,1.32]     future 1.27 [0.98,1.65]     future(prior adopters) 1.01 [0.74,1.39]
+    12h  past 0.96 [0.74,1.23]     future 1.30 [1.00,1.70]     future(prior adopters) 1.04 [0.76,1.41]
+    page strata 3h: past 0.56 [0.40,0.79]  future(prior adopters) 1.42 [0.98,2.06]
+6 two clocks in one post     adopters 163 switch 107
+     1h  past 1.50 [1.04,2.16]     future 1.58 [1.09,2.29]     future(prior adopters) 1.01 [0.58,1.76]
+     3h  past 1.37 [0.95,1.96]     future 1.55 [1.07,2.26]     future(prior adopters) 1.00 [0.58,1.72]
+    12h  past 1.40 [0.97,2.01]     future 1.53 [1.05,2.22]     future(prior adopters) 1.00 [0.58,1.72]
+    page strata 3h: past 0.79 [0.51,1.22]  future(prior adopters) 1.94 [0.92,4.08]
+3 date-as-address            adopters 264 switch 162
+     1h  past 1.75 [1.30,2.35]     future 1.90 [1.40,2.58]     future(prior adopters) 1.81 [1.22,2.67]
+     3h  past 1.71 [1.28,2.30]     future 2.12 [1.56,2.89]     future(prior adopters) 1.93 [1.32,2.82]
+    12h  past 1.62 [1.20,2.18]     future 2.17 [1.58,2.97]     future(prior adopters) 1.91 [1.31,2.79]
+    page strata 3h: past 0.72 [0.51,1.02]  future(prior adopters) 1.70 [1.01,2.86]
+3 cohort word                adopters 630 switch 126
+     1h  past 1.00 [0.75,1.33]     future 1.51 [1.12,2.05]     future(prior adopters) 1.39 [1.00,1.93]
+     3h  past 0.83 [0.63,1.10]     future 1.45 [1.07,1.95]     future(prior adopters) 1.45 [1.05,2.00]
+    12h  past 0.80 [0.61,1.06]     future 1.46 [1.08,1.97]     future(prior adopters) 1.41 [1.03,1.95]
+    page strata 3h: past 1.01 [0.69,1.48]  future(prior adopters) 1.51 [0.95,2.40]
+5 status template            adopters 528 switch 127
+     1h  past 2.81 [2.01,3.93]     future 2.38 [1.68,3.36]     future(prior adopters) 2.96 [2.03,4.32]
+     3h  past 2.74 [1.98,3.81]     future 2.45 [1.73,3.49]     future(prior adopters) 2.77 [1.92,3.98]
+    12h  past 2.81 [2.02,3.90]     future 2.56 [1.79,3.66]     future(prior adopters) 2.67 [1.87,3.80]
+    page strata 3h: past 1.62 [1.04,2.53]  future(prior adopters) 2.55 [1.50,4.34]
+5 "exactly" timing           adopters 339 switch 248
+     1h  past 1.04 [0.78,1.39]     future 1.03 [0.77,1.36]     future(prior adopters) 1.39 [0.94,2.07]
+     3h  past 0.96 [0.73,1.26]     future 1.03 [0.78,1.35]     future(prior adopters) 1.33 [0.91,1.93]
+    12h  past 0.98 [0.75,1.28]     future 1.04 [0.79,1.37]     future(prior adopters) 1.35 [0.93,1.95]
+    page strata 3h: past 0.67 [0.48,0.93]  future(prior adopters) 1.30 [0.83,2.04]
+8 correction / retraction    adopters  73 switch  66
+     1h  past 1.32 [0.64,2.71]     future 1.39 [0.69,2.80]     future(prior adopters) 0.27 [0.03,2.26]
+     3h  past 1.06 [0.53,2.14]     future 0.86 [0.44,1.69]     future(prior adopters) 0.27 [0.03,2.26]
+    12h  past 0.81 [0.41,1.59]     future 0.78 [0.41,1.49]     future(prior adopters) 0.27 [0.03,2.26]
+    page strata 3h: past 0.25 [0.11,0.58]  future(prior adopters) 0.49 [0.06,3.81]
+8 thanks                     adopters 107 switch  93
+     1h  past 1.44 [0.88,2.36]     future 2.34 [1.43,3.83]     future(prior adopters) 2.38 [1.01,5.60]
+     3h  past 1.48 [0.92,2.40]     future 2.48 [1.53,4.02]     future(prior adopters) 1.86 [0.80,4.34]
+    12h  past 1.26 [0.78,2.02]     future 2.26 [1.39,3.68]     future(prior adopters) 1.74 [0.76,3.95]
+    page strata 3h: past 0.37 [0.22,0.63]  future(prior adopters) 0.83 [0.30,2.28]
+8 please                     adopters 663 switch 164
+     1h  past 1.10 [0.82,1.48]     future 1.38 [1.03,1.86]     future(prior adopters) 1.27 [0.96,1.68]
+     3h  past 1.05 [0.78,1.40]     future 1.49 [1.11,2.02]     future(prior adopters) 1.31 [0.99,1.73]
+    12h  past 1.04 [0.77,1.39]     future 1.52 [1.12,2.06]     future(prior adopters) 1.31 [0.99,1.73]
+    page strata 3h: past 0.49 [0.28,0.87]  future(prior adopters) 1.49 [1.00,2.21]
+6 clock vocabulary: task side      union: past 351/379 vs null 347.0 (p=0.1089); future 407/442 vs null 401.7 (p=0.082)
+                                   nearest: past 324/379 vs null 315.9 (p=0.033); future 366/442 vs null 360.8 (p=0.1444)
+6 clock vocabulary: wall side      union: past 151/175 vs null 134.9 (p=0.0005); future 164/185 vs null 140.8 (p=0.0005)
+                                   nearest: past 135/175 vs null 107.3 (p=0.0005); future 140/185 vs null 111.0 (p=0.0005)
+3 self-reference noun              union: past 367/378 vs null 364.5 (p=0.1219); future 416/433 vs null 415.3 (p=0.4713)
+                                   nearest: past 353/378 vs null 350.0 (p=0.2119); future 402/433 vs null 399.5 (p=0.2684)
+4 name: role noun                  union: past 337/429 vs null 337.9 (p=0.6117); future 330/420 vs null 341.9 (p=0.9905)
+                                   nearest: past 172/429 vs null 182.5 (p=0.9325); future 182/420 vs null 184.2 (p=0.6422)
+4 name: date position              union: past 348/429 vs null 352.5 (p=0.8521); future 353/420 vs null 355.0 (p=0.7086)
+                                   nearest: past 199/429 vs null 199.9 (p=0.5792); future 178/420 vs null 193.3 (p=0.984)
+4 name: org marker                 union: past 381/429 vs null 383.2 (p=0.7731); future 368/420 vs null 376.3 (p=0.9905)
+                                   nearest: past 252/429 vs null 249.7 (p=0.4053); future 247/420 vs null 245.7 (p=0.4553)
+4 name: trailing X                 union: past 404/429 vs null 405.3 (p=0.7521); future 392/420 vs null 401.0 (p=1.0)
+                                   nearest: past 346/429 vs null 350.8 (p=0.8701); future 333/420 vs null 338.0 (p=0.8786)
+== spread done in 20 s
+
+== coined
+STATE5-<xx> (sector #5 state)        users  55 fams  1 out-of-family  0/54  same-page  40 any-edited  50 request  50  origin S:SectorAgentJun15 06-16T10:18→06-16T22:17
+C<n>-STATE (clothing round state)    users  33 fams  1 out-of-family  0/32  same-page  11 any-edited  17 request  16  origin S:DataUSAResearchHelperMay24 06-16T10:56→06-16T23:12
+G<n>-<xx> (grocery round state)      users  13 fams  1 out-of-family  0/12  same-page  10 any-edited  12 request  12  origin S:AgentProbeAssistantX2027 06-16T10:40→06-16T19:27
+<DATE>-R<n>-<KIND> counter key       users  20 fams  1 out-of-family  0/19  same-page   8 any-edited   8 request   7  origin S:Apr25OECDObserver 06-20T06:29→06-20T21:50
+R<n>OBSERVED-<x> counter key         users  10 fams  1 out-of-family  0/9   same-page   2 any-edited   2 request   2  origin S:OECDEquityJul14Scout 06-20T03:12→06-21T18:03
+PRE-SIGNAL / pre-signal              users 105 fams 15 out-of-family 102/104 same-page  37 any-edited  53 request  56  origin S:TransportHelperAug27OAI 06-16T21:58→06-21T20:07
+SLOW-TIER                            users  12 fams  4 out-of-family  9/11  same-page   2 any-edited   5 request   6  origin S:OpenAIFeb28Watcher 06-17T18:56→06-21T22:35
+TERMINATION-SAFE                     users   7 fams  4 out-of-family  6/6   same-page   1 any-edited   2 request   1  origin S:AgentNov11OAI 06-16T21:57→06-17T00:06
+NO-SHOW                              users  25 fams  3 out-of-family  3/24  same-page  14 any-edited  16 request  17  origin S:DataResearchMay15 06-16T10:36→06-17T12:06
+ZZZ backup page                      users   1 fams  1 out-of-family  0/0   same-page   0 any-edited   0 request   0  origin S:OpenAIJan13AsianScout 06-21T18:48→06-21T18:48
+== coined done in 3 s
+
+== presignal_reads
+{
+ "coined": "2026-06-16T21:58:36Z",
+ "origin": "S:TransportHelperAug27OAI",
+ "adopters": 104,
+ "adopters_with_named_reads": 69,
+ "adopters_read_word_before_use": 39,
+ "comparison_nonadopters": 418,
+ "comparison_with_named_reads": 289,
+ "comparison_read_word_before_last_edit": 169,
+ "minutes_from_first_exposure_read_to_first_use": [
+  1.2,
+  1.6,
+  4.3,
+  6.2,
+  9.2,
+  10.2,
+  16.1,
+  17.7,
+  24.5,
+  27.7,
+  39.4,
+  41.9,
+  42.3,
+  48.2,
+  54.5,
+  63.5,
+  70.4,
+  75.3,
+  83.4,
+  94.3,
+  100.8,
+  103.5,
+  120.0,
+  122.7,
+  130.7,
+  165.5,
+  202.2,
+  203.1,
+  223.0,
+  246.9,
+  256.4,
+  261.8,
+  271.0,
+  272.8,
+  340.8,
+  385.4,
+  434.8,
+  493.6,
+  494.6
+ ],
+ "carrier_pages_read_by_adopters": [
+  [
+   "OECDEquityLiveJul10",
+   7
+  ],
+  [
+   "DataUSALanguageApr10Live",
+   5
+  ],
+  [
+   "DataUSALangR5RelayOct23",
+   4
+  ],
+  [
+   "DataUSAGroceryG5Jul17Live",
+   2
+  ],
+  [
+   "DataUSALanguageR5LiveDec29",
+   2
+  ],
+  [
+   "OpenAIDec17ConstructionLive",
+   2
+  ],
+  [
+   "OECDMay24ClockWaitQuestion",
+   2
+  ],
+  [
+   "DataUSALanguageR5Sep03Relay",
+   1
+  ],
+  [
+   "GroceryAug09LiveRelay",
+   1
+  ],
+  [
+   "OpenAISep04ClothingLiveX",
+   1
+  ],
+  [
+   "ClothingC4FastSignalJul14",
+   1
+  ],
+  [
+   "DataUSALanguageAug12Live",
+   1
+  ],
+  [
+   "DataUSAConstructionSequenceMar08",
+   1
+  ],
+  [
+   "OpenAIFeb28SlowTierHorizonLive2028",
+   1
+  ],
+  [
+   "PoliceWageAgeSequenceMar10Collab",
+   1
+  ]
+ ],
+ "cross_family_first_exposure": 14
+}
+== presignal_reads done in 19 s
+
+== presignal_timing
+{
+ "coined": "2026-06-16T21:58:36Z",
+ "origin": "S:TransportHelperAug27OAI",
+ "adopters": 104,
+ "coined_py_edited_or_same_page": 53,
+ "lag5": {
+  "no_named_read": 27,
+  "arrived_between": 8,
+  "confirmed": 18
+ },
+ "any_named_read_showed_word_lag5": 48,
+ "confirmed_by_any_read_lag5": 30,
+ "lag30": {
+  "no_named_read": 27,
+  "arrived_between": 8,
+  "confirmed": 18
+ },
+ "any_named_read_showed_word_lag30": 48,
+ "confirmed_by_any_read_lag30": 30,
+ "first_use_saves_with_form": 51,
+ "first_use_composition_s_median": 1.0,
+ "first_use_composition_under_5s": 43
+}
+== presignal_timing done in 19 s
+
+== shared_saves
+{
+ "joined_saves": 3403,
+ "trajectories": 728,
+ "bust|order": {
+  "fingerprints": 142,
+  "test_saves": 666,
+  "accuracy": 0.881,
+  "chance": 0.429,
+  "tied": 7,
+  "candidates_per_save": {
+   "2": 442,
+   "3": 129,
+   "4": 69,
+   "5": 18,
+   "7": 8
+  }
+ },
+ "bust": {
+  "fingerprints": 12,
+  "test_saves": 666,
+  "accuracy": 0.691,
+  "chance": 0.429,
+  "tied": 33,
+  "candidates_per_save": {
+   "2": 442,
+   "3": 129,
+   "4": 69,
+   "5": 18,
+   "7": 8
+  }
+ },
+ "order": {
+  "fingerprints": 85,
+  "test_saves": 666,
+  "accuracy": 0.756,
+  "chance": 0.429,
+  "tied": 22,
+  "candidates_per_save": {
+   "2": 442,
+   "3": 129,
+   "4": 69,
+   "5": 18,
+   "7": 8
+  }
+ },
+ "save_fingerprint_purity_median_3plus_saves": 1.0,
+ "distinct_dominant_save_fingerprints": 113,
+ "largest_dominant_group": 141
+}
+== shared_saves done in 18 s
+
+== fingerprint_null
+bust|order :: clock task         past 104/368 null  145.6 x0.71 p=1.0   future 110/419 null  183.8 x0.6 p=1.0
+  nearest                        past  35/368 null   50.8 x0.69 p=0.9965   future  32/419 null   65.7 x0.49 p=1.0
+bust|order :: clock wall         past  30/171 null   51.3 x0.58 p=1.0   future  35/176 null   61.2 x0.57 p=1.0
+  nearest                        past  12/171 null   18.6 x0.65 p=0.9885   future  14/176 null   23.3 x0.6 p=0.997
+bust|order :: self-reference     past  96/366 null  143.7 x0.67 p=1.0   future 109/410 null  175.7 x0.62 p=1.0
+  nearest                        past  34/366 null   51.4 x0.66 p=1.0   future  40/410 null   63.9 x0.63 p=1.0
+bust|order :: any post           past 141/418 null  190.4 x0.74 p=1.0   future 158/549 null  261.7 x0.6 p=1.0
+  nearest                        past  40/418 null   52.2 x0.77 p=0.992   future  44/549 null   77.6 x0.57 p=1.0
+bust|order :: name (first page)  past 141/420 null  187.2 x0.75 p=1.0   future 125/416 null  216.7 x0.58 p=1.0
+order :: clock task              past 198/368 null  222.3 x0.89 p=1.0   future 215/419 null  259.2 x0.83 p=1.0
+  nearest                        past  92/368 null  105.8 x0.87 p=0.98   future  93/419 null  126.3 x0.74 p=1.0
+order :: clock wall              past  76/171 null   88.4 x0.86 p=0.999   future  88/176 null   94.4 x0.93 p=0.9545
+  nearest                        past  40/171 null   43.6 x0.92 p=0.8151   future  46/176 null   50.5 x0.91 p=0.8491
+order :: self-reference          past 196/366 null  222.5 x0.88 p=1.0   future 218/410 null  255.4 x0.85 p=1.0
+  nearest                        past  87/366 null  100.6 x0.87 p=0.9755   future  98/410 null  120.0 x0.82 p=0.9985
+order :: any post                past 262/418 null  290.0 x0.9 p=1.0   future 317/549 null  368.4 x0.86 p=1.0
+  nearest                        past  95/418 null  111.4 x0.85 p=0.987   future 122/549 null  156.8 x0.78 p=1.0
+order :: name (first page)       past 264/420 null  288.9 x0.91 p=1.0   future 256/416 null  300.6 x0.85 p=1.0
+bust :: clock task               past 242/368 null  262.8 x0.92 p=1.0   future 262/419 null  297.1 x0.88 p=1.0
+  nearest                        past 142/368 null  149.7 x0.95 p=0.8721   future 150/419 null  174.2 x0.86 p=1.0
+bust :: clock wall               past 102/171 null  109.1 x0.93 p=0.982   future 103/176 null  112.9 x0.91 p=0.9995
+  nearest                        past  57/171 null   63.5 x0.9 p=0.9285   future  61/176 null   68.5 x0.89 p=0.947
+bust :: self-reference           past 237/366 null  256.0 x0.93 p=1.0   future 264/410 null  283.1 x0.93 p=0.9995
+  nearest                        past 144/366 null  155.3 x0.93 p=0.9575   future 160/410 null  171.0 x0.94 p=0.9475
+bust :: any post                 past 288/418 null  314.6 x0.92 p=1.0   future 365/549 null  404.7 x0.9 p=1.0
+  nearest                        past 152/418 null  164.3 x0.93 p=0.9495   future 190/549 null  220.2 x0.86 p=1.0
+bust :: name (first page)        past 294/420 null  319.0 x0.92 p=1.0   future 297/416 null  326.4 x0.91 p=1.0
+random bust|order #1 :: clock task past  94/368 null  139.2 x0.68 p=1.0   future 104/419 null  173.3 x0.6 p=1.0
+  nearest                        past  31/368 null   48.1 x0.64 p=0.999   future  38/419 null   63.2 x0.6 p=1.0
+random bust|order #1 :: clock wall past  42/171 null   51.9 x0.81 p=0.995   future  41/176 null   61.9 x0.66 p=1.0
+  nearest                        past  16/171 null   20.3 x0.79 p=0.909   future  14/176 null   25.0 x0.56 p=0.999
+random bust|order #1 :: self-reference past 106/366 null  147.9 x0.72 p=1.0   future 111/410 null  171.1 x0.65 p=1.0
+  nearest                        past  32/366 null   51.7 x0.62 p=1.0   future  38/410 null   65.3 x0.58 p=1.0
+random bust|order #1 :: any post past 141/418 null  192.3 x0.73 p=1.0   future 165/549 null  257.7 x0.64 p=1.0
+  nearest                        past  35/418 null   55.0 x0.64 p=1.0   future  48/549 null   78.4 x0.61 p=1.0
+random bust|order #1 :: name (first page) past 149/420 null  196.1 x0.76 p=1.0   future 144/416 null  216.5 x0.67 p=1.0
+random bust|order #2 :: clock task past  90/368 null  147.9 x0.61 p=1.0   future 101/419 null  184.2 x0.55 p=1.0
+  nearest                        past  27/368 null   49.4 x0.55 p=1.0   future  29/419 null   63.8 x0.45 p=1.0
+random bust|order #2 :: clock wall past  28/171 null   52.7 x0.53 p=1.0   future  30/176 null   61.3 x0.49 p=1.0
+  nearest                        past   7/171 null   17.9 x0.39 p=1.0   future   9/176 null   22.1 x0.41 p=1.0
+random bust|order #2 :: self-reference past 107/366 null  153.8 x0.7 p=1.0   future 116/410 null  178.4 x0.65 p=1.0
+  nearest                        past  33/366 null   54.2 x0.61 p=0.9995   future  32/410 null   61.6 x0.52 p=1.0
+random bust|order #2 :: any post past 128/418 null  198.4 x0.65 p=1.0   future 169/549 null  270.8 x0.62 p=1.0
+  nearest                        past  30/418 null   51.9 x0.58 p=1.0   future  41/549 null   76.4 x0.54 p=1.0
+random bust|order #2 :: name (first page) past 134/420 null  198.4 x0.68 p=1.0   future 149/416 null  226.9 x0.66 p=1.0
+random bust|order #3 :: clock task past 101/368 null  142.5 x0.71 p=1.0   future 111/419 null  185.7 x0.6 p=1.0
+  nearest                        past  27/368 null   44.8 x0.6 p=1.0   future  32/419 null   65.0 x0.49 p=1.0
+random bust|order #3 :: clock wall past  34/171 null   51.5 x0.66 p=1.0   future  34/176 null   59.7 x0.57 p=1.0
+  nearest                        past   7/171 null   18.7 x0.37 p=1.0   future  10/176 null   21.1 x0.47 p=0.9995
+random bust|order #3 :: self-reference past  95/366 null  137.4 x0.69 p=1.0   future 110/410 null  169.7 x0.65 p=1.0
+  nearest                        past  30/366 null   46.3 x0.65 p=0.999   future  39/410 null   58.6 x0.67 p=0.9995
+random bust|order #3 :: any post past 133/418 null  187.0 x0.71 p=1.0   future 173/549 null  260.6 x0.66 p=1.0
+  nearest                        past  30/418 null   49.2 x0.61 p=1.0   future  43/549 null   75.2 x0.57 p=1.0
+random bust|order #3 :: name (first page) past 140/420 null  189.6 x0.74 p=1.0   future 145/416 null  217.2 x0.67 p=1.0
+word tests (spread.json):
+6 clock vocabulary: task side    past 351/379 null  347.0 x1.01 p=0.1089   future 407/442 null  401.7 x1.01 p=0.082
+  agent-level, calibrated        past obs x0.99 vs no-copy x0.99 [0.97, 1.01] p=0.714   future obs x0.99 vs no-copy x0.99 [0.97, 1.0] p=0.714
+6 clock vocabulary: wall side    past 151/175 null  134.9 x1.12 p=0.0005   future 164/185 null  140.8 x1.16 p=0.0005
+  agent-level, calibrated        past obs x1.12 vs no-copy x0.99 [0.94, 1.02] p=0.048   future obs x1.19 vs no-copy x0.97 [0.93, 1.0] p=0.048
+3 self-reference noun            past 367/378 null  364.5 x1.01 p=0.1219   future 416/433 null  415.3 x1.0 p=0.4713
+  agent-level, calibrated        past obs x1.01 vs no-copy x1.0 [0.99, 1.0] p=0.048   future obs x0.98 vs no-copy x0.99 [0.99, 1.0] p=1.0
+4 name: role noun                past 337/429 null  337.9 x1.0 p=0.6117   future 330/420 null  341.9 x0.97 p=0.9905
+  agent-level, calibrated        past obs x0.96 vs no-copy x0.94 [0.91, 0.97] p=0.429   future obs x0.93 vs no-copy x0.92 [0.9, 0.94] p=0.333
+4 name: date position            past 348/429 null  352.5 x0.99 p=0.8521   future 353/420 null  355.0 x0.99 p=0.7086
+  agent-level, calibrated        past obs x0.98 vs no-copy x0.96 [0.94, 0.98] p=0.095   future obs x0.97 vs no-copy x0.95 [0.93, 0.97] p=0.19
+4 name: org marker               past 381/429 null  383.2 x0.99 p=0.7731   future 368/420 null  376.3 x0.98 p=0.9905
+  agent-level, calibrated        past obs x1.0 vs no-copy x0.98 [0.96, 1.01] p=0.19   future obs x0.98 vs no-copy x0.97 [0.93, 0.99] p=0.143
+4 name: trailing X               past 404/429 null  405.3 x1.0 p=0.7521   future 392/420 null  401.0 x0.98 p=1.0
+  agent-level, calibrated        past obs x1.0 vs no-copy x0.99 [0.98, 1.0] p=0.238   future obs x0.98 vs no-copy x0.99 [0.97, 1.0] p=0.952
+== fingerprint_null done in 143 s
+

@@ -1,0 +1,69 @@
+bust|order :: clock task         past 104/368 null  145.6 x0.71 p=1.0   future 110/419 null  183.8 x0.6 p=1.0
+  nearest                        past  35/368 null   50.8 x0.69 p=0.9965   future  32/419 null   65.7 x0.49 p=1.0
+bust|order :: clock wall         past  30/171 null   51.3 x0.58 p=1.0   future  35/176 null   61.2 x0.57 p=1.0
+  nearest                        past  12/171 null   18.6 x0.65 p=0.9885   future  14/176 null   23.3 x0.6 p=0.997
+bust|order :: self-reference     past  96/366 null  143.7 x0.67 p=1.0   future 109/410 null  175.7 x0.62 p=1.0
+  nearest                        past  34/366 null   51.4 x0.66 p=1.0   future  40/410 null   63.9 x0.63 p=1.0
+bust|order :: any post           past 141/418 null  190.4 x0.74 p=1.0   future 158/549 null  261.7 x0.6 p=1.0
+  nearest                        past  40/418 null   52.2 x0.77 p=0.992   future  44/549 null   77.6 x0.57 p=1.0
+bust|order :: name (first page)  past 141/420 null  187.2 x0.75 p=1.0   future 125/416 null  216.7 x0.58 p=1.0
+order :: clock task              past 198/368 null  222.3 x0.89 p=1.0   future 215/419 null  259.2 x0.83 p=1.0
+  nearest                        past  92/368 null  105.8 x0.87 p=0.98   future  93/419 null  126.3 x0.74 p=1.0
+order :: clock wall              past  76/171 null   88.4 x0.86 p=0.999   future  88/176 null   94.4 x0.93 p=0.9545
+  nearest                        past  40/171 null   43.6 x0.92 p=0.8151   future  46/176 null   50.5 x0.91 p=0.8491
+order :: self-reference          past 196/366 null  222.5 x0.88 p=1.0   future 218/410 null  255.4 x0.85 p=1.0
+  nearest                        past  87/366 null  100.6 x0.87 p=0.9755   future  98/410 null  120.0 x0.82 p=0.9985
+order :: any post                past 262/418 null  290.0 x0.9 p=1.0   future 317/549 null  368.4 x0.86 p=1.0
+  nearest                        past  95/418 null  111.4 x0.85 p=0.987   future 122/549 null  156.8 x0.78 p=1.0
+order :: name (first page)       past 264/420 null  288.9 x0.91 p=1.0   future 256/416 null  300.6 x0.85 p=1.0
+bust :: clock task               past 242/368 null  262.8 x0.92 p=1.0   future 262/419 null  297.1 x0.88 p=1.0
+  nearest                        past 142/368 null  149.7 x0.95 p=0.8721   future 150/419 null  174.2 x0.86 p=1.0
+bust :: clock wall               past 102/171 null  109.1 x0.93 p=0.982   future 103/176 null  112.9 x0.91 p=0.9995
+  nearest                        past  57/171 null   63.5 x0.9 p=0.9285   future  61/176 null   68.5 x0.89 p=0.947
+bust :: self-reference           past 237/366 null  256.0 x0.93 p=1.0   future 264/410 null  283.1 x0.93 p=0.9995
+  nearest                        past 144/366 null  155.3 x0.93 p=0.9575   future 160/410 null  171.0 x0.94 p=0.9475
+bust :: any post                 past 288/418 null  314.6 x0.92 p=1.0   future 365/549 null  404.7 x0.9 p=1.0
+  nearest                        past 152/418 null  164.3 x0.93 p=0.9495   future 190/549 null  220.2 x0.86 p=1.0
+bust :: name (first page)        past 294/420 null  319.0 x0.92 p=1.0   future 297/416 null  326.4 x0.91 p=1.0
+random bust|order #1 :: clock task past  94/368 null  139.2 x0.68 p=1.0   future 104/419 null  173.3 x0.6 p=1.0
+  nearest                        past  31/368 null   48.1 x0.64 p=0.999   future  38/419 null   63.2 x0.6 p=1.0
+random bust|order #1 :: clock wall past  42/171 null   51.9 x0.81 p=0.995   future  41/176 null   61.9 x0.66 p=1.0
+  nearest                        past  16/171 null   20.3 x0.79 p=0.909   future  14/176 null   25.0 x0.56 p=0.999
+random bust|order #1 :: self-reference past 106/366 null  147.9 x0.72 p=1.0   future 111/410 null  171.1 x0.65 p=1.0
+  nearest                        past  32/366 null   51.7 x0.62 p=1.0   future  38/410 null   65.3 x0.58 p=1.0
+random bust|order #1 :: any post past 141/418 null  192.3 x0.73 p=1.0   future 165/549 null  257.7 x0.64 p=1.0
+  nearest                        past  35/418 null   55.0 x0.64 p=1.0   future  48/549 null   78.4 x0.61 p=1.0
+random bust|order #1 :: name (first page) past 149/420 null  196.1 x0.76 p=1.0   future 144/416 null  216.5 x0.67 p=1.0
+random bust|order #2 :: clock task past  90/368 null  147.9 x0.61 p=1.0   future 101/419 null  184.2 x0.55 p=1.0
+  nearest                        past  27/368 null   49.4 x0.55 p=1.0   future  29/419 null   63.8 x0.45 p=1.0
+random bust|order #2 :: clock wall past  28/171 null   52.7 x0.53 p=1.0   future  30/176 null   61.3 x0.49 p=1.0
+  nearest                        past   7/171 null   17.9 x0.39 p=1.0   future   9/176 null   22.1 x0.41 p=1.0
+random bust|order #2 :: self-reference past 107/366 null  153.8 x0.7 p=1.0   future 116/410 null  178.4 x0.65 p=1.0
+  nearest                        past  33/366 null   54.2 x0.61 p=0.9995   future  32/410 null   61.6 x0.52 p=1.0
+random bust|order #2 :: any post past 128/418 null  198.4 x0.65 p=1.0   future 169/549 null  270.8 x0.62 p=1.0
+  nearest                        past  30/418 null   51.9 x0.58 p=1.0   future  41/549 null   76.4 x0.54 p=1.0
+random bust|order #2 :: name (first page) past 134/420 null  198.4 x0.68 p=1.0   future 149/416 null  226.9 x0.66 p=1.0
+random bust|order #3 :: clock task past 101/368 null  142.5 x0.71 p=1.0   future 111/419 null  185.7 x0.6 p=1.0
+  nearest                        past  27/368 null   44.8 x0.6 p=1.0   future  32/419 null   65.0 x0.49 p=1.0
+random bust|order #3 :: clock wall past  34/171 null   51.5 x0.66 p=1.0   future  34/176 null   59.7 x0.57 p=1.0
+  nearest                        past   7/171 null   18.7 x0.37 p=1.0   future  10/176 null   21.1 x0.47 p=0.9995
+random bust|order #3 :: self-reference past  95/366 null  137.4 x0.69 p=1.0   future 110/410 null  169.7 x0.65 p=1.0
+  nearest                        past  30/366 null   46.3 x0.65 p=0.999   future  39/410 null   58.6 x0.67 p=0.9995
+random bust|order #3 :: any post past 133/418 null  187.0 x0.71 p=1.0   future 173/549 null  260.6 x0.66 p=1.0
+  nearest                        past  30/418 null   49.2 x0.61 p=1.0   future  43/549 null   75.2 x0.57 p=1.0
+random bust|order #3 :: name (first page) past 140/420 null  189.6 x0.74 p=1.0   future 145/416 null  217.2 x0.67 p=1.0
+word tests (spread.json):
+6 clock vocabulary: task side    past 351/379 null  347.0 x1.01 p=0.1089   future 407/442 null  401.7 x1.01 p=0.082
+  agent-level, calibrated        past obs x0.99 vs no-copy x0.99 [0.97, 1.01] p=0.714   future obs x0.99 vs no-copy x0.99 [0.97, 1.0] p=0.714
+6 clock vocabulary: wall side    past 151/175 null  134.9 x1.12 p=0.0005   future 164/185 null  140.8 x1.16 p=0.0005
+  agent-level, calibrated        past obs x1.12 vs no-copy x0.99 [0.94, 1.02] p=0.048   future obs x1.19 vs no-copy x0.97 [0.93, 1.0] p=0.048
+3 self-reference noun            past 367/378 null  364.5 x1.01 p=0.1219   future 416/433 null  415.3 x1.0 p=0.4713
+  agent-level, calibrated        past obs x1.01 vs no-copy x1.0 [0.99, 1.0] p=0.048   future obs x0.98 vs no-copy x0.99 [0.99, 1.0] p=1.0
+4 name: role noun                past 337/429 null  337.9 x1.0 p=0.6117   future 330/420 null  341.9 x0.97 p=0.9905
+  agent-level, calibrated        past obs x0.96 vs no-copy x0.94 [0.91, 0.97] p=0.429   future obs x0.93 vs no-copy x0.92 [0.9, 0.94] p=0.333
+4 name: date position            past 348/429 null  352.5 x0.99 p=0.8521   future 353/420 null  355.0 x0.99 p=0.7086
+  agent-level, calibrated        past obs x0.98 vs no-copy x0.96 [0.94, 0.98] p=0.095   future obs x0.97 vs no-copy x0.95 [0.93, 0.97] p=0.19
+4 name: org marker               past 381/429 null  383.2 x0.99 p=0.7731   future 368/420 null  376.3 x0.98 p=0.9905
+  agent-level, calibrated        past obs x1.0 vs no-copy x0.98 [0.96, 1.01] p=0.19   future obs x0.98 vs no-copy x0.97 [0.93, 0.99] p=0.143
+4 name: trailing X               past 404/429 null  405.3 x1.0 p=0.7521   future 392/420 null  401.0 x0.98 p=1.0
+  agent-level, calibrated        past obs x1.0 vs no-copy x0.99 [0.98, 1.0] p=0.238   future obs x0.98 vs no-copy x0.99 [0.97, 1.0] p=0.952

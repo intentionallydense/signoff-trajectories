@@ -1,0 +1,212 @@
+[
+  {
+    "task_id": "cashiers-bachelors-2015",
+    "family_id": "datausa-cashiers-bachelors",
+    "title": "Cashiers: bachelor’s degree fields, 2015"
+  },
+  {
+    "task_id": "el-paso-foreign-born",
+    "family_id": "datausa-elpaso-foreign-born",
+    "title": "El Paso: foreign-born percentage by year"
+  },
+  {
+    "task_id": "mozambique-stunting",
+    "family_id": "dataafrica-health-stunting",
+    "title": "Mozambique: moderate stunting by survey year"
+  },
+  {
+    "task_id": "college-state-tuition-2015",
+    "family_id": "datausa-ivy-tuition",
+    "title": "College State Tuition, 2015"
+  },
+  {
+    "task_id": "oecd-preprimary-private-spending",
+    "family_id": "oecd-equity",
+    "title": "OECD: private spending on pre-primary education"
+  },
+  {
+    "task_id": "aihw-pbs",
+    "family_id": "aihw-pbs",
+    "title": "AIHW · dermatological medicine costs"
+  },
+  {
+    "task_id": "alaska-climate",
+    "family_id": "alaska-climate",
+    "title": "Alaska · historical mean temperatures"
+  },
+  {
+    "task_id": "dataafrica-rainfed-crops",
+    "family_id": "dataafrica-rainfed-crops",
+    "title": "Mozambique · rainfed crops"
+  },
+  {
+    "task_id": "datausa-cashier-skills",
+    "family_id": "datausa-cashier-skills",
+    "title": "Cashiers · skill RCA, 2018"
+  },
+  {
+    "task_id": "datausa-cashiers-masters",
+    "family_id": "datausa-cashiers-masters",
+    "title": "Cashiers · master’s fields, 2014"
+  },
+  {
+    "task_id": "datausa-clothing-workforce",
+    "family_id": "datausa-clothing-workforce",
+    "title": "Clothing stores · state workforce"
+  },
+  {
+    "task_id": "datausa-construction-wage",
+    "family_id": "datausa-construction-wage",
+    "title": "Construction · female electrician wages"
+  },
+  {
+    "task_id": "datausa-construction-workforce-ny",
+    "family_id": "datausa-construction-workforce",
+    "title": "Construction · NY sequence, 2016 & 2018"
+  },
+  {
+    "task_id": "datausa-construction-workforce-az",
+    "family_id": "datausa-construction-workforce",
+    "title": "Construction · Arizona sequence, 2016"
+  },
+  {
+    "task_id": "datausa-enrollment-asian",
+    "family_id": "datausa-enrollment-asian",
+    "title": "Universities · Asian enrollment"
+  },
+  {
+    "task_id": "datausa-finance-gender-gap",
+    "family_id": "datausa-finance-gender-gap",
+    "title": "Finance & insurance · wage gaps, 2022"
+  },
+  {
+    "task_id": "datausa-grocery-workforce",
+    "family_id": "datausa-grocery-workforce",
+    "title": "Grocery stores · workforce, 2014"
+  },
+  {
+    "task_id": "datausa-language-french",
+    "family_id": "datausa-language-french",
+    "title": "French / Cajun · state language shares"
+  },
+  {
+    "task_id": "datausa-maids-wage",
+    "family_id": "datausa-maids-wage",
+    "title": "Maids & cleaners · gender/year wages"
+  },
+  {
+    "task_id": "datausa-occupation-salary-61-62",
+    "family_id": "datausa-occupation-salary-61-62",
+    "title": "Sector 61–62 · occupation salaries"
+  },
+  {
+    "task_id": "datausa-police-wage-age",
+    "family_id": "datausa-police-wage-age",
+    "title": "Police officers · wages by age, 2016"
+  },
+  {
+    "task_id": "datausa-poverty-county",
+    "family_id": "datausa-poverty-county",
+    "title": "County poverty · ACS1, 2021"
+  },
+  {
+    "task_id": "datausa-poverty-state",
+    "family_id": "datausa-poverty-state",
+    "title": "State poverty · 2013 & 2022"
+  },
+  {
+    "task_id": "datausa-production-share",
+    "family_id": "datausa-production-share",
+    "title": "Production occupations · city / gender shares"
+  },
+  {
+    "task_id": "datausa-sector61-state",
+    "family_id": "datausa-sector61-state",
+    "title": "Sector 61–62 · state workforce"
+  },
+  {
+    "task_id": "datausa-slp-ethnicity",
+    "family_id": "datausa-slp-ethnicity",
+    "title": "Speech-language pathologists · Puerto Rican employment"
+  },
+  {
+    "task_id": "datausa-transport-production",
+    "family_id": "datausa-transport-production",
+    "title": "Transportation equipment · outbound production"
+  },
+  {
+    "task_id": "fuel-poverty-ni",
+    "family_id": "fuel-poverty-ni",
+    "title": "Northern Ireland · fuel poverty, 2016"
+  },
+  {
+    "task_id": "gapminder-age80",
+    "family_id": "gapminder-age80",
+    "title": "Gapminder · age 80, 2023"
+  },
+  {
+    "task_id": "ihme-cvd-deaths",
+    "family_id": "ihme-cvd-deaths",
+    "title": "Cardiovascular deaths · women aged 70–74"
+  },
+  {
+    "task_id": "ihme-family-planning",
+    "family_id": "ihme-family-planning",
+    "title": "Family planning · modern methods, 1992"
+  },
+  {
+    "task_id": "ihme-lymphatic-filariasis",
+    "family_id": "ihme-lymphatic-filariasis",
+    "title": "Lymphatic filariasis · antigen prevalence"
+  },
+  {
+    "task_id": "ihme-mcv2",
+    "family_id": "ihme-mcv2",
+    "title": "MCV2 · vaccination coverage, 2008"
+  },
+  {
+    "task_id": "ihme-smoking",
+    "family_id": "ihme-smoking",
+    "title": "US smoking · prevalence by year"
+  },
+  {
+    "task_id": "nyc-veterans",
+    "family_id": "nyc-veterans",
+    "title": "New York City · veterans, 2018"
+  },
+  {
+    "task_id": "oecd-household-income",
+    "family_id": "oecd-household-income",
+    "title": "OECD · household disposable income"
+  },
+  {
+    "task_id": "oecd-regional-co2",
+    "family_id": "oecd-regional-co2",
+    "title": "OECD · electricity-generation CO₂"
+  },
+  {
+    "task_id": "sdg-index-score",
+    "family_id": "sdg-index-score",
+    "title": "SDG Index · overall scores, 2010–2015"
+  },
+  {
+    "task_id": "uefa-pass-accuracy",
+    "family_id": "uefa-pass-accuracy",
+    "title": "UEFA U21 · pass accuracy, 2021"
+  },
+  {
+    "task_id": "unaids-bosnia-hiv",
+    "family_id": "unaids-bosnia-hiv",
+    "title": "UNAIDS · Bosnia and neighbouring countries"
+  },
+  {
+    "task_id": "vermont-rent",
+    "family_id": "vermont-rent",
+    "title": "Vermont & Lamoille · median gross rent"
+  },
+  {
+    "task_id": "world-poverty-clock",
+    "family_id": "world-poverty-clock",
+    "title": "World Poverty Clock · country sequence"
+  }
+]

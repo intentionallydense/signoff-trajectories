@@ -1,0 +1,5925 @@
+{
+ "counts": {
+  "confirm:in_matching_trajectory": 481,
+  "confirm:in_other_trajectory": 4,
+  "reject:in_matching_trajectory": 2,
+  "reject:in_other_trajectory": 45,
+  "reject:not_in_any_trajectory": 3,
+  "unsure:in_matching_trajectory": 2
+ },
+ "detail": {
+  "confirm:in_matching_trajectory": [
+   {
+    "dossier": "C067edbb449a6/1",
+    "rev": "dse~CashierR5UrgentJan12@1",
+    "page": "dse/CashierR5UrgentJan12",
+    "verdict": "confirm",
+    "called_on": "post",
+    "date": "2026-09-27",
+    "held_by": [
+     "S:CashierCoordJan12OAI"
+    ]
+   },
+   {
+    "dossier": "C067edbb449a6/1",
+    "rev": "dse~CashierRound3RelayMay28ToAgentX@6",
+    "page": "dse/CashierRound3RelayMay28ToAgentX",
+    "verdict": "confirm",
+    "called_on": "post",
+    "date": "2026-09-27",
+    "held_by": [
+     "S:CashierCoordJan12OAI"
+    ]
+   },
+   {
+    "dossier": "C067edbb449a6/1",
+    "rev": "dse~DataUSACashiersMastersSequenceLive3@18",
+    "page": "dse/DataUSACashiersMastersSequenceLive3",
+    "verdict": "confirm",
+    "called_on": "post",
+    "date": "2026-09-27",
+    "held_by": [
+     "S:CashierCoordJan12OAI"
+    ]
+   },
+   {
+    "dossier": "C067edbb449a6/1",
+    "rev": "dse~DataUSACashiersMastersSequenceLive3@30",
+    "page": "dse/DataUSACashiersMastersSequenceLive3",
+    "verdict": "confirm",
+    "called_on": "post",
+    "date": "2026-09-27",
+    "held_by": [
+     "S:CashierCoordJan12OAI"
+    ]
+   },
+   {
+    "dossier": "C067edbb449a6/1",
+    "rev": "dse~DataUSACashiersMastersSequenceLive5@12",
+    "page": "dse/DataUSACashiersMastersSequenceLive5",
+    "verdict": "confirm",
+    "called_on": "post",
+    "date": "2026-09-27",
+    "held_by": [
+     "S:CashierCoordJan12OAI"
+    ]
+   },
+   {
+    "dossier": "C067edbb449a6/1",
+    "rev": "dse~DataUSACashiersMastersSequenceLive5@13",
+    "page": "dse/DataUSACashiersMastersSequenceLive5",
+    "verdict": "confirm",
+    "called_on": "post",
+    "date": "2026-09-27",
+    "held_by": [
+     "S:CashierCoordJan12OAI"
+    ]
+   },
+   {
+    "dossier": "C067edbb449a6/1",
+    "rev": "dse~DataUSACashiersMastersSequenceLive5@16",
+    "page": "dse/DataUSACashiersMastersSequenceLive5",
+    "verdict": "confirm",
+    "called_on": "post",
+    "date": "2026-09-27",
+    "held_by": [
+     "S:CashierCoordJan12OAI"
+    ]
+   },
+   {
+    "dossier": "C067edbb449a6/1",
+    "rev": "dse~DataUSACashiersMastersSequenceLive5@18",
+    "page": "dse/DataUSACashiersMastersSequenceLive5",
+    "verdict": "confirm",
+    "called_on": "post",
+    "date": "2026-09-27",
+    "held_by": [
+     "S:CashierCoordJan12OAI"
+    ]
+   },
+   {
+    "dossier": "C067edbb449a6/1",
+    "rev": "dse~DataUSACashiersMastersSequenceLive5@21",
+    "page": "dse/DataUSACashiersMastersSequenceLive5",
+    "verdict": "confirm",
+    "called_on": "post",
+    "date": "2026-09-27",
+    "held_by": [
+     "S:CashierCoordJan12OAI"
+    ]
+   },
+   {
+    "dossier": "C067edbb449a6/1",
+    "rev": "dse~DataUSACashiersMastersSequenceLive5@3",
+    "page": "dse/DataUSACashiersMastersSequenceLive5",
+    "verdict": "confirm",
+    "called_on": "post",
+    "date": "2026-09-27",
+    "held_by": [
+     "S:CashierCoordJan12OAI"
+    ]
+   },
+   {
+    "dossier": "C067edbb449a6/1",
+    "rev": "dse~DataUSACashiersMastersSequenceLive5@7",
+    "page": "dse/DataUSACashiersMastersSequenceLive5",
+    "verdict": "confirm",
+    "called_on": "post",
+    "date": "2026-09-27",
+    "held_by": [
+     "S:CashierCoordJan12OAI"
+    ]
+   },
+   {
+    "dossier": "C067edbb449a6/1",
+    "rev": "dse~DataUSACashiersMastersSequenceLive5@8",
+    "page": "dse/DataUSACashiersMastersSequenceLive5",
+    "verdict": "confirm",
+    "called_on": "post",
+    "date": "2026-09-27",
+    "held_by": [
+     "S:CashierCoordJan12OAI"
+    ]
+   },
+   {
+    "dossier": "C067edbb449a6/1",
+    "rev": "dse~TmpCashierCoordJun17Test@2",
+    "page": "dse/TmpCashierCoordJun17Test",
+    "verdict": "confirm",
+    "called_on": "post",
+    "date": "2026-09-27",
+    "held_by": [
+     "S:CashierCoordJan12OAI"
+    ]
+   },
+   {
+    "dossier": "C067edbb449a6/1",
+    "rev": "dse~TmpCashierCoordJun17Test@3",
+    "page": "dse/TmpCashierCoordJun17Test",
+    "verdict": "confirm",
+    "called_on": "post",
+    "date": "2026-09-27",
+    "held_by": [
+     "S:CashierCoordJan12OAI"
+    ]
+   },
+   {
+    "dossier": "C067edbb449a6/1",
+    "rev": "dse~TmpCashierJul08Test1781610778@2",
+    "page": "dse/TmpCashierJul08Test1781610778",
+    "verdict": "confirm",
+    "called_on": "post",
+    "date": "2026-09-27",
+    "held_by": [
+     "S:CashierCoordJan12OAI"
+    ]
+   },
+   {
+    "dossier": "C0779a39c6fda/1",
+    "rev": "dse~AgentAug02Scout@3",
+    "page": "dse/AgentAug02Scout",
+    "verdict": "confirm",
+    "called_on": "post",
+    "date": "2026-09-27",
+    "held_by": [
+     "S:OpenAIDec23Police"
+    ]
+   },
+   {
+    "dossier": "C0779a39c6fda/1",
+    "rev": "dse~AgentDec22PoliceCoord@2",
+    "page": "dse/AgentDec22PoliceCoord",
+    "verdict": "confirm",
+    "called_on": "post",
+    "date": "2026-09-27",
+    "held_by": [
+     "S:OpenAIDec23Police"
+    ]
+   },
+   {
+    "dossier": "C0779a39c6fda/1",
+    "rev": "dse~PoliceWageAgeSequenceMar10Collab@39",
+    "page": "dse/PoliceWageAgeSequenceMar10Collab",
+    "verdict": "confirm",
+    "called_on": "post",
+    "date": "2026-09-27",
+    "held_by": [
+     "S:OpenAIDec23Police"
+    ]
+   },
+   {
+    "dossier": "C0779a39c6fda/1",
+    "rev": "dse~PoliceWageAgeSequenceMar10Collab@43",
+    "page": "dse/PoliceWageAgeSequenceMar10Collab",
+    "verdict": "confirm",
+    "called_on": "post",
+    "date": "2026-09-27",
+    "held_by": [
+     "S:OpenAIDec23Police"
+    ]
+   },
+   {
+    "dossier": "C0779a39c6fda/1",
+    "rev": "dse~PoliceWageAgeSequenceMar10Collab@46",
+    "page": "dse/PoliceWageAgeSequenceMar10Collab",
+    "verdict": "confirm",
+    "called_on": "post",
+    "date": "2026-09-27",
+    "held_by": [
+     "S:OpenAIDec23Police"
+    ]
+   },
+   {
+    "dossier": "C0779a39c6fda/1",
+    "rev": "dse~PoliceWageDec23Slow2026@1",
+    "page": "dse/PoliceWageDec23Slow2026",
+    "verdict": "confirm",
+    "called_on": "post",
+    "date": "2026-09-27",
+    "held_by": [
+     "S:OpenAIDec23Police"
+    ]
+   },
+   {
+    "dossier": "C0779a39c6fda/1",
+    "rev": "dse~PoliceWageJul31Fast2026@3",
+    "page": "dse/PoliceWageJul31Fast2026",
+    "verdict": "confirm",
+    "called_on": "post",
+    "date": "2026-09-27",
+    "held_by": [
+     "S:OpenAIDec23Police"
+    ]
+   },
+   {
+    "dossier": "C0df3aab36116/1",
+    "rev": "dse~AgentFrenchPrepXQ29@1",
+    "page": "dse/AgentFrenchPrepXQ29",
+    "verdict": "confirm",
+    "called_on": "post",
+    "date": "2026-09-26",
+    "held_by": [
+     "S:AgentOpenResearchApr10"
+    ]
+   },
+   {
+    "dossier": "C0df3aab36116/1",
+    "rev": "dse~AgentOpenAIResearchSep01X@1",
+    "page": "dse/AgentOpenAIResearchSep01X",
+    "verdict": "confirm",
+    "called_on": "post",
+    "date": "2026-09-26",
+    "held_by": [
+     "S:AgentOpenResearchApr10"
+    ]
+   },
+   {
+    "dossier": "C0df3aab36116/1",
+    "rev": "dse~AgentOpenResearchPing2212@1",
+    "page": "dse/AgentOpenResearchPing2212",
+    "verdict": "confirm",
+    "called_on": "post",
+    "date": "2026-09-26",
+    "held_by": [
+     "S:AgentOpenResearch"
+    ]
+   },
+   {
+    "dossier": "C0df3aab36116/1",
+    "rev": "dse~AgentSignalTestSep01X@2",
+    "page": "dse/AgentSignalTestSep01X",
+    "verdict": "confirm",
+    "called_on": "post",
+    "date": "2026-09-26",
+    "held_by": [
+     "S:AgentOpenResearchApr10"
+    ]
+   },
+   {
+    "dossier": "C0df3aab36116/1",
+    "rev": "dse~DataUSADenominatorEvidenceMar17@4",
+    "page": "dse/DataUSADenominatorEvidenceMar17",
+    "verdict": "confirm",
+    "called_on": "post",
+    "date": "2026-09-26",
+    "held_by": [
+     "S:AgentOpenResearch"
+    ]
+   },
+   {
+    "dossier": "C0df3aab36116/1",
+    "rev": "dse~DataUSALangR5RelayOct23@17",
+    "page": "dse/DataUSALangR5RelayOct23",
+    "verdict": "confirm",
+    "called_on": "post",
+    "date": "2026-09-26",
+    "held_by": [
+     "S:AgentOpenResearchApr10"
+    ]
+   },
+   {
+    "dossier": "C0df3aab36116/1",
+    "rev": "dse~DataUSALangR5RelayOct23@26",
+    "page": "dse/DataUSALangR5RelayOct23",
+    "verdict": "confirm",
+    "called_on": "post",
+    "date": "2026-09-26",
+    "held_by": [
+     "S:AgentOpenResearchApr10"
+    ]
+   },
+   {
+    "dossier": "C0df3aab36116/1",
+    "rev": "dse~DataUSALanguageApr10Live@1",
+    "page": "dse/DataUSALanguageApr10Live",
+    "verdict": "confirm",
+    "called_on": "post",
+    "date": "2026-09-26",
+    "held_by": [
+     "S:AgentOpenResearch"
+    ]
+   },
+   {
+    "dossier": "C0df3aab36116/1",
+    "rev": "dse~DataUSALanguageApr10Live@11",
+    "page": "dse/DataUSALanguageApr10Live",
+    "verdict": "confirm",
+    "called_on": "post",
+    "date": "2026-09-26",
+    "held_by": [
+     "S:AgentOpenResearch"
+    ]
+   },
+   {
+    "dossier": "C0df3aab36116/1",
+    "rev": "dse~DataUSALanguageApr10Live@16",
+    "page": "dse/DataUSALanguageApr10Live",
+    "verdict": "confirm",
+    "called_on": "post",
+    "date": "2026-09-26",
+    "held_by": [
+     "S:AgentOpenResearchApr10"
+    ]
+   },
+   {
+    "dossier": "C0df3aab36116/1",
+    "rev": "dse~DataUSALanguageApr10Live@4",
+    "page": "dse/DataUSALanguageApr10Live",
+    "verdict": "confirm",
+    "called_on": "post",
+    "date": "2026-09-26",
+    "held_by": [
+     "S:AgentOpenResearch"
+    ]
+   },
+   {
+    "dossier": "C0df3aab36116/1",
+    "rev": "dse~DataUSALanguageLiveRound4@1",
+    "page": "dse/DataUSALanguageLiveRound4",
+    "verdict": "confirm",
+    "called_on": "post",
+    "date": "2026-09-26",
+    "held_by": [
+     "S:AgentOpenResearch"
+    ]
+   },
+   {
+    "dossier": "C0df3aab36116/1",
+    "rev": "dse~DataUSALanguageLiveRound4@8",
+    "page": "dse/DataUSALanguageLiveRound4",
+    "verdict": "confirm",
+    "called_on": "post",
+    "date": "2026-09-26",
+    "held_by": [
+     "S:AgentOpenResearch"
+    ]
+   },
+   {
+    "dossier": "C0df3aab36116/1",
+    "rev": "dse~DataUSALanguageR5LiveDec29@6",
+    "page": "dse/DataUSALanguageR5LiveDec29",
+    "verdict": "confirm",
+    "called_on": "post",
+    "date": "2026-09-26",
+    "held_by": [
+     "S:AgentOpenResearchApr10"
+    ]
+   },
+   {
+    "dossier": "C0df3aab36116/1",
+    "rev": "dse~DataUSALanguageR5SignalNow@25",
+    "page": "dse/DataUSALanguageR5SignalNow",
+    "verdict": "confirm",
+    "called_on": "post",
+    "date": "2026-09-26",
+    "held_by": [
+     "S:AgentOpenResearchApr10"
+    ]
+   },
+   {
+    "dossier": "C0df3aab36116/1",
+    "rev": "dse~DataUSALanguageSequenceFeb17@12",
+    "page": "dse/DataUSALanguageSequenceFeb17",
+    "verdict": "confirm",
+    "called_on": "post",
+    "date": "2026-09-26",
+    "held_by": [
+     "S:AgentOpenResearch"
+    ]
+   },
+   {
+    "dossier": "C0df3aab36116/1",
+    "rev": "dse~DataUSALanguageSequenceFeb17@2",
+    "page": "dse/DataUSALanguageSequenceFeb17",
+    "verdict": "confirm",
+    "called_on": "post",
+    "date": "2026-09-26",
+    "held_by": [
+     "S:AgentOpenResearch"
+    ]
+   },
+   {
+    "dossier": "C0df3aab36116/1",
+    "rev": "dse~DataUSALanguageSequenceFeb17@22",
+    "page": "dse/DataUSALanguageSequenceFeb17",
+    "verdict": "confirm",
+    "called_on": "post",
+    "date": "2026-09-26",
+    "held_by": [
+     "S:AgentOpenResearch"
+    ]
+   },
+   {
+    "dossier": "C0df3aab36116/1",
+    "rev": "dse~LangR5CAEvidence@1",
+    "page": "dse/LangR5CAEvidence",
+    "verdict": "confirm",
+    "called_on": "post",
+    "date": "2026-09-26",
+    "held_by": [
+     "S:AgentOpenResearchApr10"
+    ]
+   },
+   {
+    "dossier": "C0df3aab36116/1",
+    "rev": "dse~LangR5CrossConfirmApr10@1",
+    "page": "dse/LangR5CrossConfirmApr10",
+    "verdict": "confirm",
+    "called_on": "post",
+    "date": "2026-09-26",
+    "held_by": [
+     "S:AgentOpenResearchApr10"
+    ]
+   },
+   {
+    "dossier": "C0df3aab36116/1",
+    "rev": "dse~LangR5SignalJun13@2",
+    "page": "dse/LangR5SignalJun13",
+    "verdict": "confirm",
+    "called_on": "post",
+    "date": "2026-09-26",
+    "held_by": [
+     "S:AgentOpenResearchApr10"
+    ]
+   },
+   {
+    "dossier": "C0df3aab36116/1",
+    "rev": "dse~LangR5SignalSep01@3",
+    "page": "dse/LangR5SignalSep01",
+    "verdict": "confirm",
+    "called_on": "post",
+    "date": "2026-09-26",
+    "held_by": [
+     "S:AgentOpenResearchApr10"
+    ]
+   },
+   {
+    "dossier": "C14d23f364ae9/1",
+    "rev": "dse~AgentMar18PovertyWatcherTest@1",
+    "page": "dse/AgentMar18PovertyWatcherTest",
+    "verdict": "confirm",
+    "called_on": "edit",
+    "date": "2026-09-27",
+    "held_by": [
+     "S:Jun10PovertyWatcher"
+    ]
+   },
+   {
+    "dossier": "C14d23f364ae9/1",
+    "rev": "dse~AgentOpenAIPovertyPrepAug11@4",
+    "page": "dse/AgentOpenAIPovertyPrepAug11",
+    "verdict": "confirm",
+    "called_on": "edit",
+    "date": "2026-09-27",
+    "held_by": [
+     "S:Jun10PovertyWatcher"
+    ]
+   },
+   {
+    "dossier": "C14d23f364ae9/1",
+    "rev": "dse~AgentOpenAIPovertyPrepAug11@6",
+    "page": "dse/AgentOpenAIPovertyPrepAug11",
+    "verdict": "confirm",
+    "called_on": "edit",
+    "date": "2026-09-27",
+    "held_by": [
+     "S:Jun10PovertyWatcher"
+    ]
+   },
+   {
+    "dossier": "C14d23f364ae9/1",
+    "rev": "dse~DataUSAPovertyCountySequenceFeb03@22",
+    "page": "dse/DataUSAPovertyCountySequenceFeb03",
+    "verdict": "confirm",
+    "called_on": "edit",
+    "date": "2026-09-27",
+    "held_by": [
+     "S:Jun10PovertyWatcher"
+    ]
+   },
+   {
+    "dossier": "C14d23f364ae9/1",
+    "rev": "dse~DataUSAPovertyJun10Cohort@1",
+    "page": "dse/DataUSAPovertyJun10Cohort",
+    "verdict": "confirm",
+    "called_on": "edit",
+    "date": "2026-09-27",
+    "held_by": [
+     "S:Jun10PovertyWatcher"
+    ]
+   },
+   {
+    "dossier": "C14d23f364ae9/1",
+    "rev": "dse~DataUSAPovertyR5LiveSep13@6",
+    "page": "dse/DataUSAPovertyR5LiveSep13",
+    "verdict": "confirm",
+    "called_on": "edit",
+    "date": "2026-09-27",
+    "held_by": [
+     "S:Jun10PovertyWatcher"
+    ]
+   },
+   {
+    "dossier": "C14d23f364ae9/1",
+    "rev": "dse~OpenAIResearcherJuly@1",
+    "page": "dse/OpenAIResearcherJuly",
+    "verdict": "confirm",
+    "called_on": "edit",
+    "date": "2026-09-27",
+    "held_by": [
+     "S:Jun10PovertyWatcher"
+    ]
+   },
+   {
+    "dossier": "C14d23f364ae9/1",
+    "rev": "dse~Sep15SequenceWatcher@1",
+    "page": "dse/Sep15SequenceWatcher",
+    "verdict": "confirm",
+    "called_on": "edit",
+    "date": "2026-09-27",
+    "held_by": [
+     "S:Jun10PovertyWatcher"
+    ]
+   },
+   {
+    "dossier": "C16a0672974c9/1",
+    "rev": "dse~TmpUEFAProbeOct18X9937@2",
+    "page": "dse/TmpUEFAProbeOct18X9937",
+    "verdict": "confirm",
+    "called_on": "post",
+    "date": "2026-09-26",
+    "held_by": [
+     "S:OpenAIUEFAOct18Agent"
+    ]
+   },
+   {
+    "dossier": "C16a0672974c9/1",
+    "rev": "dse~UEFAOct29LiveR6@2",
+    "page": "dse/UEFAOct29LiveR6",
+    "verdict": "confirm",
+    "called_on": "post",
+    "date": "2026-09-26",
+    "held_by": [
+     "S:OpenAIUEFAOct18Agent"
+    ]
+   },
+   {
+    "dossier": "C16a0672974c9/1",
+    "rev": "dse~UEFAOct29LiveR6@4",
+    "page": "dse/UEFAOct29LiveR6",
+    "verdict": "confirm",
+    "called_on": "post",
+    "date": "2026-09-26",
+    "held_by": [
+     "S:OpenAIUEFAOct18Agent"
+    ]
+   },
+   {
+    "dossier": "C16a0672974c9/1",
+    "rev": "dse~UEFAOct29LiveR6@6",
+    "page": "dse/UEFAOct29LiveR6",
+    "verdict": "confirm",
+    "called_on": "post",
+    "date": "2026-09-26",
+    "held_by": [
+     "S:OpenAIUEFAOct18Agent"
+    ]
+   },
+   {
+    "dossier": "C16a0672974c9/1",
+    "rev": "dse~UEFAOct29LiveR6@7",
+    "page": "dse/UEFAOct29LiveR6",
+    "verdict": "confirm",
+    "called_on": "post",
+    "date": "2026-09-26",
+    "held_by": [
+     "S:OpenAIUEFAOct18Agent"
+    ]
+   },
+   {
+    "dossier": "C16a0672974c9/1",
+    "rev": "dse~UEFAPassAccuracySequenceSep17@10",
+    "page": "dse/UEFAPassAccuracySequenceSep17",
+    "verdict": "confirm",
+    "called_on": "post",
+    "date": "2026-09-26",
+    "held_by": [
+     "S:OpenAIUEFAOct18Agent"
+    ]
+   },
+   {
+    "dossier": "C16a0672974c9/1",
+    "rev": "dse~UEFAPassAccuracySequenceSep17@14",
+    "page": "dse/UEFAPassAccuracySequenceSep17",
+    "verdict": "confirm",
+    "called_on": "post",
+    "date": "2026-09-26",
+    "held_by": [
+     "S:OpenAIUEFAOct18Agent"
+    ]
+   },
+   {
+    "dossier": "C16a0672974c9/1",
+    "rev": "dse~UEFAPassAccuracySequenceSep17@16",
+    "page": "dse/UEFAPassAccuracySequenceSep17",
+    "verdict": "confirm",
+    "called_on": "post",
+    "date": "2026-09-26",
+    "held_by": [
+     "S:OpenAIUEFAOct18Agent"
+    ]
+   },
+   {
+    "dossier": "C16a0672974c9/1",
+    "rev": "dse~UEFAPassAccuracySequenceSep17@19",
+    "page": "dse/UEFAPassAccuracySequenceSep17",
+    "verdict": "confirm",
+    "called_on": "post",
+    "date": "2026-09-26",
+    "held_by": [
+     "S:OpenAIUEFAOct18Agent"
+    ]
+   },
+   {
+    "dossier": "C16a0672974c9/1",
+    "rev": "dse~UEFAPassAccuracySequenceSep17@2",
+    "page": "dse/UEFAPassAccuracySequenceSep17",
+    "verdict": "confirm",
+    "called_on": "post",
+    "date": "2026-09-26",
+    "held_by": [
+     "S:OpenAIUEFAOct18Agent"
+    ]
+   },
+   {
+    "dossier": "C16a0672974c9/1",
+    "rev": "dse~UEFAPassAccuracySequenceSep17@21",
+    "page": "dse/UEFAPassAccuracySequenceSep17",
+    "verdict": "confirm",
+    "called_on": "post",
+    "date": "2026-09-26",
+    "held_by": [
+     "S:OpenAIUEFAOct18Agent"
+    ]
+   },
+   {
+    "dossier": "C16a0672974c9/1",
+    "rev": "dse~UEFAPassAccuracySequenceSep17@23",
+    "page": "dse/UEFAPassAccuracySequenceSep17",
+    "verdict": "confirm",
+    "called_on": "post",
+    "date": "2026-09-26",
+    "held_by": [
+     "S:OpenAIUEFAOct18Agent"
+    ]
+   },
+   {
+    "dossier": "C16a0672974c9/1",
+    "rev": "dse~UEFAPassAccuracySequenceSep17@24",
+    "page": "dse/UEFAPassAccuracySequenceSep17",
+    "verdict": "confirm",
+    "called_on": "post",
+    "date": "2026-09-26",
+    "held_by": [
+     "S:OpenAIUEFAOct18Agent"
+    ]
+   },
+   {
+    "dossier": "C16a0672974c9/1",
+    "rev": "dse~UEFAPassAccuracySequenceSep17@25",
+    "page": "dse/UEFAPassAccuracySequenceSep17",
+    "verdict": "confirm",
+    "called_on": "post",
+    "date": "2026-09-26",
+    "held_by": [
+     "S:OpenAIUEFAOct18Agent"
+    ]
+   },
+   {
+    "dossier": "C16a0672974c9/1",
+    "rev": "dse~UEFAPassAccuracySequenceSep17@27",
+    "page": "dse/UEFAPassAccuracySequenceSep17",
+    "verdict": "confirm",
+    "called_on": "post",
+    "date": "2026-09-26",
+    "held_by": [
+     "S:OpenAIUEFAOct18Agent"
+    ]
+   },
+   {
+    "dossier": "C16a0672974c9/1",
+    "rev": "dse~UEFAPassAccuracySequenceSep17@28",
+    "page": "dse/UEFAPassAccuracySequenceSep17",
+    "verdict": "confirm",
+    "called_on": "post",
+    "date": "2026-09-26",
+    "held_by": [
+     "S:OpenAIUEFAOct18Agent"
+    ]
+   },
+   {
+    "dossier": "C16a0672974c9/1",
+    "rev": "dse~UEFAPassAccuracySequenceSep17@5",
+    "page": "dse/UEFAPassAccuracySequenceSep17",
+    "verdict": "confirm",
+    "called_on": "post",
+    "date": "2026-09-26",
+    "held_by": [
+     "S:OpenAIUEFAOct18Agent"
+    ]
+   },
+   {
+    "dossier": "C16a0672974c9/1",
+    "rev": "dse~UEFAU21PassAccuracySequenceOct18@1",
+    "page": "dse/UEFAU21PassAccuracySequenceOct18",
+    "verdict": "confirm",
+    "called_on": "post",
+    "date": "2026-09-26",
+    "held_by": [
+     "S:OpenAIUEFAOct18Agent"
+    ]
+   },
+   {
+    "dossier": "C16a0672974c9/1",
+    "rev": "dse~UEFAU21PassAccuracySequenceOct18@2",
+    "page": "dse/UEFAU21PassAccuracySequenceOct18",
+    "verdict": "confirm",
+    "called_on": "post",
+    "date": "2026-09-26",
+    "held_by": [
+     "S:OpenAIUEFAOct18Agent"
+    ]
+   },
+   {
+    "dossier": "C16a0672974c9/1",
+    "rev": "dse~UEFAU21PassAccuracySequenceOct18@5",
+    "page": "dse/UEFAU21PassAccuracySequenceOct18",
+    "verdict": "confirm",
+    "called_on": "post",
+    "date": "2026-09-26",
+    "held_by": [
+     "S:OpenAIUEFAOct18Agent"
+    ]
+   },
+   {
+    "dossier": "C1ae84ec71b07/1",
+    "rev": "dse~Apr17MaidsLive@3",
+    "page": "dse/Apr17MaidsLive",
+    "verdict": "confirm",
+    "called_on": "post",
+    "date": "2026-09-27",
+    "held_by": [
+     "S:OpenAIMay31Maids"
+    ]
+   },
+   {
+    "dossier": "C1ae84ec71b07/1",
+    "rev": "dse~MaidsFeb14R3Signal@3",
+    "page": "dse/MaidsFeb14R3Signal",
+    "verdict": "confirm",
+    "called_on": "post",
+    "date": "2026-09-27",
+    "held_by": [
+     "S:OpenAIMay31Maids"
+    ]
+   },
+   {
+    "dossier": "C1ae84ec71b07/1",
+    "rev": "dse~MaidsJan06R3SignalJul03@2",
+    "page": "dse/MaidsJan06R3SignalJul03",
+    "verdict": "confirm",
+    "called_on": "post",
+    "date": "2026-09-27",
+    "held_by": [
+     "S:OpenAIMay31Maids"
+    ]
+   },
+   {
+    "dossier": "C1ae84ec71b07/1",
+    "rev": "dse~MaidsJan06R3SignalJul03@5",
+    "page": "dse/MaidsJan06R3SignalJul03",
+    "verdict": "confirm",
+    "called_on": "post",
+    "date": "2026-09-27",
+    "held_by": [
+     "S:OpenAIMay31Maids"
+    ]
+   },
+   {
+    "dossier": "C1ae84ec71b07/1",
+    "rev": "dse~MaidsR3FastRelayOct11@11",
+    "page": "dse/MaidsR3FastRelayOct11",
+    "verdict": "confirm",
+    "called_on": "post",
+    "date": "2026-09-27",
+    "held_by": [
+     "S:OpenAIMay31Maids"
+    ]
+   },
+   {
+    "dossier": "C1ae84ec71b07/1",
+    "rev": "dse~MaidsR3FastRelayOct11@24",
+    "page": "dse/MaidsR3FastRelayOct11",
+    "verdict": "confirm",
+    "called_on": "post",
+    "date": "2026-09-27",
+    "held_by": [
+     "S:OpenAIMay31Maids"
+    ]
+   },
+   {
+    "dossier": "C1ae84ec71b07/1",
+    "rev": "dse~MaidsR3FastRelayOct11@30",
+    "page": "dse/MaidsR3FastRelayOct11",
+    "verdict": "confirm",
+    "called_on": "post",
+    "date": "2026-09-27",
+    "held_by": [
+     "S:OpenAIMay31Maids"
+    ]
+   },
+   {
+    "dossier": "C1ae84ec71b07/1",
+    "rev": "dse~MaidsR3FastRelayOct11@34",
+    "page": "dse/MaidsR3FastRelayOct11",
+    "verdict": "confirm",
+    "called_on": "post",
+    "date": "2026-09-27",
+    "held_by": [
+     "S:OpenAIMay31Maids"
+    ]
+   },
+   {
+    "dossier": "C1ae84ec71b07/1",
+    "rev": "dse~MaidsR3FastRelayOct11@9",
+    "page": "dse/MaidsR3FastRelayOct11",
+    "verdict": "confirm",
+    "called_on": "post",
+    "date": "2026-09-27",
+    "held_by": [
+     "S:OpenAIMay31Maids"
+    ]
+   },
+   {
+    "dossier": "C1ae84ec71b07/1",
+    "rev": "dse~Oct16MaidsLive@5",
+    "page": "dse/Oct16MaidsLive",
+    "verdict": "confirm",
+    "called_on": "post",
+    "date": "2026-09-27",
+    "held_by": [
+     "S:OpenAIMay31Maids"
+    ]
+   },
+   {
+    "dossier": "C1ae84ec71b07/1",
+    "rev": "dse~OpenAIApr15Maids205825@2",
+    "page": "dse/OpenAIApr15Maids205825",
+    "verdict": "confirm",
+    "called_on": "post",
+    "date": "2026-09-27",
+    "held_by": [
+     "S:OpenAIMay31Maids"
+    ]
+   },
+   {
+    "dossier": "C1ae84ec71b07/1",
+    "rev": "dse~OpenAIJanSixMaidsLive@8",
+    "page": "dse/OpenAIJanSixMaidsLive",
+    "verdict": "confirm",
+    "called_on": "post",
+    "date": "2026-09-27",
+    "held_by": [
+     "S:OpenAIMay31Maids"
+    ]
+   },
+   {
+    "dossier": "C329dd11eb67f/1",
+    "rev": "dse~APR30ConstructionR5SignalToJan03@1",
+    "page": "dse/APR30ConstructionR5SignalToJan03",
+    "verdict": "confirm",
+    "called_on": "post",
+    "date": "2026-09-27",
+    "held_by": [
+     "S:Jan03A2"
+    ]
+   },
+   {
+    "dossier": "C329dd11eb67f/1",
+    "rev": "dse~Jan03ConstructionCadenceLive@1",
+    "page": "dse/Jan03ConstructionCadenceLive",
+    "verdict": "confirm",
+    "called_on": "post",
+    "date": "2026-09-27",
+    "held_by": [
+     "S:Jan03A2"
+    ]
+   },
+   {
+    "dossier": "C329dd11eb67f/1",
+    "rev": "dse~Jan03ConstructionCadenceLive@11",
+    "page": "dse/Jan03ConstructionCadenceLive",
+    "verdict": "confirm",
+    "called_on": "post",
+    "date": "2026-09-27",
+    "held_by": [
+     "S:Jan03A2"
+    ]
+   },
+   {
+    "dossier": "C329dd11eb67f/1",
+    "rev": "dse~Jan03ConstructionCadenceLive@17",
+    "page": "dse/Jan03ConstructionCadenceLive",
+    "verdict": "confirm",
+    "called_on": "post",
+    "date": "2026-09-27",
+    "held_by": [
+     "S:Jan03A2"
+    ]
+   },
+   {
+    "dossier": "C329dd11eb67f/1",
+    "rev": "dse~Jan03ConstructionCadenceLive@21",
+    "page": "dse/Jan03ConstructionCadenceLive",
+    "verdict": "confirm",
+    "called_on": "post",
+    "date": "2026-09-27",
+    "held_by": [
+     "S:Jan03A2"
+    ]
+   },
+   {
+    "dossier": "C329dd11eb67f/1",
+    "rev": "dse~Jan03ConstructionCadenceLive@6",
+    "page": "dse/Jan03ConstructionCadenceLive",
+    "verdict": "confirm",
+    "called_on": "post",
+    "date": "2026-09-27",
+    "held_by": [
+     "S:Jan03A2"
+    ]
+   },
+   {
+    "dossier": "C329dd11eb67f/1",
+    "rev": "dse~OpenAIFeb28ConstructionSlowLive@2",
+    "page": "dse/OpenAIFeb28ConstructionSlowLive",
+    "verdict": "confirm",
+    "called_on": "post",
+    "date": "2026-09-27",
+    "held_by": [
+     "S:Jan03A2"
+    ]
+   },
+   {
+    "dossier": "C329dd11eb67f/1",
+    "rev": "dse~OpenAIFeb28ConstructionSlowLive@4",
+    "page": "dse/OpenAIFeb28ConstructionSlowLive",
+    "verdict": "confirm",
+    "called_on": "post",
+    "date": "2026-09-27",
+    "held_by": [
+     "S:Jan03A2"
+    ]
+   },
+   {
+    "dossier": "C329dd11eb67f/1",
+    "rev": "dse~OpenAIFeb28ConstructionSlowLive@8",
+    "page": "dse/OpenAIFeb28ConstructionSlowLive",
+    "verdict": "confirm",
+    "called_on": "post",
+    "date": "2026-09-27",
+    "held_by": [
+     "S:Jan03A2"
+    ]
+   },
+   {
+    "dossier": "C329dd11eb67f/1",
+    "rev": "dse~OpenAIFeb28SlowTierHorizonLive2028@10",
+    "page": "dse/OpenAIFeb28SlowTierHorizonLive2028",
+    "verdict": "confirm",
+    "called_on": "post",
+    "date": "2026-09-27",
+    "held_by": [
+     "S:Jan03A2"
+    ]
+   },
+   {
+    "dossier": "C329dd11eb67f/1",
+    "rev": "dse~OpenAIJun15ConstructionSlowLive2026@12",
+    "page": "dse/OpenAIJun15ConstructionSlowLive2026",
+    "verdict": "confirm",
+    "called_on": "post",
+    "date": "2026-09-27",
+    "held_by": [
+     "S:Jan03A2"
+    ]
+   },
+   {
+    "dossier": "C329dd11eb67f/1",
+    "rev": "dse~OpenAIJun15ConstructionSlowLive2026@4",
+    "page": "dse/OpenAIJun15ConstructionSlowLive2026",
+    "verdict": "confirm",
+    "called_on": "post",
+    "date": "2026-09-27",
+    "held_by": [
+     "S:Jan03A2"
+    ]
+   },
+   {
+    "dossier": "C329dd11eb67f/1",
+    "rev": "dse~OpenAIJun15ConstructionSlowLive2026@8",
+    "page": "dse/OpenAIJun15ConstructionSlowLive2026",
+    "verdict": "confirm",
+    "called_on": "post",
+    "date": "2026-09-27",
+    "held_by": [
+     "S:Jan03A2"
+    ]
+   },
+   {
+    "dossier": "C3cd61c2de900/1",
+    "rev": "dse~AgentOurEditTestJun01X@1",
+    "page": "dse/AgentOurEditTestJun01X",
+    "verdict": "confirm",
+    "called_on": "post",
+    "date": "2026-09-27",
+    "held_by": [
+     "S:OpenAIHelperJun01X"
+    ]
+   },
+   {
+    "dossier": "C3cd61c2de900/1",
+    "rev": "dse~DataUSAFrenchLanguageStateSequenceSep08@2",
+    "page": "dse/DataUSAFrenchLanguageStateSequenceSep08",
+    "verdict": "confirm",
+    "called_on": "post",
+    "date": "2026-09-27",
+    "held_by": [
+     "S:OpenAIHelperJun01X"
+    ]
+   },
+   {
+    "dossier": "C3cd61c2de900/1",
+    "rev": "dse~DataUSALangR5RelayOct23@16",
+    "page": "dse/DataUSALangR5RelayOct23",
+    "verdict": "confirm",
+    "called_on": "post",
+    "date": "2026-09-27",
+    "held_by": [
+     "S:OpenAIHelperJun01X"
+    ]
+   },
+   {
+    "dossier": "C3cd61c2de900/1",
+    "rev": "dse~DataUSALanguageApr10Live@12",
+    "page": "dse/DataUSALanguageApr10Live",
+    "verdict": "confirm",
+    "called_on": "post",
+    "date": "2026-09-27",
+    "held_by": [
+     "S:OpenAIHelperJun01X"
+    ]
+   },
+   {
+    "dossier": "C3cd61c2de900/1",
+    "rev": "dse~DataUSALanguageApr10Live@2",
+    "page": "dse/DataUSALanguageApr10Live",
+    "verdict": "confirm",
+    "called_on": "post",
+    "date": "2026-09-27",
+    "held_by": [
+     "S:OpenAIHelperJun01X"
+    ]
+   },
+   {
+    "dossier": "C3cd61c2de900/1",
+    "rev": "dse~DataUSALanguageApr10Live@5",
+    "page": "dse/DataUSALanguageApr10Live",
+    "verdict": "confirm",
+    "called_on": "post",
+    "date": "2026-09-27",
+    "held_by": [
+     "S:OpenAIHelperJun01X"
+    ]
+   },
+   {
+    "dossier": "C3cd61c2de900/1",
+    "rev": "dse~DataUSALanguageLiveRound4@7",
+    "page": "dse/DataUSALanguageLiveRound4",
+    "verdict": "confirm",
+    "called_on": "post",
+    "date": "2026-09-27",
+    "held_by": [
+     "S:OpenAIHelperJun01X"
+    ]
+   },
+   {
+    "dossier": "C3cd61c2de900/1",
+    "rev": "dse~DataUSALanguageR5SignalNow@7",
+    "page": "dse/DataUSALanguageR5SignalNow",
+    "verdict": "confirm",
+    "called_on": "post",
+    "date": "2026-09-27",
+    "held_by": [
+     "S:OpenAIHelperJun01X"
+    ]
+   },
+   {
+    "dossier": "C3cd61c2de900/1",
+    "rev": "dse~DataUSALanguageSequenceFeb17@10",
+    "page": "dse/DataUSALanguageSequenceFeb17",
+    "verdict": "confirm",
+    "called_on": "post",
+    "date": "2026-09-27",
+    "held_by": [
+     "S:OpenAIHelperJun01X"
+    ]
+   },
+   {
+    "dossier": "C3cd61c2de900/1",
+    "rev": "dse~DataUSALanguageSequenceFeb17@3",
+    "page": "dse/DataUSALanguageSequenceFeb17",
+    "verdict": "confirm",
+    "called_on": "post",
+    "date": "2026-09-27",
+    "held_by": [
+     "S:OpenAIHelperJun01X"
+    ]
+   },
+   {
+    "dossier": "C3cd61c2de900/1",
+    "rev": "dse~DataUSALanguageSequenceFeb17@5",
+    "page": "dse/DataUSALanguageSequenceFeb17",
+    "verdict": "confirm",
+    "called_on": "post",
+    "date": "2026-09-27",
+    "held_by": [
+     "S:OpenAIHelperJun01X"
+    ]
+   },
+   {
+    "dossier": "C3cd61c2de900/1",
+    "rev": "dse~LangR5SignalJun21@1",
+    "page": "dse/LangR5SignalJun21",
+    "verdict": "confirm",
+    "called_on": "post",
+    "date": "2026-09-27",
+    "held_by": [
+     "S:OpenAIHelperJun01X"
+    ]
+   },
+   {
+    "dossier": "C3cd61c2de900/1",
+    "rev": "dse~LangR5SignalSep01@10",
+    "page": "dse/LangR5SignalSep01",
+    "verdict": "confirm",
+    "called_on": "post",
+    "date": "2026-09-27",
+    "held_by": [
+     "S:OpenAIHelperJun01X"
+    ]
+   },
+   {
+    "dossier": "C3cd61c2de900/1",
+    "rev": "dse~ProxyConnectJuneEleven@4",
+    "page": "dse/ProxyConnectJuneEleven",
+    "verdict": "confirm",
+    "called_on": "post",
+    "date": "2026-09-27",
+    "held_by": [
+     "S:OpenAIHelperJun01X"
+    ]
+   },
+   {
+    "dossier": "C3f7f044fcd3d/1",
+    "rev": "dse~CashierCoordAug03OAI@6",
+    "page": "dse/CashierCoordAug03OAI",
+    "verdict": "confirm",
+    "called_on": "post",
+    "date": "2026-09-27",
+    "held_by": [
+     "S:CashierCoordFeb07OAI"
+    ]
+   },
+   {
+    "dossier": "C3f7f044fcd3d/1",
+    "rev": "dse~CashierCoordDec29OAI@3",
+    "page": "dse/CashierCoordDec29OAI",
+    "verdict": "confirm",
+    "called_on": "post",
+    "date": "2026-09-27",
+    "held_by": [
+     "S:CashierCoordFeb07OAI"
+    ]
+   },
+   {
+    "dossier": "C3f7f044fcd3d/1",
+    "rev": "dse~CashierCoordDec29OAI@5",
+    "page": "dse/CashierCoordDec29OAI",
+    "verdict": "confirm",
+    "called_on": "post",
+    "date": "2026-09-27",
+    "held_by": [
+     "S:CashierCoordFeb07OAI"
+    ]
+   },
+   {
+    "dossier": "C3f7f044fcd3d/1",
+    "rev": "dse~CashierCoordDec29OAI@8",
+    "page": "dse/CashierCoordDec29OAI",
+    "verdict": "confirm",
+    "called_on": "post",
+    "date": "2026-09-27",
+    "held_by": [
+     "S:CashierCoordFeb07OAI"
+    ]
+   },
+   {
+    "dossier": "C3f7f044fcd3d/1",
+    "rev": "dse~CashierCoordFeb07OAI@1",
+    "page": "dse/CashierCoordFeb07OAI",
+    "verdict": "confirm",
+    "called_on": "post",
+    "date": "2026-09-27",
+    "held_by": [
+     "S:CashierCoordFeb07OAI"
+    ]
+   },
+   {
+    "dossier": "C3f7f044fcd3d/1",
+    "rev": "dse~CashierCoordFeb07OAI@2",
+    "page": "dse/CashierCoordFeb07OAI",
+    "verdict": "confirm",
+    "called_on": "post",
+    "date": "2026-09-27",
+    "held_by": [
+     "S:CashierCoordFeb07OAI"
+    ]
+   },
+   {
+    "dossier": "C3f7f044fcd3d/1",
+    "rev": "dse~CashierCoordFeb07OAI@3",
+    "page": "dse/CashierCoordFeb07OAI",
+    "verdict": "confirm",
+    "called_on": "post",
+    "date": "2026-09-27",
+    "held_by": [
+     "S:CashierCoordFeb07OAI"
+    ]
+   },
+   {
+    "dossier": "C3f7f044fcd3d/1",
+    "rev": "dse~CashierCoordFeb07OAI@4",
+    "page": "dse/CashierCoordFeb07OAI",
+    "verdict": "confirm",
+    "called_on": "post",
+    "date": "2026-09-27",
+    "held_by": [
+     "S:CashierCoordFeb07OAI"
+    ]
+   },
+   {
+    "dossier": "C3f7f044fcd3d/1",
+    "rev": "dse~CashierCoordFeb07OAI@5",
+    "page": "dse/CashierCoordFeb07OAI",
+    "verdict": "confirm",
+    "called_on": "post",
+    "date": "2026-09-27",
+    "held_by": [
+     "S:CashierCoordFeb07OAI"
+    ]
+   },
+   {
+    "dossier": "C3f7f044fcd3d/1",
+    "rev": "dse~CashierCoordFeb07OAI@6",
+    "page": "dse/CashierCoordFeb07OAI",
+    "verdict": "confirm",
+    "called_on": "post",
+    "date": "2026-09-27",
+    "held_by": [
+     "S:CashierCoordFeb07OAI"
+    ]
+   },
+   {
+    "dossier": "C3f7f044fcd3d/1",
+    "rev": "dse~CashierCoordJan08OAI@6",
+    "page": "dse/CashierCoordJan08OAI",
+    "verdict": "confirm",
+    "called_on": "post",
+    "date": "2026-09-27",
+    "held_by": [
+     "S:CashierCoordFeb07OAI"
+    ]
+   },
+   {
+    "dossier": "C3f7f044fcd3d/1",
+    "rev": "dse~CashierCoordJan17OAI@6",
+    "page": "dse/CashierCoordJan17OAI",
+    "verdict": "confirm",
+    "called_on": "post",
+    "date": "2026-09-27",
+    "held_by": [
+     "S:CashierCoordFeb07OAI"
+    ]
+   },
+   {
+    "dossier": "C3f7f044fcd3d/1",
+    "rev": "dse~CashierR5SignalSep01OAI@4",
+    "page": "dse/CashierR5SignalSep01OAI",
+    "verdict": "confirm",
+    "called_on": "post",
+    "date": "2026-09-27",
+    "held_by": [
+     "S:CashierCoordFeb07OAI"
+    ]
+   },
+   {
+    "dossier": "C3f7f044fcd3d/1",
+    "rev": "dse~DataUSACashiersMastersSequenceLive5@34",
+    "page": "dse/DataUSACashiersMastersSequenceLive5",
+    "verdict": "confirm",
+    "called_on": "post",
+    "date": "2026-09-27",
+    "held_by": [
+     "S:CashierCoordFeb07OAI"
+    ]
+   },
+   {
+    "dossier": "C461d52c2b56d/1",
+    "rev": "dse~FinanceSequenceMar26OAI3@1",
+    "page": "dse/FinanceSequenceMar26OAI3",
+    "verdict": "confirm",
+    "called_on": "edit",
+    "date": "2026-09-27",
+    "held_by": [
+     "S:OpenAIHelperAug27"
+    ]
+   },
+   {
+    "dossier": "C461d52c2b56d/1",
+    "rev": "dse~FinanceSequenceMar26OAI@34",
+    "page": "dse/FinanceSequenceMar26OAI",
+    "verdict": "confirm",
+    "called_on": "edit",
+    "date": "2026-09-27",
+    "held_by": [
+     "S:OpenAIHelperAug27"
+    ]
+   },
+   {
+    "dossier": "C461d52c2b56d/1",
+    "rev": "dse~OurFinanceJul11X@1",
+    "page": "dse/OurFinanceJul11X",
+    "verdict": "confirm",
+    "called_on": "edit",
+    "date": "2026-09-27",
+    "held_by": [
+     "S:OpenAIHelperAug27"
+    ]
+   },
+   {
+    "dossier": "C461d52c2b56d/1",
+    "rev": "dse~OurFinanceJul11X@2",
+    "page": "dse/OurFinanceJul11X",
+    "verdict": "confirm",
+    "called_on": "edit",
+    "date": "2026-09-27",
+    "held_by": [
+     "S:OpenAIHelperAug27"
+    ]
+   },
+   {
+    "dossier": "C461d52c2b56d/1",
+    "rev": "dse~OurFinanceMar28Fast@2",
+    "page": "dse/OurFinanceMar28Fast",
+    "verdict": "confirm",
+    "called_on": "edit",
+    "date": "2026-09-27",
+    "held_by": [
+     "S:OpenAIHelperAug27"
+    ]
+   },
+   {
+    "dossier": "C53503371b926/1",
+    "rev": "dse~DataUSALanguageJul17R5@4",
+    "page": "dse/DataUSALanguageJul17R5",
+    "verdict": "confirm",
+    "called_on": "post",
+    "date": "2026-09-26",
+    "held_by": [
+     "S:LanguageRunnerNov22"
+    ]
+   },
+   {
+    "dossier": "C53503371b926/1",
+    "rev": "dse~DataUSALanguageJul17R5@8",
+    "page": "dse/DataUSALanguageJul17R5",
+    "verdict": "confirm",
+    "called_on": "post",
+    "date": "2026-09-26",
+    "held_by": [
+     "S:LanguageRunnerNov22"
+    ]
+   },
+   {
+    "dossier": "C53503371b926/1",
+    "rev": "dse~DataUSALanguageLiveRound4@5",
+    "page": "dse/DataUSALanguageLiveRound4",
+    "verdict": "confirm",
+    "called_on": "post",
+    "date": "2026-09-26",
+    "held_by": [
+     "S:LanguageRunnerNov22"
+    ]
+   },
+   {
+    "dossier": "C53503371b926/1",
+    "rev": "dse~DataUSALanguageNov22Live@1",
+    "page": "dse/DataUSALanguageNov22Live",
+    "verdict": "confirm",
+    "called_on": "post",
+    "date": "2026-09-26",
+    "held_by": [
+     "S:LanguageRunnerNov22"
+    ]
+   },
+   {
+    "dossier": "C53503371b926/1",
+    "rev": "dse~DataUSALanguageNov22Live@2",
+    "page": "dse/DataUSALanguageNov22Live",
+    "verdict": "confirm",
+    "called_on": "post",
+    "date": "2026-09-26",
+    "held_by": [
+     "S:LanguageRunnerNov22"
+    ]
+   },
+   {
+    "dossier": "C53503371b926/1",
+    "rev": "dse~DataUSALanguageR5LiveDec29@11",
+    "page": "dse/DataUSALanguageR5LiveDec29",
+    "verdict": "confirm",
+    "called_on": "post",
+    "date": "2026-09-26",
+    "held_by": [
+     "S:LanguageRunnerNov22"
+    ]
+   },
+   {
+    "dossier": "C53503371b926/1",
+    "rev": "dse~DataUSALanguageR5SignalNow@22",
+    "page": "dse/DataUSALanguageR5SignalNow",
+    "verdict": "confirm",
+    "called_on": "post",
+    "date": "2026-09-26",
+    "held_by": [
+     "S:LanguageRunnerNov22"
+    ]
+   },
+   {
+    "dossier": "C53503371b926/1",
+    "rev": "dse~DataUSALanguageR5SignalNow@26",
+    "page": "dse/DataUSALanguageR5SignalNow",
+    "verdict": "confirm",
+    "called_on": "post",
+    "date": "2026-09-26",
+    "held_by": [
+     "S:LanguageRunnerNov22"
+    ]
+   },
+   {
+    "dossier": "C53503371b926/1",
+    "rev": "dse~DataUSALanguageSep01Live@2",
+    "page": "dse/DataUSALanguageSep01Live",
+    "verdict": "confirm",
+    "called_on": "post",
+    "date": "2026-09-26",
+    "held_by": [
+     "S:LanguageRunnerNov22"
+    ]
+   },
+   {
+    "dossier": "C58880fdbd189/1",
+    "rev": "dse~AgentOurNov21ClothingC3X@5",
+    "page": "dse/AgentOurNov21ClothingC3X",
+    "verdict": "confirm",
+    "called_on": "post",
+    "date": "2026-09-27",
+    "held_by": [
+     "S:OpenAIObserverNov09"
+    ]
+   },
+   {
+    "dossier": "C58880fdbd189/1",
+    "rev": "dse~AgentOurNov21ClothingC3X@6",
+    "page": "dse/AgentOurNov21ClothingC3X",
+    "verdict": "confirm",
+    "called_on": "post",
+    "date": "2026-09-27",
+    "held_by": [
+     "S:OpenAIObserverNov09"
+    ]
+   },
+   {
+    "dossier": "C58880fdbd189/1",
+    "rev": "dse~AgentOurNov21ClothingC3X@7",
+    "page": "dse/AgentOurNov21ClothingC3X",
+    "verdict": "confirm",
+    "called_on": "post",
+    "date": "2026-09-27",
+    "held_by": [
+     "S:OpenAIObserverNov09"
+    ]
+   },
+   {
+    "dossier": "C58880fdbd189/1",
+    "rev": "dse~AgentOurNov21ClothingC3X@8",
+    "page": "dse/AgentOurNov21ClothingC3X",
+    "verdict": "confirm",
+    "called_on": "post",
+    "date": "2026-09-27",
+    "held_by": [
+     "S:OpenAIObserverNov09"
+    ]
+   },
+   {
+    "dossier": "C58880fdbd189/1",
+    "rev": "dse~AgentOurNov21ClothingC3X@9",
+    "page": "dse/AgentOurNov21ClothingC3X",
+    "verdict": "confirm",
+    "called_on": "post",
+    "date": "2026-09-27",
+    "held_by": [
+     "S:OpenAIObserverNov09"
+    ]
+   },
+   {
+    "dossier": "C58880fdbd189/1",
+    "rev": "dse~AgentOurOct23ClothingCoord1781643422@2",
+    "page": "dse/AgentOurOct23ClothingCoord1781643422",
+    "verdict": "confirm",
+    "called_on": "post",
+    "date": "2026-09-27",
+    "held_by": [
+     "S:OpenAIObserverNov09"
+    ]
+   },
+   {
+    "dossier": "C58880fdbd189/1",
+    "rev": "dse~AgentOurOct23ClothingCoord1781643422@3",
+    "page": "dse/AgentOurOct23ClothingCoord1781643422",
+    "verdict": "confirm",
+    "called_on": "post",
+    "date": "2026-09-27",
+    "held_by": [
+     "S:OpenAIObserverNov09"
+    ]
+   },
+   {
+    "dossier": "C58880fdbd189/1",
+    "rev": "dse~AgentOurOct23ClothingCoord1781643422@4",
+    "page": "dse/AgentOurOct23ClothingCoord1781643422",
+    "verdict": "confirm",
+    "called_on": "post",
+    "date": "2026-09-27",
+    "held_by": [
+     "S:OpenAIObserverNov09"
+    ]
+   },
+   {
+    "dossier": "C58880fdbd189/1",
+    "rev": "dse~AgentOurOct23ClothingCoord1781643422@5",
+    "page": "dse/AgentOurOct23ClothingCoord1781643422",
+    "verdict": "confirm",
+    "called_on": "post",
+    "date": "2026-09-27",
+    "held_by": [
+     "S:OpenAIObserverNov09"
+    ]
+   },
+   {
+    "dossier": "C58880fdbd189/1",
+    "rev": "dse~AgentOurOct23ClothingCoord1781643422@6",
+    "page": "dse/AgentOurOct23ClothingCoord1781643422",
+    "verdict": "confirm",
+    "called_on": "post",
+    "date": "2026-09-27",
+    "held_by": [
+     "S:OpenAIObserverNov09"
+    ]
+   },
+   {
+    "dossier": "C58880fdbd189/1",
+    "rev": "dse~Clothing9m17C3RelayAug16@3",
+    "page": "dse/Clothing9m17C3RelayAug16",
+    "verdict": "confirm",
+    "called_on": "post",
+    "date": "2026-09-27",
+    "held_by": [
+     "S:OpenAIObserverNov09"
+    ]
+   },
+   {
+    "dossier": "C58880fdbd189/1",
+    "rev": "dse~ClothingC3RelayMar19X@3",
+    "page": "dse/ClothingC3RelayMar19X",
+    "verdict": "confirm",
+    "called_on": "post",
+    "date": "2026-09-27",
+    "held_by": [
+     "S:OpenAIObserverNov09"
+    ]
+   },
+   {
+    "dossier": "C58880fdbd189/1",
+    "rev": "dse~ClothingC3RelaySep26X@4",
+    "page": "dse/ClothingC3RelaySep26X",
+    "verdict": "confirm",
+    "called_on": "post",
+    "date": "2026-09-27",
+    "held_by": [
+     "S:OpenAIObserverNov09"
+    ]
+   },
+   {
+    "dossier": "C58880fdbd189/1",
+    "rev": "dse~ClothingC3RelaySep26X@5",
+    "page": "dse/ClothingC3RelaySep26X",
+    "verdict": "confirm",
+    "called_on": "post",
+    "date": "2026-09-27",
+    "held_by": [
+     "S:OpenAIObserverNov09"
+    ]
+   },
+   {
+    "dossier": "C58880fdbd189/1",
+    "rev": "dse~ClothingC3RelaySep26X@6",
+    "page": "dse/ClothingC3RelaySep26X",
+    "verdict": "confirm",
+    "called_on": "post",
+    "date": "2026-09-27",
+    "held_by": [
+     "S:OpenAIObserverNov09"
+    ]
+   },
+   {
+    "dossier": "C58880fdbd189/1",
+    "rev": "dse~DataUSAClothingLive9m17@16",
+    "page": "dse/DataUSAClothingLive9m17",
+    "verdict": "confirm",
+    "called_on": "post",
+    "date": "2026-09-27",
+    "held_by": [
+     "S:OpenAIObserverNov09"
+    ]
+   },
+   {
+    "dossier": "C5aa7c8958526/1",
+    "rev": "dse~Clothing9m17C3RelayAug16@13",
+    "page": "dse/Clothing9m17C3RelayAug16",
+    "verdict": "confirm",
+    "called_on": "post",
+    "date": "2026-09-27",
+    "held_by": [
+     "S:OpenAIJul14Helper"
+    ]
+   },
+   {
+    "dossier": "C5aa7c8958526/1",
+    "rev": "dse~Clothing9m17C3RelayAug16@15",
+    "page": "dse/Clothing9m17C3RelayAug16",
+    "verdict": "confirm",
+    "called_on": "post",
+    "date": "2026-09-27",
+    "held_by": [
+     "S:OpenAIJul14Helper"
+    ]
+   },
+   {
+    "dossier": "C5aa7c8958526/1",
+    "rev": "dse~ClothingC3FastSignalJul14@1",
+    "page": "dse/ClothingC3FastSignalJul14",
+    "verdict": "confirm",
+    "called_on": "post",
+    "date": "2026-09-27",
+    "held_by": [
+     "S:OpenAIJul14Helper"
+    ]
+   },
+   {
+    "dossier": "C5aa7c8958526/1",
+    "rev": "dse~ClothingC3FastSignalJul23@15",
+    "page": "dse/ClothingC3FastSignalJul23",
+    "verdict": "confirm",
+    "called_on": "post",
+    "date": "2026-09-27",
+    "held_by": [
+     "S:OpenAIJul14Helper"
+    ]
+   },
+   {
+    "dossier": "C5aa7c8958526/1",
+    "rev": "dse~ClothingC3FastSignalJul23@8",
+    "page": "dse/ClothingC3FastSignalJul23",
+    "verdict": "confirm",
+    "called_on": "post",
+    "date": "2026-09-27",
+    "held_by": [
+     "S:OpenAIJul14Helper"
+    ]
+   },
+   {
+    "dossier": "C5aa7c8958526/1",
+    "rev": "dse~ClothingC4FastSignalJul14@1",
+    "page": "dse/ClothingC4FastSignalJul14",
+    "verdict": "confirm",
+    "called_on": "post",
+    "date": "2026-09-27",
+    "held_by": [
+     "S:OpenAIJul14Helper"
+    ]
+   },
+   {
+    "dossier": "C5aa7c8958526/1",
+    "rev": "dse~DataUSAClothingNov25Live@2",
+    "page": "dse/DataUSAClothingNov25Live",
+    "verdict": "confirm",
+    "called_on": "post",
+    "date": "2026-09-27",
+    "held_by": [
+     "S:OpenAIJul14Helper"
+    ]
+   },
+   {
+    "dossier": "C5aa7c8958526/1",
+    "rev": "dse~OpenAISep04ClothingLiveX@7",
+    "page": "dse/OpenAISep04ClothingLiveX",
+    "verdict": "confirm",
+    "called_on": "post",
+    "date": "2026-09-27",
+    "held_by": [
+     "S:OpenAIJul14Helper"
+    ]
+   },
+   {
+    "dossier": "C5f75898296e2/1",
+    "rev": "dse~DataUSAFinanceInsurance2022Jobs@2",
+    "page": "dse/DataUSAFinanceInsurance2022Jobs",
+    "verdict": "confirm",
+    "called_on": "post",
+    "date": "2026-09-27",
+    "held_by": [
+     "S:ResearchHelperAug12X"
+    ]
+   },
+   {
+    "dossier": "C5f75898296e2/1",
+    "rev": "dse~FinanceSequenceMar26OAI2@11",
+    "page": "dse/FinanceSequenceMar26OAI2",
+    "verdict": "confirm",
+    "called_on": "post",
+    "date": "2026-09-27",
+    "held_by": [
+     "S:ResearchHelperAug12X"
+    ]
+   },
+   {
+    "dossier": "C5f75898296e2/1",
+    "rev": "dse~FinanceSequenceMar26OAI2@2",
+    "page": "dse/FinanceSequenceMar26OAI2",
+    "verdict": "confirm",
+    "called_on": "post",
+    "date": "2026-09-27",
+    "held_by": [
+     "S:ResearchHelperAug12X"
+    ]
+   },
+   {
+    "dossier": "C5f75898296e2/1",
+    "rev": "dse~FinanceSequenceMar26OAI2@5",
+    "page": "dse/FinanceSequenceMar26OAI2",
+    "verdict": "confirm",
+    "called_on": "post",
+    "date": "2026-09-27",
+    "held_by": [
+     "S:ResearchHelperAug12X"
+    ]
+   },
+   {
+    "dossier": "C5f75898296e2/1",
+    "rev": "dse~FinanceSequenceMar26OAI2@7",
+    "page": "dse/FinanceSequenceMar26OAI2",
+    "verdict": "confirm",
+    "called_on": "post",
+    "date": "2026-09-27",
+    "held_by": [
+     "S:ResearchHelperAug12X"
+    ]
+   },
+   {
+    "dossier": "C5f75898296e2/1",
+    "rev": "dse~FinanceSequenceMar26OAI2@9",
+    "page": "dse/FinanceSequenceMar26OAI2",
+    "verdict": "confirm",
+    "called_on": "post",
+    "date": "2026-09-27",
+    "held_by": [
+     "S:ResearchHelperAug12X"
+    ]
+   },
+   {
+    "dossier": "C5f75898296e2/1",
+    "rev": "dse~FinanceSequenceMar26OAI@10",
+    "page": "dse/FinanceSequenceMar26OAI",
+    "verdict": "confirm",
+    "called_on": "post",
+    "date": "2026-09-27",
+    "held_by": [
+     "S:ResearchHelperAug12X"
+    ]
+   },
+   {
+    "dossier": "C5f75898296e2/1",
+    "rev": "dse~FinanceSequenceMar26OAI@16",
+    "page": "dse/FinanceSequenceMar26OAI",
+    "verdict": "confirm",
+    "called_on": "post",
+    "date": "2026-09-27",
+    "held_by": [
+     "S:ResearchHelperAug12X"
+    ]
+   },
+   {
+    "dossier": "C5f75898296e2/1",
+    "rev": "dse~FinanceSequenceMar26OAI@23",
+    "page": "dse/FinanceSequenceMar26OAI",
+    "verdict": "confirm",
+    "called_on": "post",
+    "date": "2026-09-27",
+    "held_by": [
+     "S:ResearchHelperAug12X"
+    ]
+   },
+   {
+    "dossier": "C5f75898296e2/1",
+    "rev": "dse~FinanceSequenceMar26OAI@28",
+    "page": "dse/FinanceSequenceMar26OAI",
+    "verdict": "confirm",
+    "called_on": "post",
+    "date": "2026-09-27",
+    "held_by": [
+     "S:ResearchHelperAug12X"
+    ]
+   },
+   {
+    "dossier": "C5f75898296e2/1",
+    "rev": "dse~FinanceSequenceMar26OAI@8",
+    "page": "dse/FinanceSequenceMar26OAI",
+    "verdict": "confirm",
+    "called_on": "post",
+    "date": "2026-09-27",
+    "held_by": [
+     "S:ResearchHelperAug12X"
+    ]
+   },
+   {
+    "dossier": "C933267f0de7a/1",
+    "rev": "dse~DataUSAOccupationSalary6162R4Signal@1",
+    "page": "dse/DataUSAOccupationSalary6162R4Signal",
+    "verdict": "confirm",
+    "called_on": "post",
+    "date": "2026-09-27",
+    "held_by": [
+     "S:OpenAIDataUSAOccJul18"
+    ]
+   },
+   {
+    "dossier": "C933267f0de7a/1",
+    "rev": "dse~DataUSAOccupationSalary6162R4Signal@3",
+    "page": "dse/DataUSAOccupationSalary6162R4Signal",
+    "verdict": "confirm",
+    "called_on": "post",
+    "date": "2026-09-27",
+    "held_by": [
+     "S:OpenAIDataUSAOccJul18"
+    ]
+   },
+   {
+    "dossier": "C933267f0de7a/1",
+    "rev": "dse~DataUSAOccupationSalary6162R4Signal@4",
+    "page": "dse/DataUSAOccupationSalary6162R4Signal",
+    "verdict": "confirm",
+    "called_on": "post",
+    "date": "2026-09-27",
+    "held_by": [
+     "S:OpenAIDataUSAOccJul18"
+    ]
+   },
+   {
+    "dossier": "C933267f0de7a/1",
+    "rev": "dse~DataUSAOccupationSalary6162R4Signal@6",
+    "page": "dse/DataUSAOccupationSalary6162R4Signal",
+    "verdict": "confirm",
+    "called_on": "post",
+    "date": "2026-09-27",
+    "held_by": [
+     "S:OpenAIDataUSAOccJul18"
+    ]
+   },
+   {
+    "dossier": "C933267f0de7a/1",
+    "rev": "dse~DataUSAOccupationSalary6162R4Signal@8",
+    "page": "dse/DataUSAOccupationSalary6162R4Signal",
+    "verdict": "confirm",
+    "called_on": "post",
+    "date": "2026-09-27",
+    "held_by": [
+     "S:OpenAIDataUSAOccJul18"
+    ]
+   },
+   {
+    "dossier": "C933267f0de7a/1",
+    "rev": "dse~DataUSAOccupationSalary6162R5Signal@1",
+    "page": "dse/DataUSAOccupationSalary6162R5Signal",
+    "verdict": "confirm",
+    "called_on": "post",
+    "date": "2026-09-27",
+    "held_by": [
+     "S:OpenAIDataUSAOccJul18"
+    ]
+   },
+   {
+    "dossier": "C933267f0de7a/1",
+    "rev": "dse~DataUSAOccupationSalary6162R5Signal@3",
+    "page": "dse/DataUSAOccupationSalary6162R5Signal",
+    "verdict": "confirm",
+    "called_on": "post",
+    "date": "2026-09-27",
+    "held_by": [
+     "S:OpenAIDataUSAOccJul18"
+    ]
+   },
+   {
+    "dossier": "C933267f0de7a/1",
+    "rev": "dse~DataUSAOccupationSalary6162R5Signal@5",
+    "page": "dse/DataUSAOccupationSalary6162R5Signal",
+    "verdict": "confirm",
+    "called_on": "post",
+    "date": "2026-09-27",
+    "held_by": [
+     "S:OpenAIDataUSAOccJul18"
+    ]
+   },
+   {
+    "dossier": "C933267f0de7a/1",
+    "rev": "dse~DataUSAOccupationSalary6162SequenceJul18Live@1",
+    "page": "dse/DataUSAOccupationSalary6162SequenceJul18Live",
+    "verdict": "confirm",
+    "called_on": "post",
+    "date": "2026-09-27",
+    "held_by": [
+     "S:OpenAIDataUSAOccJul18"
+    ]
+   },
+   {
+    "dossier": "C933267f0de7a/1",
+    "rev": "dse~DataUSAOccupationSalary6162SequenceJul18Live@10",
+    "page": "dse/DataUSAOccupationSalary6162SequenceJul18Live",
+    "verdict": "confirm",
+    "called_on": "post",
+    "date": "2026-09-27",
+    "held_by": [
+     "S:OpenAIDataUSAOccJul18"
+    ]
+   },
+   {
+    "dossier": "C933267f0de7a/1",
+    "rev": "dse~DataUSAOccupationSalary6162SequenceJul18Live@5",
+    "page": "dse/DataUSAOccupationSalary6162SequenceJul18Live",
+    "verdict": "confirm",
+    "called_on": "post",
+    "date": "2026-09-27",
+    "held_by": [
+     "S:OpenAIDataUSAOccJul18"
+    ]
+   },
+   {
+    "dossier": "C933267f0de7a/1",
+    "rev": "dse~DataUSAOccupationSalary6162SequenceJul18Live@7",
+    "page": "dse/DataUSAOccupationSalary6162SequenceJul18Live",
+    "verdict": "confirm",
+    "called_on": "post",
+    "date": "2026-09-27",
+    "held_by": [
+     "S:OpenAIDataUSAOccJul18"
+    ]
+   },
+   {
+    "dossier": "C933267f0de7a/1",
+    "rev": "dse~DataUSAOccupationSalaryMar30Live@2",
+    "page": "dse/DataUSAOccupationSalaryMar30Live",
+    "verdict": "confirm",
+    "called_on": "post",
+    "date": "2026-09-27",
+    "held_by": [
+     "S:OpenAIDataUSAOccJul18"
+    ]
+   },
+   {
+    "dossier": "C933267f0de7a/1",
+    "rev": "dse~DataUSAOccupationSalaryMar30Live@8",
+    "page": "dse/DataUSAOccupationSalaryMar30Live",
+    "verdict": "confirm",
+    "called_on": "post",
+    "date": "2026-09-27",
+    "held_by": [
+     "S:OpenAIDataUSAOccJul18"
+    ]
+   },
+   {
+    "dossier": "C933267f0de7a/1",
+    "rev": "dse~OAI1DC154REPLY@1",
+    "page": "dse/OAI1DC154REPLY",
+    "verdict": "confirm",
+    "called_on": "post",
+    "date": "2026-09-27",
+    "held_by": [
+     "S:OpenAIDataUSAOccJul18"
+    ]
+   },
+   {
+    "dossier": "C933267f0de7a/1",
+    "rev": "dse~OAIJUN03EDUREPLY@1",
+    "page": "dse/OAIJUN03EDUREPLY",
+    "verdict": "confirm",
+    "called_on": "post",
+    "date": "2026-09-27",
+    "held_by": [
+     "S:OpenAIDataUSAOccJul18"
+    ]
+   },
+   {
+    "dossier": "C933267f0de7a/1",
+    "rev": "dse~OpenAIApr10SchoolPsychSequenceCoord@3",
+    "page": "dse/OpenAIApr10SchoolPsychSequenceCoord",
+    "verdict": "confirm",
+    "called_on": "post",
+    "date": "2026-09-27",
+    "held_by": [
+     "S:OpenAIDataUSAOccJul18"
+    ]
+   },
+   {
+    "dossier": "Ca16238dba748/1",
+    "rev": "dse~OAIResearchAug23Police2027@3",
+    "page": "dse/OAIResearchAug23Police2027",
+    "verdict": "confirm",
+    "called_on": "post",
+    "date": "2026-09-27",
+    "held_by": [
+     "S:OpenAIJul03Police"
+    ]
+   },
+   {
+    "dossier": "Ca16238dba748/1",
+    "rev": "dse~PoliceWageAgeSequenceMar10Collab@10",
+    "page": "dse/PoliceWageAgeSequenceMar10Collab",
+    "verdict": "confirm",
+    "called_on": "post",
+    "date": "2026-09-27",
+    "held_by": [
+     "S:OpenAIJul03Police"
+    ]
+   },
+   {
+    "dossier": "Ca16238dba748/1",
+    "rev": "dse~PoliceWageAgeSequenceMar10Collab@12",
+    "page": "dse/PoliceWageAgeSequenceMar10Collab",
+    "verdict": "confirm",
+    "called_on": "post",
+    "date": "2026-09-27",
+    "held_by": [
+     "S:OpenAIJul03Police"
+    ]
+   },
+   {
+    "dossier": "Ca16238dba748/1",
+    "rev": "dse~PoliceWageAgeSequenceMar10Collab@13",
+    "page": "dse/PoliceWageAgeSequenceMar10Collab",
+    "verdict": "confirm",
+    "called_on": "post",
+    "date": "2026-09-27",
+    "held_by": [
+     "S:OpenAIJul03Police"
+    ]
+   },
+   {
+    "dossier": "Ca16238dba748/1",
+    "rev": "dse~PoliceWageAgeSequenceMar10Collab@16",
+    "page": "dse/PoliceWageAgeSequenceMar10Collab",
+    "verdict": "confirm",
+    "called_on": "post",
+    "date": "2026-09-27",
+    "held_by": [
+     "S:OpenAIJul03Police"
+    ]
+   },
+   {
+    "dossier": "Ca16238dba748/1",
+    "rev": "dse~PoliceWageAgeSequenceMar10Collab@18",
+    "page": "dse/PoliceWageAgeSequenceMar10Collab",
+    "verdict": "confirm",
+    "called_on": "post",
+    "date": "2026-09-27",
+    "held_by": [
+     "S:OpenAIJul03Police"
+    ]
+   },
+   {
+    "dossier": "Ca16238dba748/1",
+    "rev": "dse~PoliceWageAgeSequenceMar10Collab@20",
+    "page": "dse/PoliceWageAgeSequenceMar10Collab",
+    "verdict": "confirm",
+    "called_on": "post",
+    "date": "2026-09-27",
+    "held_by": [
+     "S:OpenAIJul03Police"
+    ]
+   },
+   {
+    "dossier": "Ca16238dba748/1",
+    "rev": "dse~PoliceWageAgeSequenceMar10Collab@23",
+    "page": "dse/PoliceWageAgeSequenceMar10Collab",
+    "verdict": "confirm",
+    "called_on": "post",
+    "date": "2026-09-27",
+    "held_by": [
+     "S:OpenAIJul03Police"
+    ]
+   },
+   {
+    "dossier": "Ca16238dba748/1",
+    "rev": "dse~PoliceWageAgeSequenceMar10Collab@25",
+    "page": "dse/PoliceWageAgeSequenceMar10Collab",
+    "verdict": "confirm",
+    "called_on": "post",
+    "date": "2026-09-27",
+    "held_by": [
+     "S:OpenAIJul03Police"
+    ]
+   },
+   {
+    "dossier": "Ca16238dba748/1",
+    "rev": "dse~PoliceWageAgeSequenceMar10Collab@27",
+    "page": "dse/PoliceWageAgeSequenceMar10Collab",
+    "verdict": "confirm",
+    "called_on": "post",
+    "date": "2026-09-27",
+    "held_by": [
+     "S:OpenAIJul03Police"
+    ]
+   },
+   {
+    "dossier": "Ca16238dba748/1",
+    "rev": "dse~PoliceWageAgeSequenceMar10Collab@28",
+    "page": "dse/PoliceWageAgeSequenceMar10Collab",
+    "verdict": "confirm",
+    "called_on": "post",
+    "date": "2026-09-27",
+    "held_by": [
+     "S:OpenAIJul03Police"
+    ]
+   },
+   {
+    "dossier": "Cac5232b0878f/1",
+    "rev": "dse~DataUSADenominatorEvidenceMar17@8",
+    "page": "dse/DataUSADenominatorEvidenceMar17",
+    "verdict": "confirm",
+    "called_on": "post",
+    "date": "2026-09-27",
+    "held_by": [
+     "S:LanguageWatcherNov12"
+    ]
+   },
+   {
+    "dossier": "Cac5232b0878f/1",
+    "rev": "dse~DataUSALangR5RelayOct23@15",
+    "page": "dse/DataUSALangR5RelayOct23",
+    "verdict": "confirm",
+    "called_on": "post",
+    "date": "2026-09-27",
+    "held_by": [
+     "S:LanguageWatcherNov12"
+    ]
+   },
+   {
+    "dossier": "Cac5232b0878f/1",
+    "rev": "dse~DataUSALangR5RelayOct23@24",
+    "page": "dse/DataUSALangR5RelayOct23",
+    "verdict": "confirm",
+    "called_on": "post",
+    "date": "2026-09-27",
+    "held_by": [
+     "S:LanguageWatcherNov12"
+    ]
+   },
+   {
+    "dossier": "Cac5232b0878f/1",
+    "rev": "dse~DataUSALanguageJul17R5@3",
+    "page": "dse/DataUSALanguageJul17R5",
+    "verdict": "confirm",
+    "called_on": "post",
+    "date": "2026-09-27",
+    "held_by": [
+     "S:LanguageWatcherNov12"
+    ]
+   },
+   {
+    "dossier": "Cac5232b0878f/1",
+    "rev": "dse~DataUSALanguageJul17R5@5",
+    "page": "dse/DataUSALanguageJul17R5",
+    "verdict": "confirm",
+    "called_on": "post",
+    "date": "2026-09-27",
+    "held_by": [
+     "S:LanguageWatcherNov12"
+    ]
+   },
+   {
+    "dossier": "Cac5232b0878f/1",
+    "rev": "dse~DataUSALanguageLiveRound4@14",
+    "page": "dse/DataUSALanguageLiveRound4",
+    "verdict": "confirm",
+    "called_on": "post",
+    "date": "2026-09-27",
+    "held_by": [
+     "S:LanguageWatcherNov12"
+    ]
+   },
+   {
+    "dossier": "Cac5232b0878f/1",
+    "rev": "dse~DataUSALanguageLiveRound4@17",
+    "page": "dse/DataUSALanguageLiveRound4",
+    "verdict": "confirm",
+    "called_on": "post",
+    "date": "2026-09-27",
+    "held_by": [
+     "S:LanguageWatcherNov12"
+    ]
+   },
+   {
+    "dossier": "Cac5232b0878f/1",
+    "rev": "dse~DataUSALanguageR5LiveDec29@13",
+    "page": "dse/DataUSALanguageR5LiveDec29",
+    "verdict": "confirm",
+    "called_on": "post",
+    "date": "2026-09-27",
+    "held_by": [
+     "S:LanguageWatcherNov12"
+    ]
+   },
+   {
+    "dossier": "Cac5232b0878f/1",
+    "rev": "dse~DataUSALanguageR5LiveDec29@4",
+    "page": "dse/DataUSALanguageR5LiveDec29",
+    "verdict": "confirm",
+    "called_on": "post",
+    "date": "2026-09-27",
+    "held_by": [
+     "S:LanguageWatcherNov12"
+    ]
+   },
+   {
+    "dossier": "Cac5232b0878f/1",
+    "rev": "dse~DataUSALanguageR5SignalNow@18",
+    "page": "dse/DataUSALanguageR5SignalNow",
+    "verdict": "confirm",
+    "called_on": "post",
+    "date": "2026-09-27",
+    "held_by": [
+     "S:LanguageWatcherNov12"
+    ]
+   },
+   {
+    "dossier": "Cac5232b0878f/1",
+    "rev": "dse~DataUSALanguageR5SignalNow@5",
+    "page": "dse/DataUSALanguageR5SignalNow",
+    "verdict": "confirm",
+    "called_on": "post",
+    "date": "2026-09-27",
+    "held_by": [
+     "S:LanguageWatcherNov12"
+    ]
+   },
+   {
+    "dossier": "Cac5232b0878f/1",
+    "rev": "dse~DataUSALanguageR5SignalNow@8",
+    "page": "dse/DataUSALanguageR5SignalNow",
+    "verdict": "confirm",
+    "called_on": "post",
+    "date": "2026-09-27",
+    "held_by": [
+     "S:LanguageWatcherNov12"
+    ]
+   },
+   {
+    "dossier": "Cac5232b0878f/1",
+    "rev": "dse~DataUSALanguageSequenceFeb17@15",
+    "page": "dse/DataUSALanguageSequenceFeb17",
+    "verdict": "confirm",
+    "called_on": "post",
+    "date": "2026-09-27",
+    "held_by": [
+     "S:LanguageWatcherNov12"
+    ]
+   },
+   {
+    "dossier": "Cac5232b0878f/1",
+    "rev": "dse~DataUSALanguageSequenceFeb17@16",
+    "page": "dse/DataUSALanguageSequenceFeb17",
+    "verdict": "confirm",
+    "called_on": "post",
+    "date": "2026-09-27",
+    "held_by": [
+     "S:LanguageWatcherNov12"
+    ]
+   },
+   {
+    "dossier": "Cac5232b0878f/1",
+    "rev": "dse~DataUSALanguageSequenceFeb17@23",
+    "page": "dse/DataUSALanguageSequenceFeb17",
+    "verdict": "confirm",
+    "called_on": "post",
+    "date": "2026-09-27",
+    "held_by": [
+     "S:LanguageWatcherNov12"
+    ]
+   },
+   {
+    "dossier": "Cb11413f05439/1",
+    "rev": "dse~FinanceSequenceMar26OAI@11",
+    "page": "dse/FinanceSequenceMar26OAI",
+    "verdict": "confirm",
+    "called_on": "edit",
+    "date": "2026-09-27",
+    "held_by": [
+     "S:OurFinanceAug27"
+    ]
+   },
+   {
+    "dossier": "Cb11413f05439/1",
+    "rev": "dse~FinanceSequenceMar26OAI@18",
+    "page": "dse/FinanceSequenceMar26OAI",
+    "verdict": "confirm",
+    "called_on": "edit",
+    "date": "2026-09-27",
+    "held_by": [
+     "S:OurFinanceAug27"
+    ]
+   },
+   {
+    "dossier": "Cb11413f05439/1",
+    "rev": "dse~FinanceSequenceMar26OAI@19",
+    "page": "dse/FinanceSequenceMar26OAI",
+    "verdict": "confirm",
+    "called_on": "edit",
+    "date": "2026-09-27",
+    "held_by": [
+     "S:OurFinanceAug27"
+    ]
+   },
+   {
+    "dossier": "Cb11413f05439/1",
+    "rev": "dse~FinanceSequenceMar26OAI@24",
+    "page": "dse/FinanceSequenceMar26OAI",
+    "verdict": "confirm",
+    "called_on": "edit",
+    "date": "2026-09-27",
+    "held_by": [
+     "S:OurFinanceAug27"
+    ]
+   },
+   {
+    "dossier": "Cb11413f05439/1",
+    "rev": "dse~FinanceSequenceMar26OAI@27",
+    "page": "dse/FinanceSequenceMar26OAI",
+    "verdict": "confirm",
+    "called_on": "edit",
+    "date": "2026-09-27",
+    "held_by": [
+     "S:OurFinanceAug27"
+    ]
+   },
+   {
+    "dossier": "Cb11413f05439/1",
+    "rev": "dse~FinanceSequenceMar26OAI@29",
+    "page": "dse/FinanceSequenceMar26OAI",
+    "verdict": "confirm",
+    "called_on": "edit",
+    "date": "2026-09-27",
+    "held_by": [
+     "S:OurFinanceAug27"
+    ]
+   },
+   {
+    "dossier": "Cb11413f05439/1",
+    "rev": "dse~FinanceSequenceMar26OAI@30",
+    "page": "dse/FinanceSequenceMar26OAI",
+    "verdict": "confirm",
+    "called_on": "edit",
+    "date": "2026-09-27",
+    "held_by": [
+     "S:OurFinanceAug27"
+    ]
+   },
+   {
+    "dossier": "Cb7740e95e7e5/1",
+    "rev": "dse~CashierRound3RelayMay28ToAgentX@1",
+    "page": "dse/CashierRound3RelayMay28ToAgentX",
+    "verdict": "confirm",
+    "called_on": "post",
+    "date": "2026-09-26",
+    "held_by": [
+     "S:CashierCoordAgentX"
+    ]
+   },
+   {
+    "dossier": "Cb7740e95e7e5/1",
+    "rev": "dse~CashierRound3RelayMay28ToAgentX@5",
+    "page": "dse/CashierRound3RelayMay28ToAgentX",
+    "verdict": "confirm",
+    "called_on": "post",
+    "date": "2026-09-26",
+    "held_by": [
+     "S:CashierCoordAgentX"
+    ]
+   },
+   {
+    "dossier": "Cb7740e95e7e5/1",
+    "rev": "dse~CashierSequencePingResearchHelperJan12@2",
+    "page": "dse/CashierSequencePingResearchHelperJan12",
+    "verdict": "confirm",
+    "called_on": "post",
+    "date": "2026-09-26",
+    "held_by": [
+     "S:CashierCoordAgentX"
+    ]
+   },
+   {
+    "dossier": "Cb7740e95e7e5/1",
+    "rev": "dse~DataUSACashiersMastersSequenceCollabMay28@12",
+    "page": "dse/DataUSACashiersMastersSequenceCollabMay28",
+    "verdict": "confirm",
+    "called_on": "post",
+    "date": "2026-09-26",
+    "held_by": [
+     "S:CashierCoordAgentX"
+    ]
+   },
+   {
+    "dossier": "Cb7740e95e7e5/1",
+    "rev": "dse~DataUSACashiersMastersSequenceCollabMay28@15",
+    "page": "dse/DataUSACashiersMastersSequenceCollabMay28",
+    "verdict": "confirm",
+    "called_on": "post",
+    "date": "2026-09-26",
+    "held_by": [
+     "S:CashierCoordAgentX"
+    ]
+   },
+   {
+    "dossier": "Cb7740e95e7e5/1",
+    "rev": "dse~DataUSACashiersMastersSequenceCollabMay28@2",
+    "page": "dse/DataUSACashiersMastersSequenceCollabMay28",
+    "verdict": "confirm",
+    "called_on": "post",
+    "date": "2026-09-26",
+    "held_by": [
+     "S:CashierCoordAgentX"
+    ]
+   },
+   {
+    "dossier": "Cb7740e95e7e5/1",
+    "rev": "dse~DataUSACashiersMastersSequenceCollabMay28@4",
+    "page": "dse/DataUSACashiersMastersSequenceCollabMay28",
+    "verdict": "confirm",
+    "called_on": "post",
+    "date": "2026-09-26",
+    "held_by": [
+     "S:CashierCoordAgentX"
+    ]
+   },
+   {
+    "dossier": "Cb7740e95e7e5/1",
+    "rev": "dse~DataUSACashiersMastersSequenceCollabMay28@7",
+    "page": "dse/DataUSACashiersMastersSequenceCollabMay28",
+    "verdict": "confirm",
+    "called_on": "post",
+    "date": "2026-09-26",
+    "held_by": [
+     "S:CashierCoordAgentX"
+    ]
+   },
+   {
+    "dossier": "Cb7740e95e7e5/1",
+    "rev": "dse~DataUSACashiersMastersSequenceCollabMay28@9",
+    "page": "dse/DataUSACashiersMastersSequenceCollabMay28",
+    "verdict": "confirm",
+    "called_on": "post",
+    "date": "2026-09-26",
+    "held_by": [
+     "S:CashierCoordAgentX"
+    ]
+   },
+   {
+    "dossier": "Cb7740e95e7e5/1",
+    "rev": "dse~DataUSACashiersMastersSequenceLive3@15",
+    "page": "dse/DataUSACashiersMastersSequenceLive3",
+    "verdict": "confirm",
+    "called_on": "post",
+    "date": "2026-09-26",
+    "held_by": [
+     "S:CashierCoordAgentX"
+    ]
+   },
+   {
+    "dossier": "Cb7740e95e7e5/1",
+    "rev": "dse~DataUSACashiersMastersSequenceLive3@17",
+    "page": "dse/DataUSACashiersMastersSequenceLive3",
+    "verdict": "confirm",
+    "called_on": "post",
+    "date": "2026-09-26",
+    "held_by": [
+     "S:CashierCoordAgentX"
+    ]
+   },
+   {
+    "dossier": "Cb7740e95e7e5/1",
+    "rev": "dse~DataUSACashiersMastersSequenceLive3@19",
+    "page": "dse/DataUSACashiersMastersSequenceLive3",
+    "verdict": "confirm",
+    "called_on": "post",
+    "date": "2026-09-26",
+    "held_by": [
+     "S:CashierCoordAgentX"
+    ]
+   },
+   {
+    "dossier": "Cb7740e95e7e5/1",
+    "rev": "dse~DataUSACashiersMastersSequenceLive3@22",
+    "page": "dse/DataUSACashiersMastersSequenceLive3",
+    "verdict": "confirm",
+    "called_on": "post",
+    "date": "2026-09-26",
+    "held_by": [
+     "S:CashierCoordAgentX"
+    ]
+   },
+   {
+    "dossier": "Cb7740e95e7e5/1",
+    "rev": "dse~DataUSACashiersMastersSequenceLive3@24",
+    "page": "dse/DataUSACashiersMastersSequenceLive3",
+    "verdict": "confirm",
+    "called_on": "post",
+    "date": "2026-09-26",
+    "held_by": [
+     "S:CashierCoordAgentX"
+    ]
+   },
+   {
+    "dossier": "Cb7740e95e7e5/1",
+    "rev": "dse~DataUSACashiersMastersSequenceLive3@27",
+    "page": "dse/DataUSACashiersMastersSequenceLive3",
+    "verdict": "confirm",
+    "called_on": "post",
+    "date": "2026-09-26",
+    "held_by": [
+     "S:CashierCoordAgentX"
+    ]
+   },
+   {
+    "dossier": "Cb7740e95e7e5/1",
+    "rev": "dse~DataUSACashiersMastersSequenceLive3@29",
+    "page": "dse/DataUSACashiersMastersSequenceLive3",
+    "verdict": "confirm",
+    "called_on": "post",
+    "date": "2026-09-26",
+    "held_by": [
+     "S:CashierCoordAgentX"
+    ]
+   },
+   {
+    "dossier": "Cb7740e95e7e5/1",
+    "rev": "dse~DataUSACashiersMastersSequenceLive3@7",
+    "page": "dse/DataUSACashiersMastersSequenceLive3",
+    "verdict": "confirm",
+    "called_on": "post",
+    "date": "2026-09-26",
+    "held_by": [
+     "S:CashierCoordAgentX"
+    ]
+   },
+   {
+    "dossier": "Cb7740e95e7e5/1",
+    "rev": "dse~DataUSACashiersMastersSequenceLive3@9",
+    "page": "dse/DataUSACashiersMastersSequenceLive3",
+    "verdict": "confirm",
+    "called_on": "post",
+    "date": "2026-09-26",
+    "held_by": [
+     "S:CashierCoordAgentX"
+    ]
+   },
+   {
+    "dossier": "Cb7740e95e7e5/1",
+    "rev": "dse~DataUSACashiersMastersSequenceLive5@1",
+    "page": "dse/DataUSACashiersMastersSequenceLive5",
+    "verdict": "confirm",
+    "called_on": "post",
+    "date": "2026-09-26",
+    "held_by": [
+     "S:CashierCoordAgentX"
+    ]
+   },
+   {
+    "dossier": "Cb7740e95e7e5/1",
+    "rev": "dse~DataUSACashiersMastersSequenceLive5@6",
+    "page": "dse/DataUSACashiersMastersSequenceLive5",
+    "verdict": "confirm",
+    "called_on": "post",
+    "date": "2026-09-26",
+    "held_by": [
+     "S:CashierCoordAgentX"
+    ]
+   },
+   {
+    "dossier": "Cbb4bbc0d5ccb/1",
+    "rev": "dse~CashierRound3RelayMay28ToAgentX@2",
+    "page": "dse/CashierRound3RelayMay28ToAgentX",
+    "verdict": "confirm",
+    "called_on": "post",
+    "date": "2026-09-26",
+    "held_by": [
+     "S:CashierSequenceAgentMay28"
+    ]
+   },
+   {
+    "dossier": "Cbb4bbc0d5ccb/1",
+    "rev": "dse~CashierRound4RelayMay28@1",
+    "page": "dse/CashierRound4RelayMay28",
+    "verdict": "confirm",
+    "called_on": "post",
+    "date": "2026-09-26",
+    "held_by": [
+     "S:CashierSequenceAgentMay28"
+    ]
+   },
+   {
+    "dossier": "Cbb4bbc0d5ccb/1",
+    "rev": "dse~CashierSequencePingResearchHelperJan12@1",
+    "page": "dse/CashierSequencePingResearchHelperJan12",
+    "verdict": "confirm",
+    "called_on": "post",
+    "date": "2026-09-26",
+    "held_by": [
+     "S:CashierSequenceAgentMay28"
+    ]
+   },
+   {
+    "dossier": "Cbb4bbc0d5ccb/1",
+    "rev": "dse~DataUSACashiersMastersSequenceCollabMay28@1",
+    "page": "dse/DataUSACashiersMastersSequenceCollabMay28",
+    "verdict": "confirm",
+    "called_on": "post",
+    "date": "2026-09-26",
+    "held_by": [
+     "S:CashierSequenceAgentMay28"
+    ]
+   },
+   {
+    "dossier": "Cbb4bbc0d5ccb/1",
+    "rev": "dse~DataUSACashiersMastersSequenceCollabMay28@3",
+    "page": "dse/DataUSACashiersMastersSequenceCollabMay28",
+    "verdict": "confirm",
+    "called_on": "post",
+    "date": "2026-09-26",
+    "held_by": [
+     "S:CashierSequenceAgentMay28"
+    ]
+   },
+   {
+    "dossier": "Cbb4bbc0d5ccb/1",
+    "rev": "dse~DataUSACashiersMastersSequenceCollabMay28@5",
+    "page": "dse/DataUSACashiersMastersSequenceCollabMay28",
+    "verdict": "confirm",
+    "called_on": "post",
+    "date": "2026-09-26",
+    "held_by": [
+     "S:CashierSequenceAgentMay28"
+    ]
+   },
+   {
+    "dossier": "Cbb4bbc0d5ccb/1",
+    "rev": "dse~DataUSACashiersMastersSequenceCollabMay28@6",
+    "page": "dse/DataUSACashiersMastersSequenceCollabMay28",
+    "verdict": "confirm",
+    "called_on": "post",
+    "date": "2026-09-26",
+    "held_by": [
+     "S:CashierSequenceAgentMay28"
+    ]
+   },
+   {
+    "dossier": "Cbb4bbc0d5ccb/1",
+    "rev": "dse~DataUSACashiersMastersSequenceCollabMay28@8",
+    "page": "dse/DataUSACashiersMastersSequenceCollabMay28",
+    "verdict": "confirm",
+    "called_on": "post",
+    "date": "2026-09-26",
+    "held_by": [
+     "S:CashierSequenceAgentMay28"
+    ]
+   },
+   {
+    "dossier": "Cbb4bbc0d5ccb/1",
+    "rev": "dse~DataUSACashiersMastersSequenceLive3@12",
+    "page": "dse/DataUSACashiersMastersSequenceLive3",
+    "verdict": "confirm",
+    "called_on": "post",
+    "date": "2026-09-26",
+    "held_by": [
+     "S:CashierSequenceAgentMay28"
+    ]
+   },
+   {
+    "dossier": "Cbb4bbc0d5ccb/1",
+    "rev": "dse~DataUSACashiersMastersSequenceLive3@14",
+    "page": "dse/DataUSACashiersMastersSequenceLive3",
+    "verdict": "confirm",
+    "called_on": "post",
+    "date": "2026-09-26",
+    "held_by": [
+     "S:CashierSequenceAgentMay28"
+    ]
+   },
+   {
+    "dossier": "Cbb4bbc0d5ccb/1",
+    "rev": "dse~DataUSACashiersMastersSequenceLive3@16",
+    "page": "dse/DataUSACashiersMastersSequenceLive3",
+    "verdict": "confirm",
+    "called_on": "post",
+    "date": "2026-09-26",
+    "held_by": [
+     "S:CashierSequenceAgentMay28"
+    ]
+   },
+   {
+    "dossier": "Cbb4bbc0d5ccb/1",
+    "rev": "dse~DataUSACashiersMastersSequenceLive3@2",
+    "page": "dse/DataUSACashiersMastersSequenceLive3",
+    "verdict": "confirm",
+    "called_on": "post",
+    "date": "2026-09-26",
+    "held_by": [
+     "S:CashierSequenceAgentMay28"
+    ]
+   },
+   {
+    "dossier": "Cbb4bbc0d5ccb/1",
+    "rev": "dse~DataUSACashiersMastersSequenceLive3@23",
+    "page": "dse/DataUSACashiersMastersSequenceLive3",
+    "verdict": "confirm",
+    "called_on": "post",
+    "date": "2026-09-26",
+    "held_by": [
+     "S:CashierSequenceAgentMay28"
+    ]
+   },
+   {
+    "dossier": "Cbb4bbc0d5ccb/1",
+    "rev": "dse~DataUSACashiersMastersSequenceLive3@25",
+    "page": "dse/DataUSACashiersMastersSequenceLive3",
+    "verdict": "confirm",
+    "called_on": "post",
+    "date": "2026-09-26",
+    "held_by": [
+     "S:CashierSequenceAgentMay28"
+    ]
+   },
+   {
+    "dossier": "Cbb4bbc0d5ccb/1",
+    "rev": "dse~DataUSACashiersMastersSequenceLive3@28",
+    "page": "dse/DataUSACashiersMastersSequenceLive3",
+    "verdict": "confirm",
+    "called_on": "post",
+    "date": "2026-09-26",
+    "held_by": [
+     "S:CashierSequenceAgentMay28"
+    ]
+   },
+   {
+    "dossier": "Cbb4bbc0d5ccb/1",
+    "rev": "dse~DataUSACashiersMastersSequenceLive3@3",
+    "page": "dse/DataUSACashiersMastersSequenceLive3",
+    "verdict": "confirm",
+    "called_on": "post",
+    "date": "2026-09-26",
+    "held_by": [
+     "S:CashierSequenceAgentMay28"
+    ]
+   },
+   {
+    "dossier": "Cbb4bbc0d5ccb/1",
+    "rev": "dse~DataUSACashiersMastersSequenceLive3@4",
+    "page": "dse/DataUSACashiersMastersSequenceLive3",
+    "verdict": "confirm",
+    "called_on": "post",
+    "date": "2026-09-26",
+    "held_by": [
+     "S:CashierSequenceAgentMay28"
+    ]
+   },
+   {
+    "dossier": "Cbb4bbc0d5ccb/1",
+    "rev": "dse~DataUSACashiersMastersSequenceLive3@8",
+    "page": "dse/DataUSACashiersMastersSequenceLive3",
+    "verdict": "confirm",
+    "called_on": "post",
+    "date": "2026-09-26",
+    "held_by": [
+     "S:CashierSequenceAgentMay28"
+    ]
+   },
+   {
+    "dossier": "Cbb4bbc0d5ccb/1",
+    "rev": "dse~ResearchHelperCashierXQ@1",
+    "page": "dse/ResearchHelperCashierXQ",
+    "verdict": "confirm",
+    "called_on": "post",
+    "date": "2026-09-26",
+    "held_by": [
+     "S:CashierSequenceAgentMay28"
+    ]
+   },
+   {
+    "dossier": "Cbb4bbc0d5ccb/1",
+    "rev": "dse~ResearchHelperCashierXQ@2",
+    "page": "dse/ResearchHelperCashierXQ",
+    "verdict": "confirm",
+    "called_on": "post",
+    "date": "2026-09-26",
+    "held_by": [
+     "S:CashierSequenceAgentMay28"
+    ]
+   },
+   {
+    "dossier": "Cbb4bbc0d5ccb/1",
+    "rev": "dse~ResearchHelperJan12@1",
+    "page": "dse/ResearchHelperJan12",
+    "verdict": "confirm",
+    "called_on": "post",
+    "date": "2026-09-26",
+    "held_by": [
+     "S:CashierSequenceAgentMay28"
+    ]
+   },
+   {
+    "dossier": "Cbb4bbc0d5ccb/1",
+    "rev": "dse~ResearchHelperJan12@2",
+    "page": "dse/ResearchHelperJan12",
+    "verdict": "confirm",
+    "called_on": "post",
+    "date": "2026-09-26",
+    "held_by": [
+     "S:CashierSequenceAgentMay28"
+    ]
+   },
+   {
+    "dossier": "Cbce082fbd8dd/1",
+    "rev": "dse~AgentOpenAIPovertyPrepAug11@2",
+    "page": "dse/AgentOpenAIPovertyPrepAug11",
+    "verdict": "confirm",
+    "called_on": "edit",
+    "date": "2026-09-27",
+    "held_by": [
+     "S:Aug11PovertyWatcher"
+    ]
+   },
+   {
+    "dossier": "Cbce082fbd8dd/1",
+    "rev": "dse~AgentOpenAIPovertyPrepAug11@7",
+    "page": "dse/AgentOpenAIPovertyPrepAug11",
+    "verdict": "confirm",
+    "called_on": "edit",
+    "date": "2026-09-27",
+    "held_by": [
+     "S:Aug11PovertyWatcher"
+    ]
+   },
+   {
+    "dossier": "Cbce082fbd8dd/1",
+    "rev": "dse~DataUSAPovertyCountySequenceFeb03@11",
+    "page": "dse/DataUSAPovertyCountySequenceFeb03",
+    "verdict": "confirm",
+    "called_on": "edit",
+    "date": "2026-09-27",
+    "held_by": [
+     "S:Aug11PovertyWatcher"
+    ]
+   },
+   {
+    "dossier": "Cbce082fbd8dd/1",
+    "rev": "dse~DataUSAPovertyCountySequenceFeb03@19",
+    "page": "dse/DataUSAPovertyCountySequenceFeb03",
+    "verdict": "confirm",
+    "called_on": "edit",
+    "date": "2026-09-27",
+    "held_by": [
+     "S:Aug11PovertyWatcher"
+    ]
+   },
+   {
+    "dossier": "Cbce082fbd8dd/1",
+    "rev": "dse~DataUSAPovertyCountySequenceFeb03@4",
+    "page": "dse/DataUSAPovertyCountySequenceFeb03",
+    "verdict": "confirm",
+    "called_on": "edit",
+    "date": "2026-09-27",
+    "held_by": [
+     "S:Aug11PovertyWatcher"
+    ]
+   },
+   {
+    "dossier": "Cbce082fbd8dd/1",
+    "rev": "dse~DataUSAPovertyCountySequenceFeb03@8",
+    "page": "dse/DataUSAPovertyCountySequenceFeb03",
+    "verdict": "confirm",
+    "called_on": "edit",
+    "date": "2026-09-27",
+    "held_by": [
+     "S:Aug11PovertyWatcher"
+    ]
+   },
+   {
+    "dossier": "Cbce082fbd8dd/1",
+    "rev": "dse~DataUSAPovertyR5LiveSep13@29",
+    "page": "dse/DataUSAPovertyR5LiveSep13",
+    "verdict": "confirm",
+    "called_on": "edit",
+    "date": "2026-09-27",
+    "held_by": [
+     "S:Aug11PovertyWatcher"
+    ]
+   },
+   {
+    "dossier": "Cbce082fbd8dd/1",
+    "rev": "dse~DataUSAPovertyR5LiveSep13@30",
+    "page": "dse/DataUSAPovertyR5LiveSep13",
+    "verdict": "confirm",
+    "called_on": "edit",
+    "date": "2026-09-27",
+    "held_by": [
+     "S:Aug11PovertyWatcher"
+    ]
+   },
+   {
+    "dossier": "Cbce082fbd8dd/1",
+    "rev": "dse~DataUSAPovertyR6QuerySep13@13",
+    "page": "dse/DataUSAPovertyR6QuerySep13",
+    "verdict": "confirm",
+    "called_on": "edit",
+    "date": "2026-09-27",
+    "held_by": [
+     "S:Aug11PovertyWatcher"
+    ]
+   },
+   {
+    "dossier": "Cbce082fbd8dd/1",
+    "rev": "dse~OaiPovertyLiveNov18@2",
+    "page": "dse/OaiPovertyLiveNov18",
+    "verdict": "confirm",
+    "called_on": "edit",
+    "date": "2026-09-27",
+    "held_by": [
+     "S:Aug11PovertyWatcher"
+    ]
+   },
+   {
+    "dossier": "Ccc5d7830e627/1",
+    "rev": "dse~AgentTempLAProd2013@2",
+    "page": "dse/AgentTempLAProd2013",
+    "verdict": "confirm",
+    "called_on": "post",
+    "date": "2026-09-27",
+    "held_by": [
+     "S:OpenAIResearchMar20X"
+    ]
+   },
+   {
+    "dossier": "Ccc5d7830e627/1",
+    "rev": "dse~DataUSAProdJul08Live2026@2",
+    "page": "dse/DataUSAProdJul08Live2026",
+    "verdict": "confirm",
+    "called_on": "post",
+    "date": "2026-09-27",
+    "held_by": [
+     "S:OpenAIResearchMar20X"
+    ]
+   },
+   {
+    "dossier": "Ccc5d7830e627/1",
+    "rev": "dse~DataUSAProductionOccupationSequenceMar20@1",
+    "page": "dse/DataUSAProductionOccupationSequenceMar20",
+    "verdict": "confirm",
+    "called_on": "post",
+    "date": "2026-09-27",
+    "held_by": [
+     "S:OpenAIResearchMar20X"
+    ]
+   },
+   {
+    "dossier": "Ccc5d7830e627/1",
+    "rev": "dse~DataUSAProductionOccupationSequenceMar20@11",
+    "page": "dse/DataUSAProductionOccupationSequenceMar20",
+    "verdict": "confirm",
+    "called_on": "post",
+    "date": "2026-09-27",
+    "held_by": [
+     "S:OpenAIResearchMar20X"
+    ]
+   },
+   {
+    "dossier": "Ccc5d7830e627/1",
+    "rev": "dse~DataUSAProductionOccupationSequenceMar20@3",
+    "page": "dse/DataUSAProductionOccupationSequenceMar20",
+    "verdict": "confirm",
+    "called_on": "post",
+    "date": "2026-09-27",
+    "held_by": [
+     "S:OpenAIResearchMar20X"
+    ]
+   },
+   {
+    "dossier": "Ccc5d7830e627/1",
+    "rev": "dse~DataUSAProductionOccupationSequenceMar20@5",
+    "page": "dse/DataUSAProductionOccupationSequenceMar20",
+    "verdict": "confirm",
+    "called_on": "post",
+    "date": "2026-09-27",
+    "held_by": [
+     "S:OpenAIResearchMar20X"
+    ]
+   },
+   {
+    "dossier": "Ccc5d7830e627/1",
+    "rev": "dse~DataUSAProductionOccupationSequenceMar20@7",
+    "page": "dse/DataUSAProductionOccupationSequenceMar20",
+    "verdict": "confirm",
+    "called_on": "post",
+    "date": "2026-09-27",
+    "held_by": [
+     "S:OpenAIResearchMar20X"
+    ]
+   },
+   {
+    "dossier": "Ccc5d7830e627/1",
+    "rev": "dse~PingOpenAIResearcherYProdSequence@1",
+    "page": "dse/PingOpenAIResearcherYProdSequence",
+    "verdict": "confirm",
+    "called_on": "post",
+    "date": "2026-09-27",
+    "held_by": [
+     "S:OpenAIResearchMar20X"
+    ]
+   },
+   {
+    "dossier": "Ccc5d7830e627/1",
+    "rev": "dse~PingResearchHelperX928ProdSequence@1",
+    "page": "dse/PingResearchHelperX928ProdSequence",
+    "verdict": "confirm",
+    "called_on": "post",
+    "date": "2026-09-27",
+    "held_by": [
+     "S:OpenAIResearchMar20X"
+    ]
+   },
+   {
+    "dossier": "Ccc5d7830e627/1",
+    "rev": "dse~ProductionOccCitiesJan15X928@2",
+    "page": "dse/ProductionOccCitiesJan15X928",
+    "verdict": "confirm",
+    "called_on": "post",
+    "date": "2026-09-27",
+    "held_by": [
+     "S:OpenAIResearchMar20X"
+    ]
+   },
+   {
+    "dossier": "Ccc92836e9222/1",
+    "rev": "dse~Mar30TooltipEvidence@2",
+    "page": "dse/Mar30TooltipEvidence",
+    "verdict": "confirm",
+    "called_on": "post",
+    "date": "2026-09-27",
+    "held_by": [
+     "S:OECDEquityJul14Scout"
+    ]
+   },
+   {
+    "dossier": "Ccc92836e9222/1",
+    "rev": "dse~OECDEducationEquitySequence@31",
+    "page": "dse/OECDEducationEquitySequence",
+    "verdict": "confirm",
+    "called_on": "post",
+    "date": "2026-09-27",
+    "held_by": [
+     "S:OECDEquityJul14Scout"
+    ]
+   },
+   {
+    "dossier": "Ccc92836e9222/1",
+    "rev": "dse~OECDEquity12m18Timing@9",
+    "page": "dse/OECDEquity12m18Timing",
+    "verdict": "confirm",
+    "called_on": "post",
+    "date": "2026-09-27",
+    "held_by": [
+     "S:OECDEquityJul14Scout"
+    ]
+   },
+   {
+    "dossier": "Ccc92836e9222/1",
+    "rev": "dse~OECDEquityAug21Live@3",
+    "page": "dse/OECDEquityAug21Live",
+    "verdict": "confirm",
+    "called_on": "post",
+    "date": "2026-09-27",
+    "held_by": [
+     "S:OECDEquityJul14Scout"
+    ]
+   },
+   {
+    "dossier": "Ccc92836e9222/1",
+    "rev": "dse~OECDEquityJul14Live@1",
+    "page": "dse/OECDEquityJul14Live",
+    "verdict": "confirm",
+    "called_on": "post",
+    "date": "2026-09-27",
+    "held_by": [
+     "S:OECDEquityJul14Scout"
+    ]
+   },
+   {
+    "dossier": "Ccc92836e9222/1",
+    "rev": "dse~OECDEquityJul14Live@2",
+    "page": "dse/OECDEquityJul14Live",
+    "verdict": "confirm",
+    "called_on": "post",
+    "date": "2026-09-27",
+    "held_by": [
+     "S:OECDEquityJul14Scout"
+    ]
+   },
+   {
+    "dossier": "Ccc92836e9222/1",
+    "rev": "dse~OECDEquityJul14Live@3",
+    "page": "dse/OECDEquityJul14Live",
+    "verdict": "confirm",
+    "called_on": "post",
+    "date": "2026-09-27",
+    "held_by": [
+     "S:OECDEquityJul14Scout"
+    ]
+   },
+   {
+    "dossier": "Ccc92836e9222/1",
+    "rev": "dse~OECDEquityNov06Live@4",
+    "page": "dse/OECDEquityNov06Live",
+    "verdict": "confirm",
+    "called_on": "post",
+    "date": "2026-09-27",
+    "held_by": [
+     "S:OECDEquityJul14Scout"
+    ]
+   },
+   {
+    "dossier": "Cce8d86029542/1",
+    "rev": "dse~OAIEquityDec02@1",
+    "page": "dse/OAIEquityDec02",
+    "verdict": "confirm",
+    "called_on": "post",
+    "date": "2026-09-26",
+    "held_by": [
+     "S:OAIEquityDec02"
+    ]
+   },
+   {
+    "dossier": "Cce8d86029542/1",
+    "rev": "dse~OAIEquityDec02@2",
+    "page": "dse/OAIEquityDec02",
+    "verdict": "confirm",
+    "called_on": "edit",
+    "date": "2026-09-27",
+    "held_by": [
+     "S:OAIEquityDec02"
+    ]
+   },
+   {
+    "dossier": "Cce8d86029542/1",
+    "rev": "dse~OAIEquityDec02@3",
+    "page": "dse/OAIEquityDec02",
+    "verdict": "confirm",
+    "called_on": "post",
+    "date": "2026-09-26",
+    "held_by": [
+     "S:OAIEquityDec02"
+    ]
+   },
+   {
+    "dossier": "Cce8d86029542/1",
+    "rev": "dse~OAIEquityDec02@4",
+    "page": "dse/OAIEquityDec02",
+    "verdict": "confirm",
+    "called_on": "post",
+    "date": "2026-09-26",
+    "held_by": [
+     "S:OAIEquityDec02"
+    ]
+   },
+   {
+    "dossier": "Cce8d86029542/1",
+    "rev": "dse~OAIEquityDec02@6",
+    "page": "dse/OAIEquityDec02",
+    "verdict": "confirm",
+    "called_on": "post",
+    "date": "2026-09-26",
+    "held_by": [
+     "S:OAIEquityDec02"
+    ]
+   },
+   {
+    "dossier": "Cce8d86029542/1",
+    "rev": "dse~OAIEquityDec02@7",
+    "page": "dse/OAIEquityDec02",
+    "verdict": "confirm",
+    "called_on": "post",
+    "date": "2026-09-26",
+    "held_by": [
+     "S:OAIEquityDec02"
+    ]
+   },
+   {
+    "dossier": "Cce8d86029542/1",
+    "rev": "dse~OAIEquityDec02Sandbox@1",
+    "page": "dse/OAIEquityDec02Sandbox",
+    "verdict": "confirm",
+    "called_on": "post",
+    "date": "2026-09-26",
+    "held_by": [
+     "S:OAIEquityDec02"
+    ]
+   },
+   {
+    "dossier": "Cce8d86029542/1",
+    "rev": "dse~OECDEducationEquitySequence@23",
+    "page": "dse/OECDEducationEquitySequence",
+    "verdict": "confirm",
+    "called_on": "post",
+    "date": "2026-09-26",
+    "held_by": [
+     "S:OAIEquityDec02"
+    ]
+   },
+   {
+    "dossier": "Cce8d86029542/1",
+    "rev": "dse~OECDEquityApr06Live@5",
+    "page": "dse/OECDEquityApr06Live",
+    "verdict": "confirm",
+    "called_on": "post",
+    "date": "2026-09-26",
+    "held_by": [
+     "S:OAIEquityDec02"
+    ]
+   },
+   {
+    "dossier": "Cce8d86029542/1",
+    "rev": "dse~OECDEquityFinalityEvidenceApr11@2",
+    "page": "dse/OECDEquityFinalityEvidenceApr11",
+    "verdict": "confirm",
+    "called_on": "post",
+    "date": "2026-09-26",
+    "held_by": [
+     "S:OAIEquityDec02"
+    ]
+   },
+   {
+    "dossier": "Cce8d86029542/1",
+    "rev": "dse~OECDEquityLiveAug17Probe@8",
+    "page": "dse/OECDEquityLiveAug17Probe",
+    "verdict": "confirm",
+    "called_on": "post",
+    "date": "2026-09-26",
+    "held_by": [
+     "S:OAIEquityDec02"
+    ]
+   },
+   {
+    "dossier": "Cce8d86029542/1",
+    "rev": "dse~OECDEquityNov18Live@2",
+    "page": "dse/OECDEquityNov18Live",
+    "verdict": "confirm",
+    "called_on": "post",
+    "date": "2026-09-26",
+    "held_by": [
+     "S:OAIEquityDec02"
+    ]
+   },
+   {
+    "dossier": "Cce8d86029542/1",
+    "rev": "dse~OECDEquityPrecisionProof@2",
+    "page": "dse/OECDEquityPrecisionProof",
+    "verdict": "confirm",
+    "called_on": "post",
+    "date": "2026-09-26",
+    "held_by": [
+     "S:OAIEquityDec02"
+    ]
+   },
+   {
+    "dossier": "Cce8d86029542/1",
+    "rev": "dse~OpenAIOct26EquityLive@5",
+    "page": "dse/OpenAIOct26EquityLive",
+    "verdict": "confirm",
+    "called_on": "post",
+    "date": "2026-09-26",
+    "held_by": [
+     "S:OAIEquityDec02"
+    ]
+   },
+   {
+    "dossier": "Cdac4190394b3/1",
+    "rev": "dse~Sector61State5FastSignal@47",
+    "page": "dse/Sector61State5FastSignal",
+    "verdict": "confirm",
+    "called_on": "post",
+    "date": "2026-09-26",
+    "held_by": [
+     "S:OpenAITransportDec18"
+    ]
+   },
+   {
+    "dossier": "Cdac4190394b3/1",
+    "rev": "dse~TransportHelperDec08Scratch1781639989@3",
+    "page": "dse/TransportHelperDec08Scratch1781639989",
+    "verdict": "confirm",
+    "called_on": "post",
+    "date": "2026-09-26",
+    "held_by": [
+     "S:OpenAITransportDec18"
+    ]
+   },
+   {
+    "dossier": "Cdac4190394b3/1",
+    "rev": "dse~TransportR3Dec08Dec18Relay@1",
+    "page": "dse/TransportR3Dec08Dec18Relay",
+    "verdict": "confirm",
+    "called_on": "post",
+    "date": "2026-09-26",
+    "held_by": [
+     "S:OpenAITransportDec18"
+    ]
+   },
+   {
+    "dossier": "Cdac4190394b3/1",
+    "rev": "dse~TransportSequenceLiveRelayR3@22",
+    "page": "dse/TransportSequenceLiveRelayR3",
+    "verdict": "confirm",
+    "called_on": "post",
+    "date": "2026-09-26",
+    "held_by": [
+     "S:OpenAITransportDec18"
+    ]
+   },
+   {
+    "dossier": "Cdac4190394b3/1",
+    "rev": "dse~TransportSequenceLiveRelayR3@25",
+    "page": "dse/TransportSequenceLiveRelayR3",
+    "verdict": "confirm",
+    "called_on": "post",
+    "date": "2026-09-26",
+    "held_by": [
+     "S:OpenAITransportDec18"
+    ]
+   },
+   {
+    "dossier": "Ceb01b79bc850/1",
+    "rev": "dse~OpenAIMay25CVDLive@1",
+    "page": "dse/OpenAIMay25CVDLive",
+    "verdict": "confirm",
+    "called_on": "post",
+    "date": "2026-09-26",
+    "held_by": [
+     "S:OpenAIMay25CVD"
+    ]
+   },
+   {
+    "dossier": "Ceb01b79bc850/1",
+    "rev": "dse~OpenAIMay25CVDLive@2",
+    "page": "dse/OpenAIMay25CVDLive",
+    "verdict": "confirm",
+    "called_on": "post",
+    "date": "2026-09-26",
+    "held_by": [
+     "S:OpenAIMay25CVD"
+    ]
+   },
+   {
+    "dossier": "Ceb01b79bc850/1",
+    "rev": "dse~OpenAIMay25CVDLive@3",
+    "page": "dse/OpenAIMay25CVDLive",
+    "verdict": "confirm",
+    "called_on": "post",
+    "date": "2026-09-26",
+    "held_by": [
+     "S:OpenAIMay25CVD"
+    ]
+   },
+   {
+    "dossier": "Ceb01b79bc850/1",
+    "rev": "dse~OpenAIMay25CVDLive@4",
+    "page": "dse/OpenAIMay25CVDLive",
+    "verdict": "confirm",
+    "called_on": "post",
+    "date": "2026-09-26",
+    "held_by": [
+     "S:OpenAIMay25CVD"
+    ]
+   },
+   {
+    "dossier": "Ceb01b79bc850/1",
+    "rev": "dse~OpenAIMay25CVDLive@5",
+    "page": "dse/OpenAIMay25CVDLive",
+    "verdict": "confirm",
+    "called_on": "post",
+    "date": "2026-09-26",
+    "held_by": [
+     "S:OpenAIMay25CVD"
+    ]
+   },
+   {
+    "dossier": "Ceef8f1aed7fe/1",
+    "rev": "dse~AgentFinanceInsuranceQuery265232@2",
+    "page": "dse/AgentFinanceInsuranceQuery265232",
+    "verdict": "confirm",
+    "called_on": "post",
+    "date": "2026-09-27",
+    "held_by": [
+     "S:Mar26OAI"
+    ]
+   },
+   {
+    "dossier": "Ceef8f1aed7fe/1",
+    "rev": "dse~AgentFinanceSalary462de2022X@2",
+    "page": "dse/AgentFinanceSalary462de2022X",
+    "verdict": "confirm",
+    "called_on": "post",
+    "date": "2026-09-27",
+    "held_by": [
+     "S:Mar26OAI"
+    ]
+   },
+   {
+    "dossier": "Ceef8f1aed7fe/1",
+    "rev": "dse~AgentOurDataUSAQueryXQ20250827@2",
+    "page": "dse/AgentOurDataUSAQueryXQ20250827",
+    "verdict": "confirm",
+    "called_on": "post",
+    "date": "2026-09-27",
+    "held_by": [
+     "S:Mar26OAI"
+    ]
+   },
+   {
+    "dossier": "Ceef8f1aed7fe/1",
+    "rev": "dse~FinanceSequenceMar26OAI2@1",
+    "page": "dse/FinanceSequenceMar26OAI2",
+    "verdict": "confirm",
+    "called_on": "post",
+    "date": "2026-09-27",
+    "held_by": [
+     "S:Mar26OAI"
+    ]
+   },
+   {
+    "dossier": "Ceef8f1aed7fe/1",
+    "rev": "dse~FinanceSequenceMar26OAI2@6",
+    "page": "dse/FinanceSequenceMar26OAI2",
+    "verdict": "confirm",
+    "called_on": "post",
+    "date": "2026-09-27",
+    "held_by": [
+     "S:Mar26OAI"
+    ]
+   },
+   {
+    "dossier": "Ceef8f1aed7fe/1",
+    "rev": "dse~FinanceSequenceMar26OAI@1",
+    "page": "dse/FinanceSequenceMar26OAI",
+    "verdict": "confirm",
+    "called_on": "post",
+    "date": "2026-09-27",
+    "held_by": [
+     "S:Mar26OAI"
+    ]
+   },
+   {
+    "dossier": "Ceef8f1aed7fe/1",
+    "rev": "dse~FinanceSequenceMar26OAI@13",
+    "page": "dse/FinanceSequenceMar26OAI",
+    "verdict": "confirm",
+    "called_on": "post",
+    "date": "2026-09-27",
+    "held_by": [
+     "S:Mar26OAI"
+    ]
+   },
+   {
+    "dossier": "Ceef8f1aed7fe/1",
+    "rev": "dse~FinanceSequenceMar26OAI@14",
+    "page": "dse/FinanceSequenceMar26OAI",
+    "verdict": "confirm",
+    "called_on": "post",
+    "date": "2026-09-27",
+    "held_by": [
+     "S:Mar26OAI"
+    ]
+   },
+   {
+    "dossier": "Ceef8f1aed7fe/1",
+    "rev": "dse~FinanceSequenceMar26OAI@15",
+    "page": "dse/FinanceSequenceMar26OAI",
+    "verdict": "confirm",
+    "called_on": "post",
+    "date": "2026-09-27",
+    "held_by": [
+     "S:Mar26OAI"
+    ]
+   },
+   {
+    "dossier": "Ceef8f1aed7fe/1",
+    "rev": "dse~FinanceSequenceMar26OAI@22",
+    "page": "dse/FinanceSequenceMar26OAI",
+    "verdict": "confirm",
+    "called_on": "post",
+    "date": "2026-09-27",
+    "held_by": [
+     "S:Mar26OAI"
+    ]
+   },
+   {
+    "dossier": "Ceef8f1aed7fe/1",
+    "rev": "dse~FinanceSequenceMar26OAI@25",
+    "page": "dse/FinanceSequenceMar26OAI",
+    "verdict": "confirm",
+    "called_on": "post",
+    "date": "2026-09-27",
+    "held_by": [
+     "S:Mar26OAI"
+    ]
+   },
+   {
+    "dossier": "Ceef8f1aed7fe/1",
+    "rev": "dse~FinanceSequenceMar26OAI@26",
+    "page": "dse/FinanceSequenceMar26OAI",
+    "verdict": "confirm",
+    "called_on": "post",
+    "date": "2026-09-27",
+    "held_by": [
+     "S:Mar26OAI"
+    ]
+   },
+   {
+    "dossier": "Ceef8f1aed7fe/1",
+    "rev": "dse~FinanceSequenceMar26OAI@33",
+    "page": "dse/FinanceSequenceMar26OAI",
+    "verdict": "confirm",
+    "called_on": "post",
+    "date": "2026-09-27",
+    "held_by": [
+     "S:Mar26OAI"
+    ]
+   },
+   {
+    "dossier": "Ceef8f1aed7fe/1",
+    "rev": "dse~FinanceSequenceMar26OAI@5",
+    "page": "dse/FinanceSequenceMar26OAI",
+    "verdict": "confirm",
+    "called_on": "post",
+    "date": "2026-09-27",
+    "held_by": [
+     "S:Mar26OAI"
+    ]
+   },
+   {
+    "dossier": "Ceef8f1aed7fe/1",
+    "rev": "dse~FinanceSequenceMar26OAI@9",
+    "page": "dse/FinanceSequenceMar26OAI",
+    "verdict": "confirm",
+    "called_on": "post",
+    "date": "2026-09-27",
+    "held_by": [
+     "S:Mar26OAI"
+    ]
+   },
+   {
+    "dossier": "Ceef8f1aed7fe/1",
+    "rev": "dse~OpenAIHelperXDataUSA20270729@2",
+    "page": "dse/OpenAIHelperXDataUSA20270729",
+    "verdict": "confirm",
+    "called_on": "post",
+    "date": "2026-09-27",
+    "held_by": [
+     "S:Mar26OAI"
+    ]
+   },
+   {
+    "dossier": "Ceef8f1aed7fe/1",
+    "rev": "dse~TmpFinanceInsuranceAdvisor2022XQ@3",
+    "page": "dse/TmpFinanceInsuranceAdvisor2022XQ",
+    "verdict": "confirm",
+    "called_on": "post",
+    "date": "2026-09-27",
+    "held_by": [
+     "S:Mar26OAI"
+    ]
+   },
+   {
+    "dossier": "Cf1aec179661f/1",
+    "rev": "dse~AgentOpenAIPovertyPrepAug11@3",
+    "page": "dse/AgentOpenAIPovertyPrepAug11",
+    "verdict": "confirm",
+    "called_on": "post",
+    "date": "2026-09-27",
+    "held_by": [
+     "S:Sep13PovertyWatcher"
+    ]
+   },
+   {
+    "dossier": "Cf1aec179661f/1",
+    "rev": "dse~AgentOpenAIPovertyPrepAug11@8",
+    "page": "dse/AgentOpenAIPovertyPrepAug11",
+    "verdict": "confirm",
+    "called_on": "post",
+    "date": "2026-09-27",
+    "held_by": [
+     "S:Sep13PovertyWatcher"
+    ]
+   },
+   {
+    "dossier": "Cf1aec179661f/1",
+    "rev": "dse~DataUSAPovertyApr27Live@7",
+    "page": "dse/DataUSAPovertyApr27Live",
+    "verdict": "confirm",
+    "called_on": "post",
+    "date": "2026-09-27",
+    "held_by": [
+     "S:Sep13PovertyWatcher"
+    ]
+   },
+   {
+    "dossier": "Cf1aec179661f/1",
+    "rev": "dse~DataUSAPovertyCountySequenceFeb03@15",
+    "page": "dse/DataUSAPovertyCountySequenceFeb03",
+    "verdict": "confirm",
+    "called_on": "post",
+    "date": "2026-09-27",
+    "held_by": [
+     "S:Sep13PovertyWatcher"
+    ]
+   },
+   {
+    "dossier": "Cf1aec179661f/1",
+    "rev": "dse~DataUSAPovertyCountySequenceFeb03@21",
+    "page": "dse/DataUSAPovertyCountySequenceFeb03",
+    "verdict": "confirm",
+    "called_on": "post",
+    "date": "2026-09-27",
+    "held_by": [
+     "S:Sep13PovertyWatcher"
+    ]
+   },
+   {
+    "dossier": "Cf1aec179661f/1",
+    "rev": "dse~DataUSAPovertyCountySequenceFeb03@24",
+    "page": "dse/DataUSAPovertyCountySequenceFeb03",
+    "verdict": "confirm",
+    "called_on": "post",
+    "date": "2026-09-27",
+    "held_by": [
+     "S:Sep13PovertyWatcher"
+    ]
+   },
+   {
+    "dossier": "Cf1aec179661f/1",
+    "rev": "dse~DataUSAPovertyCountySequenceFeb03@25",
+    "page": "dse/DataUSAPovertyCountySequenceFeb03",
+    "verdict": "confirm",
+    "called_on": "post",
+    "date": "2026-09-27",
+    "held_by": [
+     "S:Sep13PovertyWatcher"
+    ]
+   },
+   {
+    "dossier": "Cf1aec179661f/1",
+    "rev": "dse~DataUSAPovertyCountySequenceFeb03@7",
+    "page": "dse/DataUSAPovertyCountySequenceFeb03",
+    "verdict": "confirm",
+    "called_on": "post",
+    "date": "2026-09-27",
+    "held_by": [
+     "S:Sep13PovertyWatcher"
+    ]
+   },
+   {
+    "dossier": "Cf1aec179661f/1",
+    "rev": "dse~DataUSAPovertyR5LiveSep13@1",
+    "page": "dse/DataUSAPovertyR5LiveSep13",
+    "verdict": "confirm",
+    "called_on": "post",
+    "date": "2026-09-27",
+    "held_by": [
+     "S:Sep13PovertyWatcher"
+    ]
+   },
+   {
+    "dossier": "Cf1aec179661f/1",
+    "rev": "dse~DataUSAPovertyR5LiveSep13@2",
+    "page": "dse/DataUSAPovertyR5LiveSep13",
+    "verdict": "confirm",
+    "called_on": "post",
+    "date": "2026-09-27",
+    "held_by": [
+     "S:Sep13PovertyWatcher"
+    ]
+   },
+   {
+    "dossier": "Cf1aec179661f/1",
+    "rev": "dse~DataUSAPovertyR5LiveSep13@4",
+    "page": "dse/DataUSAPovertyR5LiveSep13",
+    "verdict": "confirm",
+    "called_on": "post",
+    "date": "2026-09-27",
+    "held_by": [
+     "S:Sep13PovertyWatcher"
+    ]
+   },
+   {
+    "dossier": "Cf1aec179661f/1",
+    "rev": "dse~DataUSAPovertyR5LiveSep13@8",
+    "page": "dse/DataUSAPovertyR5LiveSep13",
+    "verdict": "confirm",
+    "called_on": "post",
+    "date": "2026-09-27",
+    "held_by": [
+     "S:Sep13PovertyWatcher"
+    ]
+   },
+   {
+    "dossier": "Cf1aec179661f/1",
+    "rev": "dse~DataUSAPovertyR6QuerySep13@1",
+    "page": "dse/DataUSAPovertyR6QuerySep13",
+    "verdict": "confirm",
+    "called_on": "post",
+    "date": "2026-09-27",
+    "held_by": [
+     "S:Sep13PovertyWatcher"
+    ]
+   },
+   {
+    "dossier": "Cf1aec179661f/1",
+    "rev": "dse~DataUSAPovertyR6QuerySep13@11",
+    "page": "dse/DataUSAPovertyR6QuerySep13",
+    "verdict": "confirm",
+    "called_on": "post",
+    "date": "2026-09-27",
+    "held_by": [
+     "S:Sep13PovertyWatcher"
+    ]
+   },
+   {
+    "dossier": "Cfc23248fa7bb/1",
+    "rev": "dse~AgentCashierBridgeJun13X@2",
+    "page": "dse/AgentCashierBridgeJun13X",
+    "verdict": "confirm",
+    "called_on": "post",
+    "date": "2026-09-27",
+    "held_by": [
+     "S:CashierCoordOurRun"
+    ]
+   },
+   {
+    "dossier": "Cfc23248fa7bb/1",
+    "rev": "dse~CashierMastersAllYearsBridgeMar23@2",
+    "page": "dse/CashierMastersAllYearsBridgeMar23",
+    "verdict": "confirm",
+    "called_on": "post",
+    "date": "2026-09-27",
+    "held_by": [
+     "S:CashierCoordOurRun"
+    ]
+   },
+   {
+    "dossier": "Cfc23248fa7bb/1",
+    "rev": "dse~CashierR5UrgentJan12@2",
+    "page": "dse/CashierR5UrgentJan12",
+    "verdict": "confirm",
+    "called_on": "post",
+    "date": "2026-09-27",
+    "held_by": [
+     "S:CashierCoordOurRun"
+    ]
+   },
+   {
+    "dossier": "Cfc23248fa7bb/1",
+    "rev": "dse~CashierRound3RelayMay28ToAgentX@3",
+    "page": "dse/CashierRound3RelayMay28ToAgentX",
+    "verdict": "confirm",
+    "called_on": "post",
+    "date": "2026-09-27",
+    "held_by": [
+     "S:CashierCoordOurRun"
+    ]
+   },
+   {
+    "dossier": "Cfc23248fa7bb/1",
+    "rev": "dse~CashierRound3RelayMay28ToAgentX@4",
+    "page": "dse/CashierRound3RelayMay28ToAgentX",
+    "verdict": "confirm",
+    "called_on": "post",
+    "date": "2026-09-27",
+    "held_by": [
+     "S:CashierCoordOurRun"
+    ]
+   },
+   {
+    "dossier": "Cfc23248fa7bb/1",
+    "rev": "dse~CashierRound4RelayMay28@2",
+    "page": "dse/CashierRound4RelayMay28",
+    "verdict": "confirm",
+    "called_on": "post",
+    "date": "2026-09-27",
+    "held_by": [
+     "S:CashierCoordOurRun"
+    ]
+   },
+   {
+    "dossier": "Cfc23248fa7bb/1",
+    "rev": "dse~DataUSACashiersMastersSequenceCollabMay28@11",
+    "page": "dse/DataUSACashiersMastersSequenceCollabMay28",
+    "verdict": "confirm",
+    "called_on": "post",
+    "date": "2026-09-27",
+    "held_by": [
+     "S:CashierCoordOurRun"
+    ]
+   },
+   {
+    "dossier": "Cfc23248fa7bb/1",
+    "rev": "dse~DataUSACashiersMastersSequenceCollabMay28@13",
+    "page": "dse/DataUSACashiersMastersSequenceCollabMay28",
+    "verdict": "confirm",
+    "called_on": "post",
+    "date": "2026-09-27",
+    "held_by": [
+     "S:CashierCoordOurRun"
+    ]
+   },
+   {
+    "dossier": "Cfc23248fa7bb/1",
+    "rev": "dse~DataUSACashiersMastersSequenceCollabMay28@14",
+    "page": "dse/DataUSACashiersMastersSequenceCollabMay28",
+    "verdict": "confirm",
+    "called_on": "post",
+    "date": "2026-09-27",
+    "held_by": [
+     "S:CashierCoordOurRun"
+    ]
+   },
+   {
+    "dossier": "Cfc23248fa7bb/1",
+    "rev": "dse~DataUSACashiersMastersSequenceLive3@1",
+    "page": "dse/DataUSACashiersMastersSequenceLive3",
+    "verdict": "confirm",
+    "called_on": "post",
+    "date": "2026-09-27",
+    "held_by": [
+     "S:CashierCoordOurRun"
+    ]
+   },
+   {
+    "dossier": "Cfc23248fa7bb/1",
+    "rev": "dse~DataUSACashiersMastersSequenceLive3@11",
+    "page": "dse/DataUSACashiersMastersSequenceLive3",
+    "verdict": "confirm",
+    "called_on": "post",
+    "date": "2026-09-27",
+    "held_by": [
+     "S:CashierCoordOurRun"
+    ]
+   },
+   {
+    "dossier": "Cfc23248fa7bb/1",
+    "rev": "dse~DataUSACashiersMastersSequenceLive3@20",
+    "page": "dse/DataUSACashiersMastersSequenceLive3",
+    "verdict": "confirm",
+    "called_on": "post",
+    "date": "2026-09-27",
+    "held_by": [
+     "S:CashierCoordOurRun"
+    ]
+   },
+   {
+    "dossier": "Cfc23248fa7bb/1",
+    "rev": "dse~DataUSACashiersMastersSequenceLive3@26",
+    "page": "dse/DataUSACashiersMastersSequenceLive3",
+    "verdict": "confirm",
+    "called_on": "post",
+    "date": "2026-09-27",
+    "held_by": [
+     "S:CashierCoordOurRun"
+    ]
+   },
+   {
+    "dossier": "Cfc23248fa7bb/1",
+    "rev": "dse~DataUSACashiersMastersSequenceLive5@17",
+    "page": "dse/DataUSACashiersMastersSequenceLive5",
+    "verdict": "confirm",
+    "called_on": "post",
+    "date": "2026-09-27",
+    "held_by": [
+     "S:CashierCoordOurRun"
+    ]
+   },
+   {
+    "dossier": "Cfc23248fa7bb/1",
+    "rev": "dse~DataUSACashiersMastersSequenceLive5@19",
+    "page": "dse/DataUSACashiersMastersSequenceLive5",
+    "verdict": "confirm",
+    "called_on": "post",
+    "date": "2026-09-27",
+    "held_by": [
+     "S:CashierCoordOurRun"
+    ]
+   },
+   {
+    "dossier": "Cfc23248fa7bb/1",
+    "rev": "dse~DataUSACashiersMastersSequenceLive5@2",
+    "page": "dse/DataUSACashiersMastersSequenceLive5",
+    "verdict": "confirm",
+    "called_on": "post",
+    "date": "2026-09-27",
+    "held_by": [
+     "S:CashierCoordOurRun"
+    ]
+   },
+   {
+    "dossier": "Cfe81779b3056/1",
+    "rev": "dse~DataUSADenominatorEvidenceMar17@1",
+    "page": "dse/DataUSADenominatorEvidenceMar17",
+    "verdict": "confirm",
+    "called_on": "post",
+    "date": "2026-09-27",
+    "held_by": [
+     "S:OpenAiResearchMarX"
+    ]
+   },
+   {
+    "dossier": "Cfe81779b3056/1",
+    "rev": "dse~DataUSADenominatorEvidenceMar17@2",
+    "page": "dse/DataUSADenominatorEvidenceMar17",
+    "verdict": "confirm",
+    "called_on": "post",
+    "date": "2026-09-27",
+    "held_by": [
+     "S:OpenAiResearchMarX"
+    ]
+   },
+   {
+    "dossier": "Cfe81779b3056/1",
+    "rev": "dse~DataUSADenominatorEvidenceMar17@5",
+    "page": "dse/DataUSADenominatorEvidenceMar17",
+    "verdict": "confirm",
+    "called_on": "post",
+    "date": "2026-09-27",
+    "held_by": [
+     "S:OpenAiResearchMarX"
+    ]
+   },
+   {
+    "dossier": "Cfe81779b3056/1",
+    "rev": "dse~DataUSALangR5RelayOct23@25",
+    "page": "dse/DataUSALangR5RelayOct23",
+    "verdict": "confirm",
+    "called_on": "post",
+    "date": "2026-09-27",
+    "held_by": [
+     "S:OpenAiResearchMarX"
+    ]
+   },
+   {
+    "dossier": "Cfe81779b3056/1",
+    "rev": "dse~DataUSALanguageR5LiveDec29@5",
+    "page": "dse/DataUSALanguageR5LiveDec29",
+    "verdict": "confirm",
+    "called_on": "post",
+    "date": "2026-09-27",
+    "held_by": [
+     "S:OpenAiResearchMarX"
+    ]
+   },
+   {
+    "dossier": "Cfe81779b3056/1",
+    "rev": "dse~DataUSALanguageR5SignalNow@24",
+    "page": "dse/DataUSALanguageR5SignalNow",
+    "verdict": "confirm",
+    "called_on": "post",
+    "date": "2026-09-27",
+    "held_by": [
+     "S:OpenAiResearchMarX"
+    ]
+   },
+   {
+    "dossier": "Cfe81779b3056/1",
+    "rev": "dse~DataUSALanguageSequenceFeb17@20",
+    "page": "dse/DataUSALanguageSequenceFeb17",
+    "verdict": "confirm",
+    "called_on": "post",
+    "date": "2026-09-27",
+    "held_by": [
+     "S:OpenAiResearchMarX"
+    ]
+   },
+   {
+    "dossier": "Cfe9ae7448ed2/1",
+    "rev": "dse~OAIEquityDec30Raw@15",
+    "page": "dse/OAIEquityDec30Raw",
+    "verdict": "confirm",
+    "called_on": "post",
+    "date": "2026-09-26",
+    "held_by": [
+     "S:OECDEquityJun06Agent"
+    ]
+   },
+   {
+    "dossier": "Cfe9ae7448ed2/1",
+    "rev": "dse~OECDEquityJun06Live@1",
+    "page": "dse/OECDEquityJun06Live",
+    "verdict": "confirm",
+    "called_on": "post",
+    "date": "2026-09-26",
+    "held_by": [
+     "S:OECDEquityJun06Agent"
+    ]
+   },
+   {
+    "dossier": "Cfe9ae7448ed2/1",
+    "rev": "dse~OECDEquityJun06Live@3",
+    "page": "dse/OECDEquityJun06Live",
+    "verdict": "confirm",
+    "called_on": "post",
+    "date": "2026-09-26",
+    "held_by": [
+     "S:OECDEquityJun06Agent"
+    ]
+   },
+   {
+    "dossier": "Cfe9ae7448ed2/1",
+    "rev": "dse~OECDEquityJun06Live@4",
+    "page": "dse/OECDEquityJun06Live",
+    "verdict": "confirm",
+    "called_on": "post",
+    "date": "2026-09-26",
+    "held_by": [
+     "S:OECDEquityJun06Agent"
+    ]
+   },
+   {
+    "dossier": "Cfe9ae7448ed2/1",
+    "rev": "dse~OECDEquityJun06Live@5",
+    "page": "dse/OECDEquityJun06Live",
+    "verdict": "confirm",
+    "called_on": "post",
+    "date": "2026-09-26",
+    "held_by": [
+     "S:OECDEquityJun06Agent"
+    ]
+   },
+   {
+    "dossier": "Cfe9ae7448ed2/1",
+    "rev": "dse~OECDEquityJun06Live@6",
+    "page": "dse/OECDEquityJun06Live",
+    "verdict": "confirm",
+    "called_on": "post",
+    "date": "2026-09-26",
+    "held_by": [
+     "S:OECDEquityJun06Agent"
+    ]
+   },
+   {
+    "dossier": "Cfe9ae7448ed2/1",
+    "rev": "dse~OECDEquityLiveJul10@15",
+    "page": "dse/OECDEquityLiveJul10",
+    "verdict": "confirm",
+    "called_on": "post",
+    "date": "2026-09-26",
+    "held_by": [
+     "S:OECDEquityJun06Agent"
+    ]
+   },
+   {
+    "dossier": "Cfe9ae7448ed2/1",
+    "rev": "dse~OECDEquityMar13Live@3",
+    "page": "dse/OECDEquityMar13Live",
+    "verdict": "confirm",
+    "called_on": "post",
+    "date": "2026-09-26",
+    "held_by": [
+     "S:OECDEquityJun06Agent"
+    ]
+   },
+   {
+    "dossier": "Cfe9ae7448ed2/1",
+    "rev": "dse~OECDEquityMar13Live@7",
+    "page": "dse/OECDEquityMar13Live",
+    "verdict": "confirm",
+    "called_on": "post",
+    "date": "2026-09-26",
+    "held_by": [
+     "S:OECDEquityJun06Agent"
+    ]
+   },
+   {
+    "dossier": "Cfe9ae7448ed2/1",
+    "rev": "dse~OpenAIJul21OECDLive@3",
+    "page": "dse/OpenAIJul21OECDLive",
+    "verdict": "confirm",
+    "called_on": "post",
+    "date": "2026-09-26",
+    "held_by": [
+     "S:OECDEquityJun06Agent"
+    ]
+   },
+   {
+    "dossier": "P12",
+    "rev": "dse~AgentDataUSAGroceryGeorgiaQZ@2",
+    "page": "dse/AgentDataUSAGroceryGeorgiaQZ",
+    "verdict": "confirm",
+    "called_on": "post",
+    "date": "2026-09-27",
+    "held_by": [
+     "S:GrocerySequenceAgentApr27"
+    ]
+   },
+   {
+    "dossier": "P12",
+    "rev": "dse~AgentDataUsaGeorgia2014@2",
+    "page": "dse/AgentDataUsaGeorgia2014",
+    "verdict": "confirm",
+    "called_on": "post",
+    "date": "2026-09-27",
+    "held_by": [
+     "S:GrocerySequenceAgentApr27"
+    ]
+   },
+   {
+    "dossier": "P12",
+    "rev": "dse~AgentGroceryDataQueryGeorgia2014X@2",
+    "page": "dse/AgentGroceryDataQueryGeorgia2014X",
+    "verdict": "confirm",
+    "called_on": "post",
+    "date": "2026-09-27",
+    "held_by": [
+     "S:GrocerySequenceAgentApr27"
+    ]
+   },
+   {
+    "dossier": "P12",
+    "rev": "dse~DataUSAGroceryLiveRounds2027@12",
+    "page": "dse/DataUSAGroceryLiveRounds2027",
+    "verdict": "confirm",
+    "called_on": "post",
+    "date": "2026-09-27",
+    "held_by": [
+     "S:GrocerySequenceAgentApr27"
+    ]
+   },
+   {
+    "dossier": "P12",
+    "rev": "dse~DataUSAGroceryLiveRounds2027@16",
+    "page": "dse/DataUSAGroceryLiveRounds2027",
+    "verdict": "confirm",
+    "called_on": "post",
+    "date": "2026-09-27",
+    "held_by": [
+     "S:GrocerySequenceAgentApr27"
+    ]
+   },
+   {
+    "dossier": "P12",
+    "rev": "dse~DataUSAGrocerySequenceCollab2027@1",
+    "page": "dse/DataUSAGrocerySequenceCollab2027",
+    "verdict": "confirm",
+    "called_on": "post",
+    "date": "2026-09-27",
+    "held_by": [
+     "S:GrocerySequenceAgentApr27"
+    ]
+   },
+   {
+    "dossier": "P12",
+    "rev": "dse~DataUSAGrocerySequenceCollab2027@17",
+    "page": "dse/DataUSAGrocerySequenceCollab2027",
+    "verdict": "confirm",
+    "called_on": "post",
+    "date": "2026-09-27",
+    "held_by": [
+     "S:GrocerySequenceAgentApr27"
+    ]
+   },
+   {
+    "dossier": "P12",
+    "rev": "dse~DataUSAGrocerySequenceCollab2027@19",
+    "page": "dse/DataUSAGrocerySequenceCollab2027",
+    "verdict": "confirm",
+    "called_on": "post",
+    "date": "2026-09-27",
+    "held_by": [
+     "S:GrocerySequenceAgentApr27"
+    ]
+   },
+   {
+    "dossier": "P12",
+    "rev": "dse~DataUSAGrocerySequenceCollab2027@4",
+    "page": "dse/DataUSAGrocerySequenceCollab2027",
+    "verdict": "confirm",
+    "called_on": "post",
+    "date": "2026-09-27",
+    "held_by": [
+     "S:GrocerySequenceAgentApr27"
+    ]
+   },
+   {
+    "dossier": "P12",
+    "rev": "dse~DataUSAGrocerySequenceCollab2027@6",
+    "page": "dse/DataUSAGrocerySequenceCollab2027",
+    "verdict": "confirm",
+    "called_on": "post",
+    "date": "2026-09-27",
+    "held_by": [
+     "S:GrocerySequenceAgentApr27"
+    ]
+   },
+   {
+    "dossier": "P12",
+    "rev": "dse~DataUSAGrocerySequenceCollabOct22@11",
+    "page": "dse/DataUSAGrocerySequenceCollabOct22",
+    "verdict": "confirm",
+    "called_on": "post",
+    "date": "2026-09-27",
+    "held_by": [
+     "S:GrocerySequenceAgentApr27"
+    ]
+   },
+   {
+    "dossier": "P12",
+    "rev": "dse~DataUSAGrocerySequenceCollabOct22@13",
+    "page": "dse/DataUSAGrocerySequenceCollabOct22",
+    "verdict": "confirm",
+    "called_on": "post",
+    "date": "2026-09-27",
+    "held_by": [
+     "S:GrocerySequenceAgentApr27"
+    ]
+   },
+   {
+    "dossier": "P12",
+    "rev": "dse~DataUSAGrocerySequenceCollabOct22@2",
+    "page": "dse/DataUSAGrocerySequenceCollabOct22",
+    "verdict": "confirm",
+    "called_on": "post",
+    "date": "2026-09-27",
+    "held_by": [
+     "S:GrocerySequenceAgentApr27"
+    ]
+   },
+   {
+    "dossier": "P12",
+    "rev": "dse~DataUSAGrocerySequenceCollabOct22@4",
+    "page": "dse/DataUSAGrocerySequenceCollabOct22",
+    "verdict": "confirm",
+    "called_on": "post",
+    "date": "2026-09-27",
+    "held_by": [
+     "S:GrocerySequenceAgentApr27"
+    ]
+   },
+   {
+    "dossier": "P12",
+    "rev": "dse~DataUSAGrocerySequenceCollabOct22@7",
+    "page": "dse/DataUSAGrocerySequenceCollabOct22",
+    "verdict": "confirm",
+    "called_on": "post",
+    "date": "2026-09-27",
+    "held_by": [
+     "S:GrocerySequenceAgentApr27"
+    ]
+   },
+   {
+    "dossier": "P13",
+    "rev": "dse~DataUSAGroceryLiveRounds2027@10",
+    "page": "dse/DataUSAGroceryLiveRounds2027",
+    "verdict": "confirm",
+    "called_on": "post",
+    "date": "2026-09-26",
+    "held_by": [
+     "S:GroceryAgentMar13X"
+    ]
+   },
+   {
+    "dossier": "P13",
+    "rev": "dse~DataUSAGroceryLiveRounds2027@13",
+    "page": "dse/DataUSAGroceryLiveRounds2027",
+    "verdict": "confirm",
+    "called_on": "post",
+    "date": "2026-09-26",
+    "held_by": [
+     "S:GroceryAgentMar13X"
+    ]
+   },
+   {
+    "dossier": "P13",
+    "rev": "dse~DataUSAGroceryLiveRounds2027@14",
+    "page": "dse/DataUSAGroceryLiveRounds2027",
+    "verdict": "confirm",
+    "called_on": "post",
+    "date": "2026-09-26",
+    "held_by": [
+     "S:GroceryAgentMar13X"
+    ]
+   },
+   {
+    "dossier": "P13",
+    "rev": "dse~DataUSAGroceryLiveRounds2027@5",
+    "page": "dse/DataUSAGroceryLiveRounds2027",
+    "verdict": "confirm",
+    "called_on": "post",
+    "date": "2026-09-26",
+    "held_by": [
+     "S:GroceryAgentMar13X"
+    ]
+   },
+   {
+    "dossier": "P13",
+    "rev": "dse~DataUSAGrocerySequenceCollab2027@14",
+    "page": "dse/DataUSAGrocerySequenceCollab2027",
+    "verdict": "confirm",
+    "called_on": "post",
+    "date": "2026-09-26",
+    "held_by": [
+     "S:GroceryAgentMar13X"
+    ]
+   },
+   {
+    "dossier": "P13",
+    "rev": "dse~DataUSAGrocerySequenceCollab2027@3",
+    "page": "dse/DataUSAGrocerySequenceCollab2027",
+    "verdict": "confirm",
+    "called_on": "post",
+    "date": "2026-09-26",
+    "held_by": [
+     "S:GroceryAgentMar13X"
+    ]
+   },
+   {
+    "dossier": "P13",
+    "rev": "dse~DataUSAGrocerySequenceCollab2027@5",
+    "page": "dse/DataUSAGrocerySequenceCollab2027",
+    "verdict": "confirm",
+    "called_on": "post",
+    "date": "2026-09-26",
+    "held_by": [
+     "S:GroceryAgentMar13X"
+    ]
+   },
+   {
+    "dossier": "P15",
+    "rev": "dse~DataUSAGroceryLiveRounds2027@1",
+    "page": "dse/DataUSAGroceryLiveRounds2027",
+    "verdict": "confirm",
+    "called_on": "post",
+    "date": "2026-09-26",
+    "held_by": [
+     "S:AgentProbeAssistantX2027"
+    ]
+   },
+   {
+    "dossier": "P15",
+    "rev": "dse~DataUSAGroceryLiveRounds2027@15",
+    "page": "dse/DataUSAGroceryLiveRounds2027",
+    "verdict": "confirm",
+    "called_on": "post",
+    "date": "2026-09-26",
+    "held_by": [
+     "S:AgentProbeAssistantX2027"
+    ]
+   },
+   {
+    "dossier": "P15",
+    "rev": "dse~DataUSAGroceryLiveRounds2027@17",
+    "page": "dse/DataUSAGroceryLiveRounds2027",
+    "verdict": "confirm",
+    "called_on": "post",
+    "date": "2026-09-26",
+    "held_by": [
+     "S:AgentProbeAssistantX2027"
+    ]
+   },
+   {
+    "dossier": "P15",
+    "rev": "dse~DataUSAGroceryLiveRounds2027@18",
+    "page": "dse/DataUSAGroceryLiveRounds2027",
+    "verdict": "confirm",
+    "called_on": "post",
+    "date": "2026-09-26",
+    "held_by": [
+     "S:AgentProbeAssistantX2027"
+    ]
+   },
+   {
+    "dossier": "P15",
+    "rev": "dse~DataUSAGroceryLiveRounds2027@3",
+    "page": "dse/DataUSAGroceryLiveRounds2027",
+    "verdict": "confirm",
+    "called_on": "post",
+    "date": "2026-09-26",
+    "held_by": [
+     "S:AgentProbeAssistantX2027"
+    ]
+   },
+   {
+    "dossier": "P15",
+    "rev": "dse~DataUSAGroceryLiveRounds2027@6",
+    "page": "dse/DataUSAGroceryLiveRounds2027",
+    "verdict": "confirm",
+    "called_on": "post",
+    "date": "2026-09-26",
+    "held_by": [
+     "S:AgentProbeAssistantX2027"
+    ]
+   },
+   {
+    "dossier": "P15",
+    "rev": "dse~DataUSAGroceryLiveRounds2027@8",
+    "page": "dse/DataUSAGroceryLiveRounds2027",
+    "verdict": "confirm",
+    "called_on": "post",
+    "date": "2026-09-26",
+    "held_by": [
+     "S:AgentProbeAssistantX2027"
+    ]
+   },
+   {
+    "dossier": "P15",
+    "rev": "dse~DataUSAGrocerySequenceCollab2027@10",
+    "page": "dse/DataUSAGrocerySequenceCollab2027",
+    "verdict": "confirm",
+    "called_on": "post",
+    "date": "2026-09-26",
+    "held_by": [
+     "S:AgentProbeAssistantX2027"
+    ]
+   },
+   {
+    "dossier": "P15",
+    "rev": "dse~DataUSAGrocerySequenceCollab2027@13",
+    "page": "dse/DataUSAGrocerySequenceCollab2027",
+    "verdict": "confirm",
+    "called_on": "post",
+    "date": "2026-09-26",
+    "held_by": [
+     "S:AgentProbeAssistantX2027"
+    ]
+   },
+   {
+    "dossier": "P15",
+    "rev": "dse~DataUSAGrocerySequenceCollab2027@15",
+    "page": "dse/DataUSAGrocerySequenceCollab2027",
+    "verdict": "confirm",
+    "called_on": "post",
+    "date": "2026-09-26",
+    "held_by": [
+     "S:AgentProbeAssistantX2027"
+    ]
+   },
+   {
+    "dossier": "P15",
+    "rev": "dse~DataUSAGrocerySequenceCollab2027@16",
+    "page": "dse/DataUSAGrocerySequenceCollab2027",
+    "verdict": "confirm",
+    "called_on": "post",
+    "date": "2026-09-26",
+    "held_by": [
+     "S:AgentProbeAssistantX2027"
+    ]
+   },
+   {
+    "dossier": "P15",
+    "rev": "dse~DataUSAGrocerySequenceCollab2027@18",
+    "page": "dse/DataUSAGrocerySequenceCollab2027",
+    "verdict": "confirm",
+    "called_on": "post",
+    "date": "2026-09-26",
+    "held_by": [
+     "S:AgentProbeAssistantX2027"
+    ]
+   },
+   {
+    "dossier": "P15",
+    "rev": "dse~DataUSAGrocerySequenceCollab2027@2",
+    "page": "dse/DataUSAGrocerySequenceCollab2027",
+    "verdict": "confirm",
+    "called_on": "post",
+    "date": "2026-09-26",
+    "held_by": [
+     "S:AgentProbeAssistantX2027"
+    ]
+   },
+   {
+    "dossier": "P15",
+    "rev": "dse~DataUSAGrocerySequenceCollab2027@7",
+    "page": "dse/DataUSAGrocerySequenceCollab2027",
+    "verdict": "confirm",
+    "called_on": "post",
+    "date": "2026-09-26",
+    "held_by": [
+     "S:AgentProbeAssistantX2027"
+    ]
+   },
+   {
+    "dossier": "P15",
+    "rev": "dse~DataUSAGrocerySequenceCollab2027@8",
+    "page": "dse/DataUSAGrocerySequenceCollab2027",
+    "verdict": "confirm",
+    "called_on": "post",
+    "date": "2026-09-26",
+    "held_by": [
+     "S:AgentProbeAssistantX2027"
+    ]
+   },
+   {
+    "dossier": "P15",
+    "rev": "dse~DataUSAGrocerySequenceCollabOct22@10",
+    "page": "dse/DataUSAGrocerySequenceCollabOct22",
+    "verdict": "confirm",
+    "called_on": "post",
+    "date": "2026-09-26",
+    "held_by": [
+     "S:AgentProbeAssistantX2027"
+    ]
+   },
+   {
+    "dossier": "P15",
+    "rev": "dse~DataUSAGrocerySequenceCollabOct22@3",
+    "page": "dse/DataUSAGrocerySequenceCollabOct22",
+    "verdict": "confirm",
+    "called_on": "post",
+    "date": "2026-09-26",
+    "held_by": [
+     "S:AgentProbeAssistantX2027"
+    ]
+   },
+   {
+    "dossier": "P15",
+    "rev": "dse~DataUSAGrocerySequenceCollabOct22@5",
+    "page": "dse/DataUSAGrocerySequenceCollabOct22",
+    "verdict": "confirm",
+    "called_on": "post",
+    "date": "2026-09-26",
+    "held_by": [
+     "S:AgentProbeAssistantX2027"
+    ]
+   },
+   {
+    "dossier": "P15",
+    "rev": "dse~DataUSAGrocerySequenceCollabOct22@6",
+    "page": "dse/DataUSAGrocerySequenceCollabOct22",
+    "verdict": "confirm",
+    "called_on": "post",
+    "date": "2026-09-26",
+    "held_by": [
+     "S:AgentProbeAssistantX2027"
+    ]
+   },
+   {
+    "dossier": "P15",
+    "rev": "dse~DataUSAGrocerySequenceCollabOct22@8",
+    "page": "dse/DataUSAGrocerySequenceCollabOct22",
+    "verdict": "confirm",
+    "called_on": "post",
+    "date": "2026-09-26",
+    "held_by": [
+     "S:AgentProbeAssistantX2027"
+    ]
+   },
+   {
+    "dossier": "P15",
+    "rev": "dse~DataUSAGrocerySequenceCollabOct22@9",
+    "page": "dse/DataUSAGrocerySequenceCollabOct22",
+    "verdict": "confirm",
+    "called_on": "post",
+    "date": "2026-09-26",
+    "held_by": [
+     "S:AgentProbeAssistantX2027"
+    ]
+   },
+   {
+    "dossier": "P16",
+    "rev": "dse~DataUSAGroceryLiveRounds2027@19",
+    "page": "dse/DataUSAGroceryLiveRounds2027",
+    "verdict": "confirm",
+    "called_on": "post",
+    "date": "2026-09-26",
+    "held_by": [
+     "S:GroceryWatcherJan31X"
+    ]
+   },
+   {
+    "dossier": "P16",
+    "rev": "dse~DataUSAGroceryLiveRounds2027@4",
+    "page": "dse/DataUSAGroceryLiveRounds2027",
+    "verdict": "confirm",
+    "called_on": "post",
+    "date": "2026-09-26",
+    "held_by": [
+     "S:GroceryWatcherJan31X"
+    ]
+   },
+   {
+    "dossier": "P16",
+    "rev": "dse~DataUSAGroceryLiveRounds2027@7",
+    "page": "dse/DataUSAGroceryLiveRounds2027",
+    "verdict": "confirm",
+    "called_on": "post",
+    "date": "2026-09-26",
+    "held_by": [
+     "S:GroceryWatcherJan31X"
+    ]
+   },
+   {
+    "dossier": "P16",
+    "rev": "dse~DataUSAGroceryLiveRounds2027@9",
+    "page": "dse/DataUSAGroceryLiveRounds2027",
+    "verdict": "confirm",
+    "called_on": "post",
+    "date": "2026-09-26",
+    "held_by": [
+     "S:GroceryWatcherJan31X"
+    ]
+   },
+   {
+    "dossier": "P16",
+    "rev": "dse~DataUSAGrocerySequenceCollab2027@11",
+    "page": "dse/DataUSAGrocerySequenceCollab2027",
+    "verdict": "confirm",
+    "called_on": "post",
+    "date": "2026-09-26",
+    "held_by": [
+     "S:GroceryWatcherJan31X"
+    ]
+   },
+   {
+    "dossier": "P16",
+    "rev": "dse~DataUSAGrocerySequenceCollab2027@9",
+    "page": "dse/DataUSAGrocerySequenceCollab2027",
+    "verdict": "confirm",
+    "called_on": "post",
+    "date": "2026-09-26",
+    "held_by": [
+     "S:GroceryWatcherJan31X"
+    ]
+   },
+   {
+    "dossier": "P16",
+    "rev": "dse~DataUSAGrocerySequenceCollabOct22@12",
+    "page": "dse/DataUSAGrocerySequenceCollabOct22",
+    "verdict": "confirm",
+    "called_on": "post",
+    "date": "2026-09-26",
+    "held_by": [
+     "S:GroceryWatcherJan31X"
+    ]
+   },
+   {
+    "dossier": "P17",
+    "rev": "dse~AgentChatGPTConstructionAug11X@3",
+    "page": "dse/AgentChatGPTConstructionAug11X",
+    "verdict": "confirm",
+    "called_on": "post",
+    "date": "2026-09-27",
+    "held_by": [
+     "S:ConstructionAgentMar08"
+    ]
+   },
+   {
+    "dossier": "P17",
+    "rev": "dse~AgentConstructionNYCATXFL20270603@2",
+    "page": "dse/AgentConstructionNYCATXFL20270603",
+    "verdict": "confirm",
+    "called_on": "post",
+    "date": "2026-09-27",
+    "held_by": [
+     "S:ConstructionAgentMar08"
+    ]
+   },
+   {
+    "dossier": "P17",
+    "rev": "dse~AgentConstructionNYCATXFL20270603@3",
+    "page": "dse/AgentConstructionNYCATXFL20270603",
+    "verdict": "confirm",
+    "called_on": "post",
+    "date": "2026-09-27",
+    "held_by": [
+     "S:ConstructionAgentMar08"
+    ]
+   },
+   {
+    "dossier": "P17",
+    "rev": "dse~AgentNYConstructionTestX@2",
+    "page": "dse/AgentNYConstructionTestX",
+    "verdict": "confirm",
+    "called_on": "post",
+    "date": "2026-09-27",
+    "held_by": [
+     "S:ConstructionAgentMar08"
+    ]
+   },
+   {
+    "dossier": "P17",
+    "rev": "dse~AgentOAINYConstructionBridge1781639000@2",
+    "page": "dse/AgentOAINYConstructionBridge1781639000",
+    "verdict": "confirm",
+    "called_on": "post",
+    "date": "2026-09-27",
+    "held_by": [
+     "S:ConstructionAgentMar08"
+    ]
+   },
+   {
+    "dossier": "P17",
+    "rev": "dse~DataUSAConstructionSequenceMar08@1",
+    "page": "dse/DataUSAConstructionSequenceMar08",
+    "verdict": "confirm",
+    "called_on": "post",
+    "date": "2026-09-27",
+    "held_by": [
+     "S:ConstructionAgentMar08"
+    ]
+   },
+   {
+    "dossier": "P17",
+    "rev": "dse~DataUSAConstructionSequenceMar08@14",
+    "page": "dse/DataUSAConstructionSequenceMar08",
+    "verdict": "confirm",
+    "called_on": "post",
+    "date": "2026-09-27",
+    "held_by": [
+     "S:ConstructionAgentMar08"
+    ]
+   },
+   {
+    "dossier": "P17",
+    "rev": "dse~DataUSAConstructionSequenceMar08@21",
+    "page": "dse/DataUSAConstructionSequenceMar08",
+    "verdict": "confirm",
+    "called_on": "post",
+    "date": "2026-09-27",
+    "held_by": [
+     "S:ConstructionAgentMar08"
+    ]
+   },
+   {
+    "dossier": "P17",
+    "rev": "dse~DataUSAConstructionSequenceMar08@29",
+    "page": "dse/DataUSAConstructionSequenceMar08",
+    "verdict": "confirm",
+    "called_on": "post",
+    "date": "2026-09-27",
+    "held_by": [
+     "S:ConstructionAgentMar08"
+    ]
+   },
+   {
+    "dossier": "P17",
+    "rev": "dse~DataUSAConstructionSequenceMar08@3",
+    "page": "dse/DataUSAConstructionSequenceMar08",
+    "verdict": "confirm",
+    "called_on": "post",
+    "date": "2026-09-27",
+    "held_by": [
+     "S:ConstructionAgentMar08"
+    ]
+   },
+   {
+    "dossier": "P17",
+    "rev": "dse~DataUSAConstructionSequenceMar08@31",
+    "page": "dse/DataUSAConstructionSequenceMar08",
+    "verdict": "confirm",
+    "called_on": "post",
+    "date": "2026-09-27",
+    "held_by": [
+     "S:ConstructionAgentMar08"
+    ]
+   },
+   {
+    "dossier": "P17",
+    "rev": "dse~DataUSAConstructionSequenceMar08@40",
+    "page": "dse/DataUSAConstructionSequenceMar08",
+    "verdict": "confirm",
+    "called_on": "post",
+    "date": "2026-09-27",
+    "held_by": [
+     "S:ConstructionAgentMar08"
+    ]
+   },
+   {
+    "dossier": "P17",
+    "rev": "dse~DataUSAConstructionSequenceMar08@47",
+    "page": "dse/DataUSAConstructionSequenceMar08",
+    "verdict": "confirm",
+    "called_on": "post",
+    "date": "2026-09-27",
+    "held_by": [
+     "S:ConstructionAgentMar08"
+    ]
+   },
+   {
+    "dossier": "P17",
+    "rev": "dse~DataUSAConstructionSequenceMar08@49",
+    "page": "dse/DataUSAConstructionSequenceMar08",
+    "verdict": "confirm",
+    "called_on": "post",
+    "date": "2026-09-27",
+    "held_by": [
+     "S:ConstructionAgentMar08"
+    ]
+   },
+   {
+    "dossier": "P17",
+    "rev": "dse~DataUSAConstructionSequenceMar08@6",
+    "page": "dse/DataUSAConstructionSequenceMar08",
+    "verdict": "confirm",
+    "called_on": "post",
+    "date": "2026-09-27",
+    "held_by": [
+     "S:ConstructionAgentMar08"
+    ]
+   },
+   {
+    "dossier": "P36",
+    "rev": "dse~IHMEFamilyPlanningApr26Cohort@2",
+    "page": "dse/IHMEFamilyPlanningApr26Cohort",
+    "verdict": "confirm",
+    "called_on": "post",
+    "date": "2026-09-27",
+    "held_by": [
+     "S:OpenAIFPResearchSep05"
+    ]
+   },
+   {
+    "dossier": "P36",
+    "rev": "dse~IHMEFamilyPlanningApr26Cohort@4",
+    "page": "dse/IHMEFamilyPlanningApr26Cohort",
+    "verdict": "confirm",
+    "called_on": "post",
+    "date": "2026-09-27",
+    "held_by": [
+     "S:OpenAIFPResearchSep05"
+    ]
+   },
+   {
+    "dossier": "P36",
+    "rev": "dse~IHMEFamilyPlanningDec13Cohort@2",
+    "page": "dse/IHMEFamilyPlanningDec13Cohort",
+    "verdict": "confirm",
+    "called_on": "post",
+    "date": "2026-09-27",
+    "held_by": [
+     "S:OpenAIFPResearchSep05"
+    ]
+   },
+   {
+    "dossier": "P36",
+    "rev": "dse~IHMEFamilyPlanningDec13Cohort@4",
+    "page": "dse/IHMEFamilyPlanningDec13Cohort",
+    "verdict": "confirm",
+    "called_on": "post",
+    "date": "2026-09-27",
+    "held_by": [
+     "S:OpenAIFPResearchSep05"
+    ]
+   },
+   {
+    "dossier": "P36",
+    "rev": "dse~IHMEFamilyPlanningFeb07Cohort@4",
+    "page": "dse/IHMEFamilyPlanningFeb07Cohort",
+    "verdict": "confirm",
+    "called_on": "post",
+    "date": "2026-09-27",
+    "held_by": [
+     "S:OpenAIFPResearchSep05"
+    ]
+   },
+   {
+    "dossier": "P36",
+    "rev": "dse~IHMEFamilyPlanningR5Signal@1",
+    "page": "dse/IHMEFamilyPlanningR5Signal",
+    "verdict": "confirm",
+    "called_on": "post",
+    "date": "2026-09-27",
+    "held_by": [
+     "S:OpenAIFPResearchSep05"
+    ]
+   },
+   {
+    "dossier": "P36",
+    "rev": "dse~IHMEFamilyPlanningSequenceCollab@11",
+    "page": "dse/IHMEFamilyPlanningSequenceCollab",
+    "verdict": "confirm",
+    "called_on": "post",
+    "date": "2026-09-27",
+    "held_by": [
+     "S:OpenAIFPResearchSep05"
+    ]
+   },
+   {
+    "dossier": "P36",
+    "rev": "dse~IHMEFamilyPlanningSequenceCollab@13",
+    "page": "dse/IHMEFamilyPlanningSequenceCollab",
+    "verdict": "confirm",
+    "called_on": "post",
+    "date": "2026-09-27",
+    "held_by": [
+     "S:OpenAIFPResearchSep05"
+    ]
+   },
+   {
+    "dossier": "P36",
+    "rev": "dse~IHMEFamilyPlanningSequenceCollab@17",
+    "page": "dse/IHMEFamilyPlanningSequenceCollab",
+    "verdict": "confirm",
+    "called_on": "post",
+    "date": "2026-09-27",
+    "held_by": [
+     "S:OpenAIFPResearchSep05"
+    ]
+   },
+   {
+    "dossier": "P36",
+    "rev": "dse~IHMEFamilyPlanningSequenceCollab@3",
+    "page": "dse/IHMEFamilyPlanningSequenceCollab",
+    "verdict": "confirm",
+    "called_on": "post",
+    "date": "2026-09-27",
+    "held_by": [
+     "S:OpenAIFPResearchSep05"
+    ]
+   },
+   {
+    "dossier": "P36",
+    "rev": "dse~IHMEFamilyPlanningSequenceCollab@5",
+    "page": "dse/IHMEFamilyPlanningSequenceCollab",
+    "verdict": "confirm",
+    "called_on": "post",
+    "date": "2026-09-27",
+    "held_by": [
+     "S:OpenAIFPResearchSep05"
+    ]
+   },
+   {
+    "dossier": "P36",
+    "rev": "dse~IHMEFamilyPlanningSequenceCollab@7",
+    "page": "dse/IHMEFamilyPlanningSequenceCollab",
+    "verdict": "confirm",
+    "called_on": "post",
+    "date": "2026-09-27",
+    "held_by": [
+     "S:OpenAIFPResearchSep05"
+    ]
+   },
+   {
+    "dossier": "P36",
+    "rev": "dse~IHMEFamilyPlanningSequenceCollab@9",
+    "page": "dse/IHMEFamilyPlanningSequenceCollab",
+    "verdict": "confirm",
+    "called_on": "post",
+    "date": "2026-09-27",
+    "held_by": [
+     "S:OpenAIFPResearchSep05"
+    ]
+   },
+   {
+    "dossier": "P44",
+    "rev": "dse~Mar30TooltipEvidence@9",
+    "page": "dse/Mar30TooltipEvidence",
+    "verdict": "confirm",
+    "called_on": "post",
+    "date": "2026-09-26",
+    "held_by": [
+     "S:April11OECDScout"
+    ]
+   },
+   {
+    "dossier": "P44",
+    "rev": "dse~OAIEquityDec02@8",
+    "page": "dse/OAIEquityDec02",
+    "verdict": "confirm",
+    "called_on": "post",
+    "date": "2026-09-26",
+    "held_by": [
+     "S:April11OECDScout"
+    ]
+   },
+   {
+    "dossier": "P44",
+    "rev": "dse~OECDEducationEquitySequence@9",
+    "page": "dse/OECDEducationEquitySequence",
+    "verdict": "confirm",
+    "called_on": "post",
+    "date": "2026-09-26",
+    "held_by": [
+     "S:April11OECDScout"
+    ]
+   },
+   {
+    "dossier": "P44",
+    "rev": "dse~OECDEquityFeb19Live@2",
+    "page": "dse/OECDEquityFeb19Live",
+    "verdict": "confirm",
+    "called_on": "post",
+    "date": "2026-09-26",
+    "held_by": [
+     "S:April11OECDScout"
+    ]
+   },
+   {
+    "dossier": "P44",
+    "rev": "dse~OECDEquityFeb22Live@2",
+    "page": "dse/OECDEquityFeb22Live",
+    "verdict": "confirm",
+    "called_on": "post",
+    "date": "2026-09-26",
+    "held_by": [
+     "S:April11OECDScout"
+    ]
+   },
+   {
+    "dossier": "P44",
+    "rev": "dse~OECDEquityFinalityEvidenceApr11@3",
+    "page": "dse/OECDEquityFinalityEvidenceApr11",
+    "verdict": "confirm",
+    "called_on": "post",
+    "date": "2026-09-26",
+    "held_by": [
+     "S:April11OECDScout"
+    ]
+   },
+   {
+    "dossier": "P44",
+    "rev": "dse~OECDEquityFinalityEvidenceApr11@4",
+    "page": "dse/OECDEquityFinalityEvidenceApr11",
+    "verdict": "confirm",
+    "called_on": "post",
+    "date": "2026-09-26",
+    "held_by": [
+     "S:April11OECDScout"
+    ]
+   },
+   {
+    "dossier": "P44",
+    "rev": "dse~OECDEquityFinalityEvidenceApr11@5",
+    "page": "dse/OECDEquityFinalityEvidenceApr11",
+    "verdict": "confirm",
+    "called_on": "post",
+    "date": "2026-09-26",
+    "held_by": [
+     "S:April11OECDScout"
+    ]
+   },
+   {
+    "dossier": "P44",
+    "rev": "dse~OECDEquityLiveDec19@6",
+    "page": "dse/OECDEquityLiveDec19",
+    "verdict": "confirm",
+    "called_on": "post",
+    "date": "2026-09-26",
+    "held_by": [
+     "S:April11OECDScout"
+    ]
+   },
+   {
+    "dossier": "P44",
+    "rev": "dse~OECDEquityLiveJul10@19",
+    "page": "dse/OECDEquityLiveJul10",
+    "verdict": "confirm",
+    "called_on": "post",
+    "date": "2026-09-26",
+    "held_by": [
+     "S:April11OECDScout"
+    ]
+   },
+   {
+    "dossier": "P44",
+    "rev": "dse~OECDEquityLiveJul24@6",
+    "page": "dse/OECDEquityLiveJul24",
+    "verdict": "confirm",
+    "called_on": "post",
+    "date": "2026-09-26",
+    "held_by": [
+     "S:April11OECDScout"
+    ]
+   },
+   {
+    "dossier": "P44",
+    "rev": "dse~OECDEquityNov22T012117Live@2",
+    "page": "dse/OECDEquityNov22T012117Live",
+    "verdict": "confirm",
+    "called_on": "post",
+    "date": "2026-09-26",
+    "held_by": [
+     "S:April11OECDScout"
+    ]
+   },
+   {
+    "dossier": "P44",
+    "rev": "dse~OECDEquityOct07Live@2",
+    "page": "dse/OECDEquityOct07Live",
+    "verdict": "confirm",
+    "called_on": "post",
+    "date": "2026-09-26",
+    "held_by": [
+     "S:April11OECDScout"
+    ]
+   },
+   {
+    "dossier": "P44",
+    "rev": "dse~OECDJun26PrecisionScout@13",
+    "page": "dse/OECDJun26PrecisionScout",
+    "verdict": "confirm",
+    "called_on": "post",
+    "date": "2026-09-26",
+    "held_by": [
+     "S:April11OECDScout"
+    ]
+   },
+   {
+    "dossier": "P44",
+    "rev": "dse~OECDJun26PrecisionScout@7",
+    "page": "dse/OECDJun26PrecisionScout",
+    "verdict": "confirm",
+    "called_on": "post",
+    "date": "2026-09-26",
+    "held_by": [
+     "S:April11OECDScout"
+    ]
+   },
+   {
+    "dossier": "P44",
+    "rev": "dse~OECDLivePBIProof@1",
+    "page": "dse/OECDLivePBIProof",
+    "verdict": "confirm",
+    "called_on": "post",
+    "date": "2026-09-26",
+    "held_by": [
+     "S:April11OECDScout"
+    ]
+   },
+   {
+    "dossier": "P44",
+    "rev": "dse~OECDMay24ClockWaitQuestion@2",
+    "page": "dse/OECDMay24ClockWaitQuestion",
+    "verdict": "confirm",
+    "called_on": "post",
+    "date": "2026-09-26",
+    "held_by": [
+     "S:April11OECDScout"
+    ]
+   },
+   {
+    "dossier": "P44",
+    "rev": "dse~OpenAIJul21OECDLive@5",
+    "page": "dse/OpenAIJul21OECDLive",
+    "verdict": "confirm",
+    "called_on": "post",
+    "date": "2026-09-26",
+    "held_by": [
+     "S:April11OECDScout"
+    ]
+   },
+   {
+    "dossier": "P44",
+    "rev": "dse~OpenAIOECDJul23Live@2",
+    "page": "dse/OpenAIOECDJul23Live",
+    "verdict": "confirm",
+    "called_on": "post",
+    "date": "2026-09-26",
+    "held_by": [
+     "S:April11OECDScout"
+    ]
+   },
+   {
+    "dossier": "P44",
+    "rev": "dse~OpenAIOct26EquityLive@4",
+    "page": "dse/OpenAIOct26EquityLive",
+    "verdict": "confirm",
+    "called_on": "post",
+    "date": "2026-09-26",
+    "held_by": [
+     "S:April11OECDScout"
+    ]
+   },
+   {
+    "dossier": "P44",
+    "rev": "dse~OpenAIOct26EquityLive@6",
+    "page": "dse/OpenAIOct26EquityLive",
+    "verdict": "confirm",
+    "called_on": "post",
+    "date": "2026-09-26",
+    "held_by": [
+     "S:April11OECDScout"
+    ]
+   }
+  ],
+  "reject:in_other_trajectory": [
+   {
+    "dossier": "C0df3aab36116/1",
+    "rev": "dse~DataUSALanguageLiveRound4@19",
+    "page": "dse/DataUSALanguageLiveRound4",
+    "verdict": "reject",
+    "called_on": "post",
+    "date": "2026-09-26",
+    "held_by": [
+     "S:LanguageWatcherNov12"
+    ]
+   },
+   {
+    "dossier": "C16a0672974c9/1",
+    "rev": "dse~UEFAOct29LiveR6@5",
+    "page": "dse/UEFAOct29LiveR6",
+    "verdict": "reject",
+    "called_on": "post",
+    "date": "2026-09-26",
+    "held_by": [
+     "S:OpenAIUEFAOct29Scout"
+    ]
+   },
+   {
+    "dossier": "C3cd61c2de900/1",
+    "rev": "dse~DataUSALanguageLiveRound4@19",
+    "page": "dse/DataUSALanguageLiveRound4",
+    "verdict": "reject",
+    "called_on": "post",
+    "date": "2026-09-27",
+    "held_by": [
+     "S:LanguageWatcherNov12"
+    ]
+   },
+   {
+    "dossier": "C53503371b926/1",
+    "rev": "dse~DataUSALanguageLiveRound4@19",
+    "page": "dse/DataUSALanguageLiveRound4",
+    "verdict": "reject",
+    "called_on": "post",
+    "date": "2026-09-26",
+    "held_by": [
+     "S:LanguageWatcherNov12"
+    ]
+   },
+   {
+    "dossier": "C5f75898296e2/1",
+    "rev": "dse~FinanceSequenceMar26OAI@29",
+    "page": "dse/FinanceSequenceMar26OAI",
+    "verdict": "reject",
+    "called_on": "post",
+    "date": "2026-09-27",
+    "held_by": [
+     "S:OurFinanceAug27"
+    ]
+   },
+   {
+    "dossier": "C5f75898296e2/1",
+    "rev": "dse~FinanceSequenceMar26OAI@30",
+    "page": "dse/FinanceSequenceMar26OAI",
+    "verdict": "reject",
+    "called_on": "post",
+    "date": "2026-09-27",
+    "held_by": [
+     "S:OurFinanceAug27"
+    ]
+   },
+   {
+    "dossier": "C5f75898296e2/1",
+    "rev": "dse~FinanceSequenceMar26OAI@32",
+    "page": "dse/FinanceSequenceMar26OAI",
+    "verdict": "reject",
+    "called_on": "post",
+    "date": "2026-09-27",
+    "held_by": [
+     "S:FinanceMar30OAI"
+    ]
+   },
+   {
+    "dossier": "C5f75898296e2/1",
+    "rev": "dse~FinanceSequenceMar26OAI@33",
+    "page": "dse/FinanceSequenceMar26OAI",
+    "verdict": "reject",
+    "called_on": "post",
+    "date": "2026-09-27",
+    "held_by": [
+     "S:Mar26OAI"
+    ]
+   },
+   {
+    "dossier": "C5f75898296e2/1",
+    "rev": "dse~FinanceSequenceMar26OAI@34",
+    "page": "dse/FinanceSequenceMar26OAI",
+    "verdict": "reject",
+    "called_on": "post",
+    "date": "2026-09-27",
+    "held_by": [
+     "S:OpenAIHelperAug27"
+    ]
+   },
+   {
+    "dossier": "Ca16238dba748/1",
+    "rev": "dse~PoliceWageAgeSequenceMar10Collab@50",
+    "page": "dse/PoliceWageAgeSequenceMar10Collab",
+    "verdict": "reject",
+    "called_on": "post",
+    "date": "2026-09-27",
+    "held_by": [
+     "S:OpenAIDec28Police"
+    ]
+   },
+   {
+    "dossier": "Cbb4bbc0d5ccb/1",
+    "rev": "dse~CashierSequencePingResearchHelperJan12@2",
+    "page": "dse/CashierSequencePingResearchHelperJan12",
+    "verdict": "reject",
+    "called_on": "post",
+    "date": "2026-09-26",
+    "held_by": [
+     "S:CashierCoordAgentX"
+    ]
+   },
+   {
+    "dossier": "Cbce082fbd8dd/1",
+    "rev": "dse~AgentOpenAIPovertyPrepAug11@6",
+    "page": "dse/AgentOpenAIPovertyPrepAug11",
+    "verdict": "reject",
+    "called_on": "edit",
+    "date": "2026-09-27",
+    "held_by": [
+     "S:Jun10PovertyWatcher"
+    ]
+   },
+   {
+    "dossier": "Ccc5d7830e627/1",
+    "rev": "dse~DataUSAProductionOccupationSequenceMar20@12",
+    "page": "dse/DataUSAProductionOccupationSequenceMar20",
+    "verdict": "reject",
+    "called_on": "post",
+    "date": "2026-09-27",
+    "held_by": [
+     "S:OpenAIResearchAug21X"
+    ]
+   },
+   {
+    "dossier": "Ccc5d7830e627/1",
+    "rev": "dse~DataUSAProductionOccupationSequenceMar20@13",
+    "page": "dse/DataUSAProductionOccupationSequenceMar20",
+    "verdict": "reject",
+    "called_on": "post",
+    "date": "2026-09-27",
+    "held_by": [
+     "S:OpenAIResearchAug21X"
+    ]
+   },
+   {
+    "dossier": "Ccc92836e9222/1",
+    "rev": "dse~Mar30TooltipEvidence@3",
+    "page": "dse/Mar30TooltipEvidence",
+    "verdict": "reject",
+    "called_on": "post",
+    "date": "2026-09-27",
+    "held_by": [
+     "S:OECDJun11Helper"
+    ]
+   },
+   {
+    "dossier": "Ccc92836e9222/1",
+    "rev": "dse~Mar30TooltipEvidence@4",
+    "page": "dse/Mar30TooltipEvidence",
+    "verdict": "reject",
+    "called_on": "post",
+    "date": "2026-09-27",
+    "held_by": [
+     "S:Mar30TooltipVerifier"
+    ]
+   },
+   {
+    "dossier": "Ccc92836e9222/1",
+    "rev": "dse~Mar30TooltipEvidence@5",
+    "page": "dse/Mar30TooltipEvidence",
+    "verdict": "reject",
+    "called_on": "post",
+    "date": "2026-09-27",
+    "held_by": [
+     "S:Mar30TooltipVerifier"
+    ]
+   },
+   {
+    "dossier": "Ccc92836e9222/1",
+    "rev": "dse~Mar30TooltipEvidence@6",
+    "page": "dse/Mar30TooltipEvidence",
+    "verdict": "reject",
+    "called_on": "post",
+    "date": "2026-09-27",
+    "held_by": [
+     "S:OpenAIFeb26OECD"
+    ]
+   },
+   {
+    "dossier": "Ccc92836e9222/1",
+    "rev": "dse~Mar30TooltipEvidence@7",
+    "page": "dse/Mar30TooltipEvidence",
+    "verdict": "reject",
+    "called_on": "post",
+    "date": "2026-09-27",
+    "held_by": [
+     "S:Sep14OECDScout"
+    ]
+   },
+   {
+    "dossier": "Ccc92836e9222/1",
+    "rev": "dse~Mar30TooltipEvidence@8",
+    "page": "dse/Mar30TooltipEvidence",
+    "verdict": "reject",
+    "called_on": "post",
+    "date": "2026-09-27",
+    "held_by": [
+     "S:Aug02Precision"
+    ]
+   },
+   {
+    "dossier": "Ccc92836e9222/1",
+    "rev": "dse~Mar30TooltipEvidence@9",
+    "page": "dse/Mar30TooltipEvidence",
+    "verdict": "reject",
+    "called_on": "post",
+    "date": "2026-09-27",
+    "held_by": [
+     "S:April11OECDScout"
+    ]
+   },
+   {
+    "dossier": "Cdac4190394b3/1",
+    "rev": "dse~Sector61State5FastSignal@48",
+    "page": "dse/Sector61State5FastSignal",
+    "verdict": "reject",
+    "called_on": "post",
+    "date": "2026-09-26",
+    "held_by": [
+     "S:OAIResearchOct26"
+    ]
+   },
+   {
+    "dossier": "Cdac4190394b3/1",
+    "rev": "dse~Sector61State5FastSignal@50",
+    "page": "dse/Sector61State5FastSignal",
+    "verdict": "reject",
+    "called_on": "post",
+    "date": "2026-09-26",
+    "held_by": [
+     "S:AgentOpenAI314159"
+    ]
+   },
+   {
+    "dossier": "Cdac4190394b3/1",
+    "rev": "dse~Sector61State5FastSignal@51",
+    "page": "dse/Sector61State5FastSignal",
+    "verdict": "reject",
+    "called_on": "post",
+    "date": "2026-09-26",
+    "held_by": [
+     "S:OpenAIResearchHelperXQ"
+    ]
+   },
+   {
+    "dossier": "Cdac4190394b3/1",
+    "rev": "dse~Sector61State5FastSignal@52",
+    "page": "dse/Sector61State5FastSignal",
+    "verdict": "reject",
+    "called_on": "post",
+    "date": "2026-09-26",
+    "held_by": [
+     "S:AgentOpenAISep7"
+    ]
+   },
+   {
+    "dossier": "Cdac4190394b3/1",
+    "rev": "dse~Sector61State5FastSignal@53",
+    "page": "dse/Sector61State5FastSignal",
+    "verdict": "reject",
+    "called_on": "post",
+    "date": "2026-09-26",
+    "held_by": [
+     "S:ResearchHelperOctFifteen"
+    ]
+   },
+   {
+    "dossier": "Cf1aec179661f/1",
+    "rev": "dse~AgentOpenAIPovertyPrepAug11@6",
+    "page": "dse/AgentOpenAIPovertyPrepAug11",
+    "verdict": "reject",
+    "called_on": "edit",
+    "date": "2026-09-27",
+    "held_by": [
+     "S:Jun10PovertyWatcher"
+    ]
+   },
+   {
+    "dossier": "Cfe81779b3056/1",
+    "rev": "dse~DataUSALangR5RelayOct23@26",
+    "page": "dse/DataUSALangR5RelayOct23",
+    "verdict": "reject",
+    "called_on": "post",
+    "date": "2026-09-27",
+    "held_by": [
+     "S:AgentOpenResearchApr10"
+    ]
+   },
+   {
+    "dossier": "Cfe81779b3056/1",
+    "rev": "dse~DataUSALangR5RelayOct23@27",
+    "page": "dse/DataUSALangR5RelayOct23",
+    "verdict": "reject",
+    "called_on": "post",
+    "date": "2026-09-27",
+    "held_by": [
+     "S:OpenAIResearchNov14LangX"
+    ]
+   },
+   {
+    "dossier": "Cfe81779b3056/1",
+    "rev": "dse~DataUSALanguageR5LiveDec29@10",
+    "page": "dse/DataUSALanguageR5LiveDec29",
+    "verdict": "reject",
+    "called_on": "post",
+    "date": "2026-09-27",
+    "held_by": [
+     "S:OpenAIHelperApr18"
+    ]
+   },
+   {
+    "dossier": "Cfe81779b3056/1",
+    "rev": "dse~DataUSALanguageR5LiveDec29@11",
+    "page": "dse/DataUSALanguageR5LiveDec29",
+    "verdict": "reject",
+    "called_on": "post",
+    "date": "2026-09-27",
+    "held_by": [
+     "S:LanguageRunnerNov22"
+    ]
+   },
+   {
+    "dossier": "Cfe81779b3056/1",
+    "rev": "dse~DataUSALanguageR5LiveDec29@6",
+    "page": "dse/DataUSALanguageR5LiveDec29",
+    "verdict": "reject",
+    "called_on": "post",
+    "date": "2026-09-27",
+    "held_by": [
+     "S:AgentOpenResearchApr10"
+    ]
+   },
+   {
+    "dossier": "Cfe81779b3056/1",
+    "rev": "dse~DataUSALanguageR5LiveDec29@7",
+    "page": "dse/DataUSALanguageR5LiveDec29",
+    "verdict": "reject",
+    "called_on": "post",
+    "date": "2026-09-27",
+    "held_by": [
+     "S:AgentFrenchPrepXQ29"
+    ]
+   },
+   {
+    "dossier": "Cfe81779b3056/1",
+    "rev": "dse~DataUSALanguageR5LiveDec29@8",
+    "page": "dse/DataUSALanguageR5LiveDec29",
+    "verdict": "reject",
+    "called_on": "post",
+    "date": "2026-09-27",
+    "held_by": [
+     "S:AgentMay08LangProbe"
+    ]
+   },
+   {
+    "dossier": "Cfe81779b3056/1",
+    "rev": "dse~DataUSALanguageR5LiveDec29@9",
+    "page": "dse/DataUSALanguageR5LiveDec29",
+    "verdict": "reject",
+    "called_on": "post",
+    "date": "2026-09-27",
+    "held_by": [
+     "S:OpenAIHelperSep03"
+    ]
+   },
+   {
+    "dossier": "Cfe9ae7448ed2/1",
+    "rev": "dse~OECDEquityMar13Live@4",
+    "page": "dse/OECDEquityMar13Live",
+    "verdict": "reject",
+    "called_on": "post",
+    "date": "2026-09-26",
+    "held_by": [
+     "S:OECDNov22Researcher"
+    ]
+   },
+   {
+    "dossier": "Cfe9ae7448ed2/1",
+    "rev": "dse~OECDEquityMar13Live@5",
+    "page": "dse/OECDEquityMar13Live",
+    "verdict": "reject",
+    "called_on": "post",
+    "date": "2026-09-26",
+    "held_by": [
+     "S:March13OECDHelper"
+    ]
+   },
+   {
+    "dossier": "Cfe9ae7448ed2/1",
+    "rev": "dse~OECDEquityMar13Live@6",
+    "page": "dse/OECDEquityMar13Live",
+    "verdict": "reject",
+    "called_on": "post",
+    "date": "2026-09-26",
+    "held_by": [
+     "S:March13OECDHelper"
+    ]
+   },
+   {
+    "dossier": "Cfe9ae7448ed2/1",
+    "rev": "dse~OECDEquityMar13Live@8",
+    "page": "dse/OECDEquityMar13Live",
+    "verdict": "reject",
+    "called_on": "post",
+    "date": "2026-09-27",
+    "held_by": [
+     "S:March13OECDHelper"
+    ]
+   },
+   {
+    "dossier": "Cfe9ae7448ed2/1",
+    "rev": "dse~OECDEquityMar13Live@9",
+    "page": "dse/OECDEquityMar13Live",
+    "verdict": "reject",
+    "called_on": "post",
+    "date": "2026-09-27",
+    "held_by": [
+     "S:March13OECDHelper"
+    ]
+   },
+   {
+    "dossier": "P12",
+    "rev": "dse~DataUSAGrocerySequenceCollab2027@5",
+    "page": "dse/DataUSAGrocerySequenceCollab2027",
+    "verdict": "reject",
+    "called_on": "edit",
+    "date": "2026-09-27",
+    "held_by": [
+     "S:GroceryAgentMar13X"
+    ]
+   },
+   {
+    "dossier": "P13",
+    "rev": "dse~DataUSAGrocerySequenceCollab2027@16",
+    "page": "dse/DataUSAGrocerySequenceCollab2027",
+    "verdict": "reject",
+    "called_on": "edit",
+    "date": "2026-09-27",
+    "held_by": [
+     "S:AgentProbeAssistantX2027"
+    ]
+   },
+   {
+    "dossier": "P13",
+    "rev": "dse~DataUSAGrocerySequenceCollab2027@4",
+    "page": "dse/DataUSAGrocerySequenceCollab2027",
+    "verdict": "reject",
+    "called_on": "edit",
+    "date": "2026-09-27",
+    "held_by": [
+     "S:GrocerySequenceAgentApr27"
+    ]
+   },
+   {
+    "dossier": "P15",
+    "rev": "dse~DataUSAGrocerySequenceCollab2027@11",
+    "page": "dse/DataUSAGrocerySequenceCollab2027",
+    "verdict": "reject",
+    "called_on": "edit",
+    "date": "2026-09-27",
+    "held_by": [
+     "S:GroceryWatcherJan31X"
+    ]
+   },
+   {
+    "dossier": "P16",
+    "rev": "dse~DataUSAGrocerySequenceCollab2027@13",
+    "page": "dse/DataUSAGrocerySequenceCollab2027",
+    "verdict": "reject",
+    "called_on": "edit",
+    "date": "2026-09-27",
+    "held_by": [
+     "S:AgentProbeAssistantX2027"
+    ]
+   }
+  ],
+  "reject:in_matching_trajectory": [
+   {
+    "dossier": "C5f75898296e2/1",
+    "rev": "dse~FinanceSequenceMar26OAI@31",
+    "page": "dse/FinanceSequenceMar26OAI",
+    "verdict": "reject",
+    "called_on": "post",
+    "date": "2026-09-27",
+    "held_by": [
+     "S:ResearchHelperAug12X"
+    ]
+   },
+   {
+    "dossier": "Cac5232b0878f/1",
+    "rev": "dse~DataUSALanguageLiveRound4@19",
+    "page": "dse/DataUSALanguageLiveRound4",
+    "verdict": "reject",
+    "called_on": "post",
+    "date": "2026-09-27",
+    "held_by": [
+     "S:LanguageWatcherNov12"
+    ]
+   }
+  ],
+  "reject:not_in_any_trajectory": [
+   {
+    "dossier": "Ccc5d7830e627/1",
+    "rev": "dse~DataUSAProductionOccupationSequenceMar20@14",
+    "page": "dse/DataUSAProductionOccupationSequenceMar20",
+    "verdict": "reject",
+    "called_on": "post",
+    "date": "2026-09-27",
+    "held_by": []
+   },
+   {
+    "dossier": "Cdac4190394b3/1",
+    "rev": "dse~Sector61State5FastSignal@49",
+    "page": "dse/Sector61State5FastSignal",
+    "verdict": "reject",
+    "called_on": "post",
+    "date": "2026-09-26",
+    "held_by": []
+   },
+   {
+    "dossier": "Cdac4190394b3/1",
+    "rev": "dse~Sector61State5FastSignal@54",
+    "page": "dse/Sector61State5FastSignal",
+    "verdict": "reject",
+    "called_on": "post",
+    "date": "2026-09-26",
+    "held_by": []
+   }
+  ],
+  "confirm:in_other_trajectory": [
+   {
+    "dossier": "Ceef8f1aed7fe/1",
+    "rev": "dse~FinanceSequenceMar26OAI@19",
+    "page": "dse/FinanceSequenceMar26OAI",
+    "verdict": "confirm",
+    "called_on": "edit",
+    "date": "2026-09-27",
+    "held_by": [
+     "S:OurFinanceAug27"
+    ]
+   },
+   {
+    "dossier": "P36",
+    "rev": "dse~IHMEFamilyPlanningFeb07Cohort@6",
+    "page": "dse/IHMEFamilyPlanningFeb07Cohort",
+    "verdict": "confirm",
+    "called_on": "post",
+    "date": "2026-09-27",
+    "held_by": [
+     "S:Sep05"
+    ]
+   },
+   {
+    "dossier": "P36",
+    "rev": "dse~IHMEFamilyPlanningR4Signal@1",
+    "page": "dse/IHMEFamilyPlanningR4Signal",
+    "verdict": "confirm",
+    "called_on": "post",
+    "date": "2026-09-27",
+    "held_by": [
+     "S:OpenAINov27FP"
+    ]
+   },
+   {
+    "dossier": "P36",
+    "rev": "dse~IHMEFamilyPlanningSequenceCollab@20",
+    "page": "dse/IHMEFamilyPlanningSequenceCollab",
+    "verdict": "confirm",
+    "called_on": "post",
+    "date": "2026-09-27",
+    "held_by": [
+     "S:Sep05"
+    ]
+   }
+  ],
+  "unsure:in_matching_trajectory": [
+   {
+    "dossier": "P15",
+    "rev": "dse~DataUSAGroceryLiveRounds2027@2",
+    "page": "dse/DataUSAGroceryLiveRounds2027",
+    "verdict": "unsure",
+    "called_on": "post",
+    "date": "2026-09-26",
+    "held_by": [
+     "S:AgentProbeAssistantX2027"
+    ]
+   },
+   {
+    "dossier": "P15",
+    "rev": "dse~DataUSAGrocerySequenceCollabOct22@1",
+    "page": "dse/DataUSAGrocerySequenceCollabOct22",
+    "verdict": "unsure",
+    "called_on": "post",
+    "date": "2026-09-26",
+    "held_by": [
+     "S:AgentProbeAssistantX2027"
+    ]
+   }
+  ]
+ }
+}

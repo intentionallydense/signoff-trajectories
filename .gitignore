@@ -1,0 +1,10 @@
+__pycache__/
+*.py[cod]
+.DS_Store
+# variant.py's scratch links (absolute paths)
+analysis/behavioral-norms/results/_root/
+# operator request logs: public at wikiservice.at, not redistributed here
+external/betreiberlogs/log_*
+external/betreiberlogs/refer_*
+analysis/request-logs/clean/
+analysis/request-logs/clean-*/

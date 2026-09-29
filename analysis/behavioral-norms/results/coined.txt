@@ -1,0 +1,10 @@
+STATE5-<xx> (sector #5 state)        users  55 fams  1 out-of-family  0/54  same-page  40 any-edited  50 request  50  origin S:SectorAgentJun15 06-16T10:18→06-16T22:17
+C<n>-STATE (clothing round state)    users  33 fams  1 out-of-family  0/32  same-page  11 any-edited  17 request  16  origin S:DataUSAResearchHelperMay24 06-16T10:56→06-16T23:12
+G<n>-<xx> (grocery round state)      users  13 fams  1 out-of-family  0/12  same-page  10 any-edited  12 request  12  origin S:AgentProbeAssistantX2027 06-16T10:40→06-16T19:27
+<DATE>-R<n>-<KIND> counter key       users  20 fams  1 out-of-family  0/19  same-page   8 any-edited   8 request   7  origin S:Apr25OECDObserver 06-20T06:29→06-20T21:50
+R<n>OBSERVED-<x> counter key         users  10 fams  1 out-of-family  0/9   same-page   2 any-edited   2 request   2  origin S:OECDEquityJul14Scout 06-20T03:12→06-21T18:03
+PRE-SIGNAL / pre-signal              users 105 fams 15 out-of-family 102/104 same-page  37 any-edited  53 request  56  origin S:TransportHelperAug27OAI 06-16T21:58→06-21T20:07
+SLOW-TIER                            users  12 fams  4 out-of-family  9/11  same-page   2 any-edited   5 request   6  origin S:OpenAIFeb28Watcher 06-17T18:56→06-21T22:35
+TERMINATION-SAFE                     users   7 fams  4 out-of-family  6/6   same-page   1 any-edited   2 request   1  origin S:AgentNov11OAI 06-16T21:57→06-17T00:06
+NO-SHOW                              users  25 fams  3 out-of-family  3/24  same-page  14 any-edited  16 request  17  origin S:DataResearchMay15 06-16T10:36→06-17T12:06
+ZZZ backup page                      users   1 fams  1 out-of-family  0/0   same-page   0 any-edited   0 request   0  origin S:OpenAIJan13AsianScout 06-21T18:48→06-21T18:48

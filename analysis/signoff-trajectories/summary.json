@@ -1,0 +1,376 @@
+{
+ "generated_from": "full-wiki-logs.zip (collusion.wiki export) + 41-family inventory",
+ "signoff_names_archive_wide": 1107,
+ "trajectories": 728,
+ "trajectories_with_2plus_edits_on_family_pages_alone": 674,
+ "trajectories_without_any_flag": 458,
+ "trajectory_flags": {
+  "several_families": 20,
+  "generic": 12,
+  "alias": 4,
+  "multi_day": 1
+ },
+ "edits_in_trajectories": 3358,
+ "flagged_edits": 432,
+ "families_covered": 34,
+ "families_with_no_trajectory": [
+  "aihw-pbs",
+  "dataafrica-health-stunting",
+  "datausa-elpaso-foreign-born",
+  "gapminder-age80",
+  "ihme-mcv2",
+  "unaids-bosnia-hiv",
+  "world-poverty-clock"
+ ],
+ "reviews_applied": {
+  "kept_whole": [
+   "OECDEquityMar31Team"
+  ],
+  "split_parts": [
+   {
+    "id": "S:OpenAIResearchOct14X#1",
+    "edits_in_scope": 2,
+    "first_rev": "dse~DataUSALanguageOct14Live@1",
+    "kept": true
+   },
+   {
+    "id": "S:OpenAIResearchOct14X#2",
+    "edits_in_scope": 2,
+    "first_rev": "dse~CashierBachelors2015SequenceJan31OAI@3",
+    "kept": true
+   },
+   {
+    "id": "S:OpenAIResearchApr07X#1",
+    "edits_in_scope": 3,
+    "first_rev": "dse~Clothing9m17C3RelayAug16@11",
+    "kept": true
+   },
+   {
+    "id": "S:OpenAIResearchApr07X#2",
+    "edits_in_scope": 1,
+    "first_rev": "dse~OpenAIApr07ConstructionSlowLive@1",
+    "kept": false
+   }
+  ],
+  "not_alias": [
+   [
+    "OAI7C97",
+    "OAI7C97Dec15"
+   ]
+  ],
+  "reassigned": [],
+  "already_by_rule": [],
+  "excluded": [],
+  "merged": [],
+  "attributed": []
+ },
+ "alias_merges": [],
+ "containment_merges": [
+  {
+   "from": "ChatGPTJul19",
+   "into": "ChatGPTJul19Agent",
+   "rev": "dse~AgentConstructionArizonaUtahJun16X@6"
+  },
+  {
+   "from": "CashierCoordJan16OAI2028",
+   "into": "Jan16OAI2028",
+   "rev": "dse~CashierCoordJan16OAI2028@2"
+  },
+  {
+   "from": "Oct17OAI",
+   "into": "CashierCoordOct17OAI",
+   "rev": "dse~CashierCoordOct17OAI@2"
+  },
+  {
+   "from": "CashierCoordSep29OAI",
+   "into": "Sep29OAI",
+   "rev": "dse~CashierCoordSep29OAI@3"
+  },
+  {
+   "from": "OpenAIResearchDec30CVD",
+   "into": "OpenAIResearchDec30",
+   "rev": "dse~HealthdataCVDSequenceCollab@103"
+  },
+  {
+   "from": "Aug16",
+   "into": "OpenAIHealthdataCVDAug16",
+   "rev": "dse~HealthdataCVDSequenceQ4Nov21@4"
+  },
+  {
+   "from": "Nov16",
+   "into": "OpenAINov16CVD",
+   "rev": "dse~OpenAINov16CVD@1"
+  },
+  {
+   "from": "Feb29Run",
+   "into": "AgentOpenAIFeb29Run",
+   "rev": "dse~Sector61State5FastSignal@4"
+  },
+  {
+   "from": "Dec25X",
+   "into": "SectorAgentDec25X",
+   "rev": "dse~Sector61State5LiveRelay@20"
+  },
+  {
+   "from": "OpenAICVDSep12",
+   "into": "OpenAICVDSep12Fast2028",
+   "rev": "dse~TmpSep12CVDProbe@1"
+  }
+ ],
+ "rule_signoffs_below_a_signoff": 3,
+ "proposed_attributions": [],
+ "single_edit_names_dropped": 358,
+ "relay_only_trajectories": 21,
+ "assigned_names": {},
+ "per_family": {
+  "datausa-clothing-workforce": 90,
+  "oecd-equity": 87,
+  "datausa-sector61-state": 76,
+  "datausa-cashiers-masters": 57,
+  "datausa-grocery-workforce": 53,
+  "ihme-cvd-deaths": 51,
+  "datausa-construction-workforce": 48,
+  "datausa-language-french": 37,
+  "datausa-maids-wage": 27,
+  "datausa-poverty-county": 24,
+  "datausa-transport-production": 22,
+  "datausa-police-wage-age": 21,
+  "(relay only)": 21,
+  "ihme-family-planning": 16,
+  "datausa-enrollment-asian": 11,
+  "datausa-occupation-salary-61-62": 11,
+  "oecd-regional-co2": 11,
+  "nyc-veterans": 10,
+  "datausa-finance-gender-gap": 8,
+  "datausa-ivy-tuition": 7,
+  "uefa-pass-accuracy": 6,
+  "datausa-cashiers-bachelors": 5,
+  "datausa-poverty-state": 5,
+  "datausa-construction-wage": 4,
+  "datausa-production-share": 3,
+  "fuel-poverty-ni": 3,
+  "ihme-smoking": 3,
+  "dataafrica-rainfed-crops": 2,
+  "datausa-slp-ethnicity": 2,
+  "ihme-lymphatic-filariasis": 2,
+  "alaska-climate": 1,
+  "datausa-cashier-skills": 1,
+  "oecd-household-income": 1,
+  "sdg-index-score": 1,
+  "vermont-rent": 1
+ },
+ "matching_an_existing_verified_profile_name": 342,
+ "unsigned_edits_left_out": {
+  "other": 4871,
+  "relay": 4983,
+  "family": 936
+ },
+ "rule_signoffs": {
+  "edits": 115,
+  "by_rule": {
+   "R1 wikilink": 20,
+   "R2 dash-colon": 15,
+   "R3 trailer": 11,
+   "R4a prefix LIVE/UPDATE": 13,
+   "R4a prefix self-report": 40,
+   "R4c prefix = label": 5,
+   "R5 dated phrase": 11
+  },
+  "names": 82,
+  "names_only_rule_read": [
+   "AgentJul12OAI",
+   "AgentMay17OAI",
+   "AliceResearcher",
+   "CashierCoordJan16OAI2028",
+   "CashierCoordMar06LateOAI",
+   "Feb14 team",
+   "GroceryAgentApr14Z",
+   "GroceryAgentFeb18X",
+   "GroceryAgentJul12",
+   "GroceryAgentMar09X",
+   "GroceryAgentMar23CurrentX",
+   "GroceryFastCohortDec15X",
+   "GroceryFastMay18X",
+   "GroceryPrepAgentSep21",
+   "GrocerySprintDec05",
+   "GrocerySprintMar26",
+   "Jan01 live watcher",
+   "Jan01 watcher",
+   "Jun16 live agent",
+   "June09Scout",
+   "Mar19 helper",
+   "Mar23CurrentX",
+   "Oct28GroceryHelper",
+   "OpenAIAug24SectorAgent",
+   "OpenAIGroceryApr22",
+   "OpenAIHelperJun03",
+   "OpenAIHelperMayEleven",
+   "OpenAIJul19 cohort",
+   "OpenAIResearcherAug28Y",
+   "OpenAIThread42e0Live",
+   "OpenAiResearcher",
+   "OpenAiThreadAprX",
+   "RRPFeb03Scout",
+   "ResearchAgentMar07",
+   "SectorAgentApr24OAI",
+   "SectorAgentJun10OAI",
+   "SectorAgentMay24OAI",
+   "Sep21 watcher",
+   "Thread42Helper",
+   "Thread42e0ResearchApr16"
+  ],
+  "overridden_by_attribute_review": []
+ },
+ "family_page_edits_signed_vs_unsigned": {
+  "aihw-pbs": {
+   "unsigned": 9
+  },
+  "alaska-climate": {
+   "signed": 3
+  },
+  "dataafrica-health-stunting": {
+   "signed": 1
+  },
+  "dataafrica-rainfed-crops": {
+   "signed": 6,
+   "unsigned": 1
+  },
+  "datausa-cashier-skills": {
+   "signed": 3
+  },
+  "datausa-cashiers-bachelors": {
+   "unsigned": 22,
+   "signed": 17
+  },
+  "datausa-cashiers-masters": {
+   "unsigned": 37,
+   "signed": 290
+  },
+  "datausa-clothing-workforce": {
+   "signed": 407,
+   "unsigned": 84
+  },
+  "datausa-construction-wage": {
+   "signed": 5
+  },
+  "datausa-construction-workforce": {
+   "signed": 257,
+   "unsigned": 23
+  },
+  "datausa-elpaso-foreign-born": {
+   "signed": 2
+  },
+  "datausa-enrollment-asian": {
+   "signed": 33,
+   "unsigned": 2
+  },
+  "datausa-finance-gender-gap": {
+   "unsigned": 9,
+   "signed": 58
+  },
+  "datausa-grocery-workforce": {
+   "unsigned": 81,
+   "signed": 268
+  },
+  "datausa-ivy-tuition": {
+   "unsigned": 16,
+   "signed": 20
+  },
+  "datausa-language-french": {
+   "signed": 198,
+   "unsigned": 16
+  },
+  "datausa-maids-wage": {
+   "unsigned": 16,
+   "signed": 132
+  },
+  "datausa-occupation-salary-61-62": {
+   "unsigned": 8,
+   "signed": 54
+  },
+  "datausa-police-wage-age": {
+   "signed": 97,
+   "unsigned": 4
+  },
+  "datausa-poverty-county": {
+   "unsigned": 17,
+   "signed": 127
+  },
+  "datausa-poverty-state": {
+   "signed": 26,
+   "unsigned": 4
+  },
+  "datausa-production-share": {
+   "signed": 20
+  },
+  "datausa-sector61-state": {
+   "unsigned": 52,
+   "signed": 270
+  },
+  "datausa-slp-ethnicity": {
+   "unsigned": 1,
+   "signed": 6
+  },
+  "datausa-transport-production": {
+   "signed": 94,
+   "unsigned": 1
+  },
+  "fuel-poverty-ni": {
+   "signed": 12
+  },
+  "gapminder-age80": {
+   "unsigned": 1
+  },
+  "ihme-cvd-deaths": {
+   "unsigned": 30,
+   "signed": 175
+  },
+  "ihme-family-planning": {
+   "signed": 75,
+   "unsigned": 1
+  },
+  "ihme-lymphatic-filariasis": {
+   "signed": 19
+  },
+  "ihme-mcv2": {
+   "unsigned": 4,
+   "signed": 9
+  },
+  "ihme-smoking": {
+   "signed": 8
+  },
+  "nyc-veterans": {
+   "unsigned": 7,
+   "signed": 36
+  },
+  "oecd-equity": {
+   "signed": 429,
+   "unsigned": 23
+  },
+  "oecd-household-income": {
+   "signed": 6,
+   "unsigned": 5
+  },
+  "oecd-regional-co2": {
+   "signed": 44,
+   "unsigned": 4
+  },
+  "sdg-index-score": {
+   "signed": 7,
+   "unsigned": 1
+  },
+  "uefa-pass-accuracy": {
+   "signed": 41
+  },
+  "unaids-bosnia-hiv": {
+   "unsigned": 1
+  },
+  "vermont-rent": {
+   "unsigned": 456,
+   "signed": 3
+  },
+  "world-poverty-clock": {
+   "signed": 1
+  }
+ }
+}

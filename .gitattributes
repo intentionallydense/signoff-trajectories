@@ -1,0 +1,2 @@
+# Keep outputs byte-exact on every platform, so verify.py and checksums hold.
+* -text

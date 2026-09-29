@@ -1,0 +1,67 @@
+6 clock vocabulary: task side      switches 105: new variant visible before 54/73 variant-posts (84 any), after by prior users 32/71, by anyone 54 (83 any)
+6 clock vocabulary: wall side      switches 48: new variant visible before 13/28 variant-posts (43 any), after by prior users 6/30, by anyone 15 (39 any)
+3 self-reference noun              switches 120: new variant visible before 47/75 variant-posts (84 any), after by prior users 13/60, by anyone 39 (81 any)
+7 signal before final        adopters 180 switch 144
+     1h  past 2.37 [1.62,3.47]     future 2.32 [1.64,3.30]     future(prior adopters) 1.90 [1.08,3.33]
+     3h  past 2.52 [1.75,3.62]     future 2.13 [1.51,3.02]     future(prior adopters) 1.87 [1.08,3.22]
+    12h  past 2.26 [1.57,3.25]     future 2.20 [1.56,3.12]     future(prior adopters) 1.92 [1.13,3.28]
+    page strata 3h: past 0.86 [0.54,1.35]  future(prior adopters) 1.93 [0.97,3.86]
+6 task clock named           adopters 424 switch 163
+     1h  past 1.29 [0.99,1.67]     future 1.29 [0.98,1.68]     future(prior adopters) 1.07 [0.78,1.48]
+     3h  past 1.02 [0.79,1.32]     future 1.27 [0.98,1.65]     future(prior adopters) 1.01 [0.74,1.39]
+    12h  past 0.96 [0.74,1.23]     future 1.30 [1.00,1.70]     future(prior adopters) 1.04 [0.76,1.41]
+    page strata 3h: past 0.56 [0.40,0.79]  future(prior adopters) 1.42 [0.98,2.06]
+6 two clocks in one post     adopters 163 switch 107
+     1h  past 1.50 [1.04,2.16]     future 1.58 [1.09,2.29]     future(prior adopters) 1.01 [0.58,1.76]
+     3h  past 1.37 [0.95,1.96]     future 1.55 [1.07,2.26]     future(prior adopters) 1.00 [0.58,1.72]
+    12h  past 1.40 [0.97,2.01]     future 1.53 [1.05,2.22]     future(prior adopters) 1.00 [0.58,1.72]
+    page strata 3h: past 0.79 [0.51,1.22]  future(prior adopters) 1.94 [0.92,4.08]
+3 date-as-address            adopters 264 switch 162
+     1h  past 1.75 [1.30,2.35]     future 1.90 [1.40,2.58]     future(prior adopters) 1.81 [1.22,2.67]
+     3h  past 1.71 [1.28,2.30]     future 2.12 [1.56,2.89]     future(prior adopters) 1.93 [1.32,2.82]
+    12h  past 1.62 [1.20,2.18]     future 2.17 [1.58,2.97]     future(prior adopters) 1.91 [1.31,2.79]
+    page strata 3h: past 0.72 [0.51,1.02]  future(prior adopters) 1.70 [1.01,2.86]
+3 cohort word                adopters 630 switch 126
+     1h  past 1.00 [0.75,1.33]     future 1.51 [1.12,2.05]     future(prior adopters) 1.39 [1.00,1.93]
+     3h  past 0.83 [0.63,1.10]     future 1.45 [1.07,1.95]     future(prior adopters) 1.45 [1.05,2.00]
+    12h  past 0.80 [0.61,1.06]     future 1.46 [1.08,1.97]     future(prior adopters) 1.41 [1.03,1.95]
+    page strata 3h: past 1.01 [0.69,1.48]  future(prior adopters) 1.51 [0.95,2.40]
+5 status template            adopters 528 switch 127
+     1h  past 2.81 [2.01,3.93]     future 2.38 [1.68,3.36]     future(prior adopters) 2.96 [2.03,4.32]
+     3h  past 2.74 [1.98,3.81]     future 2.45 [1.73,3.49]     future(prior adopters) 2.77 [1.92,3.98]
+    12h  past 2.81 [2.02,3.90]     future 2.56 [1.79,3.66]     future(prior adopters) 2.67 [1.87,3.80]
+    page strata 3h: past 1.62 [1.04,2.53]  future(prior adopters) 2.55 [1.50,4.34]
+5 "exactly" timing           adopters 339 switch 248
+     1h  past 1.04 [0.78,1.39]     future 1.03 [0.77,1.36]     future(prior adopters) 1.39 [0.94,2.07]
+     3h  past 0.96 [0.73,1.26]     future 1.03 [0.78,1.35]     future(prior adopters) 1.33 [0.91,1.93]
+    12h  past 0.98 [0.75,1.28]     future 1.04 [0.79,1.37]     future(prior adopters) 1.35 [0.93,1.95]
+    page strata 3h: past 0.67 [0.48,0.93]  future(prior adopters) 1.30 [0.83,2.04]
+8 correction / retraction    adopters  73 switch  66
+     1h  past 1.32 [0.64,2.71]     future 1.39 [0.69,2.80]     future(prior adopters) 0.27 [0.03,2.26]
+     3h  past 1.06 [0.53,2.14]     future 0.86 [0.44,1.69]     future(prior adopters) 0.27 [0.03,2.26]
+    12h  past 0.81 [0.41,1.59]     future 0.78 [0.41,1.49]     future(prior adopters) 0.27 [0.03,2.26]
+    page strata 3h: past 0.25 [0.11,0.58]  future(prior adopters) 0.49 [0.06,3.81]
+8 thanks                     adopters 107 switch  93
+     1h  past 1.44 [0.88,2.36]     future 2.34 [1.43,3.83]     future(prior adopters) 2.38 [1.01,5.60]
+     3h  past 1.48 [0.92,2.40]     future 2.48 [1.53,4.02]     future(prior adopters) 1.86 [0.80,4.34]
+    12h  past 1.26 [0.78,2.02]     future 2.26 [1.39,3.68]     future(prior adopters) 1.74 [0.76,3.95]
+    page strata 3h: past 0.37 [0.22,0.63]  future(prior adopters) 0.83 [0.30,2.28]
+8 please                     adopters 663 switch 164
+     1h  past 1.10 [0.82,1.48]     future 1.38 [1.03,1.86]     future(prior adopters) 1.27 [0.96,1.68]
+     3h  past 1.05 [0.78,1.40]     future 1.49 [1.11,2.02]     future(prior adopters) 1.31 [0.99,1.73]
+    12h  past 1.04 [0.77,1.39]     future 1.52 [1.12,2.06]     future(prior adopters) 1.31 [0.99,1.73]
+    page strata 3h: past 0.49 [0.28,0.87]  future(prior adopters) 1.49 [1.00,2.21]
+6 clock vocabulary: task side      union: past 351/379 vs null 347.0 (p=0.1089); future 407/442 vs null 401.7 (p=0.082)
+                                   nearest: past 324/379 vs null 315.9 (p=0.033); future 366/442 vs null 360.8 (p=0.1444)
+6 clock vocabulary: wall side      union: past 151/175 vs null 134.9 (p=0.0005); future 164/185 vs null 140.8 (p=0.0005)
+                                   nearest: past 135/175 vs null 107.3 (p=0.0005); future 140/185 vs null 111.0 (p=0.0005)
+3 self-reference noun              union: past 367/378 vs null 364.5 (p=0.1219); future 416/433 vs null 415.3 (p=0.4713)
+                                   nearest: past 353/378 vs null 350.0 (p=0.2119); future 402/433 vs null 399.5 (p=0.2684)
+4 name: role noun                  union: past 337/429 vs null 337.9 (p=0.6117); future 330/420 vs null 341.9 (p=0.9905)
+                                   nearest: past 172/429 vs null 182.5 (p=0.9325); future 182/420 vs null 184.2 (p=0.6422)
+4 name: date position              union: past 348/429 vs null 352.5 (p=0.8521); future 353/420 vs null 355.0 (p=0.7086)
+                                   nearest: past 199/429 vs null 199.9 (p=0.5792); future 178/420 vs null 193.3 (p=0.984)
+4 name: org marker                 union: past 381/429 vs null 383.2 (p=0.7731); future 368/420 vs null 376.3 (p=0.9905)
+                                   nearest: past 252/429 vs null 249.7 (p=0.4053); future 247/420 vs null 245.7 (p=0.4553)
+4 name: trailing X                 union: past 404/429 vs null 405.3 (p=0.7521); future 392/420 vs null 401.0 (p=1.0)
+                                   nearest: past 346/429 vs null 350.8 (p=0.8701); future 333/420 vs null 338.0 (p=0.8786)

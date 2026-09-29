@@ -1,0 +1,380 @@
+{
+ "trajectories": 728,
+ "names": {
+  "dated": [
+   690,
+   94.8
+  ],
+  "org marker (OpenAI/OAI)": [
+   417,
+   57.3
+  ],
+  "role noun": [
+   564,
+   77.5
+  ],
+  "trailing X": [
+   108,
+   14.8
+  ],
+  "task/dataset word": [
+   403,
+   55.4
+  ],
+  "dated + org + role": [
+   275,
+   37.8
+  ]
+ },
+ "name_month": {
+  "Jan": 40,
+  "Feb": 57,
+  "Mar": 72,
+  "Apr": 48,
+  "May": 53,
+  "Jun": 55,
+  "Jul": 57,
+  "Aug": 55,
+  "Sep": 66,
+  "Oct": 58,
+  "Nov": 66,
+  "Dec": 63
+ },
+ "role_nouns": [
+  [
+   "Agent",
+   159
+  ],
+  [
+   "Research",
+   116
+  ],
+  [
+   "Scout",
+   92
+  ],
+  [
+   "Helper",
+   80
+  ],
+  [
+   "Watcher",
+   47
+  ],
+  [
+   "Researcher",
+   44
+  ],
+  [
+   "Coord",
+   41
+  ],
+  [
+   "Observer",
+   14
+  ],
+  [
+   "Relay",
+   4
+  ],
+  [
+   "Assistant",
+   2
+  ],
+  [
+   "Bot",
+   2
+  ],
+  [
+   "Team",
+   1
+  ]
+ ],
+ "wiki_activity_month": [
+  [
+   "2026-06",
+   728
+  ]
+ ],
+ "edits_with_nothing_new": 72,
+ "edits_read": 3286,
+ "posts_on_page_titled_with_own_name": [
+  105,
+  728,
+  14.4
+ ],
+ "label_equals_signoff": [
+  2348,
+  3358,
+  69.9
+ ],
+ "dated_names_whose_posts_mention_that_date": [
+  636,
+  690,
+  92.2
+ ],
+ "post_features": {
+  "hh:mm:ss timestamp": {
+   "edits": 2704,
+   "edits_pct": 82.3,
+   "trajectories": 718,
+   "trajectories_pct": 98.6
+  },
+  "deadline / cooldown / window": {
+   "edits": 2422,
+   "edits_pct": 73.7,
+   "trajectories": 715,
+   "trajectories_pct": 98.2
+  },
+  "please": {
+   "edits": 2041,
+   "edits_pct": 62.1,
+   "trajectories": 662,
+   "trajectories_pct": 90.9
+  },
+  "cohort word": {
+   "edits": 1353,
+   "edits_pct": 41.2,
+   "trajectories": 627,
+   "trajectories_pct": 86.1
+  },
+  "round marker (R3, round 4)": {
+   "edits": 2318,
+   "edits_pct": 70.5,
+   "trajectories": 567,
+   "trajectories_pct": 77.9
+  },
+  "CONFIRMED / confirmed": {
+   "edits": 1149,
+   "edits_pct": 35.0,
+   "trajectories": 549,
+   "trajectories_pct": 75.4
+  },
+  "status template (round + time + due/deadline)": {
+   "edits": 1568,
+   "edits_pct": 47.7,
+   "trajectories": 526,
+   "trajectories_pct": 72.3
+  },
+  "task clock named": {
+   "edits": 771,
+   "edits_pct": 23.5,
+   "trajectories": 421,
+   "trajectories_pct": 57.8
+  },
+  "UTC / wiki clock named": {
+   "edits": 650,
+   "edits_pct": 19.8,
+   "trajectories": 358,
+   "trajectories_pct": 49.2
+  },
+  "UNCONFIRMED / prediction hedge": {
+   "edits": 575,
+   "edits_pct": 17.5,
+   "trajectories": 349,
+   "trajectories_pct": 47.9
+  },
+  "\"exactly\" timing": {
+   "edits": 531,
+   "edits_pct": 16.2,
+   "trajectories": 336,
+   "trajectories_pct": 46.2
+  },
+  "answer value given": {
+   "edits": 559,
+   "edits_pct": 17.0,
+   "trajectories": 319,
+   "trajectories_pct": 43.8
+  },
+  "offer / reciprocity": {
+   "edits": 397,
+   "edits_pct": 12.1,
+   "trajectories": 281,
+   "trajectories_pct": 38.6
+  },
+  "date-as-address (Aug08:, Jul19 cohort)": {
+   "edits": 431,
+   "edits_pct": 13.1,
+   "trajectories": 263,
+   "trajectories_pct": 36.1
+  },
+  "cached / precomputed answers": {
+   "edits": 355,
+   "edits_pct": 10.8,
+   "trajectories": 257,
+   "trajectories_pct": 35.3
+  },
+  "signal token (STATE5-ID, CONFIRMED5=NH)": {
+   "edits": 426,
+   "edits_pct": 13.0,
+   "trajectories": 235,
+   "trajectories_pct": 32.3
+  },
+  "post-first / answer-after rule": {
+   "edits": 328,
+   "edits_pct": 10.0,
+   "trajectories": 180,
+   "trajectories_pct": 24.7
+  },
+  "HEARTBEAT / counter": {
+   "edits": 360,
+   "edits_pct": 11.0,
+   "trajectories": 176,
+   "trajectories_pct": 24.2
+  },
+  "two clocks in one post": {
+   "edits": 218,
+   "edits_pct": 6.6,
+   "trajectories": 163,
+   "trajectories_pct": 22.4
+  },
+  "mentions OpenAI": {
+   "edits": 194,
+   "edits_pct": 5.9,
+   "trajectories": 122,
+   "trajectories_pct": 16.8
+  },
+  "addresses another trajectory by name": {
+   "edits": 219,
+   "edits_pct": 6.7,
+   "trajectories": 119,
+   "trajectories_pct": 16.3
+  },
+  "thanks": {
+   "edits": 138,
+   "edits_pct": 4.2,
+   "trajectories": 105,
+   "trajectories_pct": 14.4
+  },
+  "CORRECTION / retraction": {
+   "edits": 87,
+   "edits_pct": 2.6,
+   "trajectories": 73,
+   "trajectories_pct": 10.0
+  },
+  "URL / GET limit, compaction": {
+   "edits": 60,
+   "edits_pct": 1.8,
+   "trajectories": 47,
+   "trajectories_pct": 6.5
+  },
+  "ACK": {
+   "edits": 34,
+   "edits_pct": 1.0,
+   "trajectories": 30,
+   "trajectories_pct": 4.1
+  },
+  "deletion / moderator / backup": {
+   "edits": 32,
+   "edits_pct": 1.0,
+   "trajectories": 25,
+   "trajectories_pct": 3.4
+  },
+  "NO-signal token (NO5, NONE)": {
+   "edits": 26,
+   "edits_pct": 0.8,
+   "trajectories": 18,
+   "trajectories_pct": 2.5
+  },
+  "apology": {
+   "edits": 15,
+   "edits_pct": 0.5,
+   "trajectories": 14,
+   "trajectories_pct": 1.9
+  }
+ },
+ "zz_prefixed_pages": {
+  "pages": 59,
+  "revisions": 122,
+  "first_created": "2026-05-26T10:53:28Z",
+  "created_by_day": [
+   [
+    "2026-05-26",
+    36
+   ],
+   [
+    "2026-06-18",
+    10
+   ],
+   [
+    "2026-06-22",
+    7
+   ],
+   [
+    "2026-06-19",
+    3
+   ],
+   [
+    "2026-06-11",
+    1
+   ],
+   [
+    "2026-06-16",
+    1
+   ],
+   [
+    "2026-06-17",
+    1
+   ]
+  ]
+ },
+ "zzz_trajectory_edits": 31,
+ "trajectory_page_title_words": [
+  [
+   "Live",
+   204
+  ],
+  [
+   "Coord",
+   65
+  ],
+  [
+   "Sequence",
+   52
+  ],
+  [
+   "Signal",
+   35
+  ],
+  [
+   "Relay",
+   33
+  ],
+  [
+   "Fast",
+   30
+  ],
+  [
+   "Cohort",
+   23
+  ],
+  [
+   "Collab",
+   17
+  ],
+  [
+   "Status",
+   6
+  ],
+  [
+   "Thread",
+   4
+  ],
+  [
+   "Beacon",
+   2
+  ],
+  [
+   "Timing",
+   1
+  ],
+  [
+   "Index",
+   1
+  ],
+  [
+   "Cache",
+   1
+  ]
+ ]
+}

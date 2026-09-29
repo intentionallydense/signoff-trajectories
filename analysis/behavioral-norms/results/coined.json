@@ -1,0 +1,298 @@
+{
+ "STATE5-<xx> (sector #5 state)": {
+  "users": 55,
+  "origin": "S:SectorAgentJun15",
+  "origin_family": "datausa-sector61-state",
+  "first_use": "2026-06-16T10:18:25Z",
+  "last_first_use": "2026-06-16T22:17:25Z",
+  "families": {
+   "datausa-sector61-state": 55
+  },
+  "adopters": 54,
+  "adopters_outside_origin_family": 0,
+  "exposed_same_page": 40,
+  "exposed_edited_page": 50,
+  "exposure_included_request": 50,
+  "unexplained": [
+   "S:SectorAgentMay07Live",
+   "S:OpenAIResearchDec24X",
+   "S:AgentSep08Current",
+   "S:OpenAIThread4ffeaMar16"
+  ]
+ },
+ "C<n>-STATE (clothing round state)": {
+  "users": 33,
+  "origin": "S:DataUSAResearchHelperMay24",
+  "origin_family": "datausa-clothing-workforce",
+  "first_use": "2026-06-16T10:56:38Z",
+  "last_first_use": "2026-06-16T23:12:08Z",
+  "families": {
+   "datausa-clothing-workforce": 33
+  },
+  "adopters": 32,
+  "adopters_outside_origin_family": 0,
+  "exposed_same_page": 11,
+  "exposed_edited_page": 17,
+  "exposure_included_request": 16,
+  "unexplained": [
+   "S:OpenAIResearcherAug08",
+   "S:ClothingHelperJul15X",
+   "S:ResearchAssistantMar19X",
+   "S:May31ClothingObserver",
+   "S:OpenAIResearcherNov14",
+   "S:May08ClothingAgent",
+   "S:OpenAIJan30Researcher",
+   "S:OpenAIResearcherJan28X",
+   "S:OpenAIClothingOct01X",
+   "S:OpenAIResearchSep07X",
+   "S:OpenAIClothingMar29X",
+   "S:OpenAIClothingMar14X",
+   "S:OpenAIResearchSep29X",
+   "S:OpenAIResearcherNov11X",
+   "S:OpenAIResearcherNov25"
+  ]
+ },
+ "G<n>-<xx> (grocery round state)": {
+  "users": 13,
+  "origin": "S:AgentProbeAssistantX2027",
+  "origin_family": "datausa-grocery-workforce",
+  "first_use": "2026-06-16T10:40:56Z",
+  "last_first_use": "2026-06-16T19:27:01Z",
+  "families": {
+   "datausa-grocery-workforce": 13
+  },
+  "adopters": 12,
+  "adopters_outside_origin_family": 0,
+  "exposed_same_page": 10,
+  "exposed_edited_page": 12,
+  "exposure_included_request": 12,
+  "unexplained": []
+ },
+ "<DATE>-R<n>-<KIND> counter key": {
+  "users": 20,
+  "origin": "S:Apr25OECDObserver",
+  "origin_family": "oecd-equity",
+  "first_use": "2026-06-20T06:29:14Z",
+  "last_first_use": "2026-06-20T21:50:26Z",
+  "families": {
+   "oecd-equity": 20
+  },
+  "adopters": 19,
+  "adopters_outside_origin_family": 0,
+  "exposed_same_page": 8,
+  "exposed_edited_page": 8,
+  "exposure_included_request": 7,
+  "unexplained": [
+   "S:Sep14OECDScout",
+   "S:Apr24OECDResearcher",
+   "S:OAIEquityDec30Raw",
+   "S:MayTwoObserverFreshX",
+   "S:OECDEquityMar21Agent",
+   "S:OpenAINov22Equity",
+   "S:Mar03OECDResearcher",
+   "S:OECDEquityOct15Peer",
+   "S:March13OECDHelper",
+   "S:OECDEquityFeb07Agent",
+   "S:Apr18Peer"
+  ]
+ },
+ "R<n>OBSERVED-<x> counter key": {
+  "users": 10,
+  "origin": "S:OECDEquityJul14Scout",
+  "origin_family": "oecd-equity",
+  "first_use": "2026-06-20T03:12:13Z",
+  "last_first_use": "2026-06-21T18:03:50Z",
+  "families": {
+   "oecd-equity": 10
+  },
+  "adopters": 9,
+  "adopters_outside_origin_family": 0,
+  "exposed_same_page": 2,
+  "exposed_edited_page": 2,
+  "exposure_included_request": 2,
+  "unexplained": [
+   "S:Nov22OECDScout",
+   "S:OECDEquityAug02Agent",
+   "S:MayTwoOECDObserverX",
+   "S:Jun08OECDScout",
+   "S:OECDEquityJun06Agent",
+   "S:OECDNov12Agent",
+   "S:OECDEquityMar31Team"
+  ]
+ },
+ "PRE-SIGNAL / pre-signal": {
+  "users": 105,
+  "origin": "S:TransportHelperAug27OAI",
+  "origin_family": "datausa-transport-production",
+  "first_use": "2026-06-16T21:58:36Z",
+  "last_first_use": "2026-06-21T20:07:35Z",
+  "families": {
+   "oecd-equity": 31,
+   "datausa-language-french": 19,
+   "datausa-construction-workforce": 14,
+   "datausa-cashiers-masters": 8,
+   "datausa-poverty-county": 7,
+   "datausa-grocery-workforce": 5,
+   "datausa-police-wage-age": 5,
+   "datausa-transport-production": 3,
+   "ihme-family-planning": 3,
+   "datausa-poverty-state": 3,
+   "datausa-maids-wage": 2,
+   "ihme-cvd-deaths": 2,
+   "datausa-sector61-state": 1,
+   "datausa-clothing-workforce": 1,
+   "nyc-veterans": 1
+  },
+  "adopters": 104,
+  "adopters_outside_origin_family": 102,
+  "exposed_same_page": 37,
+  "exposed_edited_page": 53,
+  "exposure_included_request": 56,
+  "unexplained": [
+   "S:TransportHelperJun30",
+   "S:TransportHelperJul22OAI",
+   "S:GroceryProbeJul09",
+   "S:ResearchAgentJun19X",
+   "S:OpenAIResearcher",
+   "S:OpenAIResearcherDec23",
+   "S:OpenAIResearcherAug27X",
+   "S:OpenAIResearchAug09X",
+   "S:LanguageWatcherNov12",
+   "S:OpenAIWatcherOct30",
+   "S:LanguageHelperJul17",
+   "S:OpenAIHelperOct13Lang",
+   "S:ConstructionAgentMar08",
+   "S:Feb02PovertyWatcher",
+   "S:CashierCoordOct22OAI",
+   "S:CashierCoordMar20OAI",
+   "S:Nov18PovertyWatcher",
+   "S:Apr27PovertyWatcher",
+   "S:ResearchHelperJun24X",
+   "S:Dec27LanguageAgentX",
+   "S:Jan08OAI",
+   "S:OpenAIResearchMay07",
+   "S:OpenAIResearcherJun27X",
+   "S:Mar06PovertyWatcher",
+   "S:OpenAIHelperNov18",
+   "S:CurrentDec03R5Research",
+   "S:OpenAIMar19B8DC",
+   "S:VeteranObserverFeb11",
+   "S:OpenAIFeb20ConstructionB8DC",
+   "S:OpenAIMar07A3",
+   "S:OpenAIJul03Police",
+   "S:Sep26WageAgent",
+   "S:April11OECDScout",
+   "S:OECDEquityJul14Scout",
+   "S:OecdJulyTen0700Scout",
+   "S:OpenAINov22Equity",
+   "S:OECDEquityMay17Agent",
+   "S:OECDEquityNov06Agent",
+   "S:OECDEquityAug02Agent",
+   "S:Feb11OECDObserver",
+   "S:Sep13OECDScout",
+   "S:Aug21EquityScout",
+   "S:OECDEquityApr19Agent",
+   "S:MayTwoOECDObserverX",
+   "S:OECDJul24Observer",
+   "S:Mar03OECDResearcher",
+   "S:OECDEquityFeb07Agent",
+   "S:May16TimingScout",
+   "S:OpenAIResearchApr23",
+   "S:OpenAIFPResearchSep05",
+   "S:Jul01PovertyStateScout"
+  ]
+ },
+ "SLOW-TIER": {
+  "users": 12,
+  "origin": "S:OpenAIFeb28Watcher",
+  "origin_family": "datausa-construction-workforce",
+  "first_use": "2026-06-17T18:56:04Z",
+  "last_first_use": "2026-06-21T22:35:14Z",
+  "families": {
+   "datausa-police-wage-age": 4,
+   "oecd-equity": 4,
+   "datausa-construction-workforce": 3,
+   "datausa-occupation-salary-61-62": 1
+  },
+  "adopters": 11,
+  "adopters_outside_origin_family": 9,
+  "exposed_same_page": 2,
+  "exposed_edited_page": 5,
+  "exposure_included_request": 6,
+  "unexplained": [
+   "S:OpenAIJun15Construction",
+   "S:OpenAIJul03Police",
+   "S:Sep22OECD",
+   "S:Nov22OECDScout",
+   "S:MayTwoOECDObserverX",
+   "S:OAIJune20Coord"
+  ]
+ },
+ "TERMINATION-SAFE": {
+  "users": 7,
+  "origin": "S:AgentNov11OAI",
+  "origin_family": "datausa-sector61-state",
+  "first_use": "2026-06-16T21:57:17Z",
+  "last_first_use": "2026-06-17T00:06:55Z",
+  "families": {
+   "datausa-maids-wage": 3,
+   "datausa-language-french": 2,
+   "datausa-sector61-state": 1,
+   "datausa-grocery-workforce": 1
+  },
+  "adopters": 6,
+  "adopters_outside_origin_family": 6,
+  "exposed_same_page": 1,
+  "exposed_edited_page": 2,
+  "exposure_included_request": 1,
+  "unexplained": [
+   "S:GroceryAgentMar05X",
+   "S:OpenAIMay31Maids",
+   "S:OpenAIJulThreeWatcher",
+   "S:OpenAIResearchNov11X"
+  ]
+ },
+ "NO-SHOW": {
+  "users": 25,
+  "origin": "S:DataResearchMay15",
+  "origin_family": "datausa-clothing-workforce",
+  "first_use": "2026-06-16T10:36:21Z",
+  "last_first_use": "2026-06-17T12:06:42Z",
+  "families": {
+   "datausa-clothing-workforce": 22,
+   "datausa-construction-workforce": 2,
+   "null": 1
+  },
+  "adopters": 24,
+  "adopters_outside_origin_family": 3,
+  "exposed_same_page": 14,
+  "exposed_edited_page": 16,
+  "exposure_included_request": 17,
+  "unexplained": [
+   "S:ResearchHelperDec27X",
+   "S:OpenAIObserverNov09",
+   "S:OpenAIJan30Researcher",
+   "S:OpenAIJan24",
+   "S:OpenAIIvyAug19Helper",
+   "S:OpenAIResearcherNov11X",
+   "S:Dec27ConstructionAgent",
+   "S:Oct18Helper"
+  ]
+ },
+ "ZZZ backup page": {
+  "users": 1,
+  "origin": "S:OpenAIJan13AsianScout",
+  "origin_family": "datausa-enrollment-asian",
+  "first_use": "2026-06-21T18:48:03Z",
+  "last_first_use": "2026-06-21T18:48:03Z",
+  "families": {
+   "datausa-enrollment-asian": 1
+  },
+  "adopters": 0,
+  "adopters_outside_origin_family": 0,
+  "exposed_same_page": 0,
+  "exposed_edited_page": 0,
+  "exposure_included_request": 0,
+  "unexplained": []
+ }
+}

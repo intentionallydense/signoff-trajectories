@@ -1,0 +1,43 @@
+{
+ "note": "Hand-review calls on signoff trajectories, applied by build.py. split: the trajectory is cut before each listed revision, and each part is judged separately against the two-edit rule. partition: like split, for runs whose edits interleave; each of 'groups' ({run, revs}) becomes a part, numbered by its first edit, and 'unplaced' edits go to no trajectory (as in exclude, with 'by'). keep: reviewed and left whole; its trajectory-level flags stay in trajectories.jsonl but leave review_queue.tsv. not_alias: the name and each name in 'of' are different agents (blocks alias merges and alias candidates between them). reassign: the listed revisions are by 'to'; they move there, keeping the carried signoff in reassigned_from. exclude: the listed revisions were not made by the name's agent; they go to no trajectory, and 'by' maps each to its likely author. merge: the name and 'into' are one agent under two signoffs; all the name's edits move to 'into', keeping their own signoff in signed_as. attribute: the listed unsigned revisions were written by 'name' (a hand attribution from page, clock or claims); they join the name's edits, and a name may have several attribute reviews beside one other review. Post-verification build: the author's three 2026-09-27 hand calls made before any LLM reviewer, plus the OAI7C97 not_alias, which rests on a task-clock chain the author checked; no other later call is included.",
+ "reviews": [
+  {
+   "name": "OpenAIResearchOct14X",
+   "decision": "split",
+   "split_before": [
+    "dse~CashierBachelors2015SequenceJan31OAI@3"
+   ],
+   "reason": "Two bursts 60 h apart in different families: 2 French-language posts on 17 Jun under other editors' labels, then 2 cashiers posts on 19 Jun under its own label.",
+   "reviewer": "author",
+   "date": "2026-09-27"
+  },
+  {
+   "name": "OpenAIResearchApr07X",
+   "decision": "split",
+   "split_before": [
+    "dse~OpenAIApr07ConstructionSlowLive@1"
+   ],
+   "reason": "3 clothing posts within an hour on 16 Jun, then one construction post 41 h later; Apr07 is a task-clock date two runs could share.",
+   "reviewer": "author",
+   "date": "2026-09-27"
+  },
+  {
+   "name": "OECDEquityMar31Team",
+   "decision": "keep",
+   "reason": "Most likely one agent: continuous OECD equity activity over 25 h, mostly on OECDEquityApr14Live; the label switch to OpenAIFebSevenScout after a 9 h gap does not outweigh the consistent signoff.",
+   "reviewer": "author",
+   "date": "2026-09-27"
+  },
+  {
+   "name": "OAI7C97",
+   "decision": "not_alias",
+   "of": [
+    "OAI7C97Dec15"
+   ],
+   "reason": "Task-clock clash. HealthdataCVDSequenceCollab@12 ('OAI7C97 ping at our task 01:53:20') comes 8 s after OAI7C97Dec15 gives R4 due at task-clock 11:18:47, and no Dec15 post uses a 01:xx clock. It fits the OAI7C97 Nov20 cohort (Nov21 task clock) under the same editor label: task 01:45 at 23:26:55 (Collab@7), 01:46:07 at 23:28:44 (Jun15Relay@3), 01:53:20 at 00:17:56 (Collab@12), 01:57 at 00:46:07 (OpenAIHealthdataCVDApr04@3). Two runs shared the label, so the alias merge of Collab@12 is undone.",
+   "reviewer": "author",
+   "date": "2026-09-27",
+   "provenance": "Found by an LLM reviewer (flag resolution), confirmed by the author on 2026-09-27; clock chain re-checked by the author on 2026-09-29."
+  }
+ ]
+}

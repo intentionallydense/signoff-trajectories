@@ -1,0 +1,49 @@
+{
+ "joined_saves": 3403,
+ "trajectories": 728,
+ "bust|order": {
+  "fingerprints": 142,
+  "test_saves": 666,
+  "accuracy": 0.881,
+  "chance": 0.429,
+  "tied": 7,
+  "candidates_per_save": {
+   "2": 442,
+   "3": 129,
+   "4": 69,
+   "5": 18,
+   "7": 8
+  }
+ },
+ "bust": {
+  "fingerprints": 12,
+  "test_saves": 666,
+  "accuracy": 0.691,
+  "chance": 0.429,
+  "tied": 33,
+  "candidates_per_save": {
+   "2": 442,
+   "3": 129,
+   "4": 69,
+   "5": 18,
+   "7": 8
+  }
+ },
+ "order": {
+  "fingerprints": 85,
+  "test_saves": 666,
+  "accuracy": 0.756,
+  "chance": 0.429,
+  "tied": 22,
+  "candidates_per_save": {
+   "2": 442,
+   "3": 129,
+   "4": 69,
+   "5": 18,
+   "7": 8
+  }
+ },
+ "save_fingerprint_purity_median_3plus_saves": 1.0,
+ "distinct_dominant_save_fingerprints": 113,
+ "largest_dominant_group": 141
+}
