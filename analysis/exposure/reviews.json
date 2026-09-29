@@ -1,0 +1,4 @@
+{
+ "_doc": "Hand calls on log names for build.py. decision 'exclude': never attribute this name's requests in [from, to]. decision 'assign': attribute them to trajectory `traj`. from/to are ISO UTC or null (open). Proposals awaiting review live in name-review/proposals.json; move accepted ones here.",
+ "reviews": []
+}

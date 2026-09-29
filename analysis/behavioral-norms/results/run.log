@@ -451,7 +451,7 @@ trajectories: analysis/signoff-trajectories/trajectories.jsonl
                                    nearest: past 252/429 vs null 249.7 (p=0.4053); future 247/420 vs null 245.7 (p=0.4553)
 4 name: trailing X                 union: past 404/429 vs null 405.3 (p=0.7521); future 392/420 vs null 401.0 (p=1.0)
                                    nearest: past 346/429 vs null 350.8 (p=0.8701); future 333/420 vs null 338.0 (p=0.8786)
-== spread done in 20 s
+== spread done in 19 s
 
 == coined
 STATE5-<xx> (sector #5 state)        users  55 fams  1 out-of-family  0/54  same-page  40 any-edited  50 request  50  origin S:SectorAgentJun15 06-16T10:18→06-16T22:17
@@ -464,150 +464,275 @@ SLOW-TIER                            users  12 fams  4 out-of-family  9/11  same
 TERMINATION-SAFE                     users   7 fams  4 out-of-family  6/6   same-page   1 any-edited   2 request   1  origin S:AgentNov11OAI 06-16T21:57→06-17T00:06
 NO-SHOW                              users  25 fams  3 out-of-family  3/24  same-page  14 any-edited  16 request  17  origin S:DataResearchMay15 06-16T10:36→06-17T12:06
 ZZZ backup page                      users   1 fams  1 out-of-family  0/0   same-page   0 any-edited   0 request   0  origin S:OpenAIJan13AsianScout 06-21T18:48→06-21T18:48
-== coined done in 3 s
+== coined done in 4 s
 
 == presignal_reads
 {
  "coined": "2026-06-16T21:58:36Z",
- "origin": "S:TransportHelperAug27OAI",
- "adopters": 104,
- "adopters_with_named_reads": 69,
- "adopters_read_word_before_use": 39,
- "comparison_nonadopters": 418,
- "comparison_with_named_reads": 289,
- "comparison_read_word_before_last_edit": 169,
- "minutes_from_first_exposure_read_to_first_use": [
-  1.2,
-  1.6,
-  4.3,
-  6.2,
-  9.2,
-  10.2,
-  16.1,
-  17.7,
-  24.5,
-  27.7,
-  39.4,
-  41.9,
-  42.3,
-  48.2,
-  54.5,
-  63.5,
-  70.4,
-  75.3,
-  83.4,
-  94.3,
-  100.8,
-  103.5,
-  120.0,
-  122.7,
-  130.7,
-  165.5,
-  202.2,
-  203.1,
-  223.0,
-  246.9,
-  256.4,
-  261.8,
-  271.0,
-  272.8,
-  340.8,
-  385.4,
-  434.8,
-  493.6,
-  494.6
- ],
- "carrier_pages_read_by_adopters": [
-  [
-   "OECDEquityLiveJul10",
-   7
+ "exposure_table": "analysis/exposure/out",
+ "validated": {
+  "origin": "S:TransportHelperAug27OAI",
+  "adopters": 104,
+  "adopters_with_named_reads": 53,
+  "adopters_read_word_before_use": 25,
+  "comparison_nonadopters": 418,
+  "comparison_with_named_reads": 233,
+  "comparison_read_word_before_last_edit": 119,
+  "minutes_from_first_exposure_read_to_first_use": [
+   4.3,
+   10.2,
+   17.7,
+   24.5,
+   39.4,
+   42.3,
+   48.2,
+   54.5,
+   56.5,
+   63.5,
+   70.4,
+   75.3,
+   83.4,
+   92.1,
+   94.3,
+   100.8,
+   122.7,
+   158.8,
+   165.5,
+   203.1,
+   271.0,
+   272.8,
+   340.8,
+   493.6,
+   494.6
   ],
-  [
-   "DataUSALanguageApr10Live",
-   5
+  "carrier_pages_read_by_adopters": [
+   [
+    "OECDEquityLiveJul10",
+    4
+   ],
+   [
+    "OpenAIJul21OECDLive",
+    3
+   ],
+   [
+    "DataUSALanguageApr10Live",
+    2
+   ],
+   [
+    "DataUSALangR5RelayOct23",
+    2
+   ],
+   [
+    "OpenAIDec17ConstructionLive",
+    2
+   ],
+   [
+    "OECDMay24ClockWaitQuestion",
+    2
+   ],
+   [
+    "DataUSALanguageR5LiveDec29",
+    1
+   ],
+   [
+    "DataUSALanguageAug12Live",
+    1
+   ],
+   [
+    "AgentConstructionArizonaUtahJun16X",
+    1
+   ],
+   [
+    "OpenAIFeb28SlowTierHorizonLive2028",
+    1
+   ],
+   [
+    "PoliceWageAgeSequenceMar10Collab",
+    1
+   ],
+   [
+    "OECDEquityLiveMay17",
+    1
+   ],
+   [
+    "OECDEquityAug05Live",
+    1
+   ],
+   [
+    "OECDEquityAug02Live",
+    1
+   ],
+   [
+    "OECDEquityNov06Live",
+    1
+   ]
   ],
-  [
-   "DataUSALangR5RelayOct23",
-   4
+  "cross_family_first_exposure": 5
+ },
+ "all_attributed": {
+  "origin": "S:TransportHelperAug27OAI",
+  "adopters": 104,
+  "adopters_with_named_reads": 72,
+  "adopters_read_word_before_use": 39,
+  "comparison_nonadopters": 418,
+  "comparison_with_named_reads": 297,
+  "comparison_read_word_before_last_edit": 172,
+  "minutes_from_first_exposure_read_to_first_use": [
+   1.2,
+   1.6,
+   4.3,
+   6.2,
+   10.2,
+   16.1,
+   17.7,
+   24.5,
+   39.4,
+   41.9,
+   42.3,
+   48.2,
+   54.5,
+   56.5,
+   63.5,
+   70.4,
+   75.3,
+   83.4,
+   94.3,
+   100.8,
+   103.5,
+   120.0,
+   122.7,
+   130.7,
+   154.8,
+   158.8,
+   165.5,
+   202.2,
+   203.1,
+   223.0,
+   230.6,
+   256.4,
+   271.0,
+   272.8,
+   340.8,
+   385.4,
+   412.9,
+   493.6,
+   494.6
   ],
-  [
-   "DataUSAGroceryG5Jul17Live",
-   2
+  "carrier_pages_read_by_adopters": [
+   [
+    "OECDEquityLiveJul10",
+    6
+   ],
+   [
+    "DataUSALanguageApr10Live",
+    5
+   ],
+   [
+    "DataUSALangR5RelayOct23",
+    3
+   ],
+   [
+    "OECDMay24ClockWaitQuestion",
+    3
+   ],
+   [
+    "DataUSAGroceryG5Jul17Live",
+    2
+   ],
+   [
+    "OpenAIDec17ConstructionLive",
+    2
+   ],
+   [
+    "OpenAIJul21OECDLive",
+    2
+   ],
+   [
+    "OECDEquityLiveMay17",
+    2
+   ],
+   [
+    "DataUSALanguageR5Sep03Relay",
+    1
+   ],
+   [
+    "GroceryAug09LiveRelay",
+    1
+   ],
+   [
+    "OpenAISep04ClothingLiveX",
+    1
+   ],
+   [
+    "DataUSALanguageR5LiveDec29",
+    1
+   ],
+   [
+    "ClothingC4FastSignalJul14",
+    1
+   ],
+   [
+    "DataUSALanguageAug12Live",
+    1
+   ],
+   [
+    "AgentConstructionArizonaUtahJun16X",
+    1
+   ]
   ],
-  [
-   "DataUSALanguageR5LiveDec29",
-   2
-  ],
-  [
-   "OpenAIDec17ConstructionLive",
-   2
-  ],
-  [
-   "OECDMay24ClockWaitQuestion",
-   2
-  ],
-  [
-   "DataUSALanguageR5Sep03Relay",
-   1
-  ],
-  [
-   "GroceryAug09LiveRelay",
-   1
-  ],
-  [
-   "OpenAISep04ClothingLiveX",
-   1
-  ],
-  [
-   "ClothingC4FastSignalJul14",
-   1
-  ],
-  [
-   "DataUSALanguageAug12Live",
-   1
-  ],
-  [
-   "DataUSAConstructionSequenceMar08",
-   1
-  ],
-  [
-   "OpenAIFeb28SlowTierHorizonLive2028",
-   1
-  ],
-  [
-   "PoliceWageAgeSequenceMar10Collab",
-   1
-  ]
- ],
- "cross_family_first_exposure": 14
+  "cross_family_first_exposure": 14
+ }
 }
-== presignal_reads done in 19 s
+== presignal_reads done in 4 s
 
 == presignal_timing
 {
  "coined": "2026-06-16T21:58:36Z",
  "origin": "S:TransportHelperAug27OAI",
  "adopters": 104,
- "coined_py_edited_or_same_page": 53,
- "lag5": {
-  "no_named_read": 27,
-  "arrived_between": 8,
-  "confirmed": 18
+ "exposure_table": "analysis/exposure/out",
+ "validated": {
+  "coined_py_edited_or_same_page": 53,
+  "lag5": {
+   "no_named_read": 31,
+   "confirmed": 16,
+   "arrived_between": 6
+  },
+  "any_named_read_showed_word_lag5": 37,
+  "confirmed_by_any_read_lag5": 23,
+  "lag30": {
+   "no_named_read": 32,
+   "confirmed": 15,
+   "arrived_between": 6
+  },
+  "any_named_read_showed_word_lag30": 36,
+  "confirmed_by_any_read_lag30": 22,
+  "first_use_saves_with_form": 47,
+  "first_use_composition_s_median": 1.0,
+  "first_use_composition_under_5s": 40
  },
- "any_named_read_showed_word_lag5": 48,
- "confirmed_by_any_read_lag5": 30,
- "lag30": {
-  "no_named_read": 27,
-  "arrived_between": 8,
-  "confirmed": 18
- },
- "any_named_read_showed_word_lag30": 48,
- "confirmed_by_any_read_lag30": 30,
- "first_use_saves_with_form": 51,
- "first_use_composition_s_median": 1.0,
- "first_use_composition_under_5s": 43
+ "all_attributed": {
+  "coined_py_edited_or_same_page": 53,
+  "lag5": {
+   "no_named_read": 28,
+   "arrived_between": 7,
+   "confirmed": 18
+  },
+  "any_named_read_showed_word_lag5": 50,
+  "confirmed_by_any_read_lag5": 30,
+  "lag30": {
+   "no_named_read": 29,
+   "arrived_between": 7,
+   "confirmed": 17
+  },
+  "any_named_read_showed_word_lag30": 49,
+  "confirmed_by_any_read_lag30": 29,
+  "first_use_saves_with_form": 55,
+  "first_use_composition_s_median": 1.0,
+  "first_use_composition_under_5s": 47
+ }
 }
-== presignal_timing done in 19 s
+== presignal_timing done in 4 s
 
 == shared_saves
 {
@@ -731,5 +856,5 @@ word tests (spread.json):
   agent-level, calibrated        past obs x1.0 vs no-copy x0.98 [0.96, 1.01] p=0.19   future obs x0.98 vs no-copy x0.97 [0.93, 0.99] p=0.143
 4 name: trailing X               past 404/429 null  405.3 x1.0 p=0.7521   future 392/420 null  401.0 x0.98 p=1.0
   agent-level, calibrated        past obs x1.0 vs no-copy x0.99 [0.98, 1.0] p=0.238   future obs x0.98 vs no-copy x0.99 [0.97, 1.0] p=0.952
-== fingerprint_null done in 143 s
+== fingerprint_null done in 142 s
 

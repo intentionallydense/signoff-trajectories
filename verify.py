@@ -3,11 +3,14 @@ with the committed file.
 
     python3 verify.py                 # trajectories + behavioural analysis (~4 min)
     python3 verify.py --build-only    # trajectories and the verification cross-check only (a few seconds)
-    REQUEST_LOGS=<dir> python3 verify.py   # also rerun the log-joined steps (see analysis/request-logs/README.md)
+    REQUEST_LOGS=<dir> python3 verify.py   # also rebuild the exposure table and rerun the log-joined steps
+                                           # (see analysis/request-logs/README.md)
 
 Outputs must match byte for byte, with two exceptions: spread.json's "build" field (the input file's mtime) is ignored,
 and saves.tsv.gz is compared decompressed (gzip headers carry a timestamp). Without request logs the log-joined outputs
-(presignal_reads.json, presignal_timing.json, shared_saves.json/.txt, saves.tsv.gz) are not rerun, and are reported so.
+(the exposure validation, coined_reads.json/.txt, presignal_reads.json, presignal_timing.json, shared_saves.json/.txt,
+saves.tsv.gz) are not rerun, and are reported so. With them, the exposure table is rebuilt from the logs in the scratch
+copy first; a local analysis/exposure/out is never used.
 """
 import gzip, json, os, shutil, subprocess, sys, tempfile
 from pathlib import Path
@@ -19,7 +22,9 @@ XCHECK = 'analysis/verification-check'
 BUILD_OUT = ['trajectories.jsonl', 'summary.json', 'review_queue.tsv']
 TEXT_OUT = ['norms.json', 'examples.json', 'spread.json', 'spread.txt', 'coined.json', 'coined.txt',
             'fingerprint_null.json', 'fingerprint_null.txt']
-LOG_OUT = ['presignal_reads.json', 'presignal_timing.json', 'shared_saves.json', 'shared_saves.txt', 'saves.tsv.gz']
+LOG_OUT = ['coined_reads.json', 'coined_reads.txt', 'presignal_reads.json', 'presignal_timing.json', 'shared_saves.json',
+           'shared_saves.txt', 'saves.tsv.gz']
+EXPO_OUT = [('analysis/exposure/validate', 'validate.json')]
 
 
 def same(a, b):
@@ -40,6 +45,7 @@ def main():
     with tempfile.TemporaryDirectory() as tmp:
         work = Path(tmp) / 'repo'
         shutil.copytree(ROOT, work, ignore=shutil.ignore_patterns('.git', '__pycache__', '_root'))
+        shutil.rmtree(work / 'analysis/exposure/out', ignore_errors=True)  # rebuilt from the logs below, or absent
         run = lambda *args: subprocess.run([sys.executable, *args], cwd=work, check=True, stdout=subprocess.DEVNULL,
                                            env={**os.environ, 'REQUEST_LOGS': str(Path(logs).resolve()) if logs else
                                                 str(work / 'no-request-logs')})
@@ -47,6 +53,11 @@ def main():
         run(f'{BUILD}/build.py')
         run(f'{XCHECK}/xcheck.py')
         checks = [(BUILD, f) for f in BUILD_OUT] + [(XCHECK, 'xcheck.json')]
+        if not build_only and logs:
+            print('building the exposure table from the request logs ...', file=sys.stderr)
+            run('analysis/exposure/build.py')
+            run('analysis/exposure/validate/validate.py')
+            checks += EXPO_OUT
         if not build_only:
             print('running the behavioural suite (a few minutes) ...', file=sys.stderr)
             run('analysis/behavioral-norms/variant.py', BUILD, RESULTS)
@@ -57,7 +68,7 @@ def main():
             if not ok:
                 failed.append(f'{d}/{f}')
     if not build_only and not logs:
-        print(f'not rerun (no REQUEST_LOGS): {", ".join(LOG_OUT)}')
+        print(f'not rerun (no REQUEST_LOGS): exposure table, validate.json, {", ".join(LOG_OUT)}')
     if failed:
         raise SystemExit(f'{len(failed)} output(s) differ')
     print('all compared outputs match')

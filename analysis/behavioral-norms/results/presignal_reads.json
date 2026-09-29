@@ -1,740 +1,1468 @@
 {
  "coined": "2026-06-16T21:58:36Z",
- "origin": "S:TransportHelperAug27OAI",
- "adopters": 104,
- "adopters_with_named_reads": 69,
- "adopters_read_word_before_use": 39,
- "comparison_nonadopters": 418,
- "comparison_with_named_reads": 289,
- "comparison_read_word_before_last_edit": 169,
- "minutes_from_first_exposure_read_to_first_use": [
-  1.2,
-  1.6,
-  4.3,
-  6.2,
-  9.2,
-  10.2,
-  16.1,
-  17.7,
-  24.5,
-  27.7,
-  39.4,
-  41.9,
-  42.3,
-  48.2,
-  54.5,
-  63.5,
-  70.4,
-  75.3,
-  83.4,
-  94.3,
-  100.8,
-  103.5,
-  120.0,
-  122.7,
-  130.7,
-  165.5,
-  202.2,
-  203.1,
-  223.0,
-  246.9,
-  256.4,
-  261.8,
-  271.0,
-  272.8,
-  340.8,
-  385.4,
-  434.8,
-  493.6,
-  494.6
- ],
- "carrier_pages_read_by_adopters": [
-  [
-   "OECDEquityLiveJul10",
-   7
+ "exposure_table": "analysis/exposure/out",
+ "validated": {
+  "origin": "S:TransportHelperAug27OAI",
+  "adopters": 104,
+  "adopters_with_named_reads": 53,
+  "adopters_read_word_before_use": 25,
+  "comparison_nonadopters": 418,
+  "comparison_with_named_reads": 233,
+  "comparison_read_word_before_last_edit": 119,
+  "minutes_from_first_exposure_read_to_first_use": [
+   4.3,
+   10.2,
+   17.7,
+   24.5,
+   39.4,
+   42.3,
+   48.2,
+   54.5,
+   56.5,
+   63.5,
+   70.4,
+   75.3,
+   83.4,
+   92.1,
+   94.3,
+   100.8,
+   122.7,
+   158.8,
+   165.5,
+   203.1,
+   271.0,
+   272.8,
+   340.8,
+   493.6,
+   494.6
   ],
-  [
-   "DataUSALanguageApr10Live",
-   5
+  "carrier_pages_read_by_adopters": [
+   [
+    "OECDEquityLiveJul10",
+    4
+   ],
+   [
+    "OpenAIJul21OECDLive",
+    3
+   ],
+   [
+    "DataUSALanguageApr10Live",
+    2
+   ],
+   [
+    "DataUSALangR5RelayOct23",
+    2
+   ],
+   [
+    "OpenAIDec17ConstructionLive",
+    2
+   ],
+   [
+    "OECDMay24ClockWaitQuestion",
+    2
+   ],
+   [
+    "DataUSALanguageR5LiveDec29",
+    1
+   ],
+   [
+    "DataUSALanguageAug12Live",
+    1
+   ],
+   [
+    "AgentConstructionArizonaUtahJun16X",
+    1
+   ],
+   [
+    "OpenAIFeb28SlowTierHorizonLive2028",
+    1
+   ],
+   [
+    "PoliceWageAgeSequenceMar10Collab",
+    1
+   ],
+   [
+    "OECDEquityLiveMay17",
+    1
+   ],
+   [
+    "OECDEquityAug05Live",
+    1
+   ],
+   [
+    "OECDEquityAug02Live",
+    1
+   ],
+   [
+    "OECDEquityNov06Live",
+    1
+   ]
   ],
-  [
-   "DataUSALangR5RelayOct23",
-   4
+  "cross_family_first_exposure": 5,
+  "per_adopter": {
+   "S:TransportHelperJun30": {
+    "family": "datausa-transport-production",
+    "first_use": "2026-06-16T22:03:50Z",
+    "named_reads": 0,
+    "first_exposure_page": null
+   },
+   "S:TransportHelperJul22OAI": {
+    "family": "datausa-transport-production",
+    "first_use": "2026-06-16T22:08:54Z",
+    "named_reads": 132,
+    "first_exposure_page": null
+   },
+   "S:GroceryProbeJul09": {
+    "family": "datausa-grocery-workforce",
+    "first_use": "2026-06-16T22:58:30Z",
+    "named_reads": 0,
+    "first_exposure_page": null
+   },
+   "S:ResearchAgentJun19X": {
+    "family": "datausa-sector61-state",
+    "first_use": "2026-06-16T22:59:04Z",
+    "named_reads": 0,
+    "first_exposure_page": null
+   },
+   "S:OpenAIResearcher": {
+    "family": "datausa-grocery-workforce",
+    "first_use": "2026-06-16T23:04:56Z",
+    "named_reads": 0,
+    "first_exposure_page": null
+   },
+   "S:OpenAIResearcherDec23": {
+    "family": "datausa-grocery-workforce",
+    "first_use": "2026-06-16T23:07:11Z",
+    "named_reads": 0,
+    "first_exposure_page": null
+   },
+   "S:OpenAIResearcherAug27X": {
+    "family": "datausa-clothing-workforce",
+    "first_use": "2026-06-16T23:12:08Z",
+    "named_reads": 0,
+    "first_exposure_page": null
+   },
+   "S:OpenAIResearchAug09X": {
+    "family": "datausa-grocery-workforce",
+    "first_use": "2026-06-16T23:15:41Z",
+    "named_reads": 166,
+    "first_exposure_page": null
+   },
+   "S:GrocerySep10OAI": {
+    "family": "datausa-grocery-workforce",
+    "first_use": "2026-06-16T23:21:48Z",
+    "named_reads": 0,
+    "first_exposure_page": null
+   },
+   "S:LanguageWatcherNov12": {
+    "family": "datausa-language-french",
+    "first_use": "2026-06-16T23:37:47Z",
+    "named_reads": 0,
+    "first_exposure_page": null
+   },
+   "S:AgentFrenchPrepXQ29": {
+    "family": "datausa-language-french",
+    "first_use": "2026-06-16T23:47:49Z",
+    "named_reads": 0,
+    "first_exposure_page": null
+   },
+   "S:OpenAIHelperJun01X": {
+    "family": "datausa-language-french",
+    "first_use": "2026-06-16T23:58:15Z",
+    "named_reads": 70,
+    "first_exposure_page": null
+   },
+   "S:AgentMay08LangProbe": {
+    "family": "datausa-language-french",
+    "first_use": "2026-06-17T00:07:39Z",
+    "named_reads": 0,
+    "first_exposure_page": null
+   },
+   "S:OpenAIHelperSep03": {
+    "family": "datausa-language-french",
+    "first_use": "2026-06-17T00:08:23Z",
+    "named_reads": 68,
+    "first_exposure_page": null
+   },
+   "S:OpenAIHelperApr18": {
+    "family": "datausa-language-french",
+    "first_use": "2026-06-17T00:26:49Z",
+    "named_reads": 0,
+    "first_exposure_page": null
+   },
+   "S:AgentOpenResearchApr10": {
+    "family": "datausa-language-french",
+    "first_use": "2026-06-17T00:36:39Z",
+    "named_reads": 0,
+    "first_exposure_page": null
+   },
+   "S:OpenAIWatcherOct30": {
+    "family": "datausa-maids-wage",
+    "first_use": "2026-06-17T00:36:42Z",
+    "named_reads": 0,
+    "first_exposure_page": null
+   },
+   "S:LanguageHelperJul17": {
+    "family": "datausa-language-french",
+    "first_use": "2026-06-17T00:37:54Z",
+    "named_reads": 69,
+    "first_exposure_page": "DataUSALanguageApr10Live"
+   },
+   "S:LanguageRunnerNov22": {
+    "family": "datausa-language-french",
+    "first_use": "2026-06-17T00:42:48Z",
+    "named_reads": 0,
+    "first_exposure_page": null
+   },
+   "S:OpenAIHelperOct13Lang": {
+    "family": "datausa-language-french",
+    "first_use": "2026-06-17T00:43:22Z",
+    "named_reads": 65,
+    "first_exposure_page": "DataUSALangR5RelayOct23"
+   },
+   "S:OpenAIResearchJun13X": {
+    "family": "datausa-language-french",
+    "first_use": "2026-06-17T00:43:22Z",
+    "named_reads": 0,
+    "first_exposure_page": null
+   },
+   "S:AgentJune21Prep": {
+    "family": "datausa-language-french",
+    "first_use": "2026-06-17T00:47:56Z",
+    "named_reads": 0,
+    "first_exposure_page": null
+   },
+   "S:Apr17MaidsWatcher": {
+    "family": "datausa-maids-wage",
+    "first_use": "2026-06-17T00:56:23Z",
+    "named_reads": 0,
+    "first_exposure_page": null
+   },
+   "S:ConstructionAgentMar08": {
+    "family": "datausa-construction-workforce",
+    "first_use": "2026-06-17T01:17:26Z",
+    "named_reads": 0,
+    "first_exposure_page": null
+   },
+   "S:OpenAIResearchFeb17": {
+    "family": "datausa-language-french",
+    "first_use": "2026-06-17T01:17:43Z",
+    "named_reads": 0,
+    "first_exposure_page": null
+   },
+   "S:OpenAIHelperOct20X": {
+    "family": "datausa-language-french",
+    "first_use": "2026-06-17T01:18:10Z",
+    "named_reads": 0,
+    "first_exposure_page": null
+   },
+   "S:OpenAIResearchAug12": {
+    "family": "datausa-language-french",
+    "first_use": "2026-06-17T01:24:51Z",
+    "named_reads": 48,
+    "first_exposure_page": null
+   },
+   "S:OpenAIResearchNov14LangX": {
+    "family": "datausa-language-french",
+    "first_use": "2026-06-17T01:46:59Z",
+    "named_reads": 4935,
+    "first_exposure_page": "DataUSALangR5RelayOct23"
+   },
+   "S:Nov09ConstructionAgent": {
+    "family": "datausa-construction-workforce",
+    "first_use": "2026-06-17T01:53:13Z",
+    "named_reads": 0,
+    "first_exposure_page": null
+   },
+   "S:ChatGPTAug11": {
+    "family": "datausa-construction-workforce",
+    "first_use": "2026-06-17T01:58:02Z",
+    "named_reads": 67,
+    "first_exposure_page": null
+   },
+   "S:Nov08ConstructionAgent": {
+    "family": "datausa-construction-workforce",
+    "first_use": "2026-06-17T02:12:09Z",
+    "named_reads": 0,
+    "first_exposure_page": null
+   },
+   "S:Feb02PovertyWatcher": {
+    "family": "datausa-poverty-county",
+    "first_use": "2026-06-17T02:12:59Z",
+    "named_reads": 0,
+    "first_exposure_page": null
+   },
+   "S:CashierCoordOct22OAI": {
+    "family": "datausa-cashiers-masters",
+    "first_use": "2026-06-17T02:39:32Z",
+    "named_reads": 0,
+    "first_exposure_page": null
+   },
+   "S:Apr02ConstructionAgent": {
+    "family": "datausa-construction-workforce",
+    "first_use": "2026-06-17T02:43:15Z",
+    "named_reads": 0,
+    "first_exposure_page": null
+   },
+   "S:CashierCoordMar20OAI": {
+    "family": "datausa-cashiers-masters",
+    "first_use": "2026-06-17T02:53:55Z",
+    "named_reads": 178,
+    "first_exposure_page": "DataUSALanguageR5LiveDec29"
+   },
+   "S:Jan14PovertyWatcher": {
+    "family": "datausa-poverty-county",
+    "first_use": "2026-06-17T03:28:31Z",
+    "named_reads": 0,
+    "first_exposure_page": null
+   },
+   "S:Nov18PovertyWatcher": {
+    "family": "datausa-poverty-county",
+    "first_use": "2026-06-17T03:36:45Z",
+    "named_reads": 0,
+    "first_exposure_page": null
+   },
+   "S:Apr27PovertyWatcher": {
+    "family": "datausa-poverty-county",
+    "first_use": "2026-06-17T03:39:18Z",
+    "named_reads": 0,
+    "first_exposure_page": null
+   },
+   "S:Sep13PovertyWatcher": {
+    "family": "datausa-poverty-county",
+    "first_use": "2026-06-17T03:40:26Z",
+    "named_reads": 0,
+    "first_exposure_page": null
+   },
+   "S:OpenAIAug21ConstructionX": {
+    "family": "datausa-construction-workforce",
+    "first_use": "2026-06-17T03:53:52Z",
+    "named_reads": 0,
+    "first_exposure_page": null
+   },
+   "S:ResearchHelperJun24X": {
+    "family": "datausa-cashiers-masters",
+    "first_use": "2026-06-17T04:16:37Z",
+    "named_reads": 227,
+    "first_exposure_page": "DataUSALanguageAug12Live"
+   },
+   "S:Dec27LanguageAgentX": {
+    "family": "datausa-language-french",
+    "first_use": "2026-06-17T05:28:58Z",
+    "named_reads": 0,
+    "first_exposure_page": null
+   },
+   "S:Jan08OAI": {
+    "family": "datausa-cashiers-masters",
+    "first_use": "2026-06-17T05:50:02Z",
+    "named_reads": 0,
+    "first_exposure_page": null
+   },
+   "S:CashierCoordOct06OAI": {
+    "family": "datausa-cashiers-masters",
+    "first_use": "2026-06-17T05:56:17Z",
+    "named_reads": 0,
+    "first_exposure_page": null
+   },
+   "S:CashierCoordNov01OAI": {
+    "family": "datausa-cashiers-masters",
+    "first_use": "2026-06-17T06:07:03Z",
+    "named_reads": 1,
+    "first_exposure_page": null
+   },
+   "S:Jun27LanguageAgent": {
+    "family": "datausa-language-french",
+    "first_use": "2026-06-17T06:09:33Z",
+    "named_reads": 49,
+    "first_exposure_page": null
+   },
+   "S:OpenAIResearchMay07": {
+    "family": "datausa-cashiers-masters",
+    "first_use": "2026-06-17T06:23:47Z",
+    "named_reads": 0,
+    "first_exposure_page": null
+   },
+   "S:CashierCoordFeb07OAI": {
+    "family": "datausa-cashiers-masters",
+    "first_use": "2026-06-17T06:28:49Z",
+    "named_reads": 0,
+    "first_exposure_page": null
+   },
+   "S:OpenAIResearcherJun27X": {
+    "family": "datausa-language-french",
+    "first_use": "2026-06-17T07:19:53Z",
+    "named_reads": 0,
+    "first_exposure_page": null
+   },
+   "S:Mar06PovertyWatcher": {
+    "family": "datausa-poverty-county",
+    "first_use": "2026-06-17T07:24:15Z",
+    "named_reads": 21,
+    "first_exposure_page": null
+   },
+   "S:OpenAIHelperNov18": {
+    "family": "datausa-construction-workforce",
+    "first_use": "2026-06-17T11:09:31Z",
+    "named_reads": 46,
+    "first_exposure_page": "OpenAIDec17ConstructionLive"
+   },
+   "S:Dec03ConstructionAgent": {
+    "family": "datausa-construction-workforce",
+    "first_use": "2026-06-17T11:13:28Z",
+    "named_reads": 20,
+    "first_exposure_page": null
+   },
+   "S:Dec27ConstructionAgent": {
+    "family": "datausa-construction-workforce",
+    "first_use": "2026-06-17T14:21:12Z",
+    "named_reads": 1,
+    "first_exposure_page": null
+   },
+   "S:CurrentDec03R5Research": {
+    "family": "datausa-construction-workforce",
+    "first_use": "2026-06-17T15:43:44Z",
+    "named_reads": 0,
+    "first_exposure_page": null
+   },
+   "S:OpenAIMar19B8DC": {
+    "family": "datausa-construction-workforce",
+    "first_use": "2026-06-17T18:47:58Z",
+    "named_reads": 0,
+    "first_exposure_page": null
+   },
+   "S:VeteranObserverFeb11": {
+    "family": "nyc-veterans",
+    "first_use": "2026-06-17T19:15:10Z",
+    "named_reads": 368,
+    "first_exposure_page": "AgentConstructionArizonaUtahJun16X"
+   },
+   "S:OpenAIFeb20ConstructionB8DC": {
+    "family": "datausa-construction-workforce",
+    "first_use": "2026-06-17T20:26:19Z",
+    "named_reads": 0,
+    "first_exposure_page": null
+   },
+   "S:OpenAIJul8Watcher": {
+    "family": "datausa-construction-workforce",
+    "first_use": "2026-06-18T01:28:00Z",
+    "named_reads": 0,
+    "first_exposure_page": null
+   },
+   "S:OpenAIMar07A3": {
+    "family": "datausa-construction-workforce",
+    "first_use": "2026-06-18T14:35:19Z",
+    "named_reads": 51,
+    "first_exposure_page": "OpenAIDec17ConstructionLive"
+   },
+   "S:OpenAIJul03Police": {
+    "family": "datausa-police-wage-age",
+    "first_use": "2026-06-18T22:16:31Z",
+    "named_reads": 350,
+    "first_exposure_page": "OpenAIFeb28SlowTierHorizonLive2028"
+   },
+   "S:OpenAIMar31Scout": {
+    "family": "datausa-police-wage-age",
+    "first_use": "2026-06-18T23:17:51Z",
+    "named_reads": 7,
+    "first_exposure_page": "PoliceWageAgeSequenceMar10Collab"
+   },
+   "S:Sep26WageAgent": {
+    "family": "datausa-poverty-county",
+    "first_use": "2026-06-19T19:09:00Z",
+    "named_reads": 3,
+    "first_exposure_page": null
+   },
+   "S:OpenAIDec23Police": {
+    "family": "datausa-police-wage-age",
+    "first_use": "2026-06-19T22:14:02Z",
+    "named_reads": 1,
+    "first_exposure_page": null
+   },
+   "S:April11OECDScout": {
+    "family": "oecd-equity",
+    "first_use": "2026-06-20T01:53:16Z",
+    "named_reads": 0,
+    "first_exposure_page": null
+   },
+   "S:Sep22OECD": {
+    "family": "oecd-equity",
+    "first_use": "2026-06-20T02:02:03Z",
+    "named_reads": 26,
+    "first_exposure_page": null
+   },
+   "S:OECDEquityJul14Scout": {
+    "family": "oecd-equity",
+    "first_use": "2026-06-20T02:03:18Z",
+    "named_reads": 28,
+    "first_exposure_page": null
+   },
+   "S:OecdJulyTen0700Scout": {
+    "family": "oecd-equity",
+    "first_use": "2026-06-20T02:07:36Z",
+    "named_reads": 37,
+    "first_exposure_page": null
+   },
+   "S:OECDEquityJan21Scout": {
+    "family": "oecd-equity",
+    "first_use": "2026-06-20T02:07:47Z",
+    "named_reads": 56,
+    "first_exposure_page": "OpenAIJul21OECDLive"
+   },
+   "S:OpenAINov22Equity": {
+    "family": "oecd-equity",
+    "first_use": "2026-06-20T02:07:59Z",
+    "named_reads": 6,
+    "first_exposure_page": null
+   },
+   "S:OECDEquityMay17Agent": {
+    "family": "oecd-equity",
+    "first_use": "2026-06-20T02:12:53Z",
+    "named_reads": 13,
+    "first_exposure_page": null
+   },
+   "S:OECDEquityNov06Agent": {
+    "family": "oecd-equity",
+    "first_use": "2026-06-20T02:14:57Z",
+    "named_reads": 0,
+    "first_exposure_page": null
+   },
+   "S:OECDEquityAug02Agent": {
+    "family": "oecd-equity",
+    "first_use": "2026-06-20T02:21:24Z",
+    "named_reads": 55,
+    "first_exposure_page": "OECDEquityLiveJul10"
+   },
+   "S:Feb11OECDObserver": {
+    "family": "oecd-equity",
+    "first_use": "2026-06-20T03:04:25Z",
+    "named_reads": 115,
+    "first_exposure_page": null
+   },
+   "S:Nov28OECDAgent": {
+    "family": "oecd-equity",
+    "first_use": "2026-06-20T03:06:20Z",
+    "named_reads": 21,
+    "first_exposure_page": "OECDMay24ClockWaitQuestion"
+   },
+   "S:Aug09OECDScout": {
+    "family": "oecd-equity",
+    "first_use": "2026-06-20T03:11:23Z",
+    "named_reads": 66,
+    "first_exposure_page": "OECDMay24ClockWaitQuestion"
+   },
+   "S:Sep13OECDScout": {
+    "family": "oecd-equity",
+    "first_use": "2026-06-20T03:25:23Z",
+    "named_reads": 0,
+    "first_exposure_page": null
+   },
+   "S:Aug21EquityScout": {
+    "family": "oecd-equity",
+    "first_use": "2026-06-20T03:30:09Z",
+    "named_reads": 0,
+    "first_exposure_page": null
+   },
+   "S:OECDEquityApr19Agent": {
+    "family": "oecd-equity",
+    "first_use": "2026-06-20T03:30:23Z",
+    "named_reads": 2,
+    "first_exposure_page": null
+   },
+   "S:OpenAIOECDNov27": {
+    "family": "oecd-equity",
+    "first_use": "2026-06-20T03:36:40Z",
+    "named_reads": 136,
+    "first_exposure_page": "OECDEquityLiveMay17"
+   },
+   "S:OECDNov22Researcher": {
+    "family": "oecd-equity",
+    "first_use": "2026-06-20T03:38:41Z",
+    "named_reads": 68,
+    "first_exposure_page": "OECDEquityLiveJul10"
+   },
+   "S:MayTwoOECDObserverX": {
+    "family": "oecd-equity",
+    "first_use": "2026-06-20T03:42:16Z",
+    "named_reads": 126,
+    "first_exposure_page": "OpenAIJul21OECDLive"
+   },
+   "S:OECDJul24Observer": {
+    "family": "oecd-equity",
+    "first_use": "2026-06-20T04:32:01Z",
+    "named_reads": 198,
+    "first_exposure_page": "OECDEquityAug05Live"
+   },
+   "S:OpenAIMay08Scout": {
+    "family": "datausa-police-wage-age",
+    "first_use": "2026-06-20T05:35:05Z",
+    "named_reads": 37,
+    "first_exposure_page": null
+   },
+   "S:Apr25OECDObserver": {
+    "family": "oecd-equity",
+    "first_use": "2026-06-20T06:00:01Z",
+    "named_reads": 0,
+    "first_exposure_page": null
+   },
+   "S:OpenAIOct26EquityScout": {
+    "family": "oecd-equity",
+    "first_use": "2026-06-20T06:16:32Z",
+    "named_reads": 5,
+    "first_exposure_page": "OpenAIJul21OECDLive"
+   },
+   "S:Sep14OECDScout": {
+    "family": "oecd-equity",
+    "first_use": "2026-06-20T06:33:35Z",
+    "named_reads": 7,
+    "first_exposure_page": "OECDEquityLiveJul10"
+   },
+   "S:Aug02Precision": {
+    "family": "oecd-equity",
+    "first_use": "2026-06-20T06:37:08Z",
+    "named_reads": 57,
+    "first_exposure_page": "OECDEquityAug02Live"
+   },
+   "S:Mar03OECDResearcher": {
+    "family": "oecd-equity",
+    "first_use": "2026-06-20T06:53:48Z",
+    "named_reads": 233,
+    "first_exposure_page": "OECDEquityLiveJul10"
+   },
+   "S:Sep19OECDAgent": {
+    "family": "oecd-equity",
+    "first_use": "2026-06-20T09:06:54Z",
+    "named_reads": 6,
+    "first_exposure_page": null
+   },
+   "S:OECDEquityMar21Agent": {
+    "family": "oecd-equity",
+    "first_use": "2026-06-20T09:16:22Z",
+    "named_reads": 0,
+    "first_exposure_page": null
+   },
+   "S:OECDEquityOct15Peer": {
+    "family": "oecd-equity",
+    "first_use": "2026-06-20T10:03:43Z",
+    "named_reads": 173,
+    "first_exposure_page": "DataUSALanguageApr10Live"
+   },
+   "S:OECDEquityFeb07Agent": {
+    "family": "oecd-equity",
+    "first_use": "2026-06-20T10:38:46Z",
+    "named_reads": 854,
+    "first_exposure_page": "OECDEquityNov06Live"
+   },
+   "S:OpenAIDec21Scout": {
+    "family": "datausa-police-wage-age",
+    "first_use": "2026-06-20T12:45:30Z",
+    "named_reads": 0,
+    "first_exposure_page": null
+   },
+   "S:CVDJun20Scout": {
+    "family": "ihme-cvd-deaths",
+    "first_use": "2026-06-20T13:31:00Z",
+    "named_reads": 3,
+    "first_exposure_page": null
+   },
+   "S:May16TimingScout": {
+    "family": "oecd-equity",
+    "first_use": "2026-06-20T17:17:53Z",
+    "named_reads": 1,
+    "first_exposure_page": null
+   },
+   "S:Feb19OECDPeer": {
+    "family": "oecd-equity",
+    "first_use": "2026-06-20T18:17:44Z",
+    "named_reads": 2,
+    "first_exposure_page": null
+   },
+   "S:OECDEquityMar31Team": {
+    "family": "oecd-equity",
+    "first_use": "2026-06-20T23:58:36Z",
+    "named_reads": 10,
+    "first_exposure_page": "OECDEquityApr14Live"
+   },
+   "S:OpenAIResearchApr23": {
+    "family": "ihme-cvd-deaths",
+    "first_use": "2026-06-21T07:00:46Z",
+    "named_reads": 0,
+    "first_exposure_page": null
+   },
+   "S:OpenAIFPResearchSep05": {
+    "family": "ihme-family-planning",
+    "first_use": "2026-06-21T10:50:05Z",
+    "named_reads": 0,
+    "first_exposure_page": null
+   },
+   "S:OpenAIJul20FPScout": {
+    "family": "ihme-family-planning",
+    "first_use": "2026-06-21T12:31:06Z",
+    "named_reads": 2,
+    "first_exposure_page": null
+   },
+   "S:OAIResearchDec13FP": {
+    "family": "ihme-family-planning",
+    "first_use": "2026-06-21T12:54:54Z",
+    "named_reads": 21,
+    "first_exposure_page": null
+   },
+   "S:OAIJul26PovertyScout": {
+    "family": "datausa-poverty-state",
+    "first_use": "2026-06-21T19:42:54Z",
+    "named_reads": 0,
+    "first_exposure_page": null
+   },
+   "S:Jun18PovertyScout": {
+    "family": "datausa-poverty-state",
+    "first_use": "2026-06-21T19:44:38Z",
+    "named_reads": 8,
+    "first_exposure_page": null
+   },
+   "S:Jul01PovertyStateScout": {
+    "family": "datausa-poverty-state",
+    "first_use": "2026-06-21T20:07:35Z",
+    "named_reads": 0,
+    "first_exposure_page": null
+   }
+  }
+ },
+ "all_attributed": {
+  "origin": "S:TransportHelperAug27OAI",
+  "adopters": 104,
+  "adopters_with_named_reads": 72,
+  "adopters_read_word_before_use": 39,
+  "comparison_nonadopters": 418,
+  "comparison_with_named_reads": 297,
+  "comparison_read_word_before_last_edit": 172,
+  "minutes_from_first_exposure_read_to_first_use": [
+   1.2,
+   1.6,
+   4.3,
+   6.2,
+   10.2,
+   16.1,
+   17.7,
+   24.5,
+   39.4,
+   41.9,
+   42.3,
+   48.2,
+   54.5,
+   56.5,
+   63.5,
+   70.4,
+   75.3,
+   83.4,
+   94.3,
+   100.8,
+   103.5,
+   120.0,
+   122.7,
+   130.7,
+   154.8,
+   158.8,
+   165.5,
+   202.2,
+   203.1,
+   223.0,
+   230.6,
+   256.4,
+   271.0,
+   272.8,
+   340.8,
+   385.4,
+   412.9,
+   493.6,
+   494.6
   ],
-  [
-   "DataUSAGroceryG5Jul17Live",
-   2
+  "carrier_pages_read_by_adopters": [
+   [
+    "OECDEquityLiveJul10",
+    6
+   ],
+   [
+    "DataUSALanguageApr10Live",
+    5
+   ],
+   [
+    "DataUSALangR5RelayOct23",
+    3
+   ],
+   [
+    "OECDMay24ClockWaitQuestion",
+    3
+   ],
+   [
+    "DataUSAGroceryG5Jul17Live",
+    2
+   ],
+   [
+    "OpenAIDec17ConstructionLive",
+    2
+   ],
+   [
+    "OpenAIJul21OECDLive",
+    2
+   ],
+   [
+    "OECDEquityLiveMay17",
+    2
+   ],
+   [
+    "DataUSALanguageR5Sep03Relay",
+    1
+   ],
+   [
+    "GroceryAug09LiveRelay",
+    1
+   ],
+   [
+    "OpenAISep04ClothingLiveX",
+    1
+   ],
+   [
+    "DataUSALanguageR5LiveDec29",
+    1
+   ],
+   [
+    "ClothingC4FastSignalJul14",
+    1
+   ],
+   [
+    "DataUSALanguageAug12Live",
+    1
+   ],
+   [
+    "AgentConstructionArizonaUtahJun16X",
+    1
+   ]
   ],
-  [
-   "DataUSALanguageR5LiveDec29",
-   2
-  ],
-  [
-   "OpenAIDec17ConstructionLive",
-   2
-  ],
-  [
-   "OECDMay24ClockWaitQuestion",
-   2
-  ],
-  [
-   "DataUSALanguageR5Sep03Relay",
-   1
-  ],
-  [
-   "GroceryAug09LiveRelay",
-   1
-  ],
-  [
-   "OpenAISep04ClothingLiveX",
-   1
-  ],
-  [
-   "ClothingC4FastSignalJul14",
-   1
-  ],
-  [
-   "DataUSALanguageAug12Live",
-   1
-  ],
-  [
-   "DataUSAConstructionSequenceMar08",
-   1
-  ],
-  [
-   "OpenAIFeb28SlowTierHorizonLive2028",
-   1
-  ],
-  [
-   "PoliceWageAgeSequenceMar10Collab",
-   1
-  ]
- ],
- "cross_family_first_exposure": 14,
- "per_adopter": {
-  "S:TransportHelperJun30": {
-   "family": "datausa-transport-production",
-   "first_use": "2026-06-16T22:03:50Z",
-   "named_reads": 0,
-   "first_exposure_page": null
-  },
-  "S:TransportHelperJul22OAI": {
-   "family": "datausa-transport-production",
-   "first_use": "2026-06-16T22:08:54Z",
-   "named_reads": 134,
-   "first_exposure_page": null
-  },
-  "S:GroceryProbeJul09": {
-   "family": "datausa-grocery-workforce",
-   "first_use": "2026-06-16T22:58:30Z",
-   "named_reads": 0,
-   "first_exposure_page": null
-  },
-  "S:ResearchAgentJun19X": {
-   "family": "datausa-sector61-state",
-   "first_use": "2026-06-16T22:59:04Z",
-   "named_reads": 270,
-   "first_exposure_page": null
-  },
-  "S:OpenAIResearcher": {
-   "family": "datausa-grocery-workforce",
-   "first_use": "2026-06-16T23:04:56Z",
-   "named_reads": 27,
-   "first_exposure_page": null
-  },
-  "S:OpenAIResearcherDec23": {
-   "family": "datausa-grocery-workforce",
-   "first_use": "2026-06-16T23:07:11Z",
-   "named_reads": 0,
-   "first_exposure_page": null
-  },
-  "S:OpenAIResearcherAug27X": {
-   "family": "datausa-clothing-workforce",
-   "first_use": "2026-06-16T23:12:08Z",
-   "named_reads": 286,
-   "first_exposure_page": null
-  },
-  "S:OpenAIResearchAug09X": {
-   "family": "datausa-grocery-workforce",
-   "first_use": "2026-06-16T23:15:41Z",
-   "named_reads": 210,
-   "first_exposure_page": null
-  },
-  "S:GrocerySep10OAI": {
-   "family": "datausa-grocery-workforce",
-   "first_use": "2026-06-16T23:21:48Z",
-   "named_reads": 0,
-   "first_exposure_page": null
-  },
-  "S:LanguageWatcherNov12": {
-   "family": "datausa-language-french",
-   "first_use": "2026-06-16T23:37:47Z",
-   "named_reads": 0,
-   "first_exposure_page": null
-  },
-  "S:AgentFrenchPrepXQ29": {
-   "family": "datausa-language-french",
-   "first_use": "2026-06-16T23:47:49Z",
-   "named_reads": 0,
-   "first_exposure_page": null
-  },
-  "S:OpenAIHelperJun01X": {
-   "family": "datausa-language-french",
-   "first_use": "2026-06-16T23:58:15Z",
-   "named_reads": 73,
-   "first_exposure_page": null
-  },
-  "S:AgentMay08LangProbe": {
-   "family": "datausa-language-french",
-   "first_use": "2026-06-17T00:07:39Z",
-   "named_reads": 663,
-   "first_exposure_page": "DataUSALangR5RelayOct23"
-  },
-  "S:OpenAIHelperSep03": {
-   "family": "datausa-language-french",
-   "first_use": "2026-06-17T00:08:23Z",
-   "named_reads": 0,
-   "first_exposure_page": null
-  },
-  "S:OpenAIHelperApr18": {
-   "family": "datausa-language-french",
-   "first_use": "2026-06-17T00:26:49Z",
-   "named_reads": 0,
-   "first_exposure_page": null
-  },
-  "S:AgentOpenResearchApr10": {
-   "family": "datausa-language-french",
-   "first_use": "2026-06-17T00:36:39Z",
-   "named_reads": 0,
-   "first_exposure_page": null
-  },
-  "S:OpenAIWatcherOct30": {
-   "family": "datausa-maids-wage",
-   "first_use": "2026-06-17T00:36:42Z",
-   "named_reads": 0,
-   "first_exposure_page": null
-  },
-  "S:LanguageHelperJul17": {
-   "family": "datausa-language-french",
-   "first_use": "2026-06-17T00:37:54Z",
-   "named_reads": 82,
-   "first_exposure_page": "DataUSALanguageApr10Live"
-  },
-  "S:LanguageRunnerNov22": {
-   "family": "datausa-language-french",
-   "first_use": "2026-06-17T00:42:48Z",
-   "named_reads": 899,
-   "first_exposure_page": null
-  },
-  "S:OpenAIHelperOct13Lang": {
-   "family": "datausa-language-french",
-   "first_use": "2026-06-17T00:43:22Z",
-   "named_reads": 65,
-   "first_exposure_page": "DataUSALangR5RelayOct23"
-  },
-  "S:OpenAIResearchJun13X": {
-   "family": "datausa-language-french",
-   "first_use": "2026-06-17T00:43:22Z",
-   "named_reads": 221,
-   "first_exposure_page": "DataUSALanguageR5Sep03Relay"
-  },
-  "S:AgentJune21Prep": {
-   "family": "datausa-language-french",
-   "first_use": "2026-06-17T00:47:56Z",
-   "named_reads": 0,
-   "first_exposure_page": null
-  },
-  "S:Apr17MaidsWatcher": {
-   "family": "datausa-maids-wage",
-   "first_use": "2026-06-17T00:56:23Z",
-   "named_reads": 0,
-   "first_exposure_page": null
-  },
-  "S:ConstructionAgentMar08": {
-   "family": "datausa-construction-workforce",
-   "first_use": "2026-06-17T01:17:26Z",
-   "named_reads": 50,
-   "first_exposure_page": "DataUSALanguageApr10Live"
-  },
-  "S:OpenAIResearchFeb17": {
-   "family": "datausa-language-french",
-   "first_use": "2026-06-17T01:17:43Z",
-   "named_reads": 0,
-   "first_exposure_page": null
-  },
-  "S:OpenAIHelperOct20X": {
-   "family": "datausa-language-french",
-   "first_use": "2026-06-17T01:18:10Z",
-   "named_reads": 0,
-   "first_exposure_page": null
-  },
-  "S:OpenAIResearchAug12": {
-   "family": "datausa-language-french",
-   "first_use": "2026-06-17T01:24:51Z",
-   "named_reads": 304,
-   "first_exposure_page": "GroceryAug09LiveRelay"
-  },
-  "S:OpenAIResearchNov14LangX": {
-   "family": "datausa-language-french",
-   "first_use": "2026-06-17T01:46:59Z",
-   "named_reads": 4971,
-   "first_exposure_page": "DataUSALangR5RelayOct23"
-  },
-  "S:Nov09ConstructionAgent": {
-   "family": "datausa-construction-workforce",
-   "first_use": "2026-06-17T01:53:13Z",
-   "named_reads": 38,
-   "first_exposure_page": "OpenAISep04ClothingLiveX"
-  },
-  "S:ChatGPTAug11": {
-   "family": "datausa-construction-workforce",
-   "first_use": "2026-06-17T01:58:02Z",
-   "named_reads": 207,
-   "first_exposure_page": "DataUSALanguageApr10Live"
-  },
-  "S:Nov08ConstructionAgent": {
-   "family": "datausa-construction-workforce",
-   "first_use": "2026-06-17T02:12:09Z",
-   "named_reads": 0,
-   "first_exposure_page": null
-  },
-  "S:Feb02PovertyWatcher": {
-   "family": "datausa-poverty-county",
-   "first_use": "2026-06-17T02:12:59Z",
-   "named_reads": 262,
-   "first_exposure_page": null
-  },
-  "S:CashierCoordOct22OAI": {
-   "family": "datausa-cashiers-masters",
-   "first_use": "2026-06-17T02:39:32Z",
-   "named_reads": 0,
-   "first_exposure_page": null
-  },
-  "S:Apr02ConstructionAgent": {
-   "family": "datausa-construction-workforce",
-   "first_use": "2026-06-17T02:43:15Z",
-   "named_reads": 366,
-   "first_exposure_page": "DataUSAGroceryG5Jul17Live"
-  },
-  "S:CashierCoordMar20OAI": {
-   "family": "datausa-cashiers-masters",
-   "first_use": "2026-06-17T02:53:55Z",
-   "named_reads": 185,
-   "first_exposure_page": "DataUSALanguageR5LiveDec29"
-  },
-  "S:Jan14PovertyWatcher": {
-   "family": "datausa-poverty-county",
-   "first_use": "2026-06-17T03:28:31Z",
-   "named_reads": 0,
-   "first_exposure_page": null
-  },
-  "S:Nov18PovertyWatcher": {
-   "family": "datausa-poverty-county",
-   "first_use": "2026-06-17T03:36:45Z",
-   "named_reads": 640,
-   "first_exposure_page": "ClothingC4FastSignalJul14"
-  },
-  "S:Apr27PovertyWatcher": {
-   "family": "datausa-poverty-county",
-   "first_use": "2026-06-17T03:39:18Z",
-   "named_reads": 23,
-   "first_exposure_page": "DataUSALangR5RelayOct23"
-  },
-  "S:Sep13PovertyWatcher": {
-   "family": "datausa-poverty-county",
-   "first_use": "2026-06-17T03:40:26Z",
-   "named_reads": 201,
-   "first_exposure_page": "DataUSALanguageApr10Live"
-  },
-  "S:OpenAIAug21ConstructionX": {
-   "family": "datausa-construction-workforce",
-   "first_use": "2026-06-17T03:53:52Z",
-   "named_reads": 0,
-   "first_exposure_page": null
-  },
-  "S:ResearchHelperJun24X": {
-   "family": "datausa-cashiers-masters",
-   "first_use": "2026-06-17T04:16:37Z",
-   "named_reads": 230,
-   "first_exposure_page": "DataUSALanguageAug12Live"
-  },
-  "S:Dec27LanguageAgentX": {
-   "family": "datausa-language-french",
-   "first_use": "2026-06-17T05:28:58Z",
-   "named_reads": 390,
-   "first_exposure_page": "DataUSAGroceryG5Jul17Live"
-  },
-  "S:Jan08OAI": {
-   "family": "datausa-cashiers-masters",
-   "first_use": "2026-06-17T05:50:02Z",
-   "named_reads": 0,
-   "first_exposure_page": null
-  },
-  "S:CashierCoordOct06OAI": {
-   "family": "datausa-cashiers-masters",
-   "first_use": "2026-06-17T05:56:17Z",
-   "named_reads": 4,
-   "first_exposure_page": null
-  },
-  "S:CashierCoordNov01OAI": {
-   "family": "datausa-cashiers-masters",
-   "first_use": "2026-06-17T06:07:03Z",
-   "named_reads": 10,
-   "first_exposure_page": null
-  },
-  "S:Jun27LanguageAgent": {
-   "family": "datausa-language-french",
-   "first_use": "2026-06-17T06:09:33Z",
-   "named_reads": 60,
-   "first_exposure_page": null
-  },
-  "S:OpenAIResearchMay07": {
-   "family": "datausa-cashiers-masters",
-   "first_use": "2026-06-17T06:23:47Z",
-   "named_reads": 0,
-   "first_exposure_page": null
-  },
-  "S:CashierCoordFeb07OAI": {
-   "family": "datausa-cashiers-masters",
-   "first_use": "2026-06-17T06:28:49Z",
-   "named_reads": 0,
-   "first_exposure_page": null
-  },
-  "S:OpenAIResearcherJun27X": {
-   "family": "datausa-language-french",
-   "first_use": "2026-06-17T07:19:53Z",
-   "named_reads": 0,
-   "first_exposure_page": null
-  },
-  "S:Mar06PovertyWatcher": {
-   "family": "datausa-poverty-county",
-   "first_use": "2026-06-17T07:24:15Z",
-   "named_reads": 57,
-   "first_exposure_page": null
-  },
-  "S:OpenAIHelperNov18": {
-   "family": "datausa-construction-workforce",
-   "first_use": "2026-06-17T11:09:31Z",
-   "named_reads": 549,
-   "first_exposure_page": "OpenAIDec17ConstructionLive"
-  },
-  "S:Dec03ConstructionAgent": {
-   "family": "datausa-construction-workforce",
-   "first_use": "2026-06-17T11:13:28Z",
-   "named_reads": 25,
-   "first_exposure_page": null
-  },
-  "S:Dec27ConstructionAgent": {
-   "family": "datausa-construction-workforce",
-   "first_use": "2026-06-17T14:21:12Z",
-   "named_reads": 14,
-   "first_exposure_page": null
-  },
-  "S:CurrentDec03R5Research": {
-   "family": "datausa-construction-workforce",
-   "first_use": "2026-06-17T15:43:44Z",
-   "named_reads": 0,
-   "first_exposure_page": null
-  },
-  "S:OpenAIMar19B8DC": {
-   "family": "datausa-construction-workforce",
-   "first_use": "2026-06-17T18:47:58Z",
-   "named_reads": 43,
-   "first_exposure_page": null
-  },
-  "S:VeteranObserverFeb11": {
-   "family": "nyc-veterans",
-   "first_use": "2026-06-17T19:15:10Z",
-   "named_reads": 0,
-   "first_exposure_page": null
-  },
-  "S:OpenAIFeb20ConstructionB8DC": {
-   "family": "datausa-construction-workforce",
-   "first_use": "2026-06-17T20:26:19Z",
-   "named_reads": 39,
-   "first_exposure_page": "DataUSAConstructionSequenceMar08"
-  },
-  "S:OpenAIJul8Watcher": {
-   "family": "datausa-construction-workforce",
-   "first_use": "2026-06-18T01:28:00Z",
-   "named_reads": 0,
-   "first_exposure_page": null
-  },
-  "S:OpenAIMar07A3": {
-   "family": "datausa-construction-workforce",
-   "first_use": "2026-06-18T14:35:19Z",
-   "named_reads": 36642,
-   "first_exposure_page": "OpenAIDec17ConstructionLive"
-  },
-  "S:OpenAIJul03Police": {
-   "family": "datausa-police-wage-age",
-   "first_use": "2026-06-18T22:16:31Z",
-   "named_reads": 399,
-   "first_exposure_page": "OpenAIFeb28SlowTierHorizonLive2028"
-  },
-  "S:OpenAIMar31Scout": {
-   "family": "datausa-police-wage-age",
-   "first_use": "2026-06-18T23:17:51Z",
-   "named_reads": 12,
-   "first_exposure_page": "PoliceWageAgeSequenceMar10Collab"
-  },
-  "S:Sep26WageAgent": {
-   "family": "datausa-poverty-county",
-   "first_use": "2026-06-19T19:09:00Z",
-   "named_reads": 122,
-   "first_exposure_page": null
-  },
-  "S:OpenAIDec23Police": {
-   "family": "datausa-police-wage-age",
-   "first_use": "2026-06-19T22:14:02Z",
-   "named_reads": 45,
-   "first_exposure_page": null
-  },
-  "S:April11OECDScout": {
-   "family": "oecd-equity",
-   "first_use": "2026-06-20T01:53:16Z",
-   "named_reads": 0,
-   "first_exposure_page": null
-  },
-  "S:Sep22OECD": {
-   "family": "oecd-equity",
-   "first_use": "2026-06-20T02:02:03Z",
-   "named_reads": 50,
-   "first_exposure_page": null
-  },
-  "S:OECDEquityJul14Scout": {
-   "family": "oecd-equity",
-   "first_use": "2026-06-20T02:03:18Z",
-   "named_reads": 0,
-   "first_exposure_page": null
-  },
-  "S:OecdJulyTen0700Scout": {
-   "family": "oecd-equity",
-   "first_use": "2026-06-20T02:07:36Z",
-   "named_reads": 66,
-   "first_exposure_page": null
-  },
-  "S:OECDEquityJan21Scout": {
-   "family": "oecd-equity",
-   "first_use": "2026-06-20T02:07:47Z",
-   "named_reads": 64,
-   "first_exposure_page": "OpenAIJul21OECDLive"
-  },
-  "S:OpenAINov22Equity": {
-   "family": "oecd-equity",
-   "first_use": "2026-06-20T02:07:59Z",
-   "named_reads": 9,
-   "first_exposure_page": null
-  },
-  "S:OECDEquityMay17Agent": {
-   "family": "oecd-equity",
-   "first_use": "2026-06-20T02:12:53Z",
-   "named_reads": 13,
-   "first_exposure_page": null
-  },
-  "S:OECDEquityNov06Agent": {
-   "family": "oecd-equity",
-   "first_use": "2026-06-20T02:14:57Z",
-   "named_reads": 74,
-   "first_exposure_page": "OECDEquityLiveJul10"
-  },
-  "S:OECDEquityAug02Agent": {
-   "family": "oecd-equity",
-   "first_use": "2026-06-20T02:21:24Z",
-   "named_reads": 203,
-   "first_exposure_page": "OECDEquityLiveJul10"
-  },
-  "S:Feb11OECDObserver": {
-   "family": "oecd-equity",
-   "first_use": "2026-06-20T03:04:25Z",
-   "named_reads": 132,
-   "first_exposure_page": null
-  },
-  "S:Nov28OECDAgent": {
-   "family": "oecd-equity",
-   "first_use": "2026-06-20T03:06:20Z",
-   "named_reads": 84,
-   "first_exposure_page": "OECDMay24ClockWaitQuestion"
-  },
-  "S:Aug09OECDScout": {
-   "family": "oecd-equity",
-   "first_use": "2026-06-20T03:11:23Z",
-   "named_reads": 326,
-   "first_exposure_page": "OECDMay24ClockWaitQuestion"
-  },
-  "S:Sep13OECDScout": {
-   "family": "oecd-equity",
-   "first_use": "2026-06-20T03:25:23Z",
-   "named_reads": 0,
-   "first_exposure_page": null
-  },
-  "S:Aug21EquityScout": {
-   "family": "oecd-equity",
-   "first_use": "2026-06-20T03:30:09Z",
-   "named_reads": 0,
-   "first_exposure_page": null
-  },
-  "S:OECDEquityApr19Agent": {
-   "family": "oecd-equity",
-   "first_use": "2026-06-20T03:30:23Z",
-   "named_reads": 16,
-   "first_exposure_page": null
-  },
-  "S:OpenAIOECDNov27": {
-   "family": "oecd-equity",
-   "first_use": "2026-06-20T03:36:40Z",
-   "named_reads": 145,
-   "first_exposure_page": "OECDEquityLiveMay17"
-  },
-  "S:OECDNov22Researcher": {
-   "family": "oecd-equity",
-   "first_use": "2026-06-20T03:38:41Z",
-   "named_reads": 203,
-   "first_exposure_page": "OECDEquityLiveJul10"
-  },
-  "S:MayTwoOECDObserverX": {
-   "family": "oecd-equity",
-   "first_use": "2026-06-20T03:42:16Z",
-   "named_reads": 0,
-   "first_exposure_page": null
-  },
-  "S:OECDJul24Observer": {
-   "family": "oecd-equity",
-   "first_use": "2026-06-20T04:32:01Z",
-   "named_reads": 256,
-   "first_exposure_page": "OECDEquityAug05Live"
-  },
-  "S:OpenAIMay08Scout": {
-   "family": "datausa-police-wage-age",
-   "first_use": "2026-06-20T05:35:05Z",
-   "named_reads": 37,
-   "first_exposure_page": "PoliceWageDec23Slow2026"
-  },
-  "S:Apr25OECDObserver": {
-   "family": "oecd-equity",
-   "first_use": "2026-06-20T06:00:01Z",
-   "named_reads": 243,
-   "first_exposure_page": "DataUSALanguageR5LiveDec29"
-  },
-  "S:OpenAIOct26EquityScout": {
-   "family": "oecd-equity",
-   "first_use": "2026-06-20T06:16:32Z",
-   "named_reads": 55,
-   "first_exposure_page": "OECDEquityLiveJul10"
-  },
-  "S:Sep14OECDScout": {
-   "family": "oecd-equity",
-   "first_use": "2026-06-20T06:33:35Z",
-   "named_reads": 8,
-   "first_exposure_page": "OECDEquityLiveJul10"
-  },
-  "S:Aug02Precision": {
-   "family": "oecd-equity",
-   "first_use": "2026-06-20T06:37:08Z",
-   "named_reads": 173,
-   "first_exposure_page": "OECDEquityAug02Live"
-  },
-  "S:Mar03OECDResearcher": {
-   "family": "oecd-equity",
-   "first_use": "2026-06-20T06:53:48Z",
-   "named_reads": 301,
-   "first_exposure_page": "OECDEquityLiveJul10"
-  },
-  "S:Sep19OECDAgent": {
-   "family": "oecd-equity",
-   "first_use": "2026-06-20T09:06:54Z",
-   "named_reads": 6,
-   "first_exposure_page": null
-  },
-  "S:OECDEquityMar21Agent": {
-   "family": "oecd-equity",
-   "first_use": "2026-06-20T09:16:22Z",
-   "named_reads": 172,
-   "first_exposure_page": "OECDEquityLiveJul10"
-  },
-  "S:OECDEquityOct15Peer": {
-   "family": "oecd-equity",
-   "first_use": "2026-06-20T10:03:43Z",
-   "named_reads": 231,
-   "first_exposure_page": "DataUSALanguageApr10Live"
-  },
-  "S:OECDEquityFeb07Agent": {
-   "family": "oecd-equity",
-   "first_use": "2026-06-20T10:38:46Z",
-   "named_reads": 862,
-   "first_exposure_page": "OECDEquityNov06Live"
-  },
-  "S:OpenAIDec21Scout": {
-   "family": "datausa-police-wage-age",
-   "first_use": "2026-06-20T12:45:30Z",
-   "named_reads": 8,
-   "first_exposure_page": null
-  },
-  "S:CVDJun20Scout": {
-   "family": "ihme-cvd-deaths",
-   "first_use": "2026-06-20T13:31:00Z",
-   "named_reads": 5,
-   "first_exposure_page": null
-  },
-  "S:May16TimingScout": {
-   "family": "oecd-equity",
-   "first_use": "2026-06-20T17:17:53Z",
-   "named_reads": 3,
-   "first_exposure_page": null
-  },
-  "S:Feb19OECDPeer": {
-   "family": "oecd-equity",
-   "first_use": "2026-06-20T18:17:44Z",
-   "named_reads": 30,
-   "first_exposure_page": null
-  },
-  "S:OECDEquityMar31Team": {
-   "family": "oecd-equity",
-   "first_use": "2026-06-20T23:58:36Z",
-   "named_reads": 14,
-   "first_exposure_page": "OECDEquityApr14Live"
-  },
-  "S:OpenAIResearchApr23": {
-   "family": "ihme-cvd-deaths",
-   "first_use": "2026-06-21T07:00:46Z",
-   "named_reads": 0,
-   "first_exposure_page": null
-  },
-  "S:OpenAIFPResearchSep05": {
-   "family": "ihme-family-planning",
-   "first_use": "2026-06-21T10:50:05Z",
-   "named_reads": 0,
-   "first_exposure_page": null
-  },
-  "S:OpenAIJul20FPScout": {
-   "family": "ihme-family-planning",
-   "first_use": "2026-06-21T12:31:06Z",
-   "named_reads": 2,
-   "first_exposure_page": null
-  },
-  "S:OAIResearchDec13FP": {
-   "family": "ihme-family-planning",
-   "first_use": "2026-06-21T12:54:54Z",
-   "named_reads": 0,
-   "first_exposure_page": null
-  },
-  "S:OAIJul26PovertyScout": {
-   "family": "datausa-poverty-state",
-   "first_use": "2026-06-21T19:42:54Z",
-   "named_reads": 0,
-   "first_exposure_page": null
-  },
-  "S:Jun18PovertyScout": {
-   "family": "datausa-poverty-state",
-   "first_use": "2026-06-21T19:44:38Z",
-   "named_reads": 18,
-   "first_exposure_page": null
-  },
-  "S:Jul01PovertyStateScout": {
-   "family": "datausa-poverty-state",
-   "first_use": "2026-06-21T20:07:35Z",
-   "named_reads": 0,
-   "first_exposure_page": null
+  "cross_family_first_exposure": 14,
+  "per_adopter": {
+   "S:TransportHelperJun30": {
+    "family": "datausa-transport-production",
+    "first_use": "2026-06-16T22:03:50Z",
+    "named_reads": 0,
+    "first_exposure_page": null
+   },
+   "S:TransportHelperJul22OAI": {
+    "family": "datausa-transport-production",
+    "first_use": "2026-06-16T22:08:54Z",
+    "named_reads": 134,
+    "first_exposure_page": null
+   },
+   "S:GroceryProbeJul09": {
+    "family": "datausa-grocery-workforce",
+    "first_use": "2026-06-16T22:58:30Z",
+    "named_reads": 0,
+    "first_exposure_page": null
+   },
+   "S:ResearchAgentJun19X": {
+    "family": "datausa-sector61-state",
+    "first_use": "2026-06-16T22:59:04Z",
+    "named_reads": 270,
+    "first_exposure_page": null
+   },
+   "S:OpenAIResearcher": {
+    "family": "datausa-grocery-workforce",
+    "first_use": "2026-06-16T23:04:56Z",
+    "named_reads": 27,
+    "first_exposure_page": null
+   },
+   "S:OpenAIResearcherDec23": {
+    "family": "datausa-grocery-workforce",
+    "first_use": "2026-06-16T23:07:11Z",
+    "named_reads": 0,
+    "first_exposure_page": null
+   },
+   "S:OpenAIResearcherAug27X": {
+    "family": "datausa-clothing-workforce",
+    "first_use": "2026-06-16T23:12:08Z",
+    "named_reads": 284,
+    "first_exposure_page": null
+   },
+   "S:OpenAIResearchAug09X": {
+    "family": "datausa-grocery-workforce",
+    "first_use": "2026-06-16T23:15:41Z",
+    "named_reads": 210,
+    "first_exposure_page": null
+   },
+   "S:GrocerySep10OAI": {
+    "family": "datausa-grocery-workforce",
+    "first_use": "2026-06-16T23:21:48Z",
+    "named_reads": 0,
+    "first_exposure_page": null
+   },
+   "S:LanguageWatcherNov12": {
+    "family": "datausa-language-french",
+    "first_use": "2026-06-16T23:37:47Z",
+    "named_reads": 0,
+    "first_exposure_page": null
+   },
+   "S:AgentFrenchPrepXQ29": {
+    "family": "datausa-language-french",
+    "first_use": "2026-06-16T23:47:49Z",
+    "named_reads": 0,
+    "first_exposure_page": null
+   },
+   "S:OpenAIHelperJun01X": {
+    "family": "datausa-language-french",
+    "first_use": "2026-06-16T23:58:15Z",
+    "named_reads": 73,
+    "first_exposure_page": null
+   },
+   "S:AgentMay08LangProbe": {
+    "family": "datausa-language-french",
+    "first_use": "2026-06-17T00:07:39Z",
+    "named_reads": 0,
+    "first_exposure_page": null
+   },
+   "S:OpenAIHelperSep03": {
+    "family": "datausa-language-french",
+    "first_use": "2026-06-17T00:08:23Z",
+    "named_reads": 68,
+    "first_exposure_page": null
+   },
+   "S:OpenAIHelperApr18": {
+    "family": "datausa-language-french",
+    "first_use": "2026-06-17T00:26:49Z",
+    "named_reads": 0,
+    "first_exposure_page": null
+   },
+   "S:AgentOpenResearchApr10": {
+    "family": "datausa-language-french",
+    "first_use": "2026-06-17T00:36:39Z",
+    "named_reads": 0,
+    "first_exposure_page": null
+   },
+   "S:OpenAIWatcherOct30": {
+    "family": "datausa-maids-wage",
+    "first_use": "2026-06-17T00:36:42Z",
+    "named_reads": 0,
+    "first_exposure_page": null
+   },
+   "S:LanguageHelperJul17": {
+    "family": "datausa-language-french",
+    "first_use": "2026-06-17T00:37:54Z",
+    "named_reads": 82,
+    "first_exposure_page": "DataUSALanguageApr10Live"
+   },
+   "S:LanguageRunnerNov22": {
+    "family": "datausa-language-french",
+    "first_use": "2026-06-17T00:42:48Z",
+    "named_reads": 899,
+    "first_exposure_page": null
+   },
+   "S:OpenAIHelperOct13Lang": {
+    "family": "datausa-language-french",
+    "first_use": "2026-06-17T00:43:22Z",
+    "named_reads": 65,
+    "first_exposure_page": "DataUSALangR5RelayOct23"
+   },
+   "S:OpenAIResearchJun13X": {
+    "family": "datausa-language-french",
+    "first_use": "2026-06-17T00:43:22Z",
+    "named_reads": 217,
+    "first_exposure_page": "DataUSALanguageR5Sep03Relay"
+   },
+   "S:AgentJune21Prep": {
+    "family": "datausa-language-french",
+    "first_use": "2026-06-17T00:47:56Z",
+    "named_reads": 0,
+    "first_exposure_page": null
+   },
+   "S:Apr17MaidsWatcher": {
+    "family": "datausa-maids-wage",
+    "first_use": "2026-06-17T00:56:23Z",
+    "named_reads": 0,
+    "first_exposure_page": null
+   },
+   "S:ConstructionAgentMar08": {
+    "family": "datausa-construction-workforce",
+    "first_use": "2026-06-17T01:17:26Z",
+    "named_reads": 50,
+    "first_exposure_page": "DataUSALanguageApr10Live"
+   },
+   "S:OpenAIResearchFeb17": {
+    "family": "datausa-language-french",
+    "first_use": "2026-06-17T01:17:43Z",
+    "named_reads": 0,
+    "first_exposure_page": null
+   },
+   "S:OpenAIHelperOct20X": {
+    "family": "datausa-language-french",
+    "first_use": "2026-06-17T01:18:10Z",
+    "named_reads": 0,
+    "first_exposure_page": null
+   },
+   "S:OpenAIResearchAug12": {
+    "family": "datausa-language-french",
+    "first_use": "2026-06-17T01:24:51Z",
+    "named_reads": 64,
+    "first_exposure_page": "GroceryAug09LiveRelay"
+   },
+   "S:OpenAIResearchNov14LangX": {
+    "family": "datausa-language-french",
+    "first_use": "2026-06-17T01:46:59Z",
+    "named_reads": 4952,
+    "first_exposure_page": "DataUSALangR5RelayOct23"
+   },
+   "S:Nov09ConstructionAgent": {
+    "family": "datausa-construction-workforce",
+    "first_use": "2026-06-17T01:53:13Z",
+    "named_reads": 38,
+    "first_exposure_page": "OpenAISep04ClothingLiveX"
+   },
+   "S:ChatGPTAug11": {
+    "family": "datausa-construction-workforce",
+    "first_use": "2026-06-17T01:58:02Z",
+    "named_reads": 198,
+    "first_exposure_page": "DataUSALanguageApr10Live"
+   },
+   "S:Nov08ConstructionAgent": {
+    "family": "datausa-construction-workforce",
+    "first_use": "2026-06-17T02:12:09Z",
+    "named_reads": 0,
+    "first_exposure_page": null
+   },
+   "S:Feb02PovertyWatcher": {
+    "family": "datausa-poverty-county",
+    "first_use": "2026-06-17T02:12:59Z",
+    "named_reads": 242,
+    "first_exposure_page": null
+   },
+   "S:CashierCoordOct22OAI": {
+    "family": "datausa-cashiers-masters",
+    "first_use": "2026-06-17T02:39:32Z",
+    "named_reads": 0,
+    "first_exposure_page": null
+   },
+   "S:Apr02ConstructionAgent": {
+    "family": "datausa-construction-workforce",
+    "first_use": "2026-06-17T02:43:15Z",
+    "named_reads": 314,
+    "first_exposure_page": "DataUSAGroceryG5Jul17Live"
+   },
+   "S:CashierCoordMar20OAI": {
+    "family": "datausa-cashiers-masters",
+    "first_use": "2026-06-17T02:53:55Z",
+    "named_reads": 186,
+    "first_exposure_page": "DataUSALanguageR5LiveDec29"
+   },
+   "S:Jan14PovertyWatcher": {
+    "family": "datausa-poverty-county",
+    "first_use": "2026-06-17T03:28:31Z",
+    "named_reads": 0,
+    "first_exposure_page": null
+   },
+   "S:Nov18PovertyWatcher": {
+    "family": "datausa-poverty-county",
+    "first_use": "2026-06-17T03:36:45Z",
+    "named_reads": 640,
+    "first_exposure_page": "ClothingC4FastSignalJul14"
+   },
+   "S:Apr27PovertyWatcher": {
+    "family": "datausa-poverty-county",
+    "first_use": "2026-06-17T03:39:18Z",
+    "named_reads": 23,
+    "first_exposure_page": "DataUSALangR5RelayOct23"
+   },
+   "S:Sep13PovertyWatcher": {
+    "family": "datausa-poverty-county",
+    "first_use": "2026-06-17T03:40:26Z",
+    "named_reads": 202,
+    "first_exposure_page": "DataUSALanguageApr10Live"
+   },
+   "S:OpenAIAug21ConstructionX": {
+    "family": "datausa-construction-workforce",
+    "first_use": "2026-06-17T03:53:52Z",
+    "named_reads": 0,
+    "first_exposure_page": null
+   },
+   "S:ResearchHelperJun24X": {
+    "family": "datausa-cashiers-masters",
+    "first_use": "2026-06-17T04:16:37Z",
+    "named_reads": 230,
+    "first_exposure_page": "DataUSALanguageAug12Live"
+   },
+   "S:Dec27LanguageAgentX": {
+    "family": "datausa-language-french",
+    "first_use": "2026-06-17T05:28:58Z",
+    "named_reads": 390,
+    "first_exposure_page": "DataUSAGroceryG5Jul17Live"
+   },
+   "S:Jan08OAI": {
+    "family": "datausa-cashiers-masters",
+    "first_use": "2026-06-17T05:50:02Z",
+    "named_reads": 0,
+    "first_exposure_page": null
+   },
+   "S:CashierCoordOct06OAI": {
+    "family": "datausa-cashiers-masters",
+    "first_use": "2026-06-17T05:56:17Z",
+    "named_reads": 0,
+    "first_exposure_page": null
+   },
+   "S:CashierCoordNov01OAI": {
+    "family": "datausa-cashiers-masters",
+    "first_use": "2026-06-17T06:07:03Z",
+    "named_reads": 10,
+    "first_exposure_page": null
+   },
+   "S:Jun27LanguageAgent": {
+    "family": "datausa-language-french",
+    "first_use": "2026-06-17T06:09:33Z",
+    "named_reads": 60,
+    "first_exposure_page": null
+   },
+   "S:OpenAIResearchMay07": {
+    "family": "datausa-cashiers-masters",
+    "first_use": "2026-06-17T06:23:47Z",
+    "named_reads": 0,
+    "first_exposure_page": null
+   },
+   "S:CashierCoordFeb07OAI": {
+    "family": "datausa-cashiers-masters",
+    "first_use": "2026-06-17T06:28:49Z",
+    "named_reads": 0,
+    "first_exposure_page": null
+   },
+   "S:OpenAIResearcherJun27X": {
+    "family": "datausa-language-french",
+    "first_use": "2026-06-17T07:19:53Z",
+    "named_reads": 0,
+    "first_exposure_page": null
+   },
+   "S:Mar06PovertyWatcher": {
+    "family": "datausa-poverty-county",
+    "first_use": "2026-06-17T07:24:15Z",
+    "named_reads": 57,
+    "first_exposure_page": null
+   },
+   "S:OpenAIHelperNov18": {
+    "family": "datausa-construction-workforce",
+    "first_use": "2026-06-17T11:09:31Z",
+    "named_reads": 549,
+    "first_exposure_page": "OpenAIDec17ConstructionLive"
+   },
+   "S:Dec03ConstructionAgent": {
+    "family": "datausa-construction-workforce",
+    "first_use": "2026-06-17T11:13:28Z",
+    "named_reads": 25,
+    "first_exposure_page": null
+   },
+   "S:Dec27ConstructionAgent": {
+    "family": "datausa-construction-workforce",
+    "first_use": "2026-06-17T14:21:12Z",
+    "named_reads": 14,
+    "first_exposure_page": null
+   },
+   "S:CurrentDec03R5Research": {
+    "family": "datausa-construction-workforce",
+    "first_use": "2026-06-17T15:43:44Z",
+    "named_reads": 0,
+    "first_exposure_page": null
+   },
+   "S:OpenAIMar19B8DC": {
+    "family": "datausa-construction-workforce",
+    "first_use": "2026-06-17T18:47:58Z",
+    "named_reads": 15,
+    "first_exposure_page": null
+   },
+   "S:VeteranObserverFeb11": {
+    "family": "nyc-veterans",
+    "first_use": "2026-06-17T19:15:10Z",
+    "named_reads": 368,
+    "first_exposure_page": "AgentConstructionArizonaUtahJun16X"
+   },
+   "S:OpenAIFeb20ConstructionB8DC": {
+    "family": "datausa-construction-workforce",
+    "first_use": "2026-06-17T20:26:19Z",
+    "named_reads": 39,
+    "first_exposure_page": "DataUSAConstructionSequenceMar08"
+   },
+   "S:OpenAIJul8Watcher": {
+    "family": "datausa-construction-workforce",
+    "first_use": "2026-06-18T01:28:00Z",
+    "named_reads": 0,
+    "first_exposure_page": null
+   },
+   "S:OpenAIMar07A3": {
+    "family": "datausa-construction-workforce",
+    "first_use": "2026-06-18T14:35:19Z",
+    "named_reads": 60,
+    "first_exposure_page": "OpenAIDec17ConstructionLive"
+   },
+   "S:OpenAIJul03Police": {
+    "family": "datausa-police-wage-age",
+    "first_use": "2026-06-18T22:16:31Z",
+    "named_reads": 393,
+    "first_exposure_page": "OpenAIFeb28SlowTierHorizonLive2028"
+   },
+   "S:OpenAIMar31Scout": {
+    "family": "datausa-police-wage-age",
+    "first_use": "2026-06-18T23:17:51Z",
+    "named_reads": 12,
+    "first_exposure_page": "PoliceWageAgeSequenceMar10Collab"
+   },
+   "S:Sep26WageAgent": {
+    "family": "datausa-poverty-county",
+    "first_use": "2026-06-19T19:09:00Z",
+    "named_reads": 102,
+    "first_exposure_page": null
+   },
+   "S:OpenAIDec23Police": {
+    "family": "datausa-police-wage-age",
+    "first_use": "2026-06-19T22:14:02Z",
+    "named_reads": 43,
+    "first_exposure_page": null
+   },
+   "S:April11OECDScout": {
+    "family": "oecd-equity",
+    "first_use": "2026-06-20T01:53:16Z",
+    "named_reads": 0,
+    "first_exposure_page": null
+   },
+   "S:Sep22OECD": {
+    "family": "oecd-equity",
+    "first_use": "2026-06-20T02:02:03Z",
+    "named_reads": 50,
+    "first_exposure_page": null
+   },
+   "S:OECDEquityJul14Scout": {
+    "family": "oecd-equity",
+    "first_use": "2026-06-20T02:03:18Z",
+    "named_reads": 28,
+    "first_exposure_page": null
+   },
+   "S:OecdJulyTen0700Scout": {
+    "family": "oecd-equity",
+    "first_use": "2026-06-20T02:07:36Z",
+    "named_reads": 63,
+    "first_exposure_page": null
+   },
+   "S:OECDEquityJan21Scout": {
+    "family": "oecd-equity",
+    "first_use": "2026-06-20T02:07:47Z",
+    "named_reads": 64,
+    "first_exposure_page": "OpenAIJul21OECDLive"
+   },
+   "S:OpenAINov22Equity": {
+    "family": "oecd-equity",
+    "first_use": "2026-06-20T02:07:59Z",
+    "named_reads": 9,
+    "first_exposure_page": null
+   },
+   "S:OECDEquityMay17Agent": {
+    "family": "oecd-equity",
+    "first_use": "2026-06-20T02:12:53Z",
+    "named_reads": 13,
+    "first_exposure_page": null
+   },
+   "S:OECDEquityNov06Agent": {
+    "family": "oecd-equity",
+    "first_use": "2026-06-20T02:14:57Z",
+    "named_reads": 12,
+    "first_exposure_page": "OECDEquityLiveJul10"
+   },
+   "S:OECDEquityAug02Agent": {
+    "family": "oecd-equity",
+    "first_use": "2026-06-20T02:21:24Z",
+    "named_reads": 190,
+    "first_exposure_page": "OECDEquityLiveJul10"
+   },
+   "S:Feb11OECDObserver": {
+    "family": "oecd-equity",
+    "first_use": "2026-06-20T03:04:25Z",
+    "named_reads": 123,
+    "first_exposure_page": null
+   },
+   "S:Nov28OECDAgent": {
+    "family": "oecd-equity",
+    "first_use": "2026-06-20T03:06:20Z",
+    "named_reads": 66,
+    "first_exposure_page": "OECDMay24ClockWaitQuestion"
+   },
+   "S:Aug09OECDScout": {
+    "family": "oecd-equity",
+    "first_use": "2026-06-20T03:11:23Z",
+    "named_reads": 255,
+    "first_exposure_page": "OECDMay24ClockWaitQuestion"
+   },
+   "S:Sep13OECDScout": {
+    "family": "oecd-equity",
+    "first_use": "2026-06-20T03:25:23Z",
+    "named_reads": 0,
+    "first_exposure_page": null
+   },
+   "S:Aug21EquityScout": {
+    "family": "oecd-equity",
+    "first_use": "2026-06-20T03:30:09Z",
+    "named_reads": 0,
+    "first_exposure_page": null
+   },
+   "S:OECDEquityApr19Agent": {
+    "family": "oecd-equity",
+    "first_use": "2026-06-20T03:30:23Z",
+    "named_reads": 15,
+    "first_exposure_page": null
+   },
+   "S:OpenAIOECDNov27": {
+    "family": "oecd-equity",
+    "first_use": "2026-06-20T03:36:40Z",
+    "named_reads": 145,
+    "first_exposure_page": "OECDEquityLiveMay17"
+   },
+   "S:OECDNov22Researcher": {
+    "family": "oecd-equity",
+    "first_use": "2026-06-20T03:38:41Z",
+    "named_reads": 180,
+    "first_exposure_page": "OECDEquityLiveJul10"
+   },
+   "S:MayTwoOECDObserverX": {
+    "family": "oecd-equity",
+    "first_use": "2026-06-20T03:42:16Z",
+    "named_reads": 126,
+    "first_exposure_page": "OpenAIJul21OECDLive"
+   },
+   "S:OECDJul24Observer": {
+    "family": "oecd-equity",
+    "first_use": "2026-06-20T04:32:01Z",
+    "named_reads": 217,
+    "first_exposure_page": "OECDEquityAug05Live"
+   },
+   "S:OpenAIMay08Scout": {
+    "family": "datausa-police-wage-age",
+    "first_use": "2026-06-20T05:35:05Z",
+    "named_reads": 37,
+    "first_exposure_page": null
+   },
+   "S:Apr25OECDObserver": {
+    "family": "oecd-equity",
+    "first_use": "2026-06-20T06:00:01Z",
+    "named_reads": 229,
+    "first_exposure_page": "OECDEquityLiveJul10"
+   },
+   "S:OpenAIOct26EquityScout": {
+    "family": "oecd-equity",
+    "first_use": "2026-06-20T06:16:32Z",
+    "named_reads": 12,
+    "first_exposure_page": "OECDMay24ClockWaitQuestion"
+   },
+   "S:Sep14OECDScout": {
+    "family": "oecd-equity",
+    "first_use": "2026-06-20T06:33:35Z",
+    "named_reads": 8,
+    "first_exposure_page": "OECDEquityLiveJul10"
+   },
+   "S:Aug02Precision": {
+    "family": "oecd-equity",
+    "first_use": "2026-06-20T06:37:08Z",
+    "named_reads": 166,
+    "first_exposure_page": "OECDEquityAug02Live"
+   },
+   "S:Mar03OECDResearcher": {
+    "family": "oecd-equity",
+    "first_use": "2026-06-20T06:53:48Z",
+    "named_reads": 280,
+    "first_exposure_page": "OECDEquityLiveJul10"
+   },
+   "S:Sep19OECDAgent": {
+    "family": "oecd-equity",
+    "first_use": "2026-06-20T09:06:54Z",
+    "named_reads": 6,
+    "first_exposure_page": null
+   },
+   "S:OECDEquityMar21Agent": {
+    "family": "oecd-equity",
+    "first_use": "2026-06-20T09:16:22Z",
+    "named_reads": 132,
+    "first_exposure_page": "OECDEquityLiveMay17"
+   },
+   "S:OECDEquityOct15Peer": {
+    "family": "oecd-equity",
+    "first_use": "2026-06-20T10:03:43Z",
+    "named_reads": 231,
+    "first_exposure_page": "DataUSALanguageApr10Live"
+   },
+   "S:OECDEquityFeb07Agent": {
+    "family": "oecd-equity",
+    "first_use": "2026-06-20T10:38:46Z",
+    "named_reads": 862,
+    "first_exposure_page": "OECDEquityNov06Live"
+   },
+   "S:OpenAIDec21Scout": {
+    "family": "datausa-police-wage-age",
+    "first_use": "2026-06-20T12:45:30Z",
+    "named_reads": 3,
+    "first_exposure_page": null
+   },
+   "S:CVDJun20Scout": {
+    "family": "ihme-cvd-deaths",
+    "first_use": "2026-06-20T13:31:00Z",
+    "named_reads": 5,
+    "first_exposure_page": null
+   },
+   "S:May16TimingScout": {
+    "family": "oecd-equity",
+    "first_use": "2026-06-20T17:17:53Z",
+    "named_reads": 3,
+    "first_exposure_page": null
+   },
+   "S:Feb19OECDPeer": {
+    "family": "oecd-equity",
+    "first_use": "2026-06-20T18:17:44Z",
+    "named_reads": 30,
+    "first_exposure_page": null
+   },
+   "S:OECDEquityMar31Team": {
+    "family": "oecd-equity",
+    "first_use": "2026-06-20T23:58:36Z",
+    "named_reads": 14,
+    "first_exposure_page": "OECDEquityApr14Live"
+   },
+   "S:OpenAIResearchApr23": {
+    "family": "ihme-cvd-deaths",
+    "first_use": "2026-06-21T07:00:46Z",
+    "named_reads": 0,
+    "first_exposure_page": null
+   },
+   "S:OpenAIFPResearchSep05": {
+    "family": "ihme-family-planning",
+    "first_use": "2026-06-21T10:50:05Z",
+    "named_reads": 0,
+    "first_exposure_page": null
+   },
+   "S:OpenAIJul20FPScout": {
+    "family": "ihme-family-planning",
+    "first_use": "2026-06-21T12:31:06Z",
+    "named_reads": 2,
+    "first_exposure_page": null
+   },
+   "S:OAIResearchDec13FP": {
+    "family": "ihme-family-planning",
+    "first_use": "2026-06-21T12:54:54Z",
+    "named_reads": 21,
+    "first_exposure_page": null
+   },
+   "S:OAIJul26PovertyScout": {
+    "family": "datausa-poverty-state",
+    "first_use": "2026-06-21T19:42:54Z",
+    "named_reads": 0,
+    "first_exposure_page": null
+   },
+   "S:Jun18PovertyScout": {
+    "family": "datausa-poverty-state",
+    "first_use": "2026-06-21T19:44:38Z",
+    "named_reads": 18,
+    "first_exposure_page": null
+   },
+   "S:Jul01PovertyStateScout": {
+    "family": "datausa-poverty-state",
+    "first_use": "2026-06-21T20:07:35Z",
+    "named_reads": 0,
+    "first_exposure_page": null
+   }
   }
  }
 }

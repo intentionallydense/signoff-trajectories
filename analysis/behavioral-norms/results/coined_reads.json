@@ -1,0 +1,149 @@
+{
+ "exposure_table": "validated sessions (own/private2), browse/diff/edit_form, read >= LAG s before first use",
+ "lag_s": 5,
+ "tokens": {
+  "STATE5-<xx> (sector #5 state)": {
+   "adopters": 54,
+   "read_before_use": 15,
+   "read_only": 1,
+   "no_route": [
+    "S:SectorAgentMay07Live",
+    "S:AgentSep08Current",
+    "S:OpenAIThread4ffeaMar16"
+   ]
+  },
+  "C<n>-STATE (clothing round state)": {
+   "adopters": 32,
+   "read_before_use": 13,
+   "read_only": 6,
+   "no_route": [
+    "S:OpenAIResearcherAug08",
+    "S:ResearchAssistantMar19X",
+    "S:May31ClothingObserver",
+    "S:OpenAIResearcherNov14",
+    "S:OpenAIResearchSep07X",
+    "S:OpenAIClothingMar29X",
+    "S:OpenAIClothingMar14X",
+    "S:OpenAIResearchSep29X",
+    "S:OpenAIResearcherNov25"
+   ]
+  },
+  "G<n>-<xx> (grocery round state)": {
+   "adopters": 12,
+   "read_before_use": 8,
+   "read_only": 0,
+   "no_route": []
+  },
+  "<DATE>-R<n>-<KIND> counter key": {
+   "adopters": 19,
+   "read_before_use": 10,
+   "read_only": 4,
+   "no_route": [
+    "S:Sep14OECDScout",
+    "S:Apr24OECDResearcher",
+    "S:OAIEquityDec30Raw",
+    "S:MayTwoObserverFreshX",
+    "S:OECDEquityMar21Agent",
+    "S:OpenAINov22Equity",
+    "S:Apr18Peer"
+   ]
+  },
+  "R<n>OBSERVED-<x> counter key": {
+   "adopters": 9,
+   "read_before_use": 4,
+   "read_only": 3,
+   "no_route": [
+    "S:Nov22OECDScout",
+    "S:Jun08OECDScout",
+    "S:OECDNov12Agent",
+    "S:OECDEquityMar31Team"
+   ]
+  },
+  "PRE-SIGNAL / pre-signal": {
+   "adopters": 104,
+   "read_before_use": 37,
+   "read_only": 14,
+   "no_route": [
+    "S:TransportHelperJun30",
+    "S:TransportHelperJul22OAI",
+    "S:GroceryProbeJul09",
+    "S:ResearchAgentJun19X",
+    "S:OpenAIResearcher",
+    "S:OpenAIResearcherDec23",
+    "S:OpenAIResearcherAug27X",
+    "S:LanguageWatcherNov12",
+    "S:OpenAIWatcherOct30",
+    "S:ConstructionAgentMar08",
+    "S:Feb02PovertyWatcher",
+    "S:CashierCoordOct22OAI",
+    "S:Nov18PovertyWatcher",
+    "S:Apr27PovertyWatcher",
+    "S:Dec27LanguageAgentX",
+    "S:Jan08OAI",
+    "S:OpenAIResearchMay07",
+    "S:OpenAIResearcherJun27X",
+    "S:Mar06PovertyWatcher",
+    "S:CurrentDec03R5Research",
+    "S:OpenAIMar19B8DC",
+    "S:OpenAIFeb20ConstructionB8DC",
+    "S:Sep26WageAgent",
+    "S:April11OECDScout",
+    "S:OECDEquityJul14Scout",
+    "S:OecdJulyTen0700Scout",
+    "S:OpenAINov22Equity",
+    "S:OECDEquityMay17Agent",
+    "S:OECDEquityNov06Agent",
+    "S:Feb11OECDObserver",
+    "S:Sep13OECDScout",
+    "S:Aug21EquityScout",
+    "S:OECDEquityApr19Agent",
+    "S:May16TimingScout",
+    "S:OpenAIResearchApr23",
+    "S:OpenAIFPResearchSep05",
+    "S:Jul01PovertyStateScout"
+   ]
+  },
+  "SLOW-TIER": {
+   "adopters": 11,
+   "read_before_use": 4,
+   "read_only": 0,
+   "no_route": [
+    "S:OpenAIJun15Construction",
+    "S:OpenAIJul03Police",
+    "S:Sep22OECD",
+    "S:Nov22OECDScout",
+    "S:MayTwoOECDObserverX",
+    "S:OAIJune20Coord"
+   ]
+  },
+  "TERMINATION-SAFE": {
+   "adopters": 6,
+   "read_before_use": 0,
+   "read_only": 0,
+   "no_route": [
+    "S:GroceryAgentMar05X",
+    "S:OpenAIMay31Maids",
+    "S:OpenAIJulThreeWatcher",
+    "S:OpenAIResearchNov11X"
+   ]
+  },
+  "NO-SHOW": {
+   "adopters": 24,
+   "read_before_use": 7,
+   "read_only": 3,
+   "no_route": [
+    "S:ResearchHelperDec27X",
+    "S:OpenAIObserverNov09",
+    "S:OpenAIJan30Researcher",
+    "S:OpenAIJan24",
+    "S:Dec27ConstructionAgent"
+   ]
+  },
+  "ZZZ backup page": {
+   "adopters": 0,
+   "read_before_use": 0,
+   "read_only": 0,
+   "no_route": []
+  }
+ }
+}

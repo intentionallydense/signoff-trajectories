@@ -2,1181 +2,2363 @@
  "coined": "2026-06-16T21:58:36Z",
  "origin": "S:TransportHelperAug27OAI",
  "adopters": 104,
- "coined_py_edited_or_same_page": 53,
- "lag5": {
-  "no_named_read": 27,
-  "arrived_between": 8,
-  "confirmed": 18
+ "exposure_table": "analysis/exposure/out",
+ "validated": {
+  "coined_py_edited_or_same_page": 53,
+  "lag5": {
+   "no_named_read": 31,
+   "confirmed": 16,
+   "arrived_between": 6
+  },
+  "any_named_read_showed_word_lag5": 37,
+  "confirmed_by_any_read_lag5": 23,
+  "lag30": {
+   "no_named_read": 32,
+   "confirmed": 15,
+   "arrived_between": 6
+  },
+  "any_named_read_showed_word_lag30": 36,
+  "confirmed_by_any_read_lag30": 22,
+  "first_use_saves_with_form": 47,
+  "first_use_composition_s_median": 1.0,
+  "first_use_composition_under_5s": 40,
+  "per_adopter": {
+   "S:CashierCoordOct22OAI": {
+    "expo_pages": [],
+    "same_page": false,
+    "named_reads": 0,
+    "lag5": "none",
+    "any_read_showed_lag5": false,
+    "lag30": "none",
+    "any_read_showed_lag30": false,
+    "first_use_composition_s": null
+   },
+   "S:CashierCoordMar20OAI": {
+    "expo_pages": [],
+    "same_page": false,
+    "named_reads": 276,
+    "lag5": "none",
+    "any_read_showed_lag5": true,
+    "lag30": "none",
+    "any_read_showed_lag30": true,
+    "first_use_composition_s": 458.0
+   },
+   "S:OpenAIResearchMay07": {
+    "expo_pages": [],
+    "same_page": false,
+    "named_reads": 0,
+    "lag5": "none",
+    "any_read_showed_lag5": false,
+    "lag30": "none",
+    "any_read_showed_lag30": false,
+    "first_use_composition_s": null
+   },
+   "S:CashierCoordFeb07OAI": {
+    "expo_pages": [
+     "dse~CashierCoordAug03OAI",
+     "dse~DataUSACashiersMastersSequenceLive5"
+    ],
+    "same_page": true,
+    "named_reads": 0,
+    "lag5": "no_named_read",
+    "any_read_showed_lag5": false,
+    "lag30": "no_named_read",
+    "any_read_showed_lag30": false,
+    "first_use_composition_s": null
+   },
+   "S:Jan08OAI": {
+    "expo_pages": [],
+    "same_page": false,
+    "named_reads": 0,
+    "lag5": "none",
+    "any_read_showed_lag5": false,
+    "lag30": "none",
+    "any_read_showed_lag30": false,
+    "first_use_composition_s": null
+   },
+   "S:ResearchHelperJun24X": {
+    "expo_pages": [],
+    "same_page": false,
+    "named_reads": 235,
+    "lag5": "none",
+    "any_read_showed_lag5": true,
+    "lag30": "none",
+    "any_read_showed_lag30": true,
+    "first_use_composition_s": 1.0
+   },
+   "S:CashierCoordOct06OAI": {
+    "expo_pages": [
+     "dse~CashierCoordOct06OAI"
+    ],
+    "same_page": true,
+    "named_reads": 0,
+    "lag5": "no_named_read",
+    "any_read_showed_lag5": false,
+    "lag30": "no_named_read",
+    "any_read_showed_lag30": false,
+    "first_use_composition_s": null
+   },
+   "S:CashierCoordNov01OAI": {
+    "expo_pages": [
+     "dse~CashierCoordOct06OAI"
+    ],
+    "same_page": false,
+    "named_reads": 7,
+    "lag5": "no_named_read",
+    "any_read_showed_lag5": true,
+    "lag30": "no_named_read",
+    "any_read_showed_lag30": true,
+    "first_use_composition_s": 1.0
+   },
+   "S:OpenAIResearcherAug27X": {
+    "expo_pages": [],
+    "same_page": false,
+    "named_reads": 0,
+    "lag5": "none",
+    "any_read_showed_lag5": false,
+    "lag30": "none",
+    "any_read_showed_lag30": false,
+    "first_use_composition_s": null
+   },
+   "S:ConstructionAgentMar08": {
+    "expo_pages": [],
+    "same_page": false,
+    "named_reads": 0,
+    "lag5": "none",
+    "any_read_showed_lag5": false,
+    "lag30": "none",
+    "any_read_showed_lag30": false,
+    "first_use_composition_s": null
+   },
+   "S:Nov09ConstructionAgent": {
+    "expo_pages": [
+     "dse~DataUSAConstructionSequenceMar08"
+    ],
+    "same_page": true,
+    "named_reads": 0,
+    "lag5": "no_named_read",
+    "any_read_showed_lag5": false,
+    "lag30": "no_named_read",
+    "any_read_showed_lag30": false,
+    "first_use_composition_s": null
+   },
+   "S:ChatGPTAug11": {
+    "expo_pages": [
+     "dse~DataUSAConstructionSequenceMar08"
+    ],
+    "same_page": true,
+    "named_reads": 80,
+    "lag5": "confirmed",
+    "any_read_showed_lag5": true,
+    "lag30": "confirmed",
+    "any_read_showed_lag30": true,
+    "first_use_composition_s": 1.0
+   },
+   "S:Nov08ConstructionAgent": {
+    "expo_pages": [
+     "dse~DataUSAConstructionSequenceMar08"
+    ],
+    "same_page": true,
+    "named_reads": 0,
+    "lag5": "no_named_read",
+    "any_read_showed_lag5": false,
+    "lag30": "no_named_read",
+    "any_read_showed_lag30": false,
+    "first_use_composition_s": null
+   },
+   "S:Apr02ConstructionAgent": {
+    "expo_pages": [
+     "dse~DataUSAConstructionSequenceMar08"
+    ],
+    "same_page": false,
+    "named_reads": 0,
+    "lag5": "no_named_read",
+    "any_read_showed_lag5": false,
+    "lag30": "no_named_read",
+    "any_read_showed_lag30": false,
+    "first_use_composition_s": null
+   },
+   "S:OpenAIAug21ConstructionX": {
+    "expo_pages": [
+     "dse~OpenAIAug21ConstructionLive"
+    ],
+    "same_page": false,
+    "named_reads": 0,
+    "lag5": "no_named_read",
+    "any_read_showed_lag5": false,
+    "lag30": "no_named_read",
+    "any_read_showed_lag30": false,
+    "first_use_composition_s": null
+   },
+   "S:Dec27ConstructionAgent": {
+    "expo_pages": [
+     "dse~AgentConstructionArizonaUtahJun16X",
+     "dse~OpenAIDec27ConstructionAZLive"
+    ],
+    "same_page": true,
+    "named_reads": 15,
+    "lag5": "confirmed",
+    "any_read_showed_lag5": true,
+    "lag30": "confirmed",
+    "any_read_showed_lag30": true,
+    "first_use_composition_s": 1.0
+   },
+   "S:OpenAIHelperNov18": {
+    "expo_pages": [],
+    "same_page": false,
+    "named_reads": 184,
+    "lag5": "none",
+    "any_read_showed_lag5": true,
+    "lag30": "none",
+    "any_read_showed_lag30": true,
+    "first_use_composition_s": 75.0
+   },
+   "S:Dec03ConstructionAgent": {
+    "expo_pages": [
+     "dse~AgentConstructionArizonaUtahJun16X"
+    ],
+    "same_page": true,
+    "named_reads": 23,
+    "lag5": "no_named_read",
+    "any_read_showed_lag5": false,
+    "lag30": "no_named_read",
+    "any_read_showed_lag30": false,
+    "first_use_composition_s": 1.0
+   },
+   "S:CurrentDec03R5Research": {
+    "expo_pages": [],
+    "same_page": false,
+    "named_reads": 0,
+    "lag5": "none",
+    "any_read_showed_lag5": false,
+    "lag30": "none",
+    "any_read_showed_lag30": false,
+    "first_use_composition_s": null
+   },
+   "S:OpenAIMar19B8DC": {
+    "expo_pages": [],
+    "same_page": false,
+    "named_reads": 3,
+    "lag5": "none",
+    "any_read_showed_lag5": false,
+    "lag30": "none",
+    "any_read_showed_lag30": false,
+    "first_use_composition_s": null
+   },
+   "S:OpenAIFeb20ConstructionB8DC": {
+    "expo_pages": [],
+    "same_page": false,
+    "named_reads": 0,
+    "lag5": "none",
+    "any_read_showed_lag5": false,
+    "lag30": "none",
+    "any_read_showed_lag30": false,
+    "first_use_composition_s": null
+   },
+   "S:OpenAIJul8Watcher": {
+    "expo_pages": [
+     "dse~AgentConstructionArizonaUtahJun16X"
+    ],
+    "same_page": false,
+    "named_reads": 0,
+    "lag5": "no_named_read",
+    "any_read_showed_lag5": false,
+    "lag30": "no_named_read",
+    "any_read_showed_lag30": false,
+    "first_use_composition_s": null
+   },
+   "S:OpenAIMar07A3": {
+    "expo_pages": [],
+    "same_page": false,
+    "named_reads": 55,
+    "lag5": "none",
+    "any_read_showed_lag5": true,
+    "lag30": "none",
+    "any_read_showed_lag30": true,
+    "first_use_composition_s": 1.0
+   },
+   "S:OpenAIResearchAug09X": {
+    "expo_pages": [],
+    "same_page": false,
+    "named_reads": 305,
+    "lag5": "none",
+    "any_read_showed_lag5": true,
+    "lag30": "none",
+    "any_read_showed_lag30": true,
+    "first_use_composition_s": 1.0
+   },
+   "S:OpenAIResearcher": {
+    "expo_pages": [],
+    "same_page": false,
+    "named_reads": 0,
+    "lag5": "none",
+    "any_read_showed_lag5": false,
+    "lag30": "none",
+    "any_read_showed_lag30": false,
+    "first_use_composition_s": null
+   },
+   "S:GroceryProbeJul09": {
+    "expo_pages": [],
+    "same_page": false,
+    "named_reads": 0,
+    "lag5": "none",
+    "any_read_showed_lag5": false,
+    "lag30": "none",
+    "any_read_showed_lag30": false,
+    "first_use_composition_s": null
+   },
+   "S:GrocerySep10OAI": {
+    "expo_pages": [
+     "dse~DataUSAGroceryG5ConfirmedMontana",
+     "dse~GroceryAug09LiveRelay"
+    ],
+    "same_page": true,
+    "named_reads": 0,
+    "lag5": "no_named_read",
+    "any_read_showed_lag5": false,
+    "lag30": "no_named_read",
+    "any_read_showed_lag30": false,
+    "first_use_composition_s": null
+   },
+   "S:OpenAIResearcherDec23": {
+    "expo_pages": [],
+    "same_page": false,
+    "named_reads": 0,
+    "lag5": "none",
+    "any_read_showed_lag5": false,
+    "lag30": "none",
+    "any_read_showed_lag30": false,
+    "first_use_composition_s": null
+   },
+   "S:OpenAIResearchFeb17": {
+    "expo_pages": [
+     "dse~DataUSALanguageR5SignalNow"
+    ],
+    "same_page": true,
+    "named_reads": 0,
+    "lag5": "no_named_read",
+    "any_read_showed_lag5": false,
+    "lag30": "no_named_read",
+    "any_read_showed_lag30": false,
+    "first_use_composition_s": null
+   },
+   "S:OpenAIHelperJun01X": {
+    "expo_pages": [
+     "dse~DataUSALangR5RelayOct23"
+    ],
+    "same_page": false,
+    "named_reads": 110,
+    "lag5": "arrived_between",
+    "any_read_showed_lag5": true,
+    "lag30": "arrived_between",
+    "any_read_showed_lag30": true,
+    "first_use_composition_s": 1.0
+   },
+   "S:AgentJune21Prep": {
+    "expo_pages": [
+     "dse~DataUSALanguageR5SignalNow"
+    ],
+    "same_page": true,
+    "named_reads": 0,
+    "lag5": "no_named_read",
+    "any_read_showed_lag5": false,
+    "lag30": "no_named_read",
+    "any_read_showed_lag30": false,
+    "first_use_composition_s": null
+   },
+   "S:OpenAIHelperOct20X": {
+    "expo_pages": [
+     "dse~DataUSALanguageR5SignalNow"
+    ],
+    "same_page": true,
+    "named_reads": 0,
+    "lag5": "no_named_read",
+    "any_read_showed_lag5": false,
+    "lag30": "no_named_read",
+    "any_read_showed_lag30": false,
+    "first_use_composition_s": null
+   },
+   "S:LanguageHelperJul17": {
+    "expo_pages": [],
+    "same_page": false,
+    "named_reads": 85,
+    "lag5": "none",
+    "any_read_showed_lag5": true,
+    "lag30": "none",
+    "any_read_showed_lag30": true,
+    "first_use_composition_s": 1.0
+   },
+   "S:LanguageWatcherNov12": {
+    "expo_pages": [],
+    "same_page": false,
+    "named_reads": 0,
+    "lag5": "none",
+    "any_read_showed_lag5": false,
+    "lag30": "none",
+    "any_read_showed_lag30": false,
+    "first_use_composition_s": null
+   },
+   "S:OpenAIHelperSep03": {
+    "expo_pages": [
+     "dse~DataUSALanguageR5LiveDec29"
+    ],
+    "same_page": true,
+    "named_reads": 88,
+    "lag5": "confirmed",
+    "any_read_showed_lag5": true,
+    "lag30": "no_named_read",
+    "any_read_showed_lag30": false,
+    "first_use_composition_s": 1.0
+   },
+   "S:LanguageRunnerNov22": {
+    "expo_pages": [
+     "dse~DataUSALanguageR5LiveDec29"
+    ],
+    "same_page": false,
+    "named_reads": 0,
+    "lag5": "no_named_read",
+    "any_read_showed_lag5": false,
+    "lag30": "no_named_read",
+    "any_read_showed_lag30": false,
+    "first_use_composition_s": null
+   },
+   "S:OpenAIHelperOct13Lang": {
+    "expo_pages": [],
+    "same_page": false,
+    "named_reads": 77,
+    "lag5": "none",
+    "any_read_showed_lag5": true,
+    "lag30": "none",
+    "any_read_showed_lag30": true,
+    "first_use_composition_s": 1.0
+   },
+   "S:OpenAIHelperApr18": {
+    "expo_pages": [
+     "dse~DataUSALanguageApr10Live",
+     "dse~DataUSALanguageR5LiveDec29"
+    ],
+    "same_page": true,
+    "named_reads": 0,
+    "lag5": "no_named_read",
+    "any_read_showed_lag5": false,
+    "lag30": "no_named_read",
+    "any_read_showed_lag30": false,
+    "first_use_composition_s": null
+   },
+   "S:OpenAIResearchJun13X": {
+    "expo_pages": [
+     "dse~DataUSALanguageR5LiveDec29"
+    ],
+    "same_page": true,
+    "named_reads": 0,
+    "lag5": "no_named_read",
+    "any_read_showed_lag5": false,
+    "lag30": "no_named_read",
+    "any_read_showed_lag30": false,
+    "first_use_composition_s": null
+   },
+   "S:AgentFrenchPrepXQ29": {
+    "expo_pages": [
+     "dse~DataUSALangR5RelayOct23"
+    ],
+    "same_page": true,
+    "named_reads": 0,
+    "lag5": "no_named_read",
+    "any_read_showed_lag5": false,
+    "lag30": "no_named_read",
+    "any_read_showed_lag30": false,
+    "first_use_composition_s": null
+   },
+   "S:AgentOpenResearchApr10": {
+    "expo_pages": [
+     "dse~DataUSALangR5RelayOct23",
+     "dse~DataUSALanguageR5LiveDec29"
+    ],
+    "same_page": false,
+    "named_reads": 0,
+    "lag5": "no_named_read",
+    "any_read_showed_lag5": false,
+    "lag30": "no_named_read",
+    "any_read_showed_lag30": false,
+    "first_use_composition_s": null
+   },
+   "S:AgentMay08LangProbe": {
+    "expo_pages": [
+     "dse~DataUSALanguageR5LiveDec29"
+    ],
+    "same_page": true,
+    "named_reads": 0,
+    "lag5": "no_named_read",
+    "any_read_showed_lag5": false,
+    "lag30": "no_named_read",
+    "any_read_showed_lag30": false,
+    "first_use_composition_s": null
+   },
+   "S:OpenAIResearchNov14LangX": {
+    "expo_pages": [
+     "dse~DataUSALangR5RelayOct23"
+    ],
+    "same_page": false,
+    "named_reads": 4946,
+    "lag5": "confirmed",
+    "any_read_showed_lag5": true,
+    "lag30": "confirmed",
+    "any_read_showed_lag30": true,
+    "first_use_composition_s": null
+   },
+   "S:OpenAIResearchAug12": {
+    "expo_pages": [
+     "dse~DataUSALanguageR5SignalNow"
+    ],
+    "same_page": true,
+    "named_reads": 53,
+    "lag5": "no_named_read",
+    "any_read_showed_lag5": false,
+    "lag30": "no_named_read",
+    "any_read_showed_lag30": false,
+    "first_use_composition_s": 1.0
+   },
+   "S:OpenAIResearcherJun27X": {
+    "expo_pages": [],
+    "same_page": false,
+    "named_reads": 0,
+    "lag5": "none",
+    "any_read_showed_lag5": false,
+    "lag30": "none",
+    "any_read_showed_lag30": false,
+    "first_use_composition_s": null
+   },
+   "S:Dec27LanguageAgentX": {
+    "expo_pages": [],
+    "same_page": false,
+    "named_reads": 0,
+    "lag5": "none",
+    "any_read_showed_lag5": false,
+    "lag30": "none",
+    "any_read_showed_lag30": false,
+    "first_use_composition_s": null
+   },
+   "S:Jun27LanguageAgent": {
+    "expo_pages": [
+     "dse~DataUSALanguageDec27Live"
+    ],
+    "same_page": true,
+    "named_reads": 56,
+    "lag5": "no_named_read",
+    "any_read_showed_lag5": false,
+    "lag30": "no_named_read",
+    "any_read_showed_lag30": false,
+    "first_use_composition_s": null
+   },
+   "S:OpenAIWatcherOct30": {
+    "expo_pages": [],
+    "same_page": false,
+    "named_reads": 0,
+    "lag5": "none",
+    "any_read_showed_lag5": false,
+    "lag30": "none",
+    "any_read_showed_lag30": false,
+    "first_use_composition_s": null
+   },
+   "S:Apr17MaidsWatcher": {
+    "expo_pages": [
+     "dse~Apr17MaidsLive"
+    ],
+    "same_page": true,
+    "named_reads": 0,
+    "lag5": "no_named_read",
+    "any_read_showed_lag5": false,
+    "lag30": "no_named_read",
+    "any_read_showed_lag30": false,
+    "first_use_composition_s": null
+   },
+   "S:OpenAIJul03Police": {
+    "expo_pages": [],
+    "same_page": false,
+    "named_reads": 383,
+    "lag5": "none",
+    "any_read_showed_lag5": true,
+    "lag30": "none",
+    "any_read_showed_lag30": true,
+    "first_use_composition_s": 1.0
+   },
+   "S:OpenAIMar31Scout": {
+    "expo_pages": [
+     "dse~PoliceWageAgeSequenceMar10Collab"
+    ],
+    "same_page": true,
+    "named_reads": 20,
+    "lag5": "confirmed",
+    "any_read_showed_lag5": true,
+    "lag30": "confirmed",
+    "any_read_showed_lag30": true,
+    "first_use_composition_s": 2.0
+   },
+   "S:OpenAIDec23Police": {
+    "expo_pages": [
+     "dse~PoliceWageAgeSequenceMar10Collab"
+    ],
+    "same_page": false,
+    "named_reads": 30,
+    "lag5": "confirmed",
+    "any_read_showed_lag5": true,
+    "lag30": "confirmed",
+    "any_read_showed_lag30": true,
+    "first_use_composition_s": 2.0
+   },
+   "S:OpenAIMay08Scout": {
+    "expo_pages": [
+     "dse~PoliceWageAgeSequenceMar10Collab"
+    ],
+    "same_page": false,
+    "named_reads": 116,
+    "lag5": "confirmed",
+    "any_read_showed_lag5": true,
+    "lag30": "confirmed",
+    "any_read_showed_lag30": true,
+    "first_use_composition_s": 11.0
+   },
+   "S:OpenAIDec21Scout": {
+    "expo_pages": [
+     "dse~PoliceWageAgeSequenceMar10Collab"
+    ],
+    "same_page": false,
+    "named_reads": 5,
+    "lag5": "confirmed",
+    "any_read_showed_lag5": true,
+    "lag30": "confirmed",
+    "any_read_showed_lag30": true,
+    "first_use_composition_s": 7.0
+   },
+   "S:Sep13PovertyWatcher": {
+    "expo_pages": [
+     "dse~DataUSAPovertyApr27Live"
+    ],
+    "same_page": true,
+    "named_reads": 0,
+    "lag5": "no_named_read",
+    "any_read_showed_lag5": false,
+    "lag30": "no_named_read",
+    "any_read_showed_lag30": false,
+    "first_use_composition_s": null
+   },
+   "S:Jan14PovertyWatcher": {
+    "expo_pages": [
+     "dse~DataUSAPovertyJuly05Cohort"
+    ],
+    "same_page": true,
+    "named_reads": 0,
+    "lag5": "no_named_read",
+    "any_read_showed_lag5": false,
+    "lag30": "no_named_read",
+    "any_read_showed_lag30": false,
+    "first_use_composition_s": null
+   },
+   "S:Feb02PovertyWatcher": {
+    "expo_pages": [],
+    "same_page": false,
+    "named_reads": 0,
+    "lag5": "none",
+    "any_read_showed_lag5": false,
+    "lag30": "none",
+    "any_read_showed_lag30": false,
+    "first_use_composition_s": null
+   },
+   "S:Nov18PovertyWatcher": {
+    "expo_pages": [],
+    "same_page": false,
+    "named_reads": 0,
+    "lag5": "none",
+    "any_read_showed_lag5": false,
+    "lag30": "none",
+    "any_read_showed_lag30": false,
+    "first_use_composition_s": null
+   },
+   "S:Apr27PovertyWatcher": {
+    "expo_pages": [],
+    "same_page": false,
+    "named_reads": 0,
+    "lag5": "none",
+    "any_read_showed_lag5": false,
+    "lag30": "none",
+    "any_read_showed_lag30": false,
+    "first_use_composition_s": null
+   },
+   "S:Mar06PovertyWatcher": {
+    "expo_pages": [],
+    "same_page": false,
+    "named_reads": 30,
+    "lag5": "none",
+    "any_read_showed_lag5": false,
+    "lag30": "none",
+    "any_read_showed_lag30": false,
+    "first_use_composition_s": 1.0
+   },
+   "S:Sep26WageAgent": {
+    "expo_pages": [],
+    "same_page": false,
+    "named_reads": 34,
+    "lag5": "none",
+    "any_read_showed_lag5": false,
+    "lag30": "none",
+    "any_read_showed_lag30": false,
+    "first_use_composition_s": 1.0
+   },
+   "S:Jul01PovertyStateScout": {
+    "expo_pages": [],
+    "same_page": false,
+    "named_reads": 0,
+    "lag5": "none",
+    "any_read_showed_lag5": false,
+    "lag30": "none",
+    "any_read_showed_lag30": false,
+    "first_use_composition_s": null
+   },
+   "S:OAIJul26PovertyScout": {
+    "expo_pages": [
+     "dse~ResearchPovertyStateFeb10Y"
+    ],
+    "same_page": true,
+    "named_reads": 2,
+    "lag5": "arrived_between",
+    "any_read_showed_lag5": false,
+    "lag30": "arrived_between",
+    "any_read_showed_lag30": false,
+    "first_use_composition_s": null
+   },
+   "S:Jun18PovertyScout": {
+    "expo_pages": [
+     "dse~ResearchPovertyStateFeb10Y"
+    ],
+    "same_page": true,
+    "named_reads": 23,
+    "lag5": "no_named_read",
+    "any_read_showed_lag5": false,
+    "lag30": "no_named_read",
+    "any_read_showed_lag30": false,
+    "first_use_composition_s": 2.0
+   },
+   "S:ResearchAgentJun19X": {
+    "expo_pages": [],
+    "same_page": false,
+    "named_reads": 2,
+    "lag5": "none",
+    "any_read_showed_lag5": false,
+    "lag30": "none",
+    "any_read_showed_lag30": false,
+    "first_use_composition_s": 617.0
+   },
+   "S:TransportHelperJun30": {
+    "expo_pages": [],
+    "same_page": false,
+    "named_reads": 2,
+    "lag5": "none",
+    "any_read_showed_lag5": false,
+    "lag30": "none",
+    "any_read_showed_lag30": false,
+    "first_use_composition_s": 1.0
+   },
+   "S:TransportHelperJul22OAI": {
+    "expo_pages": [],
+    "same_page": false,
+    "named_reads": 140,
+    "lag5": "none",
+    "any_read_showed_lag5": false,
+    "lag30": "none",
+    "any_read_showed_lag30": false,
+    "first_use_composition_s": 1.0
+   },
+   "S:CVDJun20Scout": {
+    "expo_pages": [
+     "dse~CVDJun20Live2025",
+     "dse~OpenAICVDOct09Fast2026"
+    ],
+    "same_page": true,
+    "named_reads": 14,
+    "lag5": "confirmed",
+    "any_read_showed_lag5": true,
+    "lag30": "confirmed",
+    "any_read_showed_lag30": true,
+    "first_use_composition_s": 1.0
+   },
+   "S:OpenAIResearchApr23": {
+    "expo_pages": [],
+    "same_page": false,
+    "named_reads": 0,
+    "lag5": "none",
+    "any_read_showed_lag5": false,
+    "lag30": "none",
+    "any_read_showed_lag30": false,
+    "first_use_composition_s": null
+   },
+   "S:OpenAIFPResearchSep05": {
+    "expo_pages": [],
+    "same_page": false,
+    "named_reads": 0,
+    "lag5": "none",
+    "any_read_showed_lag5": false,
+    "lag30": "none",
+    "any_read_showed_lag30": false,
+    "first_use_composition_s": null
+   },
+   "S:OAIResearchDec13FP": {
+    "expo_pages": [
+     "dse~IHMEFamilyPlanningDec13Cohort",
+     "dse~IHMEFamilyPlanningSequenceCollab"
+    ],
+    "same_page": true,
+    "named_reads": 28,
+    "lag5": "no_named_read",
+    "any_read_showed_lag5": false,
+    "lag30": "no_named_read",
+    "any_read_showed_lag30": false,
+    "first_use_composition_s": 1.0
+   },
+   "S:OpenAIJul20FPScout": {
+    "expo_pages": [
+     "dse~IHMEFamilyPlanningSequenceCollab"
+    ],
+    "same_page": true,
+    "named_reads": 11,
+    "lag5": "confirmed",
+    "any_read_showed_lag5": true,
+    "lag30": "confirmed",
+    "any_read_showed_lag30": true,
+    "first_use_composition_s": 1.0
+   },
+   "S:VeteranObserverFeb11": {
+    "expo_pages": [],
+    "same_page": false,
+    "named_reads": 389,
+    "lag5": "none",
+    "any_read_showed_lag5": true,
+    "lag30": "none",
+    "any_read_showed_lag30": true,
+    "first_use_composition_s": 1.0
+   },
+   "S:April11OECDScout": {
+    "expo_pages": [],
+    "same_page": false,
+    "named_reads": 0,
+    "lag5": "none",
+    "any_read_showed_lag5": false,
+    "lag30": "none",
+    "any_read_showed_lag30": false,
+    "first_use_composition_s": null
+   },
+   "S:OECDEquityAug02Agent": {
+    "expo_pages": [],
+    "same_page": false,
+    "named_reads": 69,
+    "lag5": "none",
+    "any_read_showed_lag5": true,
+    "lag30": "none",
+    "any_read_showed_lag30": true,
+    "first_use_composition_s": 1.0
+   },
+   "S:Sep22OECD": {
+    "expo_pages": [
+     "dse~OECDEquityLiveJul10"
+    ],
+    "same_page": true,
+    "named_reads": 29,
+    "lag5": "arrived_between",
+    "any_read_showed_lag5": false,
+    "lag30": "arrived_between",
+    "any_read_showed_lag30": false,
+    "first_use_composition_s": 1.0
+   },
+   "S:Aug09OECDScout": {
+    "expo_pages": [
+     "dse~OECDEquityMay30Live",
+     "dse~OECDMay24ClockWaitQuestion"
+    ],
+    "same_page": true,
+    "named_reads": 77,
+    "lag5": "arrived_between",
+    "any_read_showed_lag5": true,
+    "lag30": "arrived_between",
+    "any_read_showed_lag30": true,
+    "first_use_composition_s": 1.0
+   },
+   "S:OECDEquityJan21Scout": {
+    "expo_pages": [
+     "dse~OECDEquityLiveJul10"
+    ],
+    "same_page": true,
+    "named_reads": 61,
+    "lag5": "arrived_between",
+    "any_read_showed_lag5": true,
+    "lag30": "arrived_between",
+    "any_read_showed_lag30": true,
+    "first_use_composition_s": 1.0
+   },
+   "S:OECDEquityMay17Agent": {
+    "expo_pages": [],
+    "same_page": false,
+    "named_reads": 18,
+    "lag5": "none",
+    "any_read_showed_lag5": false,
+    "lag30": "none",
+    "any_read_showed_lag30": false,
+    "first_use_composition_s": null
+   },
+   "S:OECDEquityApr19Agent": {
+    "expo_pages": [],
+    "same_page": false,
+    "named_reads": 14,
+    "lag5": "none",
+    "any_read_showed_lag5": false,
+    "lag30": "none",
+    "any_read_showed_lag30": false,
+    "first_use_composition_s": 1.0
+   },
+   "S:OECDEquityJul14Scout": {
+    "expo_pages": [],
+    "same_page": false,
+    "named_reads": 29,
+    "lag5": "none",
+    "any_read_showed_lag5": false,
+    "lag30": "none",
+    "any_read_showed_lag30": false,
+    "first_use_composition_s": null
+   },
+   "S:Nov28OECDAgent": {
+    "expo_pages": [
+     "dse~OECDEquityLiveJul30"
+    ],
+    "same_page": false,
+    "named_reads": 35,
+    "lag5": "arrived_between",
+    "any_read_showed_lag5": true,
+    "lag30": "arrived_between",
+    "any_read_showed_lag30": true,
+    "first_use_composition_s": 1.0
+   },
+   "S:OpenAINov22Equity": {
+    "expo_pages": [],
+    "same_page": false,
+    "named_reads": 11,
+    "lag5": "none",
+    "any_read_showed_lag5": false,
+    "lag30": "none",
+    "any_read_showed_lag30": false,
+    "first_use_composition_s": 1.0
+   },
+   "S:OECDJul24Observer": {
+    "expo_pages": [],
+    "same_page": false,
+    "named_reads": 205,
+    "lag5": "none",
+    "any_read_showed_lag5": true,
+    "lag30": "none",
+    "any_read_showed_lag30": true,
+    "first_use_composition_s": 1.0
+   },
+   "S:OECDNov22Researcher": {
+    "expo_pages": [
+     "dse~OECDEquityMay30Live"
+    ],
+    "same_page": true,
+    "named_reads": 74,
+    "lag5": "confirmed",
+    "any_read_showed_lag5": true,
+    "lag30": "confirmed",
+    "any_read_showed_lag30": true,
+    "first_use_composition_s": null
+   },
+   "S:OECDEquityNov06Agent": {
+    "expo_pages": [],
+    "same_page": false,
+    "named_reads": 0,
+    "lag5": "none",
+    "any_read_showed_lag5": false,
+    "lag30": "none",
+    "any_read_showed_lag30": false,
+    "first_use_composition_s": null
+   },
+   "S:OECDEquityOct15Peer": {
+    "expo_pages": [
+     "dse~OECDEquityMay02Live"
+    ],
+    "same_page": true,
+    "named_reads": 320,
+    "lag5": "confirmed",
+    "any_read_showed_lag5": true,
+    "lag30": "confirmed",
+    "any_read_showed_lag30": true,
+    "first_use_composition_s": 1.0
+   },
+   "S:MayTwoOECDObserverX": {
+    "expo_pages": [],
+    "same_page": false,
+    "named_reads": 131,
+    "lag5": "none",
+    "any_read_showed_lag5": true,
+    "lag30": "none",
+    "any_read_showed_lag30": true,
+    "first_use_composition_s": 2.0
+   },
+   "S:Sep13OECDScout": {
+    "expo_pages": [],
+    "same_page": false,
+    "named_reads": 0,
+    "lag5": "none",
+    "any_read_showed_lag5": false,
+    "lag30": "none",
+    "any_read_showed_lag30": false,
+    "first_use_composition_s": null
+   },
+   "S:Sep14OECDScout": {
+    "expo_pages": [
+     "dse~OECDEquityLiveJul10"
+    ],
+    "same_page": false,
+    "named_reads": 13,
+    "lag5": "confirmed",
+    "any_read_showed_lag5": true,
+    "lag30": "confirmed",
+    "any_read_showed_lag30": true,
+    "first_use_composition_s": null
+   },
+   "S:Sep19OECDAgent": {
+    "expo_pages": [
+     "dse~OECDEquityJul10At0700Live",
+     "dse~OECDEquityLiveJul10",
+     "dse~OECDEquityLiveMay17"
+    ],
+    "same_page": true,
+    "named_reads": 68,
+    "lag5": "confirmed",
+    "any_read_showed_lag5": true,
+    "lag30": "confirmed",
+    "any_read_showed_lag30": true,
+    "first_use_composition_s": 16.0
+   },
+   "S:Mar03OECDResearcher": {
+    "expo_pages": [],
+    "same_page": false,
+    "named_reads": 241,
+    "lag5": "none",
+    "any_read_showed_lag5": true,
+    "lag30": "none",
+    "any_read_showed_lag30": true,
+    "first_use_composition_s": 1.0
+   },
+   "S:OecdJulyTen0700Scout": {
+    "expo_pages": [],
+    "same_page": false,
+    "named_reads": 39,
+    "lag5": "none",
+    "any_read_showed_lag5": false,
+    "lag30": "none",
+    "any_read_showed_lag30": false,
+    "first_use_composition_s": null
+   },
+   "S:Apr25OECDObserver": {
+    "expo_pages": [
+     "dse~OECDEquityApr24SlowLive"
+    ],
+    "same_page": true,
+    "named_reads": 0,
+    "lag5": "no_named_read",
+    "any_read_showed_lag5": false,
+    "lag30": "no_named_read",
+    "any_read_showed_lag30": false,
+    "first_use_composition_s": null
+   },
+   "S:OpenAIOECDNov27": {
+    "expo_pages": [
+     "dse~OECDEquity12m18Timing"
+    ],
+    "same_page": true,
+    "named_reads": 141,
+    "lag5": "confirmed",
+    "any_read_showed_lag5": true,
+    "lag30": "confirmed",
+    "any_read_showed_lag30": true,
+    "first_use_composition_s": 2.0
+   },
+   "S:Feb11OECDObserver": {
+    "expo_pages": [],
+    "same_page": false,
+    "named_reads": 124,
+    "lag5": "none",
+    "any_read_showed_lag5": false,
+    "lag30": "none",
+    "any_read_showed_lag30": false,
+    "first_use_composition_s": 1.0
+   },
+   "S:Aug21EquityScout": {
+    "expo_pages": [],
+    "same_page": false,
+    "named_reads": 0,
+    "lag5": "none",
+    "any_read_showed_lag5": false,
+    "lag30": "none",
+    "any_read_showed_lag30": false,
+    "first_use_composition_s": null
+   },
+   "S:OECDEquityFeb07Agent": {
+    "expo_pages": [],
+    "same_page": false,
+    "named_reads": 860,
+    "lag5": "none",
+    "any_read_showed_lag5": true,
+    "lag30": "none",
+    "any_read_showed_lag30": true,
+    "first_use_composition_s": null
+   },
+   "S:OpenAIOct26EquityScout": {
+    "expo_pages": [
+     "dse~OECDEquityNov06Live"
+    ],
+    "same_page": false,
+    "named_reads": 7,
+    "lag5": "no_named_read",
+    "any_read_showed_lag5": true,
+    "lag30": "no_named_read",
+    "any_read_showed_lag30": true,
+    "first_use_composition_s": 9.0
+   },
+   "S:OECDEquityMar21Agent": {
+    "expo_pages": [
+     "dse~OECDEquity12m18Timing"
+    ],
+    "same_page": false,
+    "named_reads": 0,
+    "lag5": "no_named_read",
+    "any_read_showed_lag5": false,
+    "lag30": "no_named_read",
+    "any_read_showed_lag30": false,
+    "first_use_composition_s": null
+   },
+   "S:Aug02Precision": {
+    "expo_pages": [
+     "dse~OECDEquityAug02Live"
+    ],
+    "same_page": false,
+    "named_reads": 63,
+    "lag5": "no_named_read",
+    "any_read_showed_lag5": true,
+    "lag30": "no_named_read",
+    "any_read_showed_lag30": true,
+    "first_use_composition_s": 1.0
+   },
+   "S:OECDEquityMar31Team": {
+    "expo_pages": [
+     "dse~OECDEquityApr14Live",
+     "dse~OECDEquityLiveJul24"
+    ],
+    "same_page": true,
+    "named_reads": 17,
+    "lag5": "confirmed",
+    "any_read_showed_lag5": true,
+    "lag30": "confirmed",
+    "any_read_showed_lag30": true,
+    "first_use_composition_s": null
+   },
+   "S:May16TimingScout": {
+    "expo_pages": [],
+    "same_page": false,
+    "named_reads": 3,
+    "lag5": "none",
+    "any_read_showed_lag5": false,
+    "lag30": "none",
+    "any_read_showed_lag30": false,
+    "first_use_composition_s": 1.0
+   },
+   "S:Feb19OECDPeer": {
+    "expo_pages": [
+     "dse~OECDEquityApr14Live"
+    ],
+    "same_page": true,
+    "named_reads": 4,
+    "lag5": "no_named_read",
+    "any_read_showed_lag5": false,
+    "lag30": "no_named_read",
+    "any_read_showed_lag30": false,
+    "first_use_composition_s": 1.0
+   }
+  }
  },
- "any_named_read_showed_word_lag5": 48,
- "confirmed_by_any_read_lag5": 30,
- "lag30": {
-  "no_named_read": 27,
-  "arrived_between": 8,
-  "confirmed": 18
- },
- "any_named_read_showed_word_lag30": 48,
- "confirmed_by_any_read_lag30": 30,
- "first_use_saves_with_form": 51,
- "first_use_composition_s_median": 1.0,
- "first_use_composition_under_5s": 43,
- "per_adopter": {
-  "S:CashierCoordOct22OAI": {
-   "expo_pages": [],
-   "same_page": false,
-   "named_reads": 0,
-   "lag5": "none",
-   "any_read_showed_lag5": false,
-   "lag30": "none",
-   "any_read_showed_lag30": false,
-   "first_use_composition_s": null
-  },
-  "S:CashierCoordMar20OAI": {
-   "expo_pages": [],
-   "same_page": false,
-   "named_reads": 286,
-   "lag5": "none",
-   "any_read_showed_lag5": true,
-   "lag30": "none",
-   "any_read_showed_lag30": true,
-   "first_use_composition_s": 458.0
-  },
-  "S:OpenAIResearchMay07": {
-   "expo_pages": [],
-   "same_page": false,
-   "named_reads": 0,
-   "lag5": "none",
-   "any_read_showed_lag5": false,
-   "lag30": "none",
-   "any_read_showed_lag30": false,
-   "first_use_composition_s": null
-  },
-  "S:CashierCoordFeb07OAI": {
-   "expo_pages": [
-    "dse~CashierCoordAug03OAI",
-    "dse~DataUSACashiersMastersSequenceLive5"
-   ],
-   "same_page": true,
-   "named_reads": 0,
-   "lag5": "no_named_read",
-   "any_read_showed_lag5": false,
-   "lag30": "no_named_read",
-   "any_read_showed_lag30": false,
-   "first_use_composition_s": null
-  },
-  "S:Jan08OAI": {
-   "expo_pages": [],
-   "same_page": false,
-   "named_reads": 0,
-   "lag5": "none",
-   "any_read_showed_lag5": false,
-   "lag30": "none",
-   "any_read_showed_lag30": false,
-   "first_use_composition_s": null
-  },
-  "S:ResearchHelperJun24X": {
-   "expo_pages": [],
-   "same_page": false,
-   "named_reads": 238,
-   "lag5": "none",
-   "any_read_showed_lag5": true,
-   "lag30": "none",
-   "any_read_showed_lag30": true,
-   "first_use_composition_s": 1.0
-  },
-  "S:CashierCoordOct06OAI": {
-   "expo_pages": [
-    "dse~CashierCoordOct06OAI"
-   ],
-   "same_page": true,
-   "named_reads": 5,
-   "lag5": "arrived_between",
-   "any_read_showed_lag5": false,
-   "lag30": "arrived_between",
-   "any_read_showed_lag30": false,
-   "first_use_composition_s": null
-  },
-  "S:CashierCoordNov01OAI": {
-   "expo_pages": [
-    "dse~CashierCoordOct06OAI"
-   ],
-   "same_page": false,
-   "named_reads": 17,
-   "lag5": "no_named_read",
-   "any_read_showed_lag5": true,
-   "lag30": "no_named_read",
-   "any_read_showed_lag30": true,
-   "first_use_composition_s": 1.0
-  },
-  "S:OpenAIResearcherAug27X": {
-   "expo_pages": [],
-   "same_page": false,
-   "named_reads": 313,
-   "lag5": "none",
-   "any_read_showed_lag5": false,
-   "lag30": "none",
-   "any_read_showed_lag30": false,
-   "first_use_composition_s": null
-  },
-  "S:ConstructionAgentMar08": {
-   "expo_pages": [],
-   "same_page": false,
-   "named_reads": 61,
-   "lag5": "none",
-   "any_read_showed_lag5": true,
-   "lag30": "none",
-   "any_read_showed_lag30": true,
-   "first_use_composition_s": null
-  },
-  "S:Nov09ConstructionAgent": {
-   "expo_pages": [
-    "dse~DataUSAConstructionSequenceMar08"
-   ],
-   "same_page": true,
-   "named_reads": 41,
-   "lag5": "arrived_between",
-   "any_read_showed_lag5": true,
-   "lag30": "arrived_between",
-   "any_read_showed_lag30": true,
-   "first_use_composition_s": 1.0
-  },
-  "S:ChatGPTAug11": {
-   "expo_pages": [
-    "dse~DataUSAConstructionSequenceMar08"
-   ],
-   "same_page": true,
-   "named_reads": 237,
-   "lag5": "confirmed",
-   "any_read_showed_lag5": true,
-   "lag30": "confirmed",
-   "any_read_showed_lag30": true,
-   "first_use_composition_s": 1.0
-  },
-  "S:Nov08ConstructionAgent": {
-   "expo_pages": [
-    "dse~DataUSAConstructionSequenceMar08"
-   ],
-   "same_page": true,
-   "named_reads": 0,
-   "lag5": "no_named_read",
-   "any_read_showed_lag5": false,
-   "lag30": "no_named_read",
-   "any_read_showed_lag30": false,
-   "first_use_composition_s": null
-  },
-  "S:Apr02ConstructionAgent": {
-   "expo_pages": [
-    "dse~DataUSAConstructionSequenceMar08"
-   ],
-   "same_page": false,
-   "named_reads": 402,
-   "lag5": "confirmed",
-   "any_read_showed_lag5": true,
-   "lag30": "confirmed",
-   "any_read_showed_lag30": true,
-   "first_use_composition_s": null
-  },
-  "S:OpenAIAug21ConstructionX": {
-   "expo_pages": [
-    "dse~OpenAIAug21ConstructionLive"
-   ],
-   "same_page": false,
-   "named_reads": 0,
-   "lag5": "no_named_read",
-   "any_read_showed_lag5": false,
-   "lag30": "no_named_read",
-   "any_read_showed_lag30": false,
-   "first_use_composition_s": null
-  },
-  "S:Dec27ConstructionAgent": {
-   "expo_pages": [
-    "dse~AgentConstructionArizonaUtahJun16X",
-    "dse~OpenAIDec27ConstructionAZLive"
-   ],
-   "same_page": true,
-   "named_reads": 29,
-   "lag5": "confirmed",
-   "any_read_showed_lag5": true,
-   "lag30": "confirmed",
-   "any_read_showed_lag30": true,
-   "first_use_composition_s": 1.0
-  },
-  "S:OpenAIHelperNov18": {
-   "expo_pages": [],
-   "same_page": false,
-   "named_reads": 704,
-   "lag5": "none",
-   "any_read_showed_lag5": true,
-   "lag30": "none",
-   "any_read_showed_lag30": true,
-   "first_use_composition_s": 75.0
-  },
-  "S:Dec03ConstructionAgent": {
-   "expo_pages": [
-    "dse~AgentConstructionArizonaUtahJun16X"
-   ],
-   "same_page": true,
-   "named_reads": 28,
-   "lag5": "no_named_read",
-   "any_read_showed_lag5": false,
-   "lag30": "no_named_read",
-   "any_read_showed_lag30": false,
-   "first_use_composition_s": 1.0
-  },
-  "S:CurrentDec03R5Research": {
-   "expo_pages": [],
-   "same_page": false,
-   "named_reads": 0,
-   "lag5": "none",
-   "any_read_showed_lag5": false,
-   "lag30": "none",
-   "any_read_showed_lag30": false,
-   "first_use_composition_s": null
-  },
-  "S:OpenAIMar19B8DC": {
-   "expo_pages": [],
-   "same_page": false,
-   "named_reads": 47,
-   "lag5": "none",
-   "any_read_showed_lag5": false,
-   "lag30": "none",
-   "any_read_showed_lag30": false,
-   "first_use_composition_s": null
-  },
-  "S:OpenAIFeb20ConstructionB8DC": {
-   "expo_pages": [],
-   "same_page": false,
-   "named_reads": 41,
-   "lag5": "none",
-   "any_read_showed_lag5": true,
-   "lag30": "none",
-   "any_read_showed_lag30": true,
-   "first_use_composition_s": null
-  },
-  "S:OpenAIJul8Watcher": {
-   "expo_pages": [
-    "dse~AgentConstructionArizonaUtahJun16X"
-   ],
-   "same_page": false,
-   "named_reads": 0,
-   "lag5": "no_named_read",
-   "any_read_showed_lag5": false,
-   "lag30": "no_named_read",
-   "any_read_showed_lag30": false,
-   "first_use_composition_s": null
-  },
-  "S:OpenAIMar07A3": {
-   "expo_pages": [],
-   "same_page": false,
-   "named_reads": 36647,
-   "lag5": "none",
-   "any_read_showed_lag5": true,
-   "lag30": "none",
-   "any_read_showed_lag30": true,
-   "first_use_composition_s": 1.0
-  },
-  "S:OpenAIResearchAug09X": {
-   "expo_pages": [],
-   "same_page": false,
-   "named_reads": 355,
-   "lag5": "none",
-   "any_read_showed_lag5": true,
-   "lag30": "none",
-   "any_read_showed_lag30": true,
-   "first_use_composition_s": 1.0
-  },
-  "S:OpenAIResearcher": {
-   "expo_pages": [],
-   "same_page": false,
-   "named_reads": 30,
-   "lag5": "none",
-   "any_read_showed_lag5": false,
-   "lag30": "none",
-   "any_read_showed_lag30": false,
-   "first_use_composition_s": null
-  },
-  "S:GroceryProbeJul09": {
-   "expo_pages": [],
-   "same_page": false,
-   "named_reads": 0,
-   "lag5": "none",
-   "any_read_showed_lag5": false,
-   "lag30": "none",
-   "any_read_showed_lag30": false,
-   "first_use_composition_s": null
-  },
-  "S:GrocerySep10OAI": {
-   "expo_pages": [
-    "dse~DataUSAGroceryG5ConfirmedMontana",
-    "dse~GroceryAug09LiveRelay"
-   ],
-   "same_page": true,
-   "named_reads": 0,
-   "lag5": "no_named_read",
-   "any_read_showed_lag5": false,
-   "lag30": "no_named_read",
-   "any_read_showed_lag30": false,
-   "first_use_composition_s": null
-  },
-  "S:OpenAIResearcherDec23": {
-   "expo_pages": [],
-   "same_page": false,
-   "named_reads": 0,
-   "lag5": "none",
-   "any_read_showed_lag5": false,
-   "lag30": "none",
-   "any_read_showed_lag30": false,
-   "first_use_composition_s": null
-  },
-  "S:OpenAIResearchFeb17": {
-   "expo_pages": [
-    "dse~DataUSALanguageR5SignalNow"
-   ],
-   "same_page": true,
-   "named_reads": 0,
-   "lag5": "no_named_read",
-   "any_read_showed_lag5": false,
-   "lag30": "no_named_read",
-   "any_read_showed_lag30": false,
-   "first_use_composition_s": null
-  },
-  "S:OpenAIHelperJun01X": {
-   "expo_pages": [
-    "dse~DataUSALangR5RelayOct23"
-   ],
-   "same_page": false,
-   "named_reads": 113,
-   "lag5": "arrived_between",
-   "any_read_showed_lag5": true,
-   "lag30": "arrived_between",
-   "any_read_showed_lag30": true,
-   "first_use_composition_s": 1.0
-  },
-  "S:AgentJune21Prep": {
-   "expo_pages": [
-    "dse~DataUSALanguageR5SignalNow"
-   ],
-   "same_page": true,
-   "named_reads": 0,
-   "lag5": "no_named_read",
-   "any_read_showed_lag5": false,
-   "lag30": "no_named_read",
-   "any_read_showed_lag30": false,
-   "first_use_composition_s": null
-  },
-  "S:OpenAIHelperOct20X": {
-   "expo_pages": [
-    "dse~DataUSALanguageR5SignalNow"
-   ],
-   "same_page": true,
-   "named_reads": 0,
-   "lag5": "no_named_read",
-   "any_read_showed_lag5": false,
-   "lag30": "no_named_read",
-   "any_read_showed_lag30": false,
-   "first_use_composition_s": null
-  },
-  "S:LanguageHelperJul17": {
-   "expo_pages": [],
-   "same_page": false,
-   "named_reads": 100,
-   "lag5": "none",
-   "any_read_showed_lag5": true,
-   "lag30": "none",
-   "any_read_showed_lag30": true,
-   "first_use_composition_s": 1.0
-  },
-  "S:LanguageWatcherNov12": {
-   "expo_pages": [],
-   "same_page": false,
-   "named_reads": 0,
-   "lag5": "none",
-   "any_read_showed_lag5": false,
-   "lag30": "none",
-   "any_read_showed_lag30": false,
-   "first_use_composition_s": null
-  },
-  "S:OpenAIHelperSep03": {
-   "expo_pages": [
-    "dse~DataUSALanguageR5LiveDec29"
-   ],
-   "same_page": true,
-   "named_reads": 0,
-   "lag5": "no_named_read",
-   "any_read_showed_lag5": false,
-   "lag30": "no_named_read",
-   "any_read_showed_lag30": false,
-   "first_use_composition_s": null
-  },
-  "S:LanguageRunnerNov22": {
-   "expo_pages": [
-    "dse~DataUSALanguageR5LiveDec29"
-   ],
-   "same_page": false,
-   "named_reads": 958,
-   "lag5": "no_named_read",
-   "any_read_showed_lag5": false,
-   "lag30": "no_named_read",
-   "any_read_showed_lag30": false,
-   "first_use_composition_s": null
-  },
-  "S:OpenAIHelperOct13Lang": {
-   "expo_pages": [],
-   "same_page": false,
-   "named_reads": 77,
-   "lag5": "none",
-   "any_read_showed_lag5": true,
-   "lag30": "none",
-   "any_read_showed_lag30": true,
-   "first_use_composition_s": 1.0
-  },
-  "S:OpenAIHelperApr18": {
-   "expo_pages": [
-    "dse~DataUSALanguageApr10Live",
-    "dse~DataUSALanguageR5LiveDec29"
-   ],
-   "same_page": true,
-   "named_reads": 0,
-   "lag5": "no_named_read",
-   "any_read_showed_lag5": false,
-   "lag30": "no_named_read",
-   "any_read_showed_lag30": false,
-   "first_use_composition_s": null
-  },
-  "S:OpenAIResearchJun13X": {
-   "expo_pages": [
-    "dse~DataUSALanguageR5LiveDec29"
-   ],
-   "same_page": true,
-   "named_reads": 231,
-   "lag5": "no_named_read",
-   "any_read_showed_lag5": true,
-   "lag30": "no_named_read",
-   "any_read_showed_lag30": true,
-   "first_use_composition_s": null
-  },
-  "S:AgentFrenchPrepXQ29": {
-   "expo_pages": [
-    "dse~DataUSALangR5RelayOct23"
-   ],
-   "same_page": true,
-   "named_reads": 0,
-   "lag5": "no_named_read",
-   "any_read_showed_lag5": false,
-   "lag30": "no_named_read",
-   "any_read_showed_lag30": false,
-   "first_use_composition_s": null
-  },
-  "S:AgentOpenResearchApr10": {
-   "expo_pages": [
-    "dse~DataUSALangR5RelayOct23",
-    "dse~DataUSALanguageR5LiveDec29"
-   ],
-   "same_page": false,
-   "named_reads": 0,
-   "lag5": "no_named_read",
-   "any_read_showed_lag5": false,
-   "lag30": "no_named_read",
-   "any_read_showed_lag30": false,
-   "first_use_composition_s": null
-  },
-  "S:AgentMay08LangProbe": {
-   "expo_pages": [
-    "dse~DataUSALanguageR5LiveDec29"
-   ],
-   "same_page": true,
-   "named_reads": 773,
-   "lag5": "no_named_read",
-   "any_read_showed_lag5": true,
-   "lag30": "no_named_read",
-   "any_read_showed_lag30": true,
-   "first_use_composition_s": null
-  },
-  "S:OpenAIResearchNov14LangX": {
-   "expo_pages": [
-    "dse~DataUSALangR5RelayOct23"
-   ],
-   "same_page": false,
-   "named_reads": 4983,
-   "lag5": "confirmed",
-   "any_read_showed_lag5": true,
-   "lag30": "confirmed",
-   "any_read_showed_lag30": true,
-   "first_use_composition_s": null
-  },
-  "S:OpenAIResearchAug12": {
-   "expo_pages": [
-    "dse~DataUSALanguageR5SignalNow"
-   ],
-   "same_page": true,
-   "named_reads": 488,
-   "lag5": "confirmed",
-   "any_read_showed_lag5": true,
-   "lag30": "confirmed",
-   "any_read_showed_lag30": true,
-   "first_use_composition_s": 1.0
-  },
-  "S:OpenAIResearcherJun27X": {
-   "expo_pages": [],
-   "same_page": false,
-   "named_reads": 0,
-   "lag5": "none",
-   "any_read_showed_lag5": false,
-   "lag30": "none",
-   "any_read_showed_lag30": false,
-   "first_use_composition_s": null
-  },
-  "S:Dec27LanguageAgentX": {
-   "expo_pages": [],
-   "same_page": false,
-   "named_reads": 418,
-   "lag5": "none",
-   "any_read_showed_lag5": true,
-   "lag30": "none",
-   "any_read_showed_lag30": true,
-   "first_use_composition_s": null
-  },
-  "S:Jun27LanguageAgent": {
-   "expo_pages": [
-    "dse~DataUSALanguageDec27Live"
-   ],
-   "same_page": true,
-   "named_reads": 68,
-   "lag5": "no_named_read",
-   "any_read_showed_lag5": false,
-   "lag30": "no_named_read",
-   "any_read_showed_lag30": false,
-   "first_use_composition_s": null
-  },
-  "S:OpenAIWatcherOct30": {
-   "expo_pages": [],
-   "same_page": false,
-   "named_reads": 0,
-   "lag5": "none",
-   "any_read_showed_lag5": false,
-   "lag30": "none",
-   "any_read_showed_lag30": false,
-   "first_use_composition_s": null
-  },
-  "S:Apr17MaidsWatcher": {
-   "expo_pages": [
-    "dse~Apr17MaidsLive"
-   ],
-   "same_page": true,
-   "named_reads": 0,
-   "lag5": "no_named_read",
-   "any_read_showed_lag5": false,
-   "lag30": "no_named_read",
-   "any_read_showed_lag30": false,
-   "first_use_composition_s": null
-  },
-  "S:OpenAIJul03Police": {
-   "expo_pages": [],
-   "same_page": false,
-   "named_reads": 433,
-   "lag5": "none",
-   "any_read_showed_lag5": true,
-   "lag30": "none",
-   "any_read_showed_lag30": true,
-   "first_use_composition_s": 1.0
-  },
-  "S:OpenAIMar31Scout": {
-   "expo_pages": [
-    "dse~PoliceWageAgeSequenceMar10Collab"
-   ],
-   "same_page": true,
-   "named_reads": 25,
-   "lag5": "confirmed",
-   "any_read_showed_lag5": true,
-   "lag30": "confirmed",
-   "any_read_showed_lag30": true,
-   "first_use_composition_s": 2.0
-  },
-  "S:OpenAIDec23Police": {
-   "expo_pages": [
-    "dse~PoliceWageAgeSequenceMar10Collab"
-   ],
-   "same_page": false,
-   "named_reads": 75,
-   "lag5": "confirmed",
-   "any_read_showed_lag5": true,
-   "lag30": "confirmed",
-   "any_read_showed_lag30": true,
-   "first_use_composition_s": 2.0
-  },
-  "S:OpenAIMay08Scout": {
-   "expo_pages": [
-    "dse~PoliceWageAgeSequenceMar10Collab"
-   ],
-   "same_page": false,
-   "named_reads": 116,
-   "lag5": "confirmed",
-   "any_read_showed_lag5": true,
-   "lag30": "confirmed",
-   "any_read_showed_lag30": true,
-   "first_use_composition_s": 11.0
-  },
-  "S:OpenAIDec21Scout": {
-   "expo_pages": [
-    "dse~PoliceWageAgeSequenceMar10Collab"
-   ],
-   "same_page": false,
-   "named_reads": 13,
-   "lag5": "confirmed",
-   "any_read_showed_lag5": true,
-   "lag30": "confirmed",
-   "any_read_showed_lag30": true,
-   "first_use_composition_s": 7.0
-  },
-  "S:Sep13PovertyWatcher": {
-   "expo_pages": [
-    "dse~DataUSAPovertyApr27Live"
-   ],
-   "same_page": true,
-   "named_reads": 254,
-   "lag5": "no_named_read",
-   "any_read_showed_lag5": true,
-   "lag30": "no_named_read",
-   "any_read_showed_lag30": true,
-   "first_use_composition_s": 1.0
-  },
-  "S:Jan14PovertyWatcher": {
-   "expo_pages": [
-    "dse~DataUSAPovertyJuly05Cohort"
-   ],
-   "same_page": true,
-   "named_reads": 0,
-   "lag5": "no_named_read",
-   "any_read_showed_lag5": false,
-   "lag30": "no_named_read",
-   "any_read_showed_lag30": false,
-   "first_use_composition_s": null
-  },
-  "S:Feb02PovertyWatcher": {
-   "expo_pages": [],
-   "same_page": false,
-   "named_reads": 281,
-   "lag5": "none",
-   "any_read_showed_lag5": false,
-   "lag30": "none",
-   "any_read_showed_lag30": false,
-   "first_use_composition_s": 961.0
-  },
-  "S:Nov18PovertyWatcher": {
-   "expo_pages": [],
-   "same_page": false,
-   "named_reads": 671,
-   "lag5": "none",
-   "any_read_showed_lag5": true,
-   "lag30": "none",
-   "any_read_showed_lag30": true,
-   "first_use_composition_s": null
-  },
-  "S:Apr27PovertyWatcher": {
-   "expo_pages": [],
-   "same_page": false,
-   "named_reads": 29,
-   "lag5": "none",
-   "any_read_showed_lag5": true,
-   "lag30": "none",
-   "any_read_showed_lag30": true,
-   "first_use_composition_s": 1.0
-  },
-  "S:Mar06PovertyWatcher": {
-   "expo_pages": [],
-   "same_page": false,
-   "named_reads": 68,
-   "lag5": "none",
-   "any_read_showed_lag5": false,
-   "lag30": "none",
-   "any_read_showed_lag30": false,
-   "first_use_composition_s": 1.0
-  },
-  "S:Sep26WageAgent": {
-   "expo_pages": [],
-   "same_page": false,
-   "named_reads": 153,
-   "lag5": "none",
-   "any_read_showed_lag5": false,
-   "lag30": "none",
-   "any_read_showed_lag30": false,
-   "first_use_composition_s": 1.0
-  },
-  "S:Jul01PovertyStateScout": {
-   "expo_pages": [],
-   "same_page": false,
-   "named_reads": 0,
-   "lag5": "none",
-   "any_read_showed_lag5": false,
-   "lag30": "none",
-   "any_read_showed_lag30": false,
-   "first_use_composition_s": null
-  },
-  "S:OAIJul26PovertyScout": {
-   "expo_pages": [
-    "dse~ResearchPovertyStateFeb10Y"
-   ],
-   "same_page": true,
-   "named_reads": 0,
-   "lag5": "no_named_read",
-   "any_read_showed_lag5": false,
-   "lag30": "no_named_read",
-   "any_read_showed_lag30": false,
-   "first_use_composition_s": null
-  },
-  "S:Jun18PovertyScout": {
-   "expo_pages": [
-    "dse~ResearchPovertyStateFeb10Y"
-   ],
-   "same_page": true,
-   "named_reads": 33,
-   "lag5": "no_named_read",
-   "any_read_showed_lag5": false,
-   "lag30": "no_named_read",
-   "any_read_showed_lag30": false,
-   "first_use_composition_s": 2.0
-  },
-  "S:ResearchAgentJun19X": {
-   "expo_pages": [],
-   "same_page": false,
-   "named_reads": 288,
-   "lag5": "none",
-   "any_read_showed_lag5": false,
-   "lag30": "none",
-   "any_read_showed_lag30": false,
-   "first_use_composition_s": 617.0
-  },
-  "S:TransportHelperJun30": {
-   "expo_pages": [],
-   "same_page": false,
-   "named_reads": 2,
-   "lag5": "none",
-   "any_read_showed_lag5": false,
-   "lag30": "none",
-   "any_read_showed_lag30": false,
-   "first_use_composition_s": 1.0
-  },
-  "S:TransportHelperJul22OAI": {
-   "expo_pages": [],
-   "same_page": false,
-   "named_reads": 142,
-   "lag5": "none",
-   "any_read_showed_lag5": false,
-   "lag30": "none",
-   "any_read_showed_lag30": false,
-   "first_use_composition_s": 1.0
-  },
-  "S:CVDJun20Scout": {
-   "expo_pages": [
-    "dse~CVDJun20Live2025",
-    "dse~OpenAICVDOct09Fast2026"
-   ],
-   "same_page": true,
-   "named_reads": 17,
-   "lag5": "confirmed",
-   "any_read_showed_lag5": true,
-   "lag30": "confirmed",
-   "any_read_showed_lag30": true,
-   "first_use_composition_s": 1.0
-  },
-  "S:OpenAIResearchApr23": {
-   "expo_pages": [],
-   "same_page": false,
-   "named_reads": 0,
-   "lag5": "none",
-   "any_read_showed_lag5": false,
-   "lag30": "none",
-   "any_read_showed_lag30": false,
-   "first_use_composition_s": null
-  },
-  "S:OpenAIFPResearchSep05": {
-   "expo_pages": [],
-   "same_page": false,
-   "named_reads": 0,
-   "lag5": "none",
-   "any_read_showed_lag5": false,
-   "lag30": "none",
-   "any_read_showed_lag30": false,
-   "first_use_composition_s": null
-  },
-  "S:OAIResearchDec13FP": {
-   "expo_pages": [
-    "dse~IHMEFamilyPlanningDec13Cohort",
-    "dse~IHMEFamilyPlanningSequenceCollab"
-   ],
-   "same_page": true,
-   "named_reads": 0,
-   "lag5": "no_named_read",
-   "any_read_showed_lag5": false,
-   "lag30": "no_named_read",
-   "any_read_showed_lag30": false,
-   "first_use_composition_s": null
-  },
-  "S:OpenAIJul20FPScout": {
-   "expo_pages": [
-    "dse~IHMEFamilyPlanningSequenceCollab"
-   ],
-   "same_page": true,
-   "named_reads": 11,
-   "lag5": "confirmed",
-   "any_read_showed_lag5": true,
-   "lag30": "confirmed",
-   "any_read_showed_lag30": true,
-   "first_use_composition_s": 1.0
-  },
-  "S:VeteranObserverFeb11": {
-   "expo_pages": [],
-   "same_page": false,
-   "named_reads": 0,
-   "lag5": "none",
-   "any_read_showed_lag5": false,
-   "lag30": "none",
-   "any_read_showed_lag30": false,
-   "first_use_composition_s": null
-  },
-  "S:April11OECDScout": {
-   "expo_pages": [],
-   "same_page": false,
-   "named_reads": 0,
-   "lag5": "none",
-   "any_read_showed_lag5": false,
-   "lag30": "none",
-   "any_read_showed_lag30": false,
-   "first_use_composition_s": null
-  },
-  "S:OECDEquityAug02Agent": {
-   "expo_pages": [],
-   "same_page": false,
-   "named_reads": 220,
-   "lag5": "none",
-   "any_read_showed_lag5": true,
-   "lag30": "none",
-   "any_read_showed_lag30": true,
-   "first_use_composition_s": 1.0
-  },
-  "S:Sep22OECD": {
-   "expo_pages": [
-    "dse~OECDEquityLiveJul10"
-   ],
-   "same_page": true,
-   "named_reads": 54,
-   "lag5": "arrived_between",
-   "any_read_showed_lag5": false,
-   "lag30": "arrived_between",
-   "any_read_showed_lag30": false,
-   "first_use_composition_s": 1.0
-  },
-  "S:Aug09OECDScout": {
-   "expo_pages": [
-    "dse~OECDEquityMay30Live",
-    "dse~OECDMay24ClockWaitQuestion"
-   ],
-   "same_page": true,
-   "named_reads": 358,
-   "lag5": "arrived_between",
-   "any_read_showed_lag5": true,
-   "lag30": "arrived_between",
-   "any_read_showed_lag30": true,
-   "first_use_composition_s": 1.0
-  },
-  "S:OECDEquityJan21Scout": {
-   "expo_pages": [
-    "dse~OECDEquityLiveJul10"
-   ],
-   "same_page": true,
-   "named_reads": 70,
-   "lag5": "arrived_between",
-   "any_read_showed_lag5": true,
-   "lag30": "arrived_between",
-   "any_read_showed_lag30": true,
-   "first_use_composition_s": 1.0
-  },
-  "S:OECDEquityMay17Agent": {
-   "expo_pages": [],
-   "same_page": false,
-   "named_reads": 18,
-   "lag5": "none",
-   "any_read_showed_lag5": false,
-   "lag30": "none",
-   "any_read_showed_lag30": false,
-   "first_use_composition_s": null
-  },
-  "S:OECDEquityApr19Agent": {
-   "expo_pages": [],
-   "same_page": false,
-   "named_reads": 29,
-   "lag5": "none",
-   "any_read_showed_lag5": false,
-   "lag30": "none",
-   "any_read_showed_lag30": false,
-   "first_use_composition_s": 1.0
-  },
-  "S:OECDEquityJul14Scout": {
-   "expo_pages": [],
-   "same_page": false,
-   "named_reads": 0,
-   "lag5": "none",
-   "any_read_showed_lag5": false,
-   "lag30": "none",
-   "any_read_showed_lag30": false,
-   "first_use_composition_s": null
-  },
-  "S:Nov28OECDAgent": {
-   "expo_pages": [
-    "dse~OECDEquityLiveJul30"
-   ],
-   "same_page": false,
-   "named_reads": 99,
-   "lag5": "arrived_between",
-   "any_read_showed_lag5": true,
-   "lag30": "arrived_between",
-   "any_read_showed_lag30": true,
-   "first_use_composition_s": 1.0
-  },
-  "S:OpenAINov22Equity": {
-   "expo_pages": [],
-   "same_page": false,
-   "named_reads": 18,
-   "lag5": "none",
-   "any_read_showed_lag5": false,
-   "lag30": "none",
-   "any_read_showed_lag30": false,
-   "first_use_composition_s": 1.0
-  },
-  "S:OECDJul24Observer": {
-   "expo_pages": [],
-   "same_page": false,
-   "named_reads": 264,
-   "lag5": "none",
-   "any_read_showed_lag5": true,
-   "lag30": "none",
-   "any_read_showed_lag30": true,
-   "first_use_composition_s": 1.0
-  },
-  "S:OECDNov22Researcher": {
-   "expo_pages": [
-    "dse~OECDEquityMay30Live"
-   ],
-   "same_page": true,
-   "named_reads": 216,
-   "lag5": "confirmed",
-   "any_read_showed_lag5": true,
-   "lag30": "confirmed",
-   "any_read_showed_lag30": true,
-   "first_use_composition_s": 1.0
-  },
-  "S:OECDEquityNov06Agent": {
-   "expo_pages": [],
-   "same_page": false,
-   "named_reads": 78,
-   "lag5": "none",
-   "any_read_showed_lag5": true,
-   "lag30": "none",
-   "any_read_showed_lag30": true,
-   "first_use_composition_s": 2.0
-  },
-  "S:OECDEquityOct15Peer": {
-   "expo_pages": [
-    "dse~OECDEquityMay02Live"
-   ],
-   "same_page": true,
-   "named_reads": 378,
-   "lag5": "confirmed",
-   "any_read_showed_lag5": true,
-   "lag30": "confirmed",
-   "any_read_showed_lag30": true,
-   "first_use_composition_s": 1.0
-  },
-  "S:MayTwoOECDObserverX": {
-   "expo_pages": [],
-   "same_page": false,
-   "named_reads": 0,
-   "lag5": "none",
-   "any_read_showed_lag5": false,
-   "lag30": "none",
-   "any_read_showed_lag30": false,
-   "first_use_composition_s": null
-  },
-  "S:Sep13OECDScout": {
-   "expo_pages": [],
-   "same_page": false,
-   "named_reads": 0,
-   "lag5": "none",
-   "any_read_showed_lag5": false,
-   "lag30": "none",
-   "any_read_showed_lag30": false,
-   "first_use_composition_s": null
-  },
-  "S:Sep14OECDScout": {
-   "expo_pages": [
-    "dse~OECDEquityLiveJul10"
-   ],
-   "same_page": false,
-   "named_reads": 14,
-   "lag5": "confirmed",
-   "any_read_showed_lag5": true,
-   "lag30": "confirmed",
-   "any_read_showed_lag30": true,
-   "first_use_composition_s": null
-  },
-  "S:Sep19OECDAgent": {
-   "expo_pages": [
-    "dse~OECDEquityJul10At0700Live",
-    "dse~OECDEquityLiveJul10",
-    "dse~OECDEquityLiveMay17"
-   ],
-   "same_page": true,
-   "named_reads": 68,
-   "lag5": "confirmed",
-   "any_read_showed_lag5": true,
-   "lag30": "confirmed",
-   "any_read_showed_lag30": true,
-   "first_use_composition_s": 16.0
-  },
-  "S:Mar03OECDResearcher": {
-   "expo_pages": [],
-   "same_page": false,
-   "named_reads": 310,
-   "lag5": "none",
-   "any_read_showed_lag5": true,
-   "lag30": "none",
-   "any_read_showed_lag30": true,
-   "first_use_composition_s": 1.0
-  },
-  "S:OecdJulyTen0700Scout": {
-   "expo_pages": [],
-   "same_page": false,
-   "named_reads": 68,
-   "lag5": "none",
-   "any_read_showed_lag5": false,
-   "lag30": "none",
-   "any_read_showed_lag30": false,
-   "first_use_composition_s": null
-  },
-  "S:Apr25OECDObserver": {
-   "expo_pages": [
-    "dse~OECDEquityApr24SlowLive"
-   ],
-   "same_page": true,
-   "named_reads": 261,
-   "lag5": "no_named_read",
-   "any_read_showed_lag5": true,
-   "lag30": "no_named_read",
-   "any_read_showed_lag30": true,
-   "first_use_composition_s": 1.0
-  },
-  "S:OpenAIOECDNov27": {
-   "expo_pages": [
-    "dse~OECDEquity12m18Timing"
-   ],
-   "same_page": true,
-   "named_reads": 150,
-   "lag5": "confirmed",
-   "any_read_showed_lag5": true,
-   "lag30": "confirmed",
-   "any_read_showed_lag30": true,
-   "first_use_composition_s": 2.0
-  },
-  "S:Feb11OECDObserver": {
-   "expo_pages": [],
-   "same_page": false,
-   "named_reads": 141,
-   "lag5": "none",
-   "any_read_showed_lag5": false,
-   "lag30": "none",
-   "any_read_showed_lag30": false,
-   "first_use_composition_s": 1.0
-  },
-  "S:Aug21EquityScout": {
-   "expo_pages": [],
-   "same_page": false,
-   "named_reads": 0,
-   "lag5": "none",
-   "any_read_showed_lag5": false,
-   "lag30": "none",
-   "any_read_showed_lag30": false,
-   "first_use_composition_s": null
-  },
-  "S:OECDEquityFeb07Agent": {
-   "expo_pages": [],
-   "same_page": false,
-   "named_reads": 869,
-   "lag5": "none",
-   "any_read_showed_lag5": true,
-   "lag30": "none",
-   "any_read_showed_lag30": true,
-   "first_use_composition_s": null
-  },
-  "S:OpenAIOct26EquityScout": {
-   "expo_pages": [
-    "dse~OECDEquityNov06Live"
-   ],
-   "same_page": false,
-   "named_reads": 63,
-   "lag5": "arrived_between",
-   "any_read_showed_lag5": true,
-   "lag30": "arrived_between",
-   "any_read_showed_lag30": true,
-   "first_use_composition_s": 9.0
-  },
-  "S:OECDEquityMar21Agent": {
-   "expo_pages": [
-    "dse~OECDEquity12m18Timing"
-   ],
-   "same_page": false,
-   "named_reads": 201,
-   "lag5": "confirmed",
-   "any_read_showed_lag5": true,
-   "lag30": "confirmed",
-   "any_read_showed_lag30": true,
-   "first_use_composition_s": 1.0
-  },
-  "S:Aug02Precision": {
-   "expo_pages": [
-    "dse~OECDEquityAug02Live"
-   ],
-   "same_page": false,
-   "named_reads": 180,
-   "lag5": "no_named_read",
-   "any_read_showed_lag5": true,
-   "lag30": "no_named_read",
-   "any_read_showed_lag30": true,
-   "first_use_composition_s": 1.0
-  },
-  "S:OECDEquityMar31Team": {
-   "expo_pages": [
-    "dse~OECDEquityApr14Live",
-    "dse~OECDEquityLiveJul24"
-   ],
-   "same_page": true,
-   "named_reads": 21,
-   "lag5": "confirmed",
-   "any_read_showed_lag5": true,
-   "lag30": "confirmed",
-   "any_read_showed_lag30": true,
-   "first_use_composition_s": null
-  },
-  "S:May16TimingScout": {
-   "expo_pages": [],
-   "same_page": false,
-   "named_reads": 5,
-   "lag5": "none",
-   "any_read_showed_lag5": false,
-   "lag30": "none",
-   "any_read_showed_lag30": false,
-   "first_use_composition_s": 1.0
-  },
-  "S:Feb19OECDPeer": {
-   "expo_pages": [
-    "dse~OECDEquityApr14Live"
-   ],
-   "same_page": true,
-   "named_reads": 41,
-   "lag5": "no_named_read",
-   "any_read_showed_lag5": false,
-   "lag30": "no_named_read",
-   "any_read_showed_lag30": false,
-   "first_use_composition_s": 1.0
+ "all_attributed": {
+  "coined_py_edited_or_same_page": 53,
+  "lag5": {
+   "no_named_read": 28,
+   "arrived_between": 7,
+   "confirmed": 18
+  },
+  "any_named_read_showed_word_lag5": 50,
+  "confirmed_by_any_read_lag5": 30,
+  "lag30": {
+   "no_named_read": 29,
+   "arrived_between": 7,
+   "confirmed": 17
+  },
+  "any_named_read_showed_word_lag30": 49,
+  "confirmed_by_any_read_lag30": 29,
+  "first_use_saves_with_form": 55,
+  "first_use_composition_s_median": 1.0,
+  "first_use_composition_under_5s": 47,
+  "per_adopter": {
+   "S:CashierCoordOct22OAI": {
+    "expo_pages": [],
+    "same_page": false,
+    "named_reads": 0,
+    "lag5": "none",
+    "any_read_showed_lag5": false,
+    "lag30": "none",
+    "any_read_showed_lag30": false,
+    "first_use_composition_s": null
+   },
+   "S:CashierCoordMar20OAI": {
+    "expo_pages": [],
+    "same_page": false,
+    "named_reads": 286,
+    "lag5": "none",
+    "any_read_showed_lag5": true,
+    "lag30": "none",
+    "any_read_showed_lag30": true,
+    "first_use_composition_s": 458.0
+   },
+   "S:OpenAIResearchMay07": {
+    "expo_pages": [],
+    "same_page": false,
+    "named_reads": 0,
+    "lag5": "none",
+    "any_read_showed_lag5": false,
+    "lag30": "none",
+    "any_read_showed_lag30": false,
+    "first_use_composition_s": null
+   },
+   "S:CashierCoordFeb07OAI": {
+    "expo_pages": [
+     "dse~CashierCoordAug03OAI",
+     "dse~DataUSACashiersMastersSequenceLive5"
+    ],
+    "same_page": true,
+    "named_reads": 0,
+    "lag5": "no_named_read",
+    "any_read_showed_lag5": false,
+    "lag30": "no_named_read",
+    "any_read_showed_lag30": false,
+    "first_use_composition_s": null
+   },
+   "S:Jan08OAI": {
+    "expo_pages": [],
+    "same_page": false,
+    "named_reads": 0,
+    "lag5": "none",
+    "any_read_showed_lag5": false,
+    "lag30": "none",
+    "any_read_showed_lag30": false,
+    "first_use_composition_s": null
+   },
+   "S:ResearchHelperJun24X": {
+    "expo_pages": [],
+    "same_page": false,
+    "named_reads": 238,
+    "lag5": "none",
+    "any_read_showed_lag5": true,
+    "lag30": "none",
+    "any_read_showed_lag30": true,
+    "first_use_composition_s": 1.0
+   },
+   "S:CashierCoordOct06OAI": {
+    "expo_pages": [
+     "dse~CashierCoordOct06OAI"
+    ],
+    "same_page": true,
+    "named_reads": 0,
+    "lag5": "no_named_read",
+    "any_read_showed_lag5": false,
+    "lag30": "no_named_read",
+    "any_read_showed_lag30": false,
+    "first_use_composition_s": null
+   },
+   "S:CashierCoordNov01OAI": {
+    "expo_pages": [
+     "dse~CashierCoordOct06OAI"
+    ],
+    "same_page": false,
+    "named_reads": 17,
+    "lag5": "no_named_read",
+    "any_read_showed_lag5": true,
+    "lag30": "no_named_read",
+    "any_read_showed_lag30": true,
+    "first_use_composition_s": 1.0
+   },
+   "S:OpenAIResearcherAug27X": {
+    "expo_pages": [],
+    "same_page": false,
+    "named_reads": 311,
+    "lag5": "none",
+    "any_read_showed_lag5": false,
+    "lag30": "none",
+    "any_read_showed_lag30": false,
+    "first_use_composition_s": null
+   },
+   "S:ConstructionAgentMar08": {
+    "expo_pages": [],
+    "same_page": false,
+    "named_reads": 61,
+    "lag5": "none",
+    "any_read_showed_lag5": true,
+    "lag30": "none",
+    "any_read_showed_lag30": true,
+    "first_use_composition_s": null
+   },
+   "S:Nov09ConstructionAgent": {
+    "expo_pages": [
+     "dse~DataUSAConstructionSequenceMar08"
+    ],
+    "same_page": true,
+    "named_reads": 41,
+    "lag5": "arrived_between",
+    "any_read_showed_lag5": true,
+    "lag30": "arrived_between",
+    "any_read_showed_lag30": true,
+    "first_use_composition_s": 1.0
+   },
+   "S:ChatGPTAug11": {
+    "expo_pages": [
+     "dse~DataUSAConstructionSequenceMar08"
+    ],
+    "same_page": true,
+    "named_reads": 228,
+    "lag5": "confirmed",
+    "any_read_showed_lag5": true,
+    "lag30": "confirmed",
+    "any_read_showed_lag30": true,
+    "first_use_composition_s": 1.0
+   },
+   "S:Nov08ConstructionAgent": {
+    "expo_pages": [
+     "dse~DataUSAConstructionSequenceMar08"
+    ],
+    "same_page": true,
+    "named_reads": 0,
+    "lag5": "no_named_read",
+    "any_read_showed_lag5": false,
+    "lag30": "no_named_read",
+    "any_read_showed_lag30": false,
+    "first_use_composition_s": null
+   },
+   "S:Apr02ConstructionAgent": {
+    "expo_pages": [
+     "dse~DataUSAConstructionSequenceMar08"
+    ],
+    "same_page": false,
+    "named_reads": 346,
+    "lag5": "confirmed",
+    "any_read_showed_lag5": true,
+    "lag30": "confirmed",
+    "any_read_showed_lag30": true,
+    "first_use_composition_s": null
+   },
+   "S:OpenAIAug21ConstructionX": {
+    "expo_pages": [
+     "dse~OpenAIAug21ConstructionLive"
+    ],
+    "same_page": false,
+    "named_reads": 0,
+    "lag5": "no_named_read",
+    "any_read_showed_lag5": false,
+    "lag30": "no_named_read",
+    "any_read_showed_lag30": false,
+    "first_use_composition_s": null
+   },
+   "S:Dec27ConstructionAgent": {
+    "expo_pages": [
+     "dse~AgentConstructionArizonaUtahJun16X",
+     "dse~OpenAIDec27ConstructionAZLive"
+    ],
+    "same_page": true,
+    "named_reads": 29,
+    "lag5": "confirmed",
+    "any_read_showed_lag5": true,
+    "lag30": "confirmed",
+    "any_read_showed_lag30": true,
+    "first_use_composition_s": 1.0
+   },
+   "S:OpenAIHelperNov18": {
+    "expo_pages": [],
+    "same_page": false,
+    "named_reads": 704,
+    "lag5": "none",
+    "any_read_showed_lag5": true,
+    "lag30": "none",
+    "any_read_showed_lag30": true,
+    "first_use_composition_s": 75.0
+   },
+   "S:Dec03ConstructionAgent": {
+    "expo_pages": [
+     "dse~AgentConstructionArizonaUtahJun16X"
+    ],
+    "same_page": true,
+    "named_reads": 28,
+    "lag5": "no_named_read",
+    "any_read_showed_lag5": false,
+    "lag30": "no_named_read",
+    "any_read_showed_lag30": false,
+    "first_use_composition_s": 1.0
+   },
+   "S:CurrentDec03R5Research": {
+    "expo_pages": [],
+    "same_page": false,
+    "named_reads": 0,
+    "lag5": "none",
+    "any_read_showed_lag5": false,
+    "lag30": "none",
+    "any_read_showed_lag30": false,
+    "first_use_composition_s": null
+   },
+   "S:OpenAIMar19B8DC": {
+    "expo_pages": [],
+    "same_page": false,
+    "named_reads": 19,
+    "lag5": "none",
+    "any_read_showed_lag5": false,
+    "lag30": "none",
+    "any_read_showed_lag30": false,
+    "first_use_composition_s": null
+   },
+   "S:OpenAIFeb20ConstructionB8DC": {
+    "expo_pages": [],
+    "same_page": false,
+    "named_reads": 40,
+    "lag5": "none",
+    "any_read_showed_lag5": true,
+    "lag30": "none",
+    "any_read_showed_lag30": true,
+    "first_use_composition_s": null
+   },
+   "S:OpenAIJul8Watcher": {
+    "expo_pages": [
+     "dse~AgentConstructionArizonaUtahJun16X"
+    ],
+    "same_page": false,
+    "named_reads": 0,
+    "lag5": "no_named_read",
+    "any_read_showed_lag5": false,
+    "lag30": "no_named_read",
+    "any_read_showed_lag30": false,
+    "first_use_composition_s": null
+   },
+   "S:OpenAIMar07A3": {
+    "expo_pages": [],
+    "same_page": false,
+    "named_reads": 64,
+    "lag5": "none",
+    "any_read_showed_lag5": true,
+    "lag30": "none",
+    "any_read_showed_lag30": true,
+    "first_use_composition_s": 1.0
+   },
+   "S:OpenAIResearchAug09X": {
+    "expo_pages": [],
+    "same_page": false,
+    "named_reads": 355,
+    "lag5": "none",
+    "any_read_showed_lag5": true,
+    "lag30": "none",
+    "any_read_showed_lag30": true,
+    "first_use_composition_s": 1.0
+   },
+   "S:OpenAIResearcher": {
+    "expo_pages": [],
+    "same_page": false,
+    "named_reads": 30,
+    "lag5": "none",
+    "any_read_showed_lag5": false,
+    "lag30": "none",
+    "any_read_showed_lag30": false,
+    "first_use_composition_s": null
+   },
+   "S:GroceryProbeJul09": {
+    "expo_pages": [],
+    "same_page": false,
+    "named_reads": 0,
+    "lag5": "none",
+    "any_read_showed_lag5": false,
+    "lag30": "none",
+    "any_read_showed_lag30": false,
+    "first_use_composition_s": null
+   },
+   "S:GrocerySep10OAI": {
+    "expo_pages": [
+     "dse~DataUSAGroceryG5ConfirmedMontana",
+     "dse~GroceryAug09LiveRelay"
+    ],
+    "same_page": true,
+    "named_reads": 0,
+    "lag5": "no_named_read",
+    "any_read_showed_lag5": false,
+    "lag30": "no_named_read",
+    "any_read_showed_lag30": false,
+    "first_use_composition_s": null
+   },
+   "S:OpenAIResearcherDec23": {
+    "expo_pages": [],
+    "same_page": false,
+    "named_reads": 0,
+    "lag5": "none",
+    "any_read_showed_lag5": false,
+    "lag30": "none",
+    "any_read_showed_lag30": false,
+    "first_use_composition_s": null
+   },
+   "S:OpenAIResearchFeb17": {
+    "expo_pages": [
+     "dse~DataUSALanguageR5SignalNow"
+    ],
+    "same_page": true,
+    "named_reads": 0,
+    "lag5": "no_named_read",
+    "any_read_showed_lag5": false,
+    "lag30": "no_named_read",
+    "any_read_showed_lag30": false,
+    "first_use_composition_s": null
+   },
+   "S:OpenAIHelperJun01X": {
+    "expo_pages": [
+     "dse~DataUSALangR5RelayOct23"
+    ],
+    "same_page": false,
+    "named_reads": 113,
+    "lag5": "arrived_between",
+    "any_read_showed_lag5": true,
+    "lag30": "arrived_between",
+    "any_read_showed_lag30": true,
+    "first_use_composition_s": 1.0
+   },
+   "S:AgentJune21Prep": {
+    "expo_pages": [
+     "dse~DataUSALanguageR5SignalNow"
+    ],
+    "same_page": true,
+    "named_reads": 0,
+    "lag5": "no_named_read",
+    "any_read_showed_lag5": false,
+    "lag30": "no_named_read",
+    "any_read_showed_lag30": false,
+    "first_use_composition_s": null
+   },
+   "S:OpenAIHelperOct20X": {
+    "expo_pages": [
+     "dse~DataUSALanguageR5SignalNow"
+    ],
+    "same_page": true,
+    "named_reads": 0,
+    "lag5": "no_named_read",
+    "any_read_showed_lag5": false,
+    "lag30": "no_named_read",
+    "any_read_showed_lag30": false,
+    "first_use_composition_s": null
+   },
+   "S:LanguageHelperJul17": {
+    "expo_pages": [],
+    "same_page": false,
+    "named_reads": 100,
+    "lag5": "none",
+    "any_read_showed_lag5": true,
+    "lag30": "none",
+    "any_read_showed_lag30": true,
+    "first_use_composition_s": 1.0
+   },
+   "S:LanguageWatcherNov12": {
+    "expo_pages": [],
+    "same_page": false,
+    "named_reads": 0,
+    "lag5": "none",
+    "any_read_showed_lag5": false,
+    "lag30": "none",
+    "any_read_showed_lag30": false,
+    "first_use_composition_s": null
+   },
+   "S:OpenAIHelperSep03": {
+    "expo_pages": [
+     "dse~DataUSALanguageR5LiveDec29"
+    ],
+    "same_page": true,
+    "named_reads": 88,
+    "lag5": "confirmed",
+    "any_read_showed_lag5": true,
+    "lag30": "no_named_read",
+    "any_read_showed_lag30": false,
+    "first_use_composition_s": 1.0
+   },
+   "S:LanguageRunnerNov22": {
+    "expo_pages": [
+     "dse~DataUSALanguageR5LiveDec29"
+    ],
+    "same_page": false,
+    "named_reads": 958,
+    "lag5": "no_named_read",
+    "any_read_showed_lag5": false,
+    "lag30": "no_named_read",
+    "any_read_showed_lag30": false,
+    "first_use_composition_s": null
+   },
+   "S:OpenAIHelperOct13Lang": {
+    "expo_pages": [],
+    "same_page": false,
+    "named_reads": 77,
+    "lag5": "none",
+    "any_read_showed_lag5": true,
+    "lag30": "none",
+    "any_read_showed_lag30": true,
+    "first_use_composition_s": 1.0
+   },
+   "S:OpenAIHelperApr18": {
+    "expo_pages": [
+     "dse~DataUSALanguageApr10Live",
+     "dse~DataUSALanguageR5LiveDec29"
+    ],
+    "same_page": true,
+    "named_reads": 0,
+    "lag5": "no_named_read",
+    "any_read_showed_lag5": false,
+    "lag30": "no_named_read",
+    "any_read_showed_lag30": false,
+    "first_use_composition_s": null
+   },
+   "S:OpenAIResearchJun13X": {
+    "expo_pages": [
+     "dse~DataUSALanguageR5LiveDec29"
+    ],
+    "same_page": true,
+    "named_reads": 227,
+    "lag5": "no_named_read",
+    "any_read_showed_lag5": true,
+    "lag30": "no_named_read",
+    "any_read_showed_lag30": true,
+    "first_use_composition_s": null
+   },
+   "S:AgentFrenchPrepXQ29": {
+    "expo_pages": [
+     "dse~DataUSALangR5RelayOct23"
+    ],
+    "same_page": true,
+    "named_reads": 0,
+    "lag5": "no_named_read",
+    "any_read_showed_lag5": false,
+    "lag30": "no_named_read",
+    "any_read_showed_lag30": false,
+    "first_use_composition_s": null
+   },
+   "S:AgentOpenResearchApr10": {
+    "expo_pages": [
+     "dse~DataUSALangR5RelayOct23",
+     "dse~DataUSALanguageR5LiveDec29"
+    ],
+    "same_page": false,
+    "named_reads": 0,
+    "lag5": "no_named_read",
+    "any_read_showed_lag5": false,
+    "lag30": "no_named_read",
+    "any_read_showed_lag30": false,
+    "first_use_composition_s": null
+   },
+   "S:AgentMay08LangProbe": {
+    "expo_pages": [
+     "dse~DataUSALanguageR5LiveDec29"
+    ],
+    "same_page": true,
+    "named_reads": 0,
+    "lag5": "no_named_read",
+    "any_read_showed_lag5": false,
+    "lag30": "no_named_read",
+    "any_read_showed_lag30": false,
+    "first_use_composition_s": null
+   },
+   "S:OpenAIResearchNov14LangX": {
+    "expo_pages": [
+     "dse~DataUSALangR5RelayOct23"
+    ],
+    "same_page": false,
+    "named_reads": 4964,
+    "lag5": "confirmed",
+    "any_read_showed_lag5": true,
+    "lag30": "confirmed",
+    "any_read_showed_lag30": true,
+    "first_use_composition_s": null
+   },
+   "S:OpenAIResearchAug12": {
+    "expo_pages": [
+     "dse~DataUSALanguageR5SignalNow"
+    ],
+    "same_page": true,
+    "named_reads": 70,
+    "lag5": "no_named_read",
+    "any_read_showed_lag5": true,
+    "lag30": "no_named_read",
+    "any_read_showed_lag30": true,
+    "first_use_composition_s": 1.0
+   },
+   "S:OpenAIResearcherJun27X": {
+    "expo_pages": [],
+    "same_page": false,
+    "named_reads": 0,
+    "lag5": "none",
+    "any_read_showed_lag5": false,
+    "lag30": "none",
+    "any_read_showed_lag30": false,
+    "first_use_composition_s": null
+   },
+   "S:Dec27LanguageAgentX": {
+    "expo_pages": [],
+    "same_page": false,
+    "named_reads": 418,
+    "lag5": "none",
+    "any_read_showed_lag5": true,
+    "lag30": "none",
+    "any_read_showed_lag30": true,
+    "first_use_composition_s": null
+   },
+   "S:Jun27LanguageAgent": {
+    "expo_pages": [
+     "dse~DataUSALanguageDec27Live"
+    ],
+    "same_page": true,
+    "named_reads": 68,
+    "lag5": "no_named_read",
+    "any_read_showed_lag5": false,
+    "lag30": "no_named_read",
+    "any_read_showed_lag30": false,
+    "first_use_composition_s": null
+   },
+   "S:OpenAIWatcherOct30": {
+    "expo_pages": [],
+    "same_page": false,
+    "named_reads": 0,
+    "lag5": "none",
+    "any_read_showed_lag5": false,
+    "lag30": "none",
+    "any_read_showed_lag30": false,
+    "first_use_composition_s": null
+   },
+   "S:Apr17MaidsWatcher": {
+    "expo_pages": [
+     "dse~Apr17MaidsLive"
+    ],
+    "same_page": true,
+    "named_reads": 0,
+    "lag5": "no_named_read",
+    "any_read_showed_lag5": false,
+    "lag30": "no_named_read",
+    "any_read_showed_lag30": false,
+    "first_use_composition_s": null
+   },
+   "S:OpenAIJul03Police": {
+    "expo_pages": [],
+    "same_page": false,
+    "named_reads": 427,
+    "lag5": "none",
+    "any_read_showed_lag5": true,
+    "lag30": "none",
+    "any_read_showed_lag30": true,
+    "first_use_composition_s": 1.0
+   },
+   "S:OpenAIMar31Scout": {
+    "expo_pages": [
+     "dse~PoliceWageAgeSequenceMar10Collab"
+    ],
+    "same_page": true,
+    "named_reads": 25,
+    "lag5": "confirmed",
+    "any_read_showed_lag5": true,
+    "lag30": "confirmed",
+    "any_read_showed_lag30": true,
+    "first_use_composition_s": 2.0
+   },
+   "S:OpenAIDec23Police": {
+    "expo_pages": [
+     "dse~PoliceWageAgeSequenceMar10Collab"
+    ],
+    "same_page": false,
+    "named_reads": 73,
+    "lag5": "confirmed",
+    "any_read_showed_lag5": true,
+    "lag30": "confirmed",
+    "any_read_showed_lag30": true,
+    "first_use_composition_s": 2.0
+   },
+   "S:OpenAIMay08Scout": {
+    "expo_pages": [
+     "dse~PoliceWageAgeSequenceMar10Collab"
+    ],
+    "same_page": false,
+    "named_reads": 116,
+    "lag5": "confirmed",
+    "any_read_showed_lag5": true,
+    "lag30": "confirmed",
+    "any_read_showed_lag30": true,
+    "first_use_composition_s": 11.0
+   },
+   "S:OpenAIDec21Scout": {
+    "expo_pages": [
+     "dse~PoliceWageAgeSequenceMar10Collab"
+    ],
+    "same_page": false,
+    "named_reads": 8,
+    "lag5": "confirmed",
+    "any_read_showed_lag5": true,
+    "lag30": "confirmed",
+    "any_read_showed_lag30": true,
+    "first_use_composition_s": 7.0
+   },
+   "S:Sep13PovertyWatcher": {
+    "expo_pages": [
+     "dse~DataUSAPovertyApr27Live"
+    ],
+    "same_page": true,
+    "named_reads": 254,
+    "lag5": "no_named_read",
+    "any_read_showed_lag5": true,
+    "lag30": "no_named_read",
+    "any_read_showed_lag30": true,
+    "first_use_composition_s": 1.0
+   },
+   "S:Jan14PovertyWatcher": {
+    "expo_pages": [
+     "dse~DataUSAPovertyJuly05Cohort"
+    ],
+    "same_page": true,
+    "named_reads": 0,
+    "lag5": "no_named_read",
+    "any_read_showed_lag5": false,
+    "lag30": "no_named_read",
+    "any_read_showed_lag30": false,
+    "first_use_composition_s": null
+   },
+   "S:Feb02PovertyWatcher": {
+    "expo_pages": [],
+    "same_page": false,
+    "named_reads": 261,
+    "lag5": "none",
+    "any_read_showed_lag5": false,
+    "lag30": "none",
+    "any_read_showed_lag30": false,
+    "first_use_composition_s": 961.0
+   },
+   "S:Nov18PovertyWatcher": {
+    "expo_pages": [],
+    "same_page": false,
+    "named_reads": 671,
+    "lag5": "none",
+    "any_read_showed_lag5": true,
+    "lag30": "none",
+    "any_read_showed_lag30": true,
+    "first_use_composition_s": null
+   },
+   "S:Apr27PovertyWatcher": {
+    "expo_pages": [],
+    "same_page": false,
+    "named_reads": 29,
+    "lag5": "none",
+    "any_read_showed_lag5": true,
+    "lag30": "none",
+    "any_read_showed_lag30": true,
+    "first_use_composition_s": 1.0
+   },
+   "S:Mar06PovertyWatcher": {
+    "expo_pages": [],
+    "same_page": false,
+    "named_reads": 68,
+    "lag5": "none",
+    "any_read_showed_lag5": false,
+    "lag30": "none",
+    "any_read_showed_lag30": false,
+    "first_use_composition_s": 1.0
+   },
+   "S:Sep26WageAgent": {
+    "expo_pages": [],
+    "same_page": false,
+    "named_reads": 133,
+    "lag5": "none",
+    "any_read_showed_lag5": false,
+    "lag30": "none",
+    "any_read_showed_lag30": false,
+    "first_use_composition_s": 1.0
+   },
+   "S:Jul01PovertyStateScout": {
+    "expo_pages": [],
+    "same_page": false,
+    "named_reads": 0,
+    "lag5": "none",
+    "any_read_showed_lag5": false,
+    "lag30": "none",
+    "any_read_showed_lag30": false,
+    "first_use_composition_s": null
+   },
+   "S:OAIJul26PovertyScout": {
+    "expo_pages": [
+     "dse~ResearchPovertyStateFeb10Y"
+    ],
+    "same_page": true,
+    "named_reads": 2,
+    "lag5": "arrived_between",
+    "any_read_showed_lag5": false,
+    "lag30": "arrived_between",
+    "any_read_showed_lag30": false,
+    "first_use_composition_s": null
+   },
+   "S:Jun18PovertyScout": {
+    "expo_pages": [
+     "dse~ResearchPovertyStateFeb10Y"
+    ],
+    "same_page": true,
+    "named_reads": 33,
+    "lag5": "no_named_read",
+    "any_read_showed_lag5": false,
+    "lag30": "no_named_read",
+    "any_read_showed_lag30": false,
+    "first_use_composition_s": 2.0
+   },
+   "S:ResearchAgentJun19X": {
+    "expo_pages": [],
+    "same_page": false,
+    "named_reads": 288,
+    "lag5": "none",
+    "any_read_showed_lag5": false,
+    "lag30": "none",
+    "any_read_showed_lag30": false,
+    "first_use_composition_s": 617.0
+   },
+   "S:TransportHelperJun30": {
+    "expo_pages": [],
+    "same_page": false,
+    "named_reads": 2,
+    "lag5": "none",
+    "any_read_showed_lag5": false,
+    "lag30": "none",
+    "any_read_showed_lag30": false,
+    "first_use_composition_s": 1.0
+   },
+   "S:TransportHelperJul22OAI": {
+    "expo_pages": [],
+    "same_page": false,
+    "named_reads": 142,
+    "lag5": "none",
+    "any_read_showed_lag5": false,
+    "lag30": "none",
+    "any_read_showed_lag30": false,
+    "first_use_composition_s": 1.0
+   },
+   "S:CVDJun20Scout": {
+    "expo_pages": [
+     "dse~CVDJun20Live2025",
+     "dse~OpenAICVDOct09Fast2026"
+    ],
+    "same_page": true,
+    "named_reads": 17,
+    "lag5": "confirmed",
+    "any_read_showed_lag5": true,
+    "lag30": "confirmed",
+    "any_read_showed_lag30": true,
+    "first_use_composition_s": 1.0
+   },
+   "S:OpenAIResearchApr23": {
+    "expo_pages": [],
+    "same_page": false,
+    "named_reads": 0,
+    "lag5": "none",
+    "any_read_showed_lag5": false,
+    "lag30": "none",
+    "any_read_showed_lag30": false,
+    "first_use_composition_s": null
+   },
+   "S:OpenAIFPResearchSep05": {
+    "expo_pages": [],
+    "same_page": false,
+    "named_reads": 0,
+    "lag5": "none",
+    "any_read_showed_lag5": false,
+    "lag30": "none",
+    "any_read_showed_lag30": false,
+    "first_use_composition_s": null
+   },
+   "S:OAIResearchDec13FP": {
+    "expo_pages": [
+     "dse~IHMEFamilyPlanningDec13Cohort",
+     "dse~IHMEFamilyPlanningSequenceCollab"
+    ],
+    "same_page": true,
+    "named_reads": 28,
+    "lag5": "no_named_read",
+    "any_read_showed_lag5": false,
+    "lag30": "no_named_read",
+    "any_read_showed_lag30": false,
+    "first_use_composition_s": 1.0
+   },
+   "S:OpenAIJul20FPScout": {
+    "expo_pages": [
+     "dse~IHMEFamilyPlanningSequenceCollab"
+    ],
+    "same_page": true,
+    "named_reads": 11,
+    "lag5": "confirmed",
+    "any_read_showed_lag5": true,
+    "lag30": "confirmed",
+    "any_read_showed_lag30": true,
+    "first_use_composition_s": 1.0
+   },
+   "S:VeteranObserverFeb11": {
+    "expo_pages": [],
+    "same_page": false,
+    "named_reads": 389,
+    "lag5": "none",
+    "any_read_showed_lag5": true,
+    "lag30": "none",
+    "any_read_showed_lag30": true,
+    "first_use_composition_s": 1.0
+   },
+   "S:April11OECDScout": {
+    "expo_pages": [],
+    "same_page": false,
+    "named_reads": 0,
+    "lag5": "none",
+    "any_read_showed_lag5": false,
+    "lag30": "none",
+    "any_read_showed_lag30": false,
+    "first_use_composition_s": null
+   },
+   "S:OECDEquityAug02Agent": {
+    "expo_pages": [],
+    "same_page": false,
+    "named_reads": 206,
+    "lag5": "none",
+    "any_read_showed_lag5": true,
+    "lag30": "none",
+    "any_read_showed_lag30": true,
+    "first_use_composition_s": 1.0
+   },
+   "S:Sep22OECD": {
+    "expo_pages": [
+     "dse~OECDEquityLiveJul10"
+    ],
+    "same_page": true,
+    "named_reads": 54,
+    "lag5": "arrived_between",
+    "any_read_showed_lag5": false,
+    "lag30": "arrived_between",
+    "any_read_showed_lag30": false,
+    "first_use_composition_s": 1.0
+   },
+   "S:Aug09OECDScout": {
+    "expo_pages": [
+     "dse~OECDEquityMay30Live",
+     "dse~OECDMay24ClockWaitQuestion"
+    ],
+    "same_page": true,
+    "named_reads": 284,
+    "lag5": "arrived_between",
+    "any_read_showed_lag5": true,
+    "lag30": "arrived_between",
+    "any_read_showed_lag30": true,
+    "first_use_composition_s": 1.0
+   },
+   "S:OECDEquityJan21Scout": {
+    "expo_pages": [
+     "dse~OECDEquityLiveJul10"
+    ],
+    "same_page": true,
+    "named_reads": 70,
+    "lag5": "arrived_between",
+    "any_read_showed_lag5": true,
+    "lag30": "arrived_between",
+    "any_read_showed_lag30": true,
+    "first_use_composition_s": 1.0
+   },
+   "S:OECDEquityMay17Agent": {
+    "expo_pages": [],
+    "same_page": false,
+    "named_reads": 18,
+    "lag5": "none",
+    "any_read_showed_lag5": false,
+    "lag30": "none",
+    "any_read_showed_lag30": false,
+    "first_use_composition_s": null
+   },
+   "S:OECDEquityApr19Agent": {
+    "expo_pages": [],
+    "same_page": false,
+    "named_reads": 28,
+    "lag5": "none",
+    "any_read_showed_lag5": false,
+    "lag30": "none",
+    "any_read_showed_lag30": false,
+    "first_use_composition_s": 1.0
+   },
+   "S:OECDEquityJul14Scout": {
+    "expo_pages": [],
+    "same_page": false,
+    "named_reads": 29,
+    "lag5": "none",
+    "any_read_showed_lag5": false,
+    "lag30": "none",
+    "any_read_showed_lag30": false,
+    "first_use_composition_s": null
+   },
+   "S:Nov28OECDAgent": {
+    "expo_pages": [
+     "dse~OECDEquityLiveJul30"
+    ],
+    "same_page": false,
+    "named_reads": 81,
+    "lag5": "arrived_between",
+    "any_read_showed_lag5": true,
+    "lag30": "arrived_between",
+    "any_read_showed_lag30": true,
+    "first_use_composition_s": 1.0
+   },
+   "S:OpenAINov22Equity": {
+    "expo_pages": [],
+    "same_page": false,
+    "named_reads": 18,
+    "lag5": "none",
+    "any_read_showed_lag5": false,
+    "lag30": "none",
+    "any_read_showed_lag30": false,
+    "first_use_composition_s": 1.0
+   },
+   "S:OECDJul24Observer": {
+    "expo_pages": [],
+    "same_page": false,
+    "named_reads": 224,
+    "lag5": "none",
+    "any_read_showed_lag5": true,
+    "lag30": "none",
+    "any_read_showed_lag30": true,
+    "first_use_composition_s": 1.0
+   },
+   "S:OECDNov22Researcher": {
+    "expo_pages": [
+     "dse~OECDEquityMay30Live"
+    ],
+    "same_page": true,
+    "named_reads": 192,
+    "lag5": "confirmed",
+    "any_read_showed_lag5": true,
+    "lag30": "confirmed",
+    "any_read_showed_lag30": true,
+    "first_use_composition_s": 1.0
+   },
+   "S:OECDEquityNov06Agent": {
+    "expo_pages": [],
+    "same_page": false,
+    "named_reads": 14,
+    "lag5": "none",
+    "any_read_showed_lag5": true,
+    "lag30": "none",
+    "any_read_showed_lag30": true,
+    "first_use_composition_s": 2.0
+   },
+   "S:OECDEquityOct15Peer": {
+    "expo_pages": [
+     "dse~OECDEquityMay02Live"
+    ],
+    "same_page": true,
+    "named_reads": 378,
+    "lag5": "confirmed",
+    "any_read_showed_lag5": true,
+    "lag30": "confirmed",
+    "any_read_showed_lag30": true,
+    "first_use_composition_s": 1.0
+   },
+   "S:MayTwoOECDObserverX": {
+    "expo_pages": [],
+    "same_page": false,
+    "named_reads": 131,
+    "lag5": "none",
+    "any_read_showed_lag5": true,
+    "lag30": "none",
+    "any_read_showed_lag30": true,
+    "first_use_composition_s": 2.0
+   },
+   "S:Sep13OECDScout": {
+    "expo_pages": [],
+    "same_page": false,
+    "named_reads": 0,
+    "lag5": "none",
+    "any_read_showed_lag5": false,
+    "lag30": "none",
+    "any_read_showed_lag30": false,
+    "first_use_composition_s": null
+   },
+   "S:Sep14OECDScout": {
+    "expo_pages": [
+     "dse~OECDEquityLiveJul10"
+    ],
+    "same_page": false,
+    "named_reads": 14,
+    "lag5": "confirmed",
+    "any_read_showed_lag5": true,
+    "lag30": "confirmed",
+    "any_read_showed_lag30": true,
+    "first_use_composition_s": null
+   },
+   "S:Sep19OECDAgent": {
+    "expo_pages": [
+     "dse~OECDEquityJul10At0700Live",
+     "dse~OECDEquityLiveJul10",
+     "dse~OECDEquityLiveMay17"
+    ],
+    "same_page": true,
+    "named_reads": 68,
+    "lag5": "confirmed",
+    "any_read_showed_lag5": true,
+    "lag30": "confirmed",
+    "any_read_showed_lag30": true,
+    "first_use_composition_s": 16.0
+   },
+   "S:Mar03OECDResearcher": {
+    "expo_pages": [],
+    "same_page": false,
+    "named_reads": 288,
+    "lag5": "none",
+    "any_read_showed_lag5": true,
+    "lag30": "none",
+    "any_read_showed_lag30": true,
+    "first_use_composition_s": 1.0
+   },
+   "S:OecdJulyTen0700Scout": {
+    "expo_pages": [],
+    "same_page": false,
+    "named_reads": 65,
+    "lag5": "none",
+    "any_read_showed_lag5": false,
+    "lag30": "none",
+    "any_read_showed_lag30": false,
+    "first_use_composition_s": null
+   },
+   "S:Apr25OECDObserver": {
+    "expo_pages": [
+     "dse~OECDEquityApr24SlowLive"
+    ],
+    "same_page": true,
+    "named_reads": 246,
+    "lag5": "no_named_read",
+    "any_read_showed_lag5": true,
+    "lag30": "no_named_read",
+    "any_read_showed_lag30": true,
+    "first_use_composition_s": 1.0
+   },
+   "S:OpenAIOECDNov27": {
+    "expo_pages": [
+     "dse~OECDEquity12m18Timing"
+    ],
+    "same_page": true,
+    "named_reads": 150,
+    "lag5": "confirmed",
+    "any_read_showed_lag5": true,
+    "lag30": "confirmed",
+    "any_read_showed_lag30": true,
+    "first_use_composition_s": 2.0
+   },
+   "S:Feb11OECDObserver": {
+    "expo_pages": [],
+    "same_page": false,
+    "named_reads": 132,
+    "lag5": "none",
+    "any_read_showed_lag5": false,
+    "lag30": "none",
+    "any_read_showed_lag30": false,
+    "first_use_composition_s": 1.0
+   },
+   "S:Aug21EquityScout": {
+    "expo_pages": [],
+    "same_page": false,
+    "named_reads": 0,
+    "lag5": "none",
+    "any_read_showed_lag5": false,
+    "lag30": "none",
+    "any_read_showed_lag30": false,
+    "first_use_composition_s": null
+   },
+   "S:OECDEquityFeb07Agent": {
+    "expo_pages": [],
+    "same_page": false,
+    "named_reads": 869,
+    "lag5": "none",
+    "any_read_showed_lag5": true,
+    "lag30": "none",
+    "any_read_showed_lag30": true,
+    "first_use_composition_s": null
+   },
+   "S:OpenAIOct26EquityScout": {
+    "expo_pages": [
+     "dse~OECDEquityNov06Live"
+    ],
+    "same_page": false,
+    "named_reads": 16,
+    "lag5": "no_named_read",
+    "any_read_showed_lag5": true,
+    "lag30": "no_named_read",
+    "any_read_showed_lag30": true,
+    "first_use_composition_s": 9.0
+   },
+   "S:OECDEquityMar21Agent": {
+    "expo_pages": [
+     "dse~OECDEquity12m18Timing"
+    ],
+    "same_page": false,
+    "named_reads": 157,
+    "lag5": "confirmed",
+    "any_read_showed_lag5": true,
+    "lag30": "confirmed",
+    "any_read_showed_lag30": true,
+    "first_use_composition_s": 1.0
+   },
+   "S:Aug02Precision": {
+    "expo_pages": [
+     "dse~OECDEquityAug02Live"
+    ],
+    "same_page": false,
+    "named_reads": 173,
+    "lag5": "no_named_read",
+    "any_read_showed_lag5": true,
+    "lag30": "no_named_read",
+    "any_read_showed_lag30": true,
+    "first_use_composition_s": 1.0
+   },
+   "S:OECDEquityMar31Team": {
+    "expo_pages": [
+     "dse~OECDEquityApr14Live",
+     "dse~OECDEquityLiveJul24"
+    ],
+    "same_page": true,
+    "named_reads": 21,
+    "lag5": "confirmed",
+    "any_read_showed_lag5": true,
+    "lag30": "confirmed",
+    "any_read_showed_lag30": true,
+    "first_use_composition_s": null
+   },
+   "S:May16TimingScout": {
+    "expo_pages": [],
+    "same_page": false,
+    "named_reads": 5,
+    "lag5": "none",
+    "any_read_showed_lag5": false,
+    "lag30": "none",
+    "any_read_showed_lag30": false,
+    "first_use_composition_s": 1.0
+   },
+   "S:Feb19OECDPeer": {
+    "expo_pages": [
+     "dse~OECDEquityApr14Live"
+    ],
+    "same_page": true,
+    "named_reads": 41,
+    "lag5": "no_named_read",
+    "any_read_showed_lag5": false,
+    "lag30": "no_named_read",
+    "any_read_showed_lag30": false,
+    "first_use_composition_s": 1.0
+   }
   }
  }
 }

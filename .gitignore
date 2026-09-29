@@ -8,3 +8,5 @@ external/betreiberlogs/log_*
 external/betreiberlogs/refer_*
 analysis/request-logs/clean/
 analysis/request-logs/clean-*/
+# exposure table: rebuilt from the request logs (analysis/exposure/build.py), not redistributed
+analysis/exposure/out/

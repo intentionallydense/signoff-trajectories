@@ -3,19 +3,19 @@ it edited, as the page stood at the edit. But agents write the post before loadi
 later (analysis/fingerprints: median composition 1 s, 88% under 5 s), so the version under the save is not what the
 post was written from. What the agent could have seen is the page at its earlier reads.
 
-For each adopter counted exposed that way (`edited_page` or `same_page` in coined.py), this looks up its named reads
-of those pages (browse/diff/edit_form, unique names only, as presignal_reads.py) at least LAG seconds before the
-edit, and asks whether any showed the word:
+For each adopter counted exposed that way (`edited_page` or `same_page` in coined.py), this looks up its reads of
+those pages in the exposure table (analysis/exposure/out/, browse/diff/edit_form, with the revision each read saw) at
+least LAG seconds before the edit, and asks whether any showed the word:
   confirmed         a read of an exposing page showed the word before first use
   arrived_between   it read the page(s), but no read showed the word: it arrived after the last read
   no_named_read     no named read of the exposing page(s) before the edit: can't tell (most reads are unnamed)
 LAG = 5 s (main) and 30 s (sensitivity). Reads in the last LAG seconds before a save can't have fed its text.
+As in presignal_reads.py, results come twice: `validated` (own/private2 sessions, main) and `all_attributed`.
 
     python3 analysis/behavioral-norms/presignal_timing.py     # ~2 min -> presignal_timing.json
     PRESIGNAL_READS=browse,diff python3 ...                   # presignal_reads.py's read classes (overwrites the json)
 """
-import csv, gzip, json, re, sys
-from bisect import bisect_right
+import json, os, re, sys
 from collections import Counter, defaultdict
 from datetime import datetime
 from pathlib import Path
@@ -24,22 +24,18 @@ from statistics import median
 HERE = Path(__file__).resolve().parent
 ROOT = HERE.parents[1]
 sys.path.insert(0, str(ROOT / 'analysis' / 'human-verification'))
+sys.path.insert(0, str(ROOT / 'analysis' / 'exposure'))
 sys.path.insert(0, str(HERE))
 import server  # noqa: E402
+import table  # noqa: E402
 from norms import SIGNOFF, TRAJ, novel_texts  # noqa: E402
 
-CLEAN = ROOT / 'analysis/request-logs/clean'
+EXPO = ROOT / 'analysis/exposure/out'
 RX = re.compile(r'\bpre-?signal', re.I)
 T = lambda s: datetime.fromisoformat(s.replace('Z', '+00:00')).timestamp()
-import os
 READS = set(os.environ.get('PRESIGNAL_READS', 'browse,diff,edit_form').split(','))
 LAGS = (5, 30)
-csv.field_size_limit(10 ** 8)
-
-
-def page_key(title):  # as exposure/build.py
-    return 'dse~' + ''.join(c if c.isascii() and (c.isalnum() or c in '_.-') else ''.join(f'~{b:02x}' for b in c.encode())
-                            for c in title)
+VIEWS = {'validated': table.VALIDATED, 'all_attributed': table.BASES}
 
 
 def main():
@@ -54,27 +50,9 @@ def main():
             if RX.search(novel.get(rid, '')):
                 first_on_page[pk] = T(A.revs[rid]['time'])
                 break
-    # what a page body showed at a time
-    shows, seq_shows = {}, {}
-    for pk, ids in A.pages.items():
-        if pk.startswith('dse~'):
-            shows[pk] = ([T(A.revs[i]['time']) for i in ids], [RX.search(A.revs[i]['body']) is not None for i in ids])
-            seq_shows[pk] = {str(A.revs[i]['seq']): RX.search(A.revs[i]['body']) is not None for i in ids}
-
-    def shown_at(pk, t, oldid=''):
-        if oldid and oldid in seq_shows.get(pk, {}):
-            return seq_shows[pk][oldid]
-        ts, v = shows.get(pk, ([], []))
-        k = bisect_right(ts, t) - 1
-        return k >= 0 and v[k]
-
-    owners = defaultdict(set)
-    for r in rows:
-        owners[r['name']].add(r['id'])  # trajectories are keyed by id: split parts share a name
-        for e in r['edits']:
-            if e.get('label'):
-                owners[e['label']].add(r['id'])
-    name_to = {n: next(iter(o)) for n, o in owners.items() if len(o) == 1}
+    # (page key, seq) -> the revision body shows the word
+    seq_shows = {(pk, str(A.revs[i]['seq'])): RX.search(A.revs[i]['body']) is not None
+                 for pk, ids in A.pages.items() if pk.startswith('dse~') for i in ids}
 
     edits, first_use = defaultdict(list), {}
     for r in rows:
@@ -87,22 +65,26 @@ def main():
                 first_use[r['id']] = (t, pk)
     origin = min(first_use, key=lambda n: first_use[n][0])
 
-    reads = defaultdict(list)  # trajectory -> [(ts, page_key, shown)]
-    forms = defaultdict(list)  # (trajectory, page_key) -> edit_form times
-    for month in ('2606', '2607'):
-        with gzip.open(CLEAN / f'requests_{month}.tsv.gz', 'rt', newline='') as f:
-            for row in csv.DictReader(f, delimiter='\t', quoting=csv.QUOTE_NONE):
-                if row['cls'] not in READS or not row['name'] or row['name'] not in name_to or not row['ts']:
-                    continue
-                traj, pk, t = name_to[row['name']], page_key(row['page']), float(row['ts'])
-                if pk not in shows:
-                    continue
-                reads[traj].append((t, pk, shown_at(pk, t, row['oldid'])))
-                if row['cls'] == 'edit_form':
-                    forms[(traj, pk)].append(t)
-
     out = {'coined': datetime.utcfromtimestamp(first_use[origin][0]).isoformat() + 'Z', 'origin': origin,
-           'adopters': len(first_use) - 1}
+           'adopters': len(first_use) - 1, 'exposure_table': str(EXPO.relative_to(ROOT) if EXPO.is_relative_to(ROOT) else EXPO.name)}
+    for view, bases in VIEWS.items():
+        reads = defaultdict(list)  # trajectory -> [(ts, page_key, shown)]
+        forms = defaultdict(list)  # (trajectory, page_key) -> edit_form times
+        for r in table.reads(EXPO, bases, READS):
+            pk = r['page_key']
+            if not pk.startswith('dse~'):
+                continue
+            reads[r['traj_id']].append((r['ts'], pk, bool(r['seen']) and seq_shows.get((pk, r['seen']), False)))
+            if r['cls'] == 'edit_form':
+                forms[(r['traj_id'], pk)].append(r['ts'])
+        out[view] = summarise(first_use, origin, first_on_page, edits, reads, forms)
+    (HERE / 'presignal_timing.json').write_text(json.dumps(out, indent=1))
+    print(json.dumps({k: ({a: b for a, b in v.items() if a != 'per_adopter'} if isinstance(v, dict) else v)
+                      for k, v in out.items()}, indent=1))
+
+
+def summarise(first_use, origin, first_on_page, edits, reads, forms):
+    out = {}
     per = {}
     for n, (t, pk0) in first_use.items():
         if n == origin:
@@ -131,8 +113,7 @@ def main():
     out['first_use_composition_s_median'] = median(comp) if comp else None
     out['first_use_composition_under_5s'] = sum(c <= 5 for c in comp)
     out['per_adopter'] = per
-    (HERE / 'presignal_timing.json').write_text(json.dumps(out, indent=1))
-    print(json.dumps({k: v for k, v in out.items() if k != 'per_adopter'}, indent=1))
+    return out
 
 
 if __name__ == '__main__':

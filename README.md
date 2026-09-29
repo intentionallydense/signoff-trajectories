@@ -305,13 +305,19 @@ I ranked the leads **before** testing, by how likely each was to give a clean si
   - whether each adopter was exposed on the same page or on any page it had edited;
   - whether that exposure included an explicit request to use the token.
 
-### Log-joined checks (`presignal_reads.py`, `presignal_timing.py`)
+### Log-joined checks (`presignal_reads.py`, `presignal_timing.py`, `coined.py`'s read route)
 
-These join trajectories to the operator request logs **by acting name**. A trajectory's names are its signoff plus
-the editor labels of its edits, minus any label another trajectory also uses. A named read counts as exposure when the
-page revision current at that moment showed the word. Most reads carry no name, so named reads are a lower bound.
-`presignal_timing` re-times edited-page exposure against reads at least 5 s (and 30 s) before the save. Agents write a
-post before loading the edit form and save about 1 s later, so the page under the save is not what they wrote from.
+These take each trajectory's reads from the **exposure table** ([`analysis/exposure/`](analysis/exposure/README.md)),
+built from the operator request logs. The table ties a log session to a trajectory through the saves in it, and gives
+each read the page revision it saw. Only sessions on the bases the table's validation supports count (`own`: a save
+under the trajectory's own name; `private2`: two or more saves under a label only its edits carry), with all attributed
+sessions as a sensitivity. A read counts as exposure when the revision it showed carried the word. Most reads carry no
+name, so named reads are a lower bound.
+- `presignal_reads` compares PRE-SIGNAL adopters' reads before first use with non-adopters' reads.
+- `presignal_timing` re-times edited-page exposure against reads at least 5 s (and 30 s) before the save. Agents write
+  a post before loading the edit form and save about 1 s later, so the page under the save is not what they wrote from.
+- `coined.py` adds a `read` route (`coined_reads.json`/`.txt`): a validated read showed the token at least 5 s before
+  first use. Unlike the text routes, it also sees pages the adopter never edited.
 
 ### Calibration (`fingerprint_null.py`)
 
@@ -339,14 +345,21 @@ The joined save table ships as `results/saves.tsv.gz`, so this step reruns witho
 | Status template, "please", date-as-address, "cohort", thanks, corrections (presence) | **Null.** Past ≤ placebo, or indistinguishable from it (e.g. template 2.74 vs 2.77, please 1.05 vs 1.31) |
 | Save fingerprint homophily | None. The real fingerprint matches page neighbours no more than a shuffled one (×0.58–0.77 of null) |
 
-**PRE-SIGNAL against the logs:**
-- 39 of 104 adopters had a named read of a page showing the word before first use.
-  - The median gap from that read to first use was 94 min, and the shortest 1.2 min.
-  - For 14 of them, the first such page belonged to another family. `OECDEquityLiveJul10` was that page for 7.
-- Reading does not predict adoption on its own: 169 of 289 non-adopters with named reads also read such a page. That
-  comparison is unmatched, so treat it as a caution, not a null.
-- Of the 53 edited-page exposures, 18 are confirmed by an earlier read, in 8 the word arrived after the last read, and
-  27 have no named read to check.
+**PRE-SIGNAL against the logs** (validated sessions; all attributed sessions in brackets):
+- 25 of 104 adopters (39) read a revision showing the word before first use; 53 (72) have any named read.
+  - The median gap from that read to first use was 83 min (101), and the shortest 4.3 min (1.2).
+  - For 5 of them (14), the first such page belonged to another family. `OECDEquityLiveJul10` is the most common
+    first carrier page, with 4 (6).
+- Reading does not predict adoption on its own: 119 of 233 non-adopters with named reads (172 of 297) also read the
+  word, about the adopters' rate. That comparison is unmatched, so treat it as a caution, not a null.
+- Of the 53 edited-page exposures, 16 (18) are confirmed by an earlier read, in 6 (7) the word arrived after the last
+  read, and 31 (28) have no named read to check.
+- The read route: 37 adopters read the word first, 14 of them on no page they had edited, which leaves 37 of 104 with no
+  visible route (51 on the text routes alone). Task tokens gain less: `C<n>-STATE` goes from 15 without a route to 9,
+  `STATE5-` from 4 to 3.
+- An earlier version joined log names to trajectories directly through editor labels. It gave 39 adopters reading the
+  word first and 18 / 8 / 27 for the edited-page check: close to the all-attributed figures, because it also counted
+  sessions the validation doesn't support. No conclusion changed.
 - In the 9 minutes before coining the word, the originator read `Sector61State5FastSignal` about ten times. That
   included one post warning that repeated cohorts "go silent after R5… may terminate the episode" and another agent's
   "TERMINATION-SAFE" token. Its PRE-SIGNAL post combines the two.
@@ -363,9 +376,11 @@ The joined save table ships as `results/saves.tsv.gz`, so this step reruns witho
   `deletion / backup` matches "backup hypothesis".
 - Page topic can prompt a word, for example "container" on clock-wait pages. That remains the main confound for the
   variant tests, and it would produce the symmetric past/future pattern seen for the wall side.
-- The log joins map names through editor labels. The re-saves listed above make 11 labels point at the wrong
-  trajectory, for example `RelayReader` → `S:TransportHelperMar28OAI`. None of those trajectories adopted PRE-SIGNAL,
-  but the non-adopter comparison and the save table can carry a few misattributed rows.
+- The exposure table and the save table tie log names to trajectories through the editor labels of saves. The
+  re-saves listed above make 11 labels point at the wrong trajectory, for example `RelayReader` →
+  `S:TransportHelperMar28OAI`, so a session can be credited to the wrong trajectory on the `private` bases. None of those
+  trajectories adopted PRE-SIGNAL, but the non-adopter comparison and the save table can carry a few misattributed
+  rows.
 - The calibration uses 20 shuffles, so its smallest possible p is 0.048. Which name part reaches that floor changes from
   run to run, as noise would.
 
@@ -387,10 +402,11 @@ python3 analysis/verification-check/xcheck.py
 python3 analysis/behavioral-norms/variant.py analysis/signoff-trajectories analysis/behavioral-norms/results
 ```
 
-The log-joined steps (`presignal_reads`, `presignal_timing`, `shared_saves`) need the cleaned request logs. Without
-them they are skipped and their committed outputs stay; see
-[`analysis/request-logs/README.md`](analysis/request-logs/README.md). With the logs, `verify.py` checks them too
-(`REQUEST_LOGS=<dir>`).
+The log-joined steps need the cleaned request logs: `shared_saves` reads them directly, and `presignal_reads`,
+`presignal_timing` and `coined`'s read route read the exposure table built from them
+(`REQUEST_LOGS=<dir> python3 analysis/exposure/build.py`). Without them they are skipped and their committed outputs
+stay; see [`analysis/request-logs/README.md`](analysis/request-logs/README.md). With the logs, `verify.py` rebuilds the
+exposure table in its scratch copy and checks them too (`REQUEST_LOGS=<dir>`).
 
 ## Repository layout
 
@@ -399,12 +415,13 @@ them they are skipped and their committed outputs stay; see
 | `full-wiki-logs.zip` | sanitized wiki export (input) |
 | `analysis/signoff-trajectories/` | `build.py`, `reviews.json` (the four hand calls), outputs |
 | `analysis/behavioral-norms/` | norm, spread, coined-token, log-join and calibration scripts; `variant.py` runs them all |
-| `analysis/behavioral-norms/results/` | outputs: `norms.json`, `examples.json`, `spread.json`/`.txt`, `coined.json`/`.txt`, `presignal_*.json`, `fingerprint_null.json`/`.txt`, `shared_saves.json`, `saves.tsv.gz`, `run.log` |
+| `analysis/behavioral-norms/results/` | outputs: `norms.json`, `examples.json`, `spread.json`/`.txt`, `coined.json`/`.txt`, `coined_reads.json`/`.txt`, `presignal_*.json`, `fingerprint_null.json`/`.txt`, `shared_saves.json`, `saves.tsv.gz`, `run.log` |
 | `analysis/verification-check/` | the verdicts of the human verification phase (verdict-only export) and the cross-check against them |
 | `analysis/human-verification/server.py` | archive loader: fresh lines, signoff regex and review flags. It began as the tool for the human verification phase; only its loader is used here |
 | `analysis/unsigned-pages/rule_candidates.py` | the R1–R5 signoff forms |
 | `analysis/clock-consistency/` | task-clock claim extraction and clash check, used by the containment merge |
 | `analysis/fingerprints/` | save-fingerprint extraction (needs the request logs) |
+| `analysis/exposure/` | the exposure table's builder, reader (`table.py`) and validation (`validate/`, with its committed results); the table itself is not included |
 | `analysis/request-logs/` | the log cleaner (logs not included) |
 | `analysis/family-inventory/` | the 41 task families |
 | `external/betreiberlogs/SHA256SUMS` | checksums pinning the operator logs |
@@ -421,8 +438,13 @@ The scripts are the ones I ran, copied unchanged, with these exceptions:
     for `matches_existing_profile` from a frozen copy (`verified_profile_names.json`);
   - renames one summary key, to `matching_an_existing_verified_profile_name`;
   - rewords one comment.
-- `variant.py` reads the request logs from `$REQUEST_LOGS` and skips the log-joined steps without them. It writes a
-  relative path into `run.log`, and its docstring is reworded.
+- `variant.py` reads the request logs from `$REQUEST_LOGS` and the exposure table from `$EXPOSURE` (default
+  `analysis/exposure/out`), and skips the log-joined steps without them. It writes a relative path into `run.log`, and
+  its docstring is reworded.
+- `analysis/exposure/`: `build.py` has one comment reworded, and `validate.py` drops two usage lines for inputs not
+  shipped here. `reviews.json` is empty, as in my working copy. `validate.txt` differs from my working copy's by one
+  quote target: the sanitized archive's redactions remove one 8-word passage, which moves some rates in the third
+  decimal and changes no conclusion. The table itself comes out identical.
 - `norms.py` and `server.py` each have docstring lines reworded.
 - `reviews.json`:
   - the reviewer field reads `author`;
@@ -437,7 +459,7 @@ sanitized archive has redacted an IP address or a local path.
 This release is derived from the sanitized archive. `privacy_check.py`, taken from the earlier repository, passes on
 every file; its only change is to allow the loopback and bind-all addresses in the verification tool's command-line
 defaults. The verification verdicts are published without the notes, tags, post-level calls and text hashes of the raw log, and
-without reviewer names or times of day. The operator request logs and their cleaned table are not included. The cleaned table still carries
+without reviewer names or times of day. The operator request logs, their cleaned table and the exposure table built from it are not included. The cleaned table still carries
 per-device hashes and some human visitors' reads and searches. The published log-derived outputs contain only
 aggregate counts and rows keyed to agent trajectories: names, save times, pages, and cache-buster key names without
 values.

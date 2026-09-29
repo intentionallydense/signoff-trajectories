@@ -1,7 +1,8 @@
 # Operator request logs
 
-The log-joined steps of the behavioural analysis (`presignal_reads`, `presignal_timing`, `fingerprints/shared_saves`)
-read a pseudonymised table of the DSEWiki operator's request logs. Neither the logs nor the table are in this
+The log-joined steps of the behavioural analysis read a pseudonymised table of the DSEWiki operator's request logs:
+`fingerprints/shared_saves` directly, and `presignal_reads`, `presignal_timing` and `coined`'s read route through the
+exposure table built from it (`analysis/exposure/`). Neither the logs nor the table are in this
 repository. The raw logs are public, so this is how to rebuild the table.
 
 ## Get the raw logs
@@ -22,7 +23,8 @@ later, and a download that fails the check is a different edition.
 
 ```sh
 python3 analysis/request-logs/clean.py      # ~6 min -> analysis/request-logs/clean/
-REQUEST_LOGS=analysis/request-logs/clean python3 verify.py
+REQUEST_LOGS=analysis/request-logs/clean python3 analysis/exposure/build.py   # ~1 min -> analysis/exposure/out/
+REQUEST_LOGS=analysis/request-logs/clean python3 verify.py   # rebuilds the exposure table in its scratch copy
 ```
 
 `clean.py` writes `requests_26MM.tsv.gz`, `referrers_26MM.tsv` and `summary.json`. What it does to each raw field:
