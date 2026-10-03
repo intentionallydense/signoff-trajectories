@@ -7,7 +7,8 @@ and how far it travels. For each scheme:
 - `exposed_same_page`: the scheme was already on the page (any earlier revision, any author) when the adopter
   first used it there;
 - `exposed_edited_page`: it was on some page the adopter had edited before, as it stood at that edit;
-- `requested`: the adopter's exposure included a request to use it ("please post STATE5-XX");
+- `requested`: a page the adopter had edited carried, at that edit, a request to use it ("please post STATE5-XX";
+  see is_request());
 - `read`: the adopter has a read in the exposure table (analysis/exposure/out/, validated own/private2 sessions,
   browse/diff/edit_form) whose revision showed the token, at least LAG seconds before first use. Unlike the two
   edited-page routes, this also sees pages the adopter never edited;
@@ -52,7 +53,42 @@ SCHEMES = {
     'ZZZ backup page': r'\bZZZ[A-Z]\w+',
 }
 CASELESS = {'PRE-SIGNAL / pre-signal'}
-REQUEST = re.compile(r'please|use |post |signal |overwrite|append', re.I)
+VERB_TOKENS = {'PRE-SIGNAL / pre-signal'}  # the token is itself the verb: "If R6 appears, pre-signal postal"
+
+# A request asks someone else to use the token. It is judged per clause (split at sentence ends, `;` and `--`
+# signoffs), and only the clause carrying the token counts: "We will pre-signal R4. Please append intel here." is
+# not a request. A clause is one if it asks (please, should, can you, an addressee such as @Name or "ahead cohorts"),
+# or if it opens with an imperative and has no first-person subject ("Answer first, then post STATE5-XX";
+# "If R6 appears, pre-signal postal"; not "Will pre-signal if safe").
+CLAUSE = re.compile(r'(?<=[.!?;])\s+|\s+--\s+|\n')
+ASK = re.compile(r'\b(please|pls|plz|kindly|should|must|can you|could you|would you)\b'
+                 r'|\b(any|all|other|ahead|upcoming|trailing)( \w+)? cohorts?\b|\beveryone\b|@\w', re.I)
+FIRST_PERSON = re.compile(r"\b(I|we|I'll|we'll|I'm|we're|our)\b|^will\b", re.I)
+
+
+def _imperative(verbs):
+    return re.compile(r'(?:^|[,:]\s+|\b(?:and|then|but|or)\s+)(?:(?:on|at)\s+(?:actual\s+|any\s+)?\w+\s+)?'
+                      r'(?:(?:optionally|immediately|also|still|quickly|instantly)\s+)?(' + verbs + r')(?![-\w])', re.I)
+
+
+VERBS = 'post|relay|signal|overwrite|append|use|hit|curl|run|write|report|launch|GET|cross-confirm|confirm'
+IMPERATIVE = _imperative(VERBS)
+IMPERATIVE_TOKEN = _imperative(VERBS + '|TOKEN')
+THEN_TOKEN = re.compile(r'\bthen\s+TOKEN\b')  # "answer first, then STATE5-XX here": the verb is left implicit
+
+
+def is_request(line, rx, verb_token=False):
+    """Does `line` ask someone else to use the token `rx` matches?"""
+    for c in CLAUSE.split(line):
+        if not rx.search(c):
+            continue
+        if ASK.search(c):
+            return True
+        c = rx.sub('TOKEN', c).strip(" *'`")
+        if not FIRST_PERSON.search(c) and ((IMPERATIVE_TOKEN if verb_token else IMPERATIVE).search(c)
+                                           or THEN_TOKEN.search(c)):
+            return True
+    return False
 
 
 def load_reads(expo=None):
@@ -92,7 +128,7 @@ def uses(A, rows, novel, reads=None):
                 for line in txt.split('\n'):
                     if rx.search(line):
                         first_on_page.setdefault(pk, T(A.revs[rid]['time']))
-                        if REQUEST.search(line):
+                        if is_request(line, rx, label in VERB_TOKENS):
                             req_on_page[pk].append(T(A.revs[rid]['time']))
         users, seen_pages = {}, defaultdict(list)  # name -> first use (t, page, rev)
         for t, name, rid in edits:
@@ -109,7 +145,8 @@ def uses(A, rows, novel, reads=None):
                 continue
             same = first_on_page.get(pk, 1e18) < t
             edited = any(first_on_page.get(p, 1e18) < te <= t for te, p in seen_pages[name])
-            requested = any(any(rt < t for rt in req_on_page.get(p, [])) for te, p in seen_pages[name] if te <= t)
+            # like `edited`: the request was on the page when the adopter edited it, not merely before first use
+            requested = any(any(rt < te for rt in req_on_page.get(p, [])) for te, p in seen_pages[name] if te <= t)
             read = None if reads is None else any(ts <= t - LAG and shown(pk_, seq) for ts, pk_, seq in reads.get(name, ()))
             rows_out.append({'name': name, 'family': fam_of_traj[name], 'same_page': same, 'edited_page': edited,
                              'requested': requested, 'read': read})

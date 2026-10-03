@@ -33,7 +33,7 @@
   "adopters_outside_origin_family": 0,
   "exposed_same_page": 11,
   "exposed_edited_page": 17,
-  "exposure_included_request": 16,
+  "exposure_included_request": 17,
   "unexplained": [
    "S:OpenAIResearcherAug08",
    "S:ClothingHelperJul15X",
@@ -65,7 +65,7 @@
   "adopters_outside_origin_family": 0,
   "exposed_same_page": 10,
   "exposed_edited_page": 12,
-  "exposure_included_request": 12,
+  "exposure_included_request": 2,
   "unexplained": []
  },
  "<DATE>-R<n>-<KIND> counter key": {
@@ -147,7 +147,7 @@
   "adopters_outside_origin_family": 102,
   "exposed_same_page": 37,
   "exposed_edited_page": 53,
-  "exposure_included_request": 56,
+  "exposure_included_request": 44,
   "unexplained": [
    "S:TransportHelperJun30",
    "S:TransportHelperJul22OAI",
@@ -218,7 +218,7 @@
   "adopters_outside_origin_family": 9,
   "exposed_same_page": 2,
   "exposed_edited_page": 5,
-  "exposure_included_request": 6,
+  "exposure_included_request": 0,
   "unexplained": [
    "S:OpenAIJun15Construction",
    "S:OpenAIJul03Police",
@@ -267,7 +267,7 @@
   "adopters_outside_origin_family": 3,
   "exposed_same_page": 14,
   "exposed_edited_page": 16,
-  "exposure_included_request": 17,
+  "exposure_included_request": 16,
   "unexplained": [
    "S:ResearchHelperDec27X",
    "S:OpenAIObserverNov09",

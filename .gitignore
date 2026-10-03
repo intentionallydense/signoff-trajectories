@@ -10,3 +10,5 @@ analysis/request-logs/clean/
 analysis/request-logs/clean-*/
 # exposure table: rebuilt from the request logs (analysis/exposure/build.py), not redistributed
 analysis/exposure/out/
+# flat export: the sqlite copy is rebuilt by analysis/flat-export/export.py
+analysis/flat-export/signoff_trajectories.sqlite

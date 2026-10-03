@@ -1,8 +1,8 @@
-"""Rebuilds the trajectories, the verification cross-check and the behavioural analysis in a scratch copy of this repository and compares every output
+"""Rebuilds the trajectories, the flat export, the verification cross-check and the behavioural analysis in a scratch copy of this repository and compares every output
 with the committed file.
 
     python3 verify.py                 # trajectories + behavioural analysis (~4 min)
-    python3 verify.py --build-only    # trajectories and the verification cross-check only (a few seconds)
+    python3 verify.py --build-only    # trajectories, flat export and verification cross-check only (a few seconds)
     REQUEST_LOGS=<dir> python3 verify.py   # also rebuild the exposure table and rerun the log-joined steps
                                            # (see analysis/request-logs/README.md)
 
@@ -10,15 +10,18 @@ Outputs must match byte for byte, with two exceptions: spread.json's "build" fie
 and saves.tsv.gz is compared decompressed (gzip headers carry a timestamp). Without request logs the log-joined outputs
 (the exposure validation, coined_reads.json/.txt, presignal_reads.json, presignal_timing.json, shared_saves.json/.txt,
 saves.tsv.gz) are not rerun, and are reported so. With them, the exposure table is rebuilt from the logs in the scratch
-copy first; a local analysis/exposure/out is never used.
+copy first; a local analysis/exposure/out is never used. It also checks that README.md quotes the full SHA-256 of
+full-wiki-logs.zip.
 """
-import gzip, json, os, shutil, subprocess, sys, tempfile
+import gzip, hashlib, json, os, shutil, subprocess, sys, tempfile
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent
 BUILD = 'analysis/signoff-trajectories'
 RESULTS = 'analysis/behavioral-norms/results'
 XCHECK = 'analysis/verification-check'
+FLAT = 'analysis/flat-export'
+FLAT_OUT = ['edits.csv', 'profiles.csv', 'checks.json']
 BUILD_OUT = ['trajectories.jsonl', 'summary.json', 'review_queue.tsv']
 TEXT_OUT = ['norms.json', 'examples.json', 'spread.json', 'spread.txt', 'coined.json', 'coined.txt',
             'fingerprint_null.json', 'fingerprint_null.txt']
@@ -42,6 +45,11 @@ def main():
     if logs and not Path(logs).is_dir():
         raise SystemExit(f'REQUEST_LOGS is not a directory: {logs}')
     failed = []
+    zip_sha = hashlib.sha256((ROOT / 'full-wiki-logs.zip').read_bytes()).hexdigest()
+    ok = zip_sha in (ROOT / 'README.md').read_text()
+    print(f'{"ok  " if ok else "DIFF"}  README.md quotes sha256 {zip_sha} of full-wiki-logs.zip')
+    if not ok:
+        failed.append('README.md: full-wiki-logs.zip sha256')
     with tempfile.TemporaryDirectory() as tmp:
         work = Path(tmp) / 'repo'
         shutil.copytree(ROOT, work, ignore=shutil.ignore_patterns('.git', '__pycache__', '_root'))
@@ -52,7 +60,8 @@ def main():
         print('building trajectories ...', file=sys.stderr)
         run(f'{BUILD}/build.py')
         run(f'{XCHECK}/xcheck.py')
-        checks = [(BUILD, f) for f in BUILD_OUT] + [(XCHECK, 'xcheck.json')]
+        run(f'{FLAT}/export.py')
+        checks = [(BUILD, f) for f in BUILD_OUT] + [(XCHECK, 'xcheck.json')] + [(FLAT, f) for f in FLAT_OUT]
         if not build_only and logs:
             print('building the exposure table from the request logs ...', file=sys.stderr)
             run('analysis/exposure/build.py')

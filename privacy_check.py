@@ -1,6 +1,6 @@
 """Check this public snapshot for known secret/address patterns, without printing values."""
 from pathlib import Path
-import json,re,zipfile,urllib.parse,hashlib
+import csv,io,json,re,sqlite3,zipfile,urllib.parse,hashlib
 
 ROOT=Path(__file__).resolve().parent
 QUERY=re.compile(r'(?i)[?&](?:amp;)?(?:api[_-]?key|access[_-]?token|subscription[_-]?key|token|password|secret|sig|signature|auth|key|nonce|hash)=([^&\s\"\x27<>\\]+)')
@@ -9,6 +9,8 @@ PRIVATE_KEY=re.compile(r'-----BEGIN (?:RSA |EC |OPENSSH |DSA )?PRIVATE KEY-----'
 IP=re.compile(r'(?<![\d.])(?:\d{1,3}\.){3}\d{1,3}(?![\d.])')
 VIEWER=re.compile(r'ACFrOg[A-Za-z0-9_-]{24,}')
 LOCAL={'127.0.0.1','0.0.0.0'}  # loopback/bind defaults in the verification tool's CLI, not addresses of anyone
+
+csv.field_size_limit(1<<30)
 
 def main():
     issues=[];files=0
@@ -32,11 +34,17 @@ def main():
             for line in s.splitlines():
                 if line:visit(name,json.loads(line))
         elif name.endswith('.json'):visit(name,json.loads(s))
+        elif name.endswith('.csv'):visit(name,list(csv.reader(io.StringIO(s))))  # cell by cell: a redacted value ends at its cell
         else:scan(name,s)
     for p in ROOT.rglob('*'):
         if not p.is_file() or '.git' in p.parts or '__pycache__' in p.parts:continue
         files+=1;name=p.relative_to(ROOT).as_posix()
-        if p.suffix=='.zip':
+        if p.suffix=='.sqlite':
+            con=sqlite3.connect(f'file:{p}?mode=ro',uri=True)
+            for (t,) in con.execute("SELECT name FROM sqlite_master WHERE type='table'").fetchall():
+                visit(name+'!'+t,[[c for c in row if isinstance(c,str)] for row in con.execute(f'SELECT * FROM "{t}"')])
+            con.close()
+        elif p.suffix=='.zip':
             with zipfile.ZipFile(p) as z:
                 for member in z.namelist():content(name+'!'+member,z.read(member).decode())
         else:content(name,p.read_text(errors='replace'))

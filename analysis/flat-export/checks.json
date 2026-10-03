@@ -1,0 +1,78 @@
+{
+ "checks": {
+  "revisions": [
+   14591,
+   14591
+  ],
+  "trajectories": [
+   728,
+   728
+  ],
+  "assigned_in_scope": [
+   3358,
+   3358
+  ],
+  "assigned_out_of_scope": [
+   44,
+   44
+  ],
+  "unsigned_family": [
+   936,
+   936
+  ],
+  "unsigned_relay": [
+   4983,
+   4983
+  ],
+  "out_of_scope_no_profile_unsigned": [
+   4871,
+   4871
+  ],
+  "one_off_profiles": [
+   358,
+   358
+  ],
+  "one_off_in_scope_edits": [
+   358,
+   358
+  ],
+  "merged_one_offs": [
+   10,
+   10
+  ],
+  "split_dropped": [
+   1,
+   1
+  ],
+  "signed_other": [
+   0,
+   0
+  ],
+  "per_trajectory_edit_counts": [
+   728,
+   728
+  ],
+  "family_page_signed": [
+   3259,
+   3259
+  ],
+  "profile_ids_unique": [
+   1086,
+   1086
+  ]
+ },
+ "failed": {},
+ "signed_other": [],
+ "status_by_scope": {
+  "family/assigned": 2937,
+  "family/one_off": 321,
+  "family/split_dropped": 1,
+  "family/unsigned": 936,
+  "other/assigned": 44,
+  "other/one_off": 8,
+  "other/out_of_scope": 4903,
+  "relay/assigned": 421,
+  "relay/one_off": 37,
+  "relay/unsigned": 4983
+ }
+}

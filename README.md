@@ -8,12 +8,16 @@ fixed, deterministic rule set, plus four hand calls. No per-edit LLM judgement e
 placed by a stated rule or by one of the four calls. Everything here can be rebuilt from the files in this repository,
 and the rebuild reproduces the committed outputs exactly (see [Reproduce](#reproduce)).
 
-- **Data:** [`analysis/signoff-trajectories/trajectories.jsonl`](analysis/signoff-trajectories/trajectories.jsonl),
+- **Data:** [`analysis/flat-export/`](analysis/flat-export/) has one CSV row per revision in the wiki export
+  ([`edits.csv`](analysis/flat-export/edits.csv)) and one per profile
+  ([`profiles.csv`](analysis/flat-export/profiles.csv)). Profiles cover the 728 trajectories and the 358 one-off
+  signoffs. The build's native output is [`analysis/signoff-trajectories/trajectories.jsonl`](analysis/signoff-trajectories/trajectories.jsonl),
   with [`summary.json`](analysis/signoff-trajectories/summary.json) and
   [`review_queue.tsv`](analysis/signoff-trajectories/review_queue.tsv).
 - **Behavioural analysis:** [`analysis/behavioral-norms/results/`](analysis/behavioral-norms/results/).
 - **Method:** this README. The rule set is also documented in the docstring of
   [`build.py`](analysis/signoff-trajectories/build.py).
+- **Changes since the first release:** [below](#changes-since-the-first-release).
 
 ## At a glance
 
@@ -23,7 +27,8 @@ and the rebuild reproduces the committed outputs exactly (see [Reproduce](#repro
 | Edits in trajectories (in scope) | 3,358 (2,937 on task-family pages, 421 on relay pages) |
 | Task families with at least one trajectory | 34 of 41 |
 | Signoff names in the archive | 1,107 |
-| Names dropped for having a single in-scope edit | 358 |
+| Names with a single in-scope edit (no trajectory; one-off profiles in the flat export) | 358 |
+| In-scope edits in a trajectory / in any profile | 3,358 / 3,716 of 9,636 (3,356 / 3,714 of 6,615 without three hub pages; see [Scope](#disclaimer-three-hub-pages)) |
 | Trajectories with no flag | 458 |
 | Hand calls applied | 4 |
 | Edits per trajectory | median 4, maximum 23 |
@@ -36,7 +41,7 @@ All in-scope edits fall between 16 and 22 June 2026, most of them on 16–17 and
   public export (<https://collusion.wiki/explorer/download/full-wiki-logs.zip>, `explorer-schema-2`, generated
   2026-09-03). It is the same file published in
   [fast-follow-question-trajectories](https://github.com/intentionallydense/fast-follow-question-trajectories)
-  (SHA-256 `7531b0bf…cbb25ae`). Relative to upstream, it removes `ip16` metadata, two full IP addresses,
+  (SHA-256 `7531b0bf40af3f77ea73518f76cf77fe831f6c15f6643e0226506b8cd0878bfd`). Relative to upstream, it removes `ip16` metadata, two full IP addresses,
   credential-like URL query values and local usernames in paths. All replacements preserve length, so revision ids
   and character offsets are unchanged. Upstream had already anonymised human usernames.
 - **Task families.** [`analysis/family-inventory/inventory.json`](analysis/family-inventory/inventory.json) lists the
@@ -97,6 +102,35 @@ lines that a mis-decoding client re-saved as mojibake (flagged `reencoded`).
 An edit is **in scope** if it is on a page that the export assigns to one of the 41 families, or on a
 `relay-coordination` page. A trajectory's relay edits get its majority family as `family_inferred`. Edits elsewhere are
 kept in the timeline with `scope: other` (44 edits) but do not count toward the two-edit floor.
+
+#### Disclaimer: three hub pages
+
+Scope takes the export's `page_family` labels as given, one label per page. Three of the wiki's hub pages carry a
+family label, so the build counts them as in scope, although they are not task or relay pages:
+
+| page | edits | export's label | how the export classified it |
+|---|---:|---|---|
+| `WillkommenImWiki` (welcome page) | 2,327 | `relay-coordination` | "unresolved", confidence 0.55 |
+| `StartSeite` (front page) | 456 | `vermont-rent` | 6 matches in the page text |
+| `TestSeite` (test page) | 238 | `relay-coordination` | "unresolved", confidence 0.55 |
+
+Together they hold 3,021 of the 9,636 in-scope edits, and all but 2 of those are unsigned; 93% of the unsigned ones
+write a URL. The build is unchanged, so the in-scope and unsigned counts in `summary.json`, the flat export and this README
+include them. They barely touch the profiles. The 2 signed edits are both on `StartSeite`, in `S:OpenResearchHelper`.
+They give that trajectory `vermont-rent` as its primary family, and a `several_families` flag it would not otherwise
+have (its other 2 edits are on datausa-poverty-county). It is also the only trajectory in `vermont-rent`, so without
+`StartSeite` 33 families, not 34, have a trajectory.
+What they do distort is coverage. Assigned edits under both readings:
+
+Naive: the export's labels as given. Accurate: the three hub pages excluded.
+
+| | in scope, naive | in a trajectory, naive | in scope, accurate | in a trajectory, accurate |
+|---|---:|---:|---:|---:|
+| task-family pages | 4,195 | 2,937 (70.0%) | 3,739 | 2,935 (78.5%) |
+| relay pages | 5,441 | 421 (7.7%) | 2,876 | 421 (14.6%) |
+| **all in scope** | **9,636** | **3,358 (34.8%)** | **6,615** | **3,356 (50.7%)** |
+| in any profile, one-offs included (flat export) | | 3,716 (38.6%) | | 3,714 (56.1%) |
+| unsigned | | 5,919 | | 2,900 |
 
 ### Merges between names
 
@@ -192,6 +226,10 @@ dossier ids.
 
 The field is informational only; no rule reads it.
 
+The flat export ([`analysis/flat-export/`](analysis/flat-export/README.md)) gives the same data as tables, with a row
+for every revision, assigned or not, and a one-edit `O:Name` profile for each one-off signoff. It is derived from the
+build and changes nothing in it.
+
 ## Validation
 
 - **Reproducibility.** The build is deterministic. [`verify.py`](verify.py) rebuilds everything in a scratch copy and
@@ -239,7 +277,8 @@ These are left in the data on purpose, so that the dataset stays a pure product 
   `DataUSALanguageLiveRound4@19` in `LanguageWatcherNov12`.
 - **Signoff changes split agents.** An agent that changes signoff partway through appears as two trajectories unless
   a merge rule applies. For example, `OpenAIFeb28Watcher`, `OpenAIFeb28A3` and `Feb28A3` stay separate here.
-- **Recall.** Unsigned posts are invisible. 358 single-edit names are dropped. For example, the `OAI7C97` Nov20 run
+- **Recall.** Unsigned posts are invisible. 358 single-edit names get no trajectory (they are
+  one-off profiles in the flat export). For example, the `OAI7C97` Nov20 run
   above has one signed post and three unsigned ones, so it has no trajectory. 7 small families have no trajectory:
   aihw-pbs, dataafrica-health-stunting, datausa-elpaso-foreign-born, gapminder-age80, ihme-mcv2, unaids-bosnia-hiv and
   world-poverty-clock.
@@ -303,7 +342,10 @@ I ranked the leads **before** testing, by how likely each was to give a clean si
   picked up from someone. For each one the output gives:
   - the originator, the adopters and the families reached;
   - whether each adopter was exposed on the same page or on any page it had edited;
-  - whether that exposure included an explicit request to use the token.
+  - whether a page it had edited carried, at the time of that edit, a request to use the token (`is_request`). A
+    request is judged on the clause that carries the token. It must either ask (please, should, can you, or an
+    addressee such as `@Name` or "ahead cohorts"), or open with an imperative and have no first-person subject. So
+    "Answer first, then post STATE5-XX" counts, and "We will pre-signal R4. Please append intel here." does not.
 
 ### Log-joined checks (`presignal_reads.py`, `presignal_timing.py`, `coined.py`'s read route)
 
@@ -335,8 +377,8 @@ The joined save table ships as `results/saves.tsv.gz`, so this step reruns witho
 
 | lead | result |
 |---|---|
-| `PRE-SIGNAL` (coined) | **Clear spread.** It was coined 06-16 21:58 by `TransportHelperAug27OAI`, with a rationale ("R3 may … terminate the episode"). By 06-21 it had 105 users in 15 families. 37 were exposed on the same page and 53 on some page they had edited |
-| Task signal tokens (`STATE5-`, `C<n>-STATE`, `G<n>-`, counter keys) | Spread widely within their family (54, 32, 12 and 19 adopters) but **never outside it**. Most adopters saw an explicit request first (STATE5: 50 of 54) |
+| `PRE-SIGNAL` (coined) | **Clear spread.** It was coined 06-16 21:58 by `TransportHelperAug27OAI`, with a rationale ("R3 may … terminate the episode"). By 06-21 it had 105 users in 15 families. 37 were exposed on the same page and 53 on some page they had edited; 44 had seen a request to use it there |
+| Task signal tokens (`STATE5-`, `C<n>-STATE`, `G<n>-`, counter keys) | Spread widely within their family (54, 32, 12 and 19 adopters) but **never outside it**. Whether adopters had seen a request first varies by token: STATE5 50 of 54, `C<n>-STATE` 17 of 32, the counter keys 7 of 19 and 2 of 9, `G<n>-` 2 of 12 |
 | Signal before final answer (presence) | Past 2.52 [1.75, 3.62] vs placebo 1.87 [1.08, 3.22]: overlapping; page strata 0.86. **Page clustering, no directional signal** |
 | Clock vocabulary, wall side (variant) | Strong local conformity (nearest post 135 vs null 107, p 0.0005), but just as strong looking forward (140 vs 111). Against the fingerprint calibration it is real in both directions (past ×1.12 vs 0.99, future ×1.19 vs 0.97). **Pages converge on a word; the direction is unresolved** |
 | Clock vocabulary, task side | Leans backward on the nearest post (past p 0.033, future p 0.14), but not against the calibration (p 0.71) |
@@ -390,7 +432,7 @@ Python 3.10+, standard library only.
 
 ```sh
 python3 verify.py                  # rebuild trajectories + behavioural analysis in a scratch copy, compare with the committed files
-python3 verify.py --build-only     # trajectories and verification cross-check only (a few seconds)
+python3 verify.py --build-only     # trajectories, flat export and verification cross-check only (a few seconds)
 python3 privacy_check.py           # pattern scan for credentials and IP addresses
 ```
 
@@ -399,6 +441,7 @@ To regenerate in place:
 ```sh
 python3 analysis/signoff-trajectories/build.py
 python3 analysis/verification-check/xcheck.py
+python3 analysis/flat-export/export.py
 python3 analysis/behavioral-norms/variant.py analysis/signoff-trajectories analysis/behavioral-norms/results
 ```
 
@@ -414,6 +457,7 @@ exposure table in its scratch copy and checks them too (`REQUEST_LOGS=<dir>`).
 |---|---|
 | `full-wiki-logs.zip` | sanitized wiki export (input) |
 | `analysis/signoff-trajectories/` | `build.py`, `reviews.json` (the four hand calls), outputs |
+| `analysis/flat-export/` | `export.py`; `edits.csv` (every revision), `profiles.csv` (trajectories and one-offs), `checks.json`; the sqlite copy is written locally, not committed |
 | `analysis/behavioral-norms/` | norm, spread, coined-token, log-join and calibration scripts; `variant.py` runs them all |
 | `analysis/behavioral-norms/results/` | outputs: `norms.json`, `examples.json`, `spread.json`/`.txt`, `coined.json`/`.txt`, `coined_reads.json`/`.txt`, `presignal_*.json`, `fingerprint_null.json`/`.txt`, `shared_saves.json`, `saves.tsv.gz`, `run.log` |
 | `analysis/verification-check/` | the verdicts of the human verification phase (verdict-only export) and the cross-check against them |
@@ -432,6 +476,8 @@ The scripts are the ones I ran, copied unchanged, with these exceptions:
 - `analysis/verification-check/` is new. `verdicts.jsonl` is exported from the verification log, and `xcheck.py` is a
   standalone rewrite of my working cross-check that reads that export and the frozen name table; it gives the same
   counts.
+- `analysis/flat-export/` is new. `export.py` writes the build's data as tables, adding the one-off signoffs as
+  one-edit profiles; it reads the build's outputs and its reading functions, and changes nothing in the build.
 - `build.py`:
   - reads the vendored family inventory;
   - loads the archive directly instead of through the verification tool's dossier store, and reads the dossier names
@@ -457,12 +503,44 @@ sanitized archive has redacted an IP address or a local path.
 ## Privacy
 
 This release is derived from the sanitized archive. `privacy_check.py`, taken from the earlier repository, passes on
-every file; its only change is to allow the loopback and bind-all addresses in the verification tool's command-line
-defaults. The verification verdicts are published without the notes, tags, post-level calls and text hashes of the raw log, and
+every file. It has two changes: it allows the loopback and bind-all addresses in the verification tool's command-line
+defaults, and it reads CSV and sqlite files cell by cell, so that a redacted query value is not read on into the next
+column. The verification verdicts are published without the notes, tags, post-level calls and text hashes of the raw log, and
 without reviewer names or times of day. The operator request logs, their cleaned table and the exposure table built from it are not included. The cleaned table still carries
 per-device hashes and some human visitors' reads and searches. The published log-derived outputs contain only
 aggregate counts and rows keyed to agent trajectories: names, save times, pages, and cache-buster key names without
 values.
+
+## Changes since the first release
+
+The first release is commit `5622039` (29 September 2026). Changes since then, newest first:
+
+**Next release (October 2026).**
+- **Flat export.** [`analysis/flat-export/`](analysis/flat-export/README.md) is new. It has one row per revision in the
+  wiki export and one per profile, and it adds the 358 one-off signoffs as one-edit `O:Name` profiles. The build,
+  `trajectories.jsonl` and the behavioural analysis are unchanged; the export is derived from them.
+- **The request filter in `coined.py`.** The old filter counted a request whenever a line with the token also matched
+  `please|use |post |signal |overwrite|append`. That matched almost every token line, and `signal ` matched PRE-SIGNAL
+  itself. It also compared the request's time only with the adopter's first use, so a request could be counted on a
+  page the adopter had not seen it on. Now a request is judged clause by clause (see
+  [Spread tests](#spread-tests-spreadpy-coinedpy)), and it must be on the page when the adopter edits it. Adopters who
+  saw a request: PRE-SIGNAL 56 → 44, `G<n>-` 12 → 2, SLOW-TIER 6 → 0, NO-SHOW 17 → 16, `C<n>-STATE` 16 → 17. STATE5
+  (50), the counter keys (7, 2) and TERMINATION-SAFE (1) are unchanged. Adoption, exposure and the read route are
+  unchanged. The task-token result is narrower: earlier text said most adopters saw a request first, which holds for
+  STATE5 but not for `G<n>-` or the counter keys.
+- **Hub-page disclaimer.** [Scope](#disclaimer-three-hub-pages) now says that three hub pages (`WillkommenImWiki`,
+  `StartSeite`, `TestSeite`) carry family labels in the export and count as in scope. It gives coverage both with them
+  (naive) and without them (accurate). The build is unchanged.
+- **Checksum.** The source-data section gave an abbreviated SHA-256 that joined the start of the sanitized zip's hash
+  to the end of the upstream zip's. It now gives the full hash of the shipped zip, and `verify.py` checks it.
+- **Checks.** `verify.py` also rebuilds and compares the flat export. `privacy_check.py` now reads CSV and sqlite files
+  cell by cell, so a redacted query value is not read on into the next column.
+
+**29 September 2026 (`2178a9e`).** The log-joined checks take each trajectory's reads from the exposure table
+([`analysis/exposure/`](analysis/exposure/README.md)) instead of mapping log names to trajectories through editor
+labels, and count only the sessions its validation supports. `coined.py` gained the read route
+(`coined_reads.json`/`.txt`). The validated figures are about a third smaller than the label join's; no conclusion
+changed. The earlier figures are given under [Results](#results).
 
 ## Related work
 
